@@ -232,14 +232,21 @@ def _iter_edges_geojson_paths(folder_path):
 
 
 def _pick_bbox_geojson_path(folder_path):
-    """Pick bbox source: prefer pedestrian combined walkshed (full extent for integrity)."""
+    """Pick bbox source: prefer pedestrian combined walkshed (full extent for integrity).
+    Falls back to stops/*_bus_stops.geojson if no walkshed edges exist yet."""
     paths = list(_iter_edges_geojson_paths(folder_path))
-    if not paths:
-        return None
-    for p in paths:
-        if "Unconstrained_Pedestrian" in p or "Sidewalks_Only" in p:
-            return p
-    return paths[0]
+    if paths:
+        for p in paths:
+            if "Unconstrained_Pedestrian" in p or "Sidewalks_Only" in p:
+                return p
+        return paths[0]
+    # Fallback: use the bus stops GeoJSON for bounding box before walksheds are generated
+    stops_dir = os.path.join(folder_path, "stops")
+    if os.path.isdir(stops_dir):
+        for fname in os.listdir(stops_dir):
+            if fname.endswith("_bus_stops.geojson"):
+                return os.path.join(stops_dir, fname)
+    return None
 
 
 def _iter_bounds_tiles(minx, miny, maxx, maxy, n_cols, n_rows):

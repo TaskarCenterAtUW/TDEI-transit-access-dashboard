@@ -275,7 +275,7 @@ class AccessMapTreeProcessingAlgorithmFromGeoJSON:
             "Manual Wheelchair": {"uphill": 0.083, "downhill": 0.083, "avoidCurbs": 1, "streetAvoidance": 1, "max_cost": 600, "reverse": 0}
         }
 
-        jurisdiction_name = os.path.basename(self.geojson_file_path).split("_filtered_amenities.geojson")[0]
+        jurisdiction_name = os.path.basename(self.geojson_file_path).split("_bus_stops.geojson")[0]
 
         with open(self.geojson_file_path, 'r', encoding='utf-8') as geojsonfile:
             geojson_data = json.load(geojsonfile)
@@ -373,7 +373,7 @@ def merge_walkshed_batches_for_city(
         "Unconstrained Pedestrian (Sidewalks Only)": {"uphill": 0.15, "downhill": 0.15, "avoidCurbs": 0, "streetAvoidance": 1, "max_cost": 600, "reverse": 0},
         "Manual Wheelchair": {"uphill": 0.083, "downhill": 0.083, "avoidCurbs": 1, "streetAvoidance": 1, "max_cost": 600, "reverse": 0},
     }
-    jurisdiction_name = os.path.basename(geojson_file_path).split("_filtered_amenities.geojson")[0]
+    jurisdiction_name = os.path.basename(geojson_file_path).split("_bus_stops.geojson")[0]
 
     by_prefix = {}
     for path in glob.glob(os.path.join(output_dir, "*_combined_edges_batch*_*.geojson")):
@@ -460,7 +460,7 @@ def merge_walkshed_batches_for_city(
 # Step 3: Master Runner Function
 def process_single_city(base_path, dataset_id, auth_token, slice_start=0, slice_stop=None):
     city_folder = os.path.join(base_path, dataset_id)
-    poi_path = os.path.join(city_folder, "data", "pois")
+    poi_path = os.path.join(city_folder, "data", "stops")
     output_dir = os.path.join(city_folder, "data", "walkshed_geojson")
     csv_output_dir = os.path.join(city_folder, "data", "metrics")
 
@@ -468,7 +468,7 @@ def process_single_city(base_path, dataset_id, auth_token, slice_start=0, slice_
     os.makedirs(csv_output_dir, exist_ok=True)
 
     for filename in os.listdir(poi_path):
-        if filename.endswith("_filtered_amenities.geojson"):
+        if filename.endswith("_bus_stops.geojson"):
             geojson_file_path = os.path.join(poi_path, filename)
             algorithm = AccessMapTreeProcessingAlgorithmFromGeoJSON(
                 geojson_file_path, output_dir, csv_output_dir
@@ -521,21 +521,21 @@ def run_all_datasets():
 
 
 def _count_stop_features(dataset_id):
-    poi_path = os.path.join(BASE_PATH, dataset_id, "data", "pois")
+    poi_path = os.path.join(BASE_PATH, dataset_id, "data", "stops")
     if not os.path.isdir(poi_path):
         raise SystemExit(f"Not found: {poi_path}")
     for filename in os.listdir(poi_path):
-        if filename.endswith("_filtered_amenities.geojson"):
+        if filename.endswith("_bus_stops.geojson"):
             with open(os.path.join(poi_path, filename), encoding="utf-8") as f:
                 data = json.load(f)
             return len(data.get("features") or [])
-    raise SystemExit(f"No *_filtered_amenities.geojson under {poi_path}")
+    raise SystemExit(f"No *_bus_stops.geojson under {poi_path}")
 
 
 def main():
     parser = argparse.ArgumentParser(
         description=(
-            "Run TDEI walkshed reachable_tree for each bus stop in *_filtered_amenities.geojson. "
+            "Run TDEI walkshed reachable_tree for each bus stop in *_bus_stops.geojson. "
             "Default: process every dataset under data/ that is not yet in processed.txt. "
             "Use --dataset with --batch-size to process large cities in chunks."
         )
@@ -575,16 +575,16 @@ def main():
         if not args.dataset:
             raise SystemExit("--merge-batches requires --dataset")
         city_folder = os.path.join(BASE_PATH, args.dataset)
-        poi_path = os.path.join(city_folder, "data", "pois")
+        poi_path = os.path.join(city_folder, "data", "stops")
         output_dir = os.path.join(city_folder, "data", "walkshed_geojson")
         csv_output_dir = os.path.join(city_folder, "data", "metrics")
         geojson_file_path = None
         for filename in os.listdir(poi_path):
-            if filename.endswith("_filtered_amenities.geojson"):
+            if filename.endswith("_bus_stops.geojson"):
                 geojson_file_path = os.path.join(poi_path, filename)
                 break
         if not geojson_file_path:
-            raise SystemExit(f"No *_filtered_amenities.geojson under {poi_path}")
+            raise SystemExit(f"No *_bus_stops.geojson under {poi_path}")
         merge_walkshed_batches_for_city(
             geojson_file_path,
             output_dir,

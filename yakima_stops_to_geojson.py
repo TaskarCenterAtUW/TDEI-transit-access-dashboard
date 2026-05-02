@@ -21,23 +21,24 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SPOKANE_DATASET_DIR = ROOT / "data" / "cbb2ed42-c77f-4218-96de-1b13eafa939f" / "data" / "pois"
-SEATTLE_DATASET_DIR = ROOT / "data" / "05776f25-f0f3-461c-ac34-4fa88a00936c" / "data" / "pois"
+YAKIMA_DATASET_DIR  = ROOT / "data" / "95b532a7-cd6f-451b-8c5f-f78577427480" / "data" / "stops"
+SPOKANE_DATASET_DIR = ROOT / "data" / "cbb2ed42-c77f-4218-96de-1b13eafa939f" / "data" / "stops"
+SEATTLE_DATASET_DIR = ROOT / "data" / "05776f25-f0f3-461c-ac34-4fa88a00936c" / "data" / "stops"
 
 PRESETS = {
     "yakima": {
         "input": ROOT / "WA Bus Routes with score - Yakima city subset.csv",
-        "output": ROOT / "yakima_unique_stops.geojson",
+        "output": YAKIMA_DATASET_DIR / "yakima_bus_stops.geojson",
         "collection_name": "Yakima city unique bus stops",
     },
     "spokane": {
         "input": ROOT / "WA Bus Routes with score - Spokane city subset.csv",
-        "output": SPOKANE_DATASET_DIR / "spokane_filtered_amenities.geojson",
+        "output": SPOKANE_DATASET_DIR / "spokane_bus_stops.geojson",
         "collection_name": "Spokane city unique bus stops",
     },
     "seattle": {
         "input": ROOT / "WA Bus Routes with score - Seattle city subset.csv",
-        "output": SEATTLE_DATASET_DIR / "seattle_filtered_amenities.geojson",
+        "output": SEATTLE_DATASET_DIR / "seattle_bus_stops.geojson",
         "collection_name": "Seattle city unique bus stops",
     },
 }
