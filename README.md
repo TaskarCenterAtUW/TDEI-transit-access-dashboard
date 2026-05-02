@@ -7,7 +7,7 @@ A MapLibre-based replica of the Tableau dashboard: transit routes and census-tra
 Browsers block `fetch()` of local files, so serve the folder over HTTP:
 
 ```bash
-cd "/Users/anyuhang/12th Internship/HTML transit map"
+cd "Root_Directory"
 npx serve .
 ```
 
