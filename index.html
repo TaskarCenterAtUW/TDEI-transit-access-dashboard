@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WA Transit & Amenities Dashboard</title>
+  <link href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; font-size: 13px; color: #333; }
+    .dashboard { display: flex; height: 100vh; overflow: hidden; }
+    .sidebar { width: 260px; min-width: 260px; padding: 12px; overflow-y: auto; border-right: 1px solid #ccc; background: #f8f9fa; }
+    .sidebar h3 { margin: 0 0 8px; font-size: 14px; }
+    .sidebar section { margin-bottom: 16px; }
+    .filter-list { max-height: 160px; overflow-y: auto; border: 1px solid #ddd; background: #fff; padding: 6px; border-radius: 4px; }
+    .filter-list label { display: block; padding: 2px 4px; cursor: pointer; }
+    .filter-list label:hover { background: #eee; }
+    .slider-wrap { margin: 8px 0; }
+    .slider-wrap label { display: block; margin-bottom: 2px; font-size: 11px; color: #666; }
+    .slider-wrap input[type="range"] { width: 100%; }
+    .slider-wrap .range-text { font-size: 11px; color: #666; }
+    .maps-wrap { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+    .map-container { flex: 1; min-height: 0; position: relative; }
+    .map-container:first-child { border-bottom: 2px solid #333; }
+    .map-container .map { width: 100%; height: 100%; }
+    .map-label { position: absolute; top: 8px; left: 8px; background: rgba(255,255,255,0.9); padding: 4px 8px; border-radius: 4px; font-weight: 600; z-index: 1; }
+    .detail-panel { width: 280px; min-width: 280px; padding: 12px; overflow-y: auto; border-left: 1px solid #ccc; background: #fff; }
+    .detail-panel h3 { margin: 0 0 8px; font-size: 14px; }
+    .detail-panel .empty { color: #888; font-style: italic; }
+    .detail-panel .summary { margin-bottom: 8px; }
+    .detail-panel .summary p { margin: 4px 0; }
+    .detail-panel .expandable { margin-top: 8px; border-top: 1px solid #eee; padding-top: 8px; }
+    .detail-panel .expandable summary { cursor: pointer; font-weight: 600; }
+    .detail-panel .stops-table { font-size: 11px; margin-top: 6px; }
+    .detail-panel .stops-table th, .detail-panel .stops-table td { padding: 2px 8px 2px 0; text-align: left; }
+    button.clear-selection { margin-top: 8px; padding: 6px 12px; cursor: pointer; background: #eee; border: 1px solid #ccc; border-radius: 4px; }
+    button.clear-selection:hover { background: #ddd; }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h3>Transit Agency</h3>
+      <section class="filter-list" id="filter-agency"></section>
+      <h3>Select Counties</h3>
+      <section class="filter-list" id="filter-county"></section>
+      <h3>Total Amenities per Census Tract</h3>
+      <div class="slider-wrap">
+        <label>Min – Max</label>
+        <input type="range" id="slider-amenities" min="0" max="144" value="0" step="1" />
+        <span class="range-text" id="slider-amenities-text">0 – 144</span>
+      </div>
+      <h3>Total Unconstrained Pedestrian Amenities</h3>
+      <div class="slider-wrap">
+        <label>Min – Max</label>
+        <input type="range" id="slider-pedestrian" min="0" max="134" value="0" step="1" />
+        <span class="range-text" id="slider-pedestrian-text">0 – 134</span>
+      </div>
+      <h3>Total Manual Wheelchair Amenities</h3>
+      <div class="slider-wrap">
+        <label>Min – Max</label>
+        <input type="range" id="slider-wheelchair" min="0" max="134" value="0" step="1" />
+        <span class="range-text" id="slider-wheelchair-text">0 – 134</span>
+      </div>
+      <h3>Service Frequency</h3>
+      <section id="filter-service"></section>
+    </aside>
+    <div class="maps-wrap">
+      <div class="map-container">
+        <span class="map-label">Routes</span>
+        <div id="map-routes" class="map"></div>
+      </div>
+      <div class="map-container">
+        <span class="map-label">Amenities by Census Tract</span>
+        <div id="map-tracts" class="map"></div>
+      </div>
+    </div>
+    <aside class="detail-panel">
+      <h3>Census Details</h3>
+      <div id="detail-content">
+        <p class="empty">Select a stop or tract.</p>
+      </div>
+      <button type="button" class="clear-selection" id="btn-clear" style="display:none;">Clear selection</button>
+    </aside>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

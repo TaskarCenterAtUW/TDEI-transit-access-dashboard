@@ -1,0 +1,9111 @@
+{
+  "type": "FeatureCollection",
+  "name": "Yakima city unique bus stops",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5005842,
+          46.601445
+        ]
+      },
+      "properties": {
+        "stop_id": "2754728",
+        "agency": "People for People",
+        "stop_name": "Yakima Transit Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5622804,
+          46.6192831
+        ]
+      },
+      "properties": {
+        "stop_id": "2454724",
+        "agency": "Selah Transit",
+        "stop_name": "Fred Meyer (1206 N 40th Ave)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5302683,
+          46.6192149
+        ]
+      },
+      "properties": {
+        "stop_id": "2454730",
+        "agency": "Selah Transit",
+        "stop_name": "N 16th Ave & Hambleton Blvd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.482262,
+          46.577649
+        ]
+      },
+      "properties": {
+        "stop_id": "2371055",
+        "agency": "Union Gap Transit",
+        "stop_name": "S 14th St & E Mead Ave"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.477767,
+          46.589079
+        ]
+      },
+      "properties": {
+        "stop_id": "1",
+        "agency": "Yakima Transit",
+        "stop_name": "YV TECH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.547444472,
+          46.617921827
+        ]
+      },
+      "properties": {
+        "stop_id": "10",
+        "agency": "Yakima Transit",
+        "stop_name": "2820 RIVER RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562087524,
+          46.595846106
+        ]
+      },
+      "properties": {
+        "stop_id": "100",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / CHESTNU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.56192512,
+          46.617676599
+        ]
+      },
+      "properties": {
+        "stop_id": "101",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / RIVER R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5617566,
+          46.613024962
+        ]
+      },
+      "properties": {
+        "stop_id": "102",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / CASTLEV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561739521,
+          46.610929805
+        ]
+      },
+      "properties": {
+        "stop_id": "103",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / KERN RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.505672,
+          46.608129
+        ]
+      },
+      "properties": {
+        "stop_id": "104",
+        "agency": "Yakima Transit",
+        "stop_name": "N. 3rd St. / 'D' St."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.483403,
+          46.597907
+        ]
+      },
+      "properties": {
+        "stop_id": "105",
+        "agency": "Yakima Transit",
+        "stop_name": "BEECH / 15TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.487614,
+          46.597921
+        ]
+      },
+      "properties": {
+        "stop_id": "106",
+        "agency": "Yakima Transit",
+        "stop_name": "BEECH / FAIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.478816585,
+          46.599776289
+        ]
+      },
+      "properties": {
+        "stop_id": "107",
+        "agency": "Yakima Transit",
+        "stop_name": "CHALMERS / MAPLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.480892169,
+          46.581473319
+        ]
+      },
+      "properties": {
+        "stop_id": "108",
+        "agency": "Yakima Transit",
+        "stop_name": "VIOLA / 16TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.480337,
+          46.603862
+        ]
+      },
+      "properties": {
+        "stop_id": "109",
+        "agency": "Yakima Transit",
+        "stop_name": "17TH ST / YAKIMA A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.549972,
+          46.61261
+        ]
+      },
+      "properties": {
+        "stop_id": "110",
+        "agency": "Yakima Transit",
+        "stop_name": "CASTLEVALE  COURT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509302,
+          46.589153
+        ]
+      },
+      "properties": {
+        "stop_id": "111",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / ARLINGTO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.50931,
+          46.591122
+        ]
+      },
+      "properties": {
+        "stop_id": "112",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / PEACH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.523024197,
+          46.612691064
+        ]
+      },
+      "properties": {
+        "stop_id": "113",
+        "agency": "Yakima Transit",
+        "stop_name": "801 FRUITVALE BLVD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.51171022,
+          46.577928613
+        ]
+      },
+      "properties": {
+        "stop_id": "114",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD AVE / 5TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509325258,
+          46.587394407
+        ]
+      },
+      "properties": {
+        "stop_id": "115",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / STEWART"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509350466,
+          46.583642281
+        ]
+      },
+      "properties": {
+        "stop_id": "116",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / PRASCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.495111359,
+          46.582681712
+        ]
+      },
+      "properties": {
+        "stop_id": "118",
+        "agency": "Yakima Transit",
+        "stop_name": "1514 S 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.508854902,
+          46.585205098
+        ]
+      },
+      "properties": {
+        "stop_id": "119",
+        "agency": "Yakima Transit",
+        "stop_name": "Nob Hill / 3rd Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530224,
+          46.620288
+        ]
+      },
+      "properties": {
+        "stop_id": "12",
+        "agency": "Yakima Transit",
+        "stop_name": "NW ORTHOPEDICS / CINEMA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.557224352,
+          46.61968631
+        ]
+      },
+      "properties": {
+        "stop_id": "120",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 36TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530340496,
+          46.610667605
+        ]
+      },
+      "properties": {
+        "stop_id": "121",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / WILLOW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530332,
+          46.608627
+        ]
+      },
+      "properties": {
+        "stop_id": "122",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / JEROME"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5302821,
+          46.612075955
+        ]
+      },
+      "properties": {
+        "stop_id": "123",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / FRUITVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.540141,
+          46.618052
+        ]
+      },
+      "properties": {
+        "stop_id": "124",
+        "agency": "Yakima Transit",
+        "stop_name": "RIVER RD / 23RD AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53768,
+          46.618091
+        ]
+      },
+      "properties": {
+        "stop_id": "125",
+        "agency": "Yakima Transit",
+        "stop_name": "2107 RIVER RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.546787156,
+          46.618079152
+        ]
+      },
+      "properties": {
+        "stop_id": "126",
+        "agency": "Yakima Transit",
+        "stop_name": "RIVER RD / 28TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.543804,
+          46.618051
+        ]
+      },
+      "properties": {
+        "stop_id": "127",
+        "agency": "Yakima Transit",
+        "stop_name": "RIVER RD / 26TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.511739821,
+          46.613538115
+        ]
+      },
+      "properties": {
+        "stop_id": "128",
+        "agency": "Yakima Transit",
+        "stop_name": "N 1ST ST & E I ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.47883,
+          46.602194
+        ]
+      },
+      "properties": {
+        "stop_id": "129",
+        "agency": "Yakima Transit",
+        "stop_name": "WALMART"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530138148,
+          46.617590493
+        ]
+      },
+      "properties": {
+        "stop_id": "13",
+        "agency": "Yakima Transit",
+        "stop_name": "N 16TH AVE / RIVER RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.511722738,
+          46.613480976
+        ]
+      },
+      "properties": {
+        "stop_id": "130",
+        "agency": "Yakima Transit",
+        "stop_name": "No. 1st St. /  'I' St"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.516786661,
+          46.604053741
+        ]
+      },
+      "properties": {
+        "stop_id": "134",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 4TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560763248,
+          46.603598062
+        ]
+      },
+      "properties": {
+        "stop_id": "138",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 39TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.515296299,
+          46.604385395
+        ]
+      },
+      "properties": {
+        "stop_id": "139",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 3RD AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.529895,
+          46.597313
+        ]
+      },
+      "properties": {
+        "stop_id": "14",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 16TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.519200622,
+          46.585328452
+        ]
+      },
+      "properties": {
+        "stop_id": "140",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 9TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.521831175,
+          46.585319025
+        ]
+      },
+      "properties": {
+        "stop_id": "141",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 11TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.504703767,
+          46.585298261
+        ]
+      },
+      "properties": {
+        "stop_id": "142",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / ROCK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.507257666,
+          46.585327006
+        ]
+      },
+      "properties": {
+        "stop_id": "143",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 1ST AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512763937,
+          46.585327338
+        ]
+      },
+      "properties": {
+        "stop_id": "144",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 5TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.515244,
+          46.585333
+        ]
+      },
+      "properties": {
+        "stop_id": "145",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / CORNELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.522520291,
+          46.594030401
+        ]
+      },
+      "properties": {
+        "stop_id": "146",
+        "agency": "Yakima Transit",
+        "stop_name": "11TH AVE / SPRUCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.547846,
+          46.592823
+        ]
+      },
+      "properties": {
+        "stop_id": "147",
+        "agency": "Yakima Transit",
+        "stop_name": "VIRGINIA MASON MEMORIAL HOSPITAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.506367884,
+          46.609415983
+        ]
+      },
+      "properties": {
+        "stop_id": "148",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD ST / E ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.503454981,
+          46.60834981
+        ]
+      },
+      "properties": {
+        "stop_id": "149",
+        "agency": "Yakima Transit",
+        "stop_name": "4TH ST / D ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.528439901,
+          46.5973213
+        ]
+      },
+      "properties": {
+        "stop_id": "15",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 15TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.501215289,
+          46.60887447
+        ]
+      },
+      "properties": {
+        "stop_id": "150",
+        "agency": "Yakima Transit",
+        "stop_name": "D ST / 6TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.507271238,
+          46.605136301
+        ]
+      },
+      "properties": {
+        "stop_id": "151",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / MLK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.508543163,
+          46.607612218
+        ]
+      },
+      "properties": {
+        "stop_id": "152",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / D ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509287438,
+          46.609277139
+        ]
+      },
+      "properties": {
+        "stop_id": "153",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / F ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.551326942,
+          46.617357425
+        ]
+      },
+      "properties": {
+        "stop_id": "154",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 32ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.477763,
+          46.586944
+        ]
+      },
+      "properties": {
+        "stop_id": "155",
+        "agency": "Yakima Transit",
+        "stop_name": "18TH / CENTRAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530459,
+          46.59954
+        ]
+      },
+      "properties": {
+        "stop_id": "156",
+        "agency": "Yakima Transit",
+        "stop_name": "Summitview / 16th Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562889426,
+          46.59979586
+        ]
+      },
+      "properties": {
+        "stop_id": "157",
+        "agency": "Yakima Transit",
+        "stop_name": "Summitview / 40th Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.515181,
+          46.600003
+        ]
+      },
+      "properties": {
+        "stop_id": "158",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA / 5TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512093656,
+          46.623763978
+        ]
+      },
+      "properties": {
+        "stop_id": "16",
+        "agency": "Yakima Transit",
+        "stop_name": "1808 N 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.507397055625,
+          46.6062162850517
+        ]
+      },
+      "properties": {
+        "stop_id": "160",
+        "agency": "Yakima Transit",
+        "stop_name": "No. 1st St. / Lincoln"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.551476,
+          46.609425
+        ]
+      },
+      "properties": {
+        "stop_id": "161",
+        "agency": "Yakima Transit",
+        "stop_name": "3200 POWERHOUSE RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518682043,
+          46.608902964
+        ]
+      },
+      "properties": {
+        "stop_id": "162",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / POPLAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509566952,
+          46.586924626
+        ]
+      },
+      "properties": {
+        "stop_id": "163",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / STEWART"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562275095,
+          46.619283595
+        ]
+      },
+      "properties": {
+        "stop_id": "164",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 40TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.552372,
+          46.607231
+        ]
+      },
+      "properties": {
+        "stop_id": "165",
+        "agency": "Yakima Transit",
+        "stop_name": "STONE CHURCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509558,
+          46.589626
+        ]
+      },
+      "properties": {
+        "stop_id": "166",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / ST HELEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.551665,
+          46.60935
+        ]
+      },
+      "properties": {
+        "stop_id": "167",
+        "agency": "Yakima Transit",
+        "stop_name": "3200 POWERHOUSE RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.553848,
+          46.610092
+        ]
+      },
+      "properties": {
+        "stop_id": "168",
+        "agency": "Yakima Transit",
+        "stop_name": "POWERHOUSE / 34TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518687,
+          46.606847
+        ]
+      },
+      "properties": {
+        "stop_id": "169",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / CHERRY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.47765,
+          46.581679
+        ]
+      },
+      "properties": {
+        "stop_id": "17",
+        "agency": "Yakima Transit",
+        "stop_name": "18TH / VIOLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.557372432,
+          46.574583592
+        ]
+      },
+      "properties": {
+        "stop_id": "170",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON  / 36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593943867,
+          46.573956198
+        ]
+      },
+      "properties": {
+        "stop_id": "171",
+        "agency": "Yakima Transit",
+        "stop_name": "64TH AVE / TERRY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593976286,
+          46.581863405
+        ]
+      },
+      "properties": {
+        "stop_id": "172",
+        "agency": "Yakima Transit",
+        "stop_name": "64TH / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.580148983,
+          46.585505696
+        ]
+      },
+      "properties": {
+        "stop_id": "173",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 53RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.575998,
+          46.585453
+        ]
+      },
+      "properties": {
+        "stop_id": "174",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 51ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.496056017,
+          46.586014161
+        ]
+      },
+      "properties": {
+        "stop_id": "175",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.510562514,
+          46.593386154
+        ]
+      },
+      "properties": {
+        "stop_id": "176",
+        "agency": "Yakima Transit",
+        "stop_name": "CWCMH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509357059,
+          46.580408615
+        ]
+      },
+      "properties": {
+        "stop_id": "177",
+        "agency": "Yakima Transit",
+        "stop_name": "1313 S 3RD AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.519804954528,
+          46.6161733252737
+        ]
+      },
+      "properties": {
+        "stop_id": "178",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH / MADISON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.523281,
+          46.617863
+        ]
+      },
+      "properties": {
+        "stop_id": "179",
+        "agency": "Yakima Transit",
+        "stop_name": "STANTON ACADEMY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.55020639,
+          46.573374281
+        ]
+      },
+      "properties": {
+        "stop_id": "18",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 30TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.528046375,
+          46.578049429
+        ]
+      },
+      "properties": {
+        "stop_id": "184",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / 14TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.557261,
+          46.603585
+        ]
+      },
+      "properties": {
+        "stop_id": "189",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 36TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.556406224,
+          46.574213388
+        ]
+      },
+      "properties": {
+        "stop_id": "19",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560258054,
+          46.574961566
+        ]
+      },
+      "properties": {
+        "stop_id": "192",
+        "agency": "Yakima Transit",
+        "stop_name": "3801 W WASHINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561910514,
+          46.575524906
+        ]
+      },
+      "properties": {
+        "stop_id": "193",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / WASHING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561812508,
+          46.580362086
+        ]
+      },
+      "properties": {
+        "stop_id": "194",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / LOGAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561809601,
+          46.581273469
+        ]
+      },
+      "properties": {
+        "stop_id": "195",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / McLEAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.532180687,
+          46.570978002
+        ]
+      },
+      "properties": {
+        "stop_id": "196",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 16TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.536573584,
+          46.570955816
+        ]
+      },
+      "properties": {
+        "stop_id": "197",
+        "agency": "Yakima Transit",
+        "stop_name": "2105 W WASHINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.546351236,
+          46.573473767
+        ]
+      },
+      "properties": {
+        "stop_id": "198",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON AVE / 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.551644525,
+          46.573798871
+        ]
+      },
+      "properties": {
+        "stop_id": "199",
+        "agency": "Yakima Transit",
+        "stop_name": "3109 W WASHINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561229999,
+          46.612705658
+        ]
+      },
+      "properties": {
+        "stop_id": "2",
+        "agency": "Yakima Transit",
+        "stop_name": "CASTLEVALE / 40TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562076347,
+          46.601542121
+        ]
+      },
+      "properties": {
+        "stop_id": "20",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / AVALANCHE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561763896,
+          46.590054681
+        ]
+      },
+      "properties": {
+        "stop_id": "200",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / WEBSTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562052682,
+          46.592298992
+        ]
+      },
+      "properties": {
+        "stop_id": "201",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562792,
+          46.585518
+        ]
+      },
+      "properties": {
+        "stop_id": "206",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 41ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.531915,
+          46.585362
+        ]
+      },
+      "properties": {
+        "stop_id": "209",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 17TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.557795,
+          46.619621
+        ]
+      },
+      "properties": {
+        "stop_id": "21",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / CHEST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.49699,
+          46.585666
+        ]
+      },
+      "properties": {
+        "stop_id": "210",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST STREET / NOB H"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530713,
+          46.59259
+        ]
+      },
+      "properties": {
+        "stop_id": "211",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 16TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604083,
+          46.589102
+        ]
+      },
+      "properties": {
+        "stop_id": "212",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / MIDVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.543040855,
+          46.599779675
+        ]
+      },
+      "properties": {
+        "stop_id": "215",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 26TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.545616541,
+          46.599807556
+        ]
+      },
+      "properties": {
+        "stop_id": "216",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 28TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53849364,
+          46.59975737
+        ]
+      },
+      "properties": {
+        "stop_id": "217",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 22ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.540618,
+          46.599751
+        ]
+      },
+      "properties": {
+        "stop_id": "218",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 24TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561993701,
+          46.587366125
+        ]
+      },
+      "properties": {
+        "stop_id": "22",
+        "agency": "Yakima Transit",
+        "stop_name": "918 S 40TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.582672,
+          46.599909
+        ]
+      },
+      "properties": {
+        "stop_id": "220",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 56TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.548635,
+          46.607713
+        ]
+      },
+      "properties": {
+        "stop_id": "225",
+        "agency": "Yakima Transit",
+        "stop_name": "3000 POWERHOUSE RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.553131,
+          46.607064
+        ]
+      },
+      "properties": {
+        "stop_id": "227",
+        "agency": "Yakima Transit",
+        "stop_name": "3300 POWERHOUSE RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561989,
+          46.590112
+        ]
+      },
+      "properties": {
+        "stop_id": "23",
+        "agency": "Yakima Transit",
+        "stop_name": "EISENHOWER H.S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530339,
+          46.605349
+        ]
+      },
+      "properties": {
+        "stop_id": "230",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / MCKINLEY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53034,
+          46.607487
+        ]
+      },
+      "properties": {
+        "stop_id": "231",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / CHERRY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530219751,
+          46.591367843
+        ]
+      },
+      "properties": {
+        "stop_id": "237",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53024732,
+          46.589105282
+        ]
+      },
+      "properties": {
+        "stop_id": "239",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH  / ARLINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562088053,
+          46.580135256
+        ]
+      },
+      "properties": {
+        "stop_id": "24",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / LAURA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53030393,
+          46.601438572
+        ]
+      },
+      "properties": {
+        "stop_id": "240",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / FOLSOM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530232,
+          46.59445
+        ]
+      },
+      "properties": {
+        "stop_id": "241",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / BELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530249283,
+          46.596382033
+        ]
+      },
+      "properties": {
+        "stop_id": "242",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / CHESTNUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.508548259,
+          46.606980199
+        ]
+      },
+      "properties": {
+        "stop_id": "243",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / D ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562297,
+          46.592787
+        ]
+      },
+      "properties": {
+        "stop_id": "245",
+        "agency": "Yakima Transit",
+        "stop_name": "Tieton / 40th Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.549964213,
+          46.616499304
+        ]
+      },
+      "properties": {
+        "stop_id": "246",
+        "agency": "Yakima Transit",
+        "stop_name": "3004 FRUITVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.553494742,
+          46.61794589
+        ]
+      },
+      "properties": {
+        "stop_id": "247",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 34TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561463996,
+          46.612312394
+        ]
+      },
+      "properties": {
+        "stop_id": "248",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / CASTLEVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561534744,
+          46.610424696
+        ]
+      },
+      "properties": {
+        "stop_id": "249",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / KERN RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560616,
+          46.574754
+        ]
+      },
+      "properties": {
+        "stop_id": "25",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 38TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.517072657,
+          46.614288374
+        ]
+      },
+      "properties": {
+        "stop_id": "251",
+        "agency": "Yakima Transit",
+        "stop_name": "I ST / 4TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.543001004,
+          46.613735518
+        ]
+      },
+      "properties": {
+        "stop_id": "252",
+        "agency": "Yakima Transit",
+        "stop_name": "2502 FRUITVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.547831444,
+          46.615671487
+        ]
+      },
+      "properties": {
+        "stop_id": "253",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 29TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554672256,
+          46.585551565
+        ]
+      },
+      "properties": {
+        "stop_id": "254",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 34TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.551474,
+          46.585604
+        ]
+      },
+      "properties": {
+        "stop_id": "255",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 32ND AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560196176,
+          46.585521861
+        ]
+      },
+      "properties": {
+        "stop_id": "256",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL LANES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.556979,
+          46.585538
+        ]
+      },
+      "properties": {
+        "stop_id": "257",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 37TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.536317069,
+          46.58541477
+        ]
+      },
+      "properties": {
+        "stop_id": "258",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 20TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.524873574,
+          46.585324277
+        ]
+      },
+      "properties": {
+        "stop_id": "259",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA VALLEY COLLEGE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562060909,
+          46.581532257
+        ]
+      },
+      "properties": {
+        "stop_id": "26",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / VIOLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.548207689,
+          46.585545407
+        ]
+      },
+      "properties": {
+        "stop_id": "260",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / HOLBROOK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.541589965,
+          46.585476922
+        ]
+      },
+      "properties": {
+        "stop_id": "261",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 24TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593007,
+          46.592749
+        ]
+      },
+      "properties": {
+        "stop_id": "262",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 64TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.565553,
+          46.585486
+        ]
+      },
+      "properties": {
+        "stop_id": "263",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 42ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.523987618,
+          46.597988798
+        ]
+      },
+      "properties": {
+        "stop_id": "265",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 11TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53456871,
+          46.599737131
+        ]
+      },
+      "properties": {
+        "stop_id": "266",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / PARK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.602576165,
+          46.571216943
+        ]
+      },
+      "properties": {
+        "stop_id": "267",
+        "agency": "Yakima Transit",
+        "stop_name": "WASH / 70TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.59871757,
+          46.5711803
+        ]
+      },
+      "properties": {
+        "stop_id": "268",
+        "agency": "Yakima Transit",
+        "stop_name": "WASH AVE / 66TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.575329,
+          46.599824
+        ]
+      },
+      "properties": {
+        "stop_id": "269",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 50TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518409,
+          46.609345
+        ]
+      },
+      "properties": {
+        "stop_id": "27",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / POPLAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.577768697,
+          46.599839752
+        ]
+      },
+      "properties": {
+        "stop_id": "270",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 52ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.569178583,
+          46.599775086
+        ]
+      },
+      "properties": {
+        "stop_id": "271",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 46TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.571742,
+          46.599745
+        ]
+      },
+      "properties": {
+        "stop_id": "272",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 48TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560149361,
+          46.599831775
+        ]
+      },
+      "properties": {
+        "stop_id": "273",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 39TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.566862543,
+          46.599771463
+        ]
+      },
+      "properties": {
+        "stop_id": "274",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 44TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554399828,
+          46.599848594
+        ]
+      },
+      "properties": {
+        "stop_id": "275",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / VENDO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.558185,
+          46.599834
+        ]
+      },
+      "properties": {
+        "stop_id": "276",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 37TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.487911407,
+          46.591036455
+        ]
+      },
+      "properties": {
+        "stop_id": "277",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR AVE / WALKER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.487906,
+          46.585785
+        ]
+      },
+      "properties": {
+        "stop_id": "278",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR AVE / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.528726152,
+          46.612701531
+        ]
+      },
+      "properties": {
+        "stop_id": "28",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 15TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5618657,
+          46.602375792
+        ]
+      },
+      "properties": {
+        "stop_id": "281",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / COOK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.483433232,
+          46.581472524
+        ]
+      },
+      "properties": {
+        "stop_id": "282",
+        "agency": "Yakima Transit",
+        "stop_name": "VIOLA / 14TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.477507618,
+          46.602461555
+        ]
+      },
+      "properties": {
+        "stop_id": "283",
+        "agency": "Yakima Transit",
+        "stop_name": "SARGE HUBBARD PARK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488249093,
+          46.602663604
+        ]
+      },
+      "properties": {
+        "stop_id": "284",
+        "agency": "Yakima Transit",
+        "stop_name": "108 S FAIR AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488204,
+          46.593365
+        ]
+      },
+      "properties": {
+        "stop_id": "285",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR AVE / ADAMS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.487942,
+          46.592605
+        ]
+      },
+      "properties": {
+        "stop_id": "286",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR AVE / PACIFIC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.591564414,
+          46.592891876
+        ]
+      },
+      "properties": {
+        "stop_id": "287",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 62ND AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.588875,
+          46.592871
+        ]
+      },
+      "properties": {
+        "stop_id": "288",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 60TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.586195568,
+          46.592859324
+        ]
+      },
+      "properties": {
+        "stop_id": "289",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 58TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518029149,
+          46.605286277
+        ]
+      },
+      "properties": {
+        "stop_id": "29",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / D ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.579162,
+          46.592785
+        ]
+      },
+      "properties": {
+        "stop_id": "290",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 53RD AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.576119863,
+          46.592765097
+        ]
+      },
+      "properties": {
+        "stop_id": "291",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 50TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.569802,
+          46.592758
+        ]
+      },
+      "properties": {
+        "stop_id": "292",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 46TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.566473,
+          46.592751
+        ]
+      },
+      "properties": {
+        "stop_id": "293",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 44TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554598022,
+          46.592806743
+        ]
+      },
+      "properties": {
+        "stop_id": "294",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR &34TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.551539,
+          46.592812
+        ]
+      },
+      "properties": {
+        "stop_id": "295",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 32ND AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.601782,
+          46.593024
+        ]
+      },
+      "properties": {
+        "stop_id": "296",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 70TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.597232101,
+          46.592967022
+        ]
+      },
+      "properties": {
+        "stop_id": "297",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 66TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.594596748,
+          46.599144639
+        ]
+      },
+      "properties": {
+        "stop_id": "298",
+        "agency": "Yakima Transit",
+        "stop_name": "HARMAN CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561874259,
+          46.618509487
+        ]
+      },
+      "properties": {
+        "stop_id": "3",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / RIVER R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.548213296,
+          46.612601818
+        ]
+      },
+      "properties": {
+        "stop_id": "30",
+        "agency": "Yakima Transit",
+        "stop_name": "CASTLEVALE / 29TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.601831156,
+          46.593021554
+        ]
+      },
+      "properties": {
+        "stop_id": "301",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 72ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604447809,
+          46.586551323
+        ]
+      },
+      "properties": {
+        "stop_id": "302",
+        "agency": "Yakima Transit",
+        "stop_name": "WIDE HOLLOW SCHOOL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604427,
+          46.583098
+        ]
+      },
+      "properties": {
+        "stop_id": "303",
+        "agency": "Yakima Transit",
+        "stop_name": "1210 S 72ND AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604413,
+          46.589061
+        ]
+      },
+      "properties": {
+        "stop_id": "304",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND AVE / MIDVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604433025,
+          46.574426648
+        ]
+      },
+      "properties": {
+        "stop_id": "305",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND AVE / ZIER RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604405031,
+          46.572675805
+        ]
+      },
+      "properties": {
+        "stop_id": "306",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND AVE / SPOKANE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604431169,
+          46.581769425
+        ]
+      },
+      "properties": {
+        "stop_id": "307",
+        "agency": "Yakima Transit",
+        "stop_name": "S 72ND AVE / VIOLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604434352,
+          46.57636802
+        ]
+      },
+      "properties": {
+        "stop_id": "308",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / KING ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.60373016,
+          46.571050141
+        ]
+      },
+      "properties": {
+        "stop_id": "309",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 72ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.558707999,
+          46.607920858
+        ]
+      },
+      "properties": {
+        "stop_id": "31",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIRBANKS / CARRIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.575562766,
+          46.585287394
+        ]
+      },
+      "properties": {
+        "stop_id": "310",
+        "agency": "Yakima Transit",
+        "stop_name": "5104 W NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.498853176,
+          46.590744706
+        ]
+      },
+      "properties": {
+        "stop_id": "311",
+        "agency": "Yakima Transit",
+        "stop_name": "1011 S 3RD ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.493253847,
+          46.579793104
+        ]
+      },
+      "properties": {
+        "stop_id": "313",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / TENNANT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.495138153,
+          46.570631909
+        ]
+      },
+      "properties": {
+        "stop_id": "314",
+        "agency": "Yakima Transit",
+        "stop_name": "5 WASHINGTON AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561887513,
+          46.576828101
+        ]
+      },
+      "properties": {
+        "stop_id": "317",
+        "agency": "Yakima Transit",
+        "stop_name": "AMERICA WEST BANK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.48535999,
+          46.568495209
+        ]
+      },
+      "properties": {
+        "stop_id": "318",
+        "agency": "Yakima Transit",
+        "stop_name": "OFFICE DEPOT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561825231,
+          46.596671714
+        ]
+      },
+      "properties": {
+        "stop_id": "319",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / CHESTNUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53028,
+          46.613379
+        ]
+      },
+      "properties": {
+        "stop_id": "32",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / HATHAWAY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.483125,
+          46.566142
+        ]
+      },
+      "properties": {
+        "stop_id": "320",
+        "agency": "Yakima Transit",
+        "stop_name": "2416 S 1ST STREET"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.491863135,
+          46.570578488
+        ]
+      },
+      "properties": {
+        "stop_id": "321",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON AVE / F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.517018715,
+          46.570837777
+        ]
+      },
+      "properties": {
+        "stop_id": "322",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON AVE / 8TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.513806,
+          46.570838
+        ]
+      },
+      "properties": {
+        "stop_id": "323",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / CORNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.523222,
+          46.570906
+        ]
+      },
+      "properties": {
+        "stop_id": "324",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON AVE / PLEASANT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.529687094,
+          46.57095399
+        ]
+      },
+      "properties": {
+        "stop_id": "325",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 15TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.525537726,
+          46.570920868
+        ]
+      },
+      "properties": {
+        "stop_id": "326",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 12TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530283144,
+          46.598122403
+        ]
+      },
+      "properties": {
+        "stop_id": "327",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH & BELMONT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.542194686,
+          46.612615763
+        ]
+      },
+      "properties": {
+        "stop_id": "33",
+        "agency": "Yakima Transit",
+        "stop_name": "CASTLEVALE / 25TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.511424,
+          46.595062
+        ]
+      },
+      "properties": {
+        "stop_id": "331",
+        "agency": "Yakima Transit",
+        "stop_name": "C.W.C.M.H. 4TH / PINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.505223038,
+          46.600791521
+        ]
+      },
+      "properties": {
+        "stop_id": "333",
+        "agency": "Yakima Transit",
+        "stop_name": "S 1st St. / E Walnut St. Northbound"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604249,
+          46.594673
+        ]
+      },
+      "properties": {
+        "stop_id": "334",
+        "agency": "Yakima Transit",
+        "stop_name": "West Valley Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.496313,
+          46.585847
+        ]
+      },
+      "properties": {
+        "stop_id": "337",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 1ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530267,
+          46.600132
+        ]
+      },
+      "properties": {
+        "stop_id": "338",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE and SUMMITVIEW AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530452,
+          46.592003
+        ]
+      },
+      "properties": {
+        "stop_id": "339",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.51842067,
+          46.611264436
+        ]
+      },
+      "properties": {
+        "stop_id": "34",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 5TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53043,
+          46.588746
+        ]
+      },
+      "properties": {
+        "stop_id": "340",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / ARLINGT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530458873,
+          46.586880817
+        ]
+      },
+      "properties": {
+        "stop_id": "341",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / BONNIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.524548203,
+          46.577911858
+        ]
+      },
+      "properties": {
+        "stop_id": "343",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD AVE / 12TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530418868,
+          46.579092075
+        ]
+      },
+      "properties": {
+        "stop_id": "344",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / PLATH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.526114256,
+          46.577903694
+        ]
+      },
+      "properties": {
+        "stop_id": "345",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / 13TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.52208312,
+          46.577920002
+        ]
+      },
+      "properties": {
+        "stop_id": "346",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD AVE / PLEASAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.51409319,
+          46.577934597
+        ]
+      },
+      "properties": {
+        "stop_id": "347",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD AVE / CORNELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.526055664,
+          46.58514525
+        ]
+      },
+      "properties": {
+        "stop_id": "349",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 13TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.52594544,
+          46.612699608
+        ]
+      },
+      "properties": {
+        "stop_id": "35",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 10TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.532545502,
+          46.585153186
+        ]
+      },
+      "properties": {
+        "stop_id": "350",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 18TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518345913,
+          46.585170404
+        ]
+      },
+      "properties": {
+        "stop_id": "351",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 9TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.520905681,
+          46.585152138
+        ]
+      },
+      "properties": {
+        "stop_id": "352",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 11TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.504466067,
+          46.585113248
+        ]
+      },
+      "properties": {
+        "stop_id": "353",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / ROCK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.510162028,
+          46.585161826
+        ]
+      },
+      "properties": {
+        "stop_id": "354",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 4TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512271566,
+          46.585145128
+        ]
+      },
+      "properties": {
+        "stop_id": "355",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 5TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.514187547,
+          46.585168596
+        ]
+      },
+      "properties": {
+        "stop_id": "356",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / CORNELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5065533,
+          46.585178212
+        ]
+      },
+      "properties": {
+        "stop_id": "357",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 1ST AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530196054,
+          46.580050921
+        ]
+      },
+      "properties": {
+        "stop_id": "359",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / LOGAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.484709,
+          46.567603
+        ]
+      },
+      "properties": {
+        "stop_id": "36",
+        "agency": "Yakima Transit",
+        "stop_name": "2326 S 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530178,
+          46.578316
+        ]
+      },
+      "properties": {
+        "stop_id": "360",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / MEAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.525509771,
+          46.578067535
+        ]
+      },
+      "properties": {
+        "stop_id": "361",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / 12TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.523109,
+          46.578064
+        ]
+      },
+      "properties": {
+        "stop_id": "362",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / PLEASANT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.519552664,
+          46.578069144
+        ]
+      },
+      "properties": {
+        "stop_id": "363",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / 10TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.517544,
+          46.578055
+        ]
+      },
+      "properties": {
+        "stop_id": "364",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / 8TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.516311674,
+          46.578055126
+        ]
+      },
+      "properties": {
+        "stop_id": "365",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / CORNELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512531825,
+          46.578069747
+        ]
+      },
+      "properties": {
+        "stop_id": "366",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / 5TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530217244,
+          46.583641919
+        ]
+      },
+      "properties": {
+        "stop_id": "367",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / PRASCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530197,
+          46.581735
+        ]
+      },
+      "properties": {
+        "stop_id": "368",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / VIOLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.506166,
+          46.602712
+        ]
+      },
+      "properties": {
+        "stop_id": "369",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / A ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.486934632,
+          46.569571318
+        ]
+      },
+      "properties": {
+        "stop_id": "37",
+        "agency": "Yakima Transit",
+        "stop_name": "2210 S 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488016806,
+          46.595544288
+        ]
+      },
+      "properties": {
+        "stop_id": "370",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR / ALDER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.501457,
+          46.610531
+        ]
+      },
+      "properties": {
+        "stop_id": "372",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / E ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.49980024,
+          46.607969526
+        ]
+      },
+      "properties": {
+        "stop_id": "373",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / LINCOLN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.507232589,
+          46.61119219
+        ]
+      },
+      "properties": {
+        "stop_id": "374",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD ST / G ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.524593,
+          46.598074
+        ]
+      },
+      "properties": {
+        "stop_id": "376",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 11TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.490219,
+          46.570344
+        ]
+      },
+      "properties": {
+        "stop_id": "38",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 1ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562486288,
+          46.59997183
+        ]
+      },
+      "properties": {
+        "stop_id": "382",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 40TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530342273,
+          46.609541132
+        ]
+      },
+      "properties": {
+        "stop_id": "384",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE & SWAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53741632,
+          46.613970045
+        ]
+      },
+      "properties": {
+        "stop_id": "385",
+        "agency": "Yakima Transit",
+        "stop_name": "PUBLIC WORKS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554544403,
+          46.607815639
+        ]
+      },
+      "properties": {
+        "stop_id": "386",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIRBANKS / 34TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530263,
+          46.600061
+        ]
+      },
+      "properties": {
+        "stop_id": "387",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / SUMMITVIEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554182,
+          46.618476
+        ]
+      },
+      "properties": {
+        "stop_id": "388",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / RIVER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.531399,
+          46.615306
+        ]
+      },
+      "properties": {
+        "stop_id": "389",
+        "agency": "Yakima Transit",
+        "stop_name": "D.S.H.S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.495533692,
+          46.570467147
+        ]
+      },
+      "properties": {
+        "stop_id": "39",
+        "agency": "Yakima Transit",
+        "stop_name": "WASH / LONGFIBRE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.489466387,
+          46.573421047
+        ]
+      },
+      "properties": {
+        "stop_id": "395",
+        "agency": "Yakima Transit",
+        "stop_name": "2006 S 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.603711,
+          46.592854
+        ]
+      },
+      "properties": {
+        "stop_id": "396",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.51981,
+          46.61272
+        ]
+      },
+      "properties": {
+        "stop_id": "397",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH / FRUITVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5407,
+          46.613106
+        ]
+      },
+      "properties": {
+        "stop_id": "398",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 24TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518676,
+          46.610535
+        ]
+      },
+      "properties": {
+        "stop_id": "399",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / WILLOW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560812886,
+          46.608602469
+        ]
+      },
+      "properties": {
+        "stop_id": "4",
+        "agency": "Yakima Transit",
+        "stop_name": "611 N 39TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53734,
+          46.585258
+        ]
+      },
+      "properties": {
+        "stop_id": "40",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 21ST AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530298,
+          46.603621
+        ]
+      },
+      "properties": {
+        "stop_id": "400",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / LINCOLN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.511240489,
+          46.597648456
+        ]
+      },
+      "properties": {
+        "stop_id": "401",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / WALNUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530284551,
+          46.601786267
+        ]
+      },
+      "properties": {
+        "stop_id": "404",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE & FOLSOM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.55425,
+          46.612375
+        ]
+      },
+      "properties": {
+        "stop_id": "405",
+        "agency": "Yakima Transit",
+        "stop_name": "34TH / CASTLEVALE RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.544675556,
+          46.612593934
+        ]
+      },
+      "properties": {
+        "stop_id": "406",
+        "agency": "Yakima Transit",
+        "stop_name": "CASTLEVALE / 27TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530346127,
+          46.605521461
+        ]
+      },
+      "properties": {
+        "stop_id": "407",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH & MCKINLEY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.498001239,
+          46.570657667
+        ]
+      },
+      "properties": {
+        "stop_id": "408",
+        "agency": "Yakima Transit",
+        "stop_name": "19 W WASHINGTON AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.505108812,
+          46.570759349
+        ]
+      },
+      "properties": {
+        "stop_id": "409",
+        "agency": "Yakima Transit",
+        "stop_name": "55 W WASHINGTON AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.542195833,
+          46.585260326
+        ]
+      },
+      "properties": {
+        "stop_id": "41",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 26TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.502099092,
+          46.570731202
+        ]
+      },
+      "properties": {
+        "stop_id": "410",
+        "agency": "Yakima Transit",
+        "stop_name": "35 W WASHINGTON AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.540156611,
+          46.571119911
+        ]
+      },
+      "properties": {
+        "stop_id": "411",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON AVE / 24TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561827865,
+          46.578048621
+        ]
+      },
+      "properties": {
+        "stop_id": "412",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / CREEKSIDE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561748,
+          46.583195
+        ]
+      },
+      "properties": {
+        "stop_id": "413",
+        "agency": "Yakima Transit",
+        "stop_name": "1211 S 40TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.547929,
+          46.615947
+        ]
+      },
+      "properties": {
+        "stop_id": "414",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 29TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530049412,
+          46.612451297
+        ]
+      },
+      "properties": {
+        "stop_id": "415",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 16TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518936,
+          46.599376
+        ]
+      },
+      "properties": {
+        "stop_id": "416",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 7TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561781,
+          46.600323
+        ]
+      },
+      "properties": {
+        "stop_id": "418",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / SUMMITVIEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604131353,
+          46.571769913
+        ]
+      },
+      "properties": {
+        "stop_id": "419",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / WASH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.505002481,
+          46.570595082
+        ]
+      },
+      "properties": {
+        "stop_id": "42",
+        "agency": "Yakima Transit",
+        "stop_name": "WASH / LANDON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.507930815219,
+          46.606319476202
+        ]
+      },
+      "properties": {
+        "stop_id": "420",
+        "agency": "Yakima Transit",
+        "stop_name": "No. 1st St. / Lincoln"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.49421,
+          46.590517
+        ]
+      },
+      "properties": {
+        "stop_id": "421",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / RAINIER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.494196759,
+          46.588947416
+        ]
+      },
+      "properties": {
+        "stop_id": "422",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / ARLINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.498965,
+          46.604848
+        ]
+      },
+      "properties": {
+        "stop_id": "423",
+        "agency": "Yakima Transit",
+        "stop_name": "SUNTOWER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.494576561,
+          46.587026489
+        ]
+      },
+      "properties": {
+        "stop_id": "424",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / CENTRAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.496501,
+          46.599796
+        ]
+      },
+      "properties": {
+        "stop_id": "425",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / SPRUCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.495315413,
+          46.597347923
+        ]
+      },
+      "properties": {
+        "stop_id": "426",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / MAPLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.494626,
+          46.595929
+        ]
+      },
+      "properties": {
+        "stop_id": "427",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / BEECH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.494372529,
+          46.593171828
+        ]
+      },
+      "properties": {
+        "stop_id": "428",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / ADAMS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.627722345,
+          46.592905717
+        ]
+      },
+      "properties": {
+        "stop_id": "429",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 90TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.553397875,
+          46.585371331
+        ]
+      },
+      "properties": {
+        "stop_id": "43",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 34TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.634743578,
+          46.592880126
+        ]
+      },
+      "properties": {
+        "stop_id": "431",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 95TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.631665538,
+          46.592936321
+        ]
+      },
+      "properties": {
+        "stop_id": "432",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 93RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530463955,
+          46.590494002
+        ]
+      },
+      "properties": {
+        "stop_id": "436",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / MCLAREN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530496409,
+          46.5944149
+        ]
+      },
+      "properties": {
+        "stop_id": "437",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / BELL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53062984,
+          46.60681137
+        ]
+      },
+      "properties": {
+        "stop_id": "438",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / ENGLEWOOD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530582089,
+          46.608475705
+        ]
+      },
+      "properties": {
+        "stop_id": "439",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / JEROME"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.556053028,
+          46.585354037
+        ]
+      },
+      "properties": {
+        "stop_id": "44",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 36TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53054866,
+          46.610418715
+        ]
+      },
+      "properties": {
+        "stop_id": "440",
+        "agency": "Yakima Transit",
+        "stop_name": "730 N 16TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53047,
+          46.596089
+        ]
+      },
+      "properties": {
+        "stop_id": "441",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / CHESTNU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530492155,
+          46.598751873
+        ]
+      },
+      "properties": {
+        "stop_id": "442",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / MT VERNON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530506,
+          46.601576
+        ]
+      },
+      "properties": {
+        "stop_id": "443",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / FOLSOM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530599852,
+          46.605047506
+        ]
+      },
+      "properties": {
+        "stop_id": "444",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / MCKINLEY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53091,
+          46.603544
+        ]
+      },
+      "properties": {
+        "stop_id": "445",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 16TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561939854,
+          46.603775619
+        ]
+      },
+      "properties": {
+        "stop_id": "447",
+        "agency": "Yakima Transit",
+        "stop_name": "Lincoln / 40th Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.510947675,
+          46.6119106
+        ]
+      },
+      "properties": {
+        "stop_id": "448",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST & H ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.549719136,
+          46.585352589
+        ]
+      },
+      "properties": {
+        "stop_id": "45",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 31ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.508407334,
+          46.570803458
+        ]
+      },
+      "properties": {
+        "stop_id": "451",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON AVE / 3RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.550903,
+          46.599847
+        ]
+      },
+      "properties": {
+        "stop_id": "452",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 32ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.548939854,
+          46.599783692
+        ]
+      },
+      "properties": {
+        "stop_id": "453",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 30TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.499490087,
+          46.606022977
+        ]
+      },
+      "properties": {
+        "stop_id": "454",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / MLK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.533722,
+          46.6152
+        ]
+      },
+      "properties": {
+        "stop_id": "458",
+        "agency": "Yakima Transit",
+        "stop_name": "1820 J ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.551058951,
+          46.585377666
+        ]
+      },
+      "properties": {
+        "stop_id": "46",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 32ND AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.564521697,
+          46.599972843
+        ]
+      },
+      "properties": {
+        "stop_id": "462",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 42ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.568505974,
+          46.599953388
+        ]
+      },
+      "properties": {
+        "stop_id": "463",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 45TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.572537555,
+          46.599983981
+        ]
+      },
+      "properties": {
+        "stop_id": "464",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 48TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.578958667,
+          46.600042629
+        ]
+      },
+      "properties": {
+        "stop_id": "465",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 52ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.576543,
+          46.600009
+        ]
+      },
+      "properties": {
+        "stop_id": "466",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 50TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.568774933,
+          46.585291482
+        ]
+      },
+      "properties": {
+        "stop_id": "47",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 46TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562383,
+          46.592588
+        ]
+      },
+      "properties": {
+        "stop_id": "471",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 40TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.582386,
+          46.592631
+        ]
+      },
+      "properties": {
+        "stop_id": "472",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 56TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.60413524,
+          46.584881647
+        ]
+      },
+      "properties": {
+        "stop_id": "473",
+        "agency": "Yakima Transit",
+        "stop_name": "72nd Ave. / Nob Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593962239,
+          46.571664764
+        ]
+      },
+      "properties": {
+        "stop_id": "474",
+        "agency": "Yakima Transit",
+        "stop_name": "64TH AVE / WASHINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530097,
+          46.592399
+        ]
+      },
+      "properties": {
+        "stop_id": "475",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 16TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.511673,
+          46.595157
+        ]
+      },
+      "properties": {
+        "stop_id": "476",
+        "agency": "Yakima Transit",
+        "stop_name": "4TH AVE / PINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512349935,
+          46.59627901
+        ]
+      },
+      "properties": {
+        "stop_id": "477",
+        "agency": "Yakima Transit",
+        "stop_name": "4TH AVE / SPRUCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.503573713,
+          46.60293308
+        ]
+      },
+      "properties": {
+        "stop_id": "478",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 3RD ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.571758236,
+          46.585241714
+        ]
+      },
+      "properties": {
+        "stop_id": "48",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 48TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.550529802,
+          46.592660101
+        ]
+      },
+      "properties": {
+        "stop_id": "481",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 32ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.545202608,
+          46.592633222
+        ]
+      },
+      "properties": {
+        "stop_id": "482",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 27TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509539,
+          46.5909
+        ]
+      },
+      "properties": {
+        "stop_id": "485",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / PEACH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509589754,
+          46.584891858
+        ]
+      },
+      "properties": {
+        "stop_id": "486",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509594,
+          46.583208
+        ]
+      },
+      "properties": {
+        "stop_id": "487",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / PRASCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509599565,
+          46.581330466
+        ]
+      },
+      "properties": {
+        "stop_id": "488",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / VIOLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.587801412,
+          46.592652877
+        ]
+      },
+      "properties": {
+        "stop_id": "489",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 60TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.558948,
+          46.585334
+        ]
+      },
+      "properties": {
+        "stop_id": "49",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 38TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.585718446,
+          46.592702523
+        ]
+      },
+      "properties": {
+        "stop_id": "490",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 58TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.570200626,
+          46.592544412
+        ]
+      },
+      "properties": {
+        "stop_id": "491",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 47TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554953389,
+          46.592660045
+        ]
+      },
+      "properties": {
+        "stop_id": "492",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 35TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.577981215,
+          46.59261984
+        ]
+      },
+      "properties": {
+        "stop_id": "493",
+        "agency": "Yakima Transit",
+        "stop_name": "GLENWOOD SQUARE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.575594332,
+          46.592585728
+        ]
+      },
+      "properties": {
+        "stop_id": "494",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 50TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.548726,
+          46.607608
+        ]
+      },
+      "properties": {
+        "stop_id": "496",
+        "agency": "Yakima Transit",
+        "stop_name": "3000 POWERHOUSE RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.494595191,
+          46.586035846
+        ]
+      },
+      "properties": {
+        "stop_id": "498",
+        "agency": "Yakima Transit",
+        "stop_name": "6th Street / Nob Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.484934475,
+          46.592256911
+        ]
+      },
+      "properties": {
+        "stop_id": "499",
+        "agency": "Yakima Transit",
+        "stop_name": "13TH ST / PACIFIC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.556779084,
+          46.607922657
+        ]
+      },
+      "properties": {
+        "stop_id": "5",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIRBANKS / 36TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.566760366,
+          46.585279135
+        ]
+      },
+      "properties": {
+        "stop_id": "50",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 44TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.480651864,
+          46.592210989
+        ]
+      },
+      "properties": {
+        "stop_id": "500",
+        "agency": "Yakima Transit",
+        "stop_name": "1500 PACIFIC AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.587192,
+          46.599945
+        ]
+      },
+      "properties": {
+        "stop_id": "501",
+        "agency": "Yakima Transit",
+        "stop_name": "Starbucks"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.584745,
+          46.599916
+        ]
+      },
+      "properties": {
+        "stop_id": "502",
+        "agency": "Yakima Transit",
+        "stop_name": "SAFEWAY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.589741146,
+          46.599973714
+        ]
+      },
+      "properties": {
+        "stop_id": "504",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / SHAMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593768681,
+          46.581914376
+        ]
+      },
+      "properties": {
+        "stop_id": "509",
+        "agency": "Yakima Transit",
+        "stop_name": "CONGDON MAIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509964,
+          46.585317
+        ]
+      },
+      "properties": {
+        "stop_id": "51",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 3RD AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488648,
+          46.607146
+        ]
+      },
+      "properties": {
+        "stop_id": "511",
+        "agency": "Yakima Transit",
+        "stop_name": "TARGET"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.594025629,
+          46.584807432
+        ]
+      },
+      "properties": {
+        "stop_id": "512",
+        "agency": "Yakima Transit",
+        "stop_name": "64TH AVE / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.497444319,
+          46.601774492
+        ]
+      },
+      "properties": {
+        "stop_id": "513",
+        "agency": "Yakima Transit",
+        "stop_name": "S 6TH ST / WALNUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488007643,
+          46.583801227
+        ]
+      },
+      "properties": {
+        "stop_id": "515",
+        "agency": "Yakima Transit",
+        "stop_name": "FIESTA FOODS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.543577,
+          46.592734
+        ]
+      },
+      "properties": {
+        "stop_id": "517",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 26TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.549136406,
+          46.59281173
+        ]
+      },
+      "properties": {
+        "stop_id": "518",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 30TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.517438,
+          46.603519
+        ]
+      },
+      "properties": {
+        "stop_id": "519",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE. / LINCOLN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.538693002,
+          46.585450517
+        ]
+      },
+      "properties": {
+        "stop_id": "52",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 22ND AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.522931,
+          46.612685
+        ]
+      },
+      "properties": {
+        "stop_id": "520",
+        "agency": "Yakima Transit",
+        "stop_name": "O.I.C. Fruitvale"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.527978128,
+          46.592582917
+        ]
+      },
+      "properties": {
+        "stop_id": "521",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 14TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.531890963,
+          46.59259356
+        ]
+      },
+      "properties": {
+        "stop_id": "522",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 16TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.533465319,
+          46.592618554
+        ]
+      },
+      "properties": {
+        "stop_id": "523",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 18TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.541312082,
+          46.592714794
+        ]
+      },
+      "properties": {
+        "stop_id": "524",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 24TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.520441599,
+          46.596188509
+        ]
+      },
+      "properties": {
+        "stop_id": "525",
+        "agency": "Yakima Transit",
+        "stop_name": "Astria Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.522026874,
+          46.595831368
+        ]
+      },
+      "properties": {
+        "stop_id": "526",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 10TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.525339211,
+          46.592595872
+        ]
+      },
+      "properties": {
+        "stop_id": "527",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 12TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.498888208,
+          46.593234519
+        ]
+      },
+      "properties": {
+        "stop_id": "529",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD ST / ADAMS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.544497,
+          46.585496
+        ]
+      },
+      "properties": {
+        "stop_id": "53",
+        "agency": "Yakima Transit",
+        "stop_name": "BURGER KING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.494351365,
+          46.585685042
+        ]
+      },
+      "properties": {
+        "stop_id": "530",
+        "agency": "Yakima Transit",
+        "stop_name": "Nob Hill / 6th St."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.529893,
+          46.585136
+        ]
+      },
+      "properties": {
+        "stop_id": "532",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA VALLEY COLLEGE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.537716,
+          46.613657
+        ]
+      },
+      "properties": {
+        "stop_id": "534",
+        "agency": "Yakima Transit",
+        "stop_name": "Public Works"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512369,
+          46.614411
+        ]
+      },
+      "properties": {
+        "stop_id": "535",
+        "agency": "Yakima Transit",
+        "stop_name": "No. 1st St. / 'I' St."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.544109704,
+          46.585307463
+        ]
+      },
+      "properties": {
+        "stop_id": "537",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 25TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.57315649,
+          46.592552425
+        ]
+      },
+      "properties": {
+        "stop_id": "538",
+        "agency": "Yakima Transit",
+        "stop_name": "ABBY'S PIZZA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.546648099,
+          46.585527416
+        ]
+      },
+      "properties": {
+        "stop_id": "54",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 28TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562176916,
+          46.578072641
+        ]
+      },
+      "properties": {
+        "stop_id": "540",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / CREEKSIDE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488395,
+          46.571564
+        ]
+      },
+      "properties": {
+        "stop_id": "541",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST STREET / RUSSE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.520029,
+          46.617613
+        ]
+      },
+      "properties": {
+        "stop_id": "543",
+        "agency": "Yakima Transit",
+        "stop_name": "RIVER RD / SIXTH AVE SOUTHBOUND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.508298,
+          46.614453
+        ]
+      },
+      "properties": {
+        "stop_id": "544",
+        "agency": "Yakima Transit",
+        "stop_name": "Barge-Lincoln School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530579,
+          46.602621
+        ]
+      },
+      "properties": {
+        "stop_id": "545",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / LINCOLN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53043189,
+          46.582328838
+        ]
+      },
+      "properties": {
+        "stop_id": "546",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH / GRANT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509319,
+          46.585894
+        ]
+      },
+      "properties": {
+        "stop_id": "547",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518300213,
+          46.577902626
+        ]
+      },
+      "properties": {
+        "stop_id": "548",
+        "agency": "Yakima Transit",
+        "stop_name": "MEAD / 9TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.568186,
+          46.585458
+        ]
+      },
+      "properties": {
+        "stop_id": "55",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 44TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.528565,
+          46.577913
+        ]
+      },
+      "properties": {
+        "stop_id": "551",
+        "agency": "Yakima Transit",
+        "stop_name": "15TH AVE / MEAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53361311,
+          46.615328451
+        ]
+      },
+      "properties": {
+        "stop_id": "552",
+        "agency": "Yakima Transit",
+        "stop_name": "1819 W J ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604425,
+          46.578211
+        ]
+      },
+      "properties": {
+        "stop_id": "553",
+        "agency": "Yakima Transit",
+        "stop_name": "S 72ND AVE / MEAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.526724535,
+          46.597422346
+        ]
+      },
+      "properties": {
+        "stop_id": "554",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / HALL AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530347,
+          46.607491
+        ]
+      },
+      "properties": {
+        "stop_id": "555",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE and CHERRY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604437029,
+          46.584915792
+        ]
+      },
+      "properties": {
+        "stop_id": "556",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.559982632,
+          46.592775657
+        ]
+      },
+      "properties": {
+        "stop_id": "557",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 38TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.58265491,
+          46.592820322
+        ]
+      },
+      "properties": {
+        "stop_id": "558",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 56TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.52189779,
+          46.592767216
+        ]
+      },
+      "properties": {
+        "stop_id": "559",
+        "agency": "Yakima Transit",
+        "stop_name": "11TH AVE / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.571131109,
+          46.585459199
+        ]
+      },
+      "properties": {
+        "stop_id": "56",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 46TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.536045532,
+          46.592661001
+        ]
+      },
+      "properties": {
+        "stop_id": "560",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 20TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.505154,
+          46.605137
+        ]
+      },
+      "properties": {
+        "stop_id": "561",
+        "agency": "Yakima Transit",
+        "stop_name": "City Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.506548,
+          46.602233
+        ]
+      },
+      "properties": {
+        "stop_id": "562",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.510739061,
+          46.601295177
+        ]
+      },
+      "properties": {
+        "stop_id": "563",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 2ND AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.514595741,
+          46.600384852
+        ]
+      },
+      "properties": {
+        "stop_id": "564",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 4TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.517618955,
+          46.599696761
+        ]
+      },
+      "properties": {
+        "stop_id": "565",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 6TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.505382318,
+          46.599677699
+        ]
+      },
+      "properties": {
+        "stop_id": "566",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 1ST STREE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.4882,
+          46.600319
+        ]
+      },
+      "properties": {
+        "stop_id": "567",
+        "agency": "Yakima Transit",
+        "stop_name": "Kiwanis Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5742838,
+          46.585471314
+        ]
+      },
+      "properties": {
+        "stop_id": "57",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 48TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518189934,
+          46.570689377
+        ]
+      },
+      "properties": {
+        "stop_id": "570",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 9TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.525032,
+          46.570754
+        ]
+      },
+      "properties": {
+        "stop_id": "571",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 12TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.522359324,
+          46.570721948
+        ]
+      },
+      "properties": {
+        "stop_id": "572",
+        "agency": "Yakima Transit",
+        "stop_name": "WASH / PLEASANT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.537208,
+          46.570787
+        ]
+      },
+      "properties": {
+        "stop_id": "573",
+        "agency": "Yakima Transit",
+        "stop_name": "2106 WEST WASHINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.529769,
+          46.570787
+        ]
+      },
+      "properties": {
+        "stop_id": "574",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 16TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.545848784,
+          46.573213663
+        ]
+      },
+      "properties": {
+        "stop_id": "575",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 28TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.541303,
+          46.571345
+        ]
+      },
+      "properties": {
+        "stop_id": "576",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 24TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518408607,
+          46.607361388
+        ]
+      },
+      "properties": {
+        "stop_id": "577",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / CHERRY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.515561,
+          46.600269
+        ]
+      },
+      "properties": {
+        "stop_id": "578",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / YAKIMA A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554682,
+          46.607926
+        ]
+      },
+      "properties": {
+        "stop_id": "579",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIRBANKS / 34TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.557946,
+          46.592647
+        ]
+      },
+      "properties": {
+        "stop_id": "58",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 37TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.516992,
+          46.603065
+        ]
+      },
+      "properties": {
+        "stop_id": "580",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE. / LINCOLN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.52286087,
+          46.59244523
+        ]
+      },
+      "properties": {
+        "stop_id": "581",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / PLEASANT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.501161509,
+          46.598718394
+        ]
+      },
+      "properties": {
+        "stop_id": "582",
+        "agency": "Yakima Transit",
+        "stop_name": "SPRUCE / 3RD ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.51508183,
+          46.599324722
+        ]
+      },
+      "properties": {
+        "stop_id": "584",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / CHESTNUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.502076053,
+          46.570546625
+        ]
+      },
+      "properties": {
+        "stop_id": "587",
+        "agency": "Yakima Transit",
+        "stop_name": "32 W WASHINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.487575252,
+          46.570956189
+        ]
+      },
+      "properties": {
+        "stop_id": "589",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / WASH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.547534,
+          46.59265
+        ]
+      },
+      "properties": {
+        "stop_id": "59",
+        "agency": "Yakima Transit",
+        "stop_name": "ACROSS FROM MEMORIAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.489118863,
+          46.57350995
+        ]
+      },
+      "properties": {
+        "stop_id": "590",
+        "agency": "Yakima Transit",
+        "stop_name": "2105 S 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.490639298,
+          46.575959078
+        ]
+      },
+      "properties": {
+        "stop_id": "591",
+        "agency": "Yakima Transit",
+        "stop_name": "1825 S 1ST ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.559975837,
+          46.610226525
+        ]
+      },
+      "properties": {
+        "stop_id": "6",
+        "agency": "Yakima Transit",
+        "stop_name": "719 N 39TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.524544462,
+          46.592439747
+        ]
+      },
+      "properties": {
+        "stop_id": "60",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 12TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.532410611,
+          46.592456898
+        ]
+      },
+      "properties": {
+        "stop_id": "600",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 18TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53784,
+          46.592527
+        ]
+      },
+      "properties": {
+        "stop_id": "601",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 22TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.54036177,
+          46.592558401
+        ]
+      },
+      "properties": {
+        "stop_id": "602",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 24TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.542764148,
+          46.592586223
+        ]
+      },
+      "properties": {
+        "stop_id": "603",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 26TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.521989,
+          46.595696
+        ]
+      },
+      "properties": {
+        "stop_id": "604",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 10TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.521993118,
+          46.593487035
+        ]
+      },
+      "properties": {
+        "stop_id": "605",
+        "agency": "Yakima Transit",
+        "stop_name": "11TH AVE / PINE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.522646,
+          46.59483
+        ]
+      },
+      "properties": {
+        "stop_id": "606",
+        "agency": "Yakima Transit",
+        "stop_name": "11TH AVE / SPRUCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.52740525,
+          46.592432493
+        ]
+      },
+      "properties": {
+        "stop_id": "607",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 14TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.499438658,
+          46.595026986
+        ]
+      },
+      "properties": {
+        "stop_id": "608",
+        "agency": "Yakima Transit",
+        "stop_name": "S 3RD ST / BEECH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.517123,
+          46.596776
+        ]
+      },
+      "properties": {
+        "stop_id": "609",
+        "agency": "Yakima Transit",
+        "stop_name": "DAVIS HIGH SCHOOL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5315,
+          46.615184
+        ]
+      },
+      "properties": {
+        "stop_id": "61",
+        "agency": "Yakima Transit",
+        "stop_name": "D.S.H.S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.520514915,
+          46.596020003
+        ]
+      },
+      "properties": {
+        "stop_id": "610",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 9TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.497600892,
+          46.570493005
+        ]
+      },
+      "properties": {
+        "stop_id": "611",
+        "agency": "Yakima Transit",
+        "stop_name": "18 W WASHINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.582016041,
+          46.600059503
+        ]
+      },
+      "properties": {
+        "stop_id": "612",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 55TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.592036,
+          46.600176
+        ]
+      },
+      "properties": {
+        "stop_id": "617",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 62ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560506,
+          46.620731
+        ]
+      },
+      "properties": {
+        "stop_id": "62",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 40TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.521145,
+          46.598652
+        ]
+      },
+      "properties": {
+        "stop_id": "624",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 9TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.526205,
+          46.597367
+        ]
+      },
+      "properties": {
+        "stop_id": "625",
+        "agency": "Yakima Transit",
+        "stop_name": "PORTIA PARK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.528526,
+          46.597142
+        ]
+      },
+      "properties": {
+        "stop_id": "626",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 15TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509694672,
+          46.609330602
+        ]
+      },
+      "properties": {
+        "stop_id": "627",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST & F ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.483495141,
+          46.566889988
+        ]
+      },
+      "properties": {
+        "stop_id": "63",
+        "agency": "Yakima Transit",
+        "stop_name": "Miner's Drive-In"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593780046,
+          46.584927722
+        ]
+      },
+      "properties": {
+        "stop_id": "632",
+        "agency": "Yakima Transit",
+        "stop_name": "64TH / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5786748,
+          46.5853459
+        ]
+      },
+      "properties": {
+        "stop_id": "633",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 53RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512101653,
+          46.618710048
+        ]
+      },
+      "properties": {
+        "stop_id": "634",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST and E N ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512091,
+          46.623054
+        ]
+      },
+      "properties": {
+        "stop_id": "636",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST and R ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.512089444,
+          46.621722081
+        ]
+      },
+      "properties": {
+        "stop_id": "637",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST & TAMARACK AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.635949,
+          46.593693
+        ]
+      },
+      "properties": {
+        "stop_id": "640",
+        "agency": "Yakima Transit",
+        "stop_name": "96TH AVE / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.597353093,
+          46.570972644
+        ]
+      },
+      "properties": {
+        "stop_id": "642",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON / 66TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593693602,
+          46.574572502
+        ]
+      },
+      "properties": {
+        "stop_id": "643",
+        "agency": "Yakima Transit",
+        "stop_name": "64TH / TERRY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518078779,
+          46.604818628
+        ]
+      },
+      "properties": {
+        "stop_id": "646",
+        "agency": "Yakima Transit",
+        "stop_name": "5TH AVE / D ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.52177557,
+          46.612443487
+        ]
+      },
+      "properties": {
+        "stop_id": "647",
+        "agency": "Yakima Transit",
+        "stop_name": "1118 FRUITVALE BLVD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.491868,
+          46.577449
+        ]
+      },
+      "properties": {
+        "stop_id": "65",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST STREET / MEAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.546572746,
+          46.612482785
+        ]
+      },
+      "properties": {
+        "stop_id": "650",
+        "agency": "Yakima Transit",
+        "stop_name": "CASTLEVALE / 28TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.542130894,
+          46.612458113
+        ]
+      },
+      "properties": {
+        "stop_id": "651",
+        "agency": "Yakima Transit",
+        "stop_name": "CATLEVALE / 25TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.523306058,
+          46.612437623
+        ]
+      },
+      "properties": {
+        "stop_id": "652",
+        "agency": "Yakima Transit",
+        "stop_name": "1204 FRUITVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.526317379,
+          46.612448616
+        ]
+      },
+      "properties": {
+        "stop_id": "653",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 11TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530284,
+          46.612077
+        ]
+      },
+      "properties": {
+        "stop_id": "654",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH and FRUITVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488726,
+          46.570531
+        ]
+      },
+      "properties": {
+        "stop_id": "656",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON AVE / 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530329623,
+          46.610789166
+        ]
+      },
+      "properties": {
+        "stop_id": "657",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE & WILLOW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.62193903,
+          46.600435424
+        ]
+      },
+      "properties": {
+        "stop_id": "658",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 86TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.616290659,
+          46.600423767
+        ]
+      },
+      "properties": {
+        "stop_id": "659",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 81ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.504270452,
+          46.606915497
+        ]
+      },
+      "properties": {
+        "stop_id": "66",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 3RD ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.628757695,
+          46.600410418
+        ]
+      },
+      "properties": {
+        "stop_id": "660",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 90TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.625730027,
+          46.600431322
+        ]
+      },
+      "properties": {
+        "stop_id": "661",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 88TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.605612,
+          46.600346
+        ]
+      },
+      "properties": {
+        "stop_id": "662",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 73RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.608174222,
+          46.600361578
+        ]
+      },
+      "properties": {
+        "stop_id": "663",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 74TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.612983041,
+          46.600409543
+        ]
+      },
+      "properties": {
+        "stop_id": "664",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 78TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.600016,
+          46.600236
+        ]
+      },
+      "properties": {
+        "stop_id": "665",
+        "agency": "Yakima Transit",
+        "stop_name": "WESTSIDE CHURCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562059496,
+          46.599498572
+        ]
+      },
+      "properties": {
+        "stop_id": "666",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / SUMMITVIEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562013,
+          46.585023
+        ]
+      },
+      "properties": {
+        "stop_id": "667",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.634822,
+          46.60038
+        ]
+      },
+      "properties": {
+        "stop_id": "668",
+        "agency": "Yakima Transit",
+        "stop_name": "96TH / SUMMITVIEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.63150553,
+          46.600407294
+        ]
+      },
+      "properties": {
+        "stop_id": "669",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 92ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.524243,
+          46.603498
+        ]
+      },
+      "properties": {
+        "stop_id": "67",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / CUSTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.508926,
+          46.57064
+        ]
+      },
+      "properties": {
+        "stop_id": "670",
+        "agency": "Yakima Transit",
+        "stop_name": "Washington Ave. / 3rd Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.487086155,
+          46.581473347
+        ]
+      },
+      "properties": {
+        "stop_id": "671",
+        "agency": "Yakima Transit",
+        "stop_name": "VIOLA / FAIR AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488227563,
+          46.601040416
+        ]
+      },
+      "properties": {
+        "stop_id": "672",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR AVE / SPRUCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488201,
+          46.597611
+        ]
+      },
+      "properties": {
+        "stop_id": "674",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR AVE / 10TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488236821,
+          46.599624092
+        ]
+      },
+      "properties": {
+        "stop_id": "675",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR AVE / MAPLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488202471,
+          46.595521709
+        ]
+      },
+      "properties": {
+        "stop_id": "676",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIR AVE / RACE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.538272,
+          46.617919
+        ]
+      },
+      "properties": {
+        "stop_id": "677",
+        "agency": "Yakima Transit",
+        "stop_name": "RIVER RD / 22ND AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.53056586,
+          46.611421258
+        ]
+      },
+      "properties": {
+        "stop_id": "678",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / GARRETT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.61555,
+          46.59297
+        ]
+      },
+      "properties": {
+        "stop_id": "679",
+        "agency": "Yakima Transit",
+        "stop_name": "80th Ave. and Tieton"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.536291866,
+          46.603536029
+        ]
+      },
+      "properties": {
+        "stop_id": "68",
+        "agency": "Yakima Transit",
+        "stop_name": "Lincoln Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.536541985,
+          46.615322584
+        ]
+      },
+      "properties": {
+        "stop_id": "680",
+        "agency": "Yakima Transit",
+        "stop_name": "J ST / 21ST AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554103,
+          46.610424
+        ]
+      },
+      "properties": {
+        "stop_id": "681",
+        "agency": "Yakima Transit",
+        "stop_name": "34TH / POWERHOUSE RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560589546,
+          46.607937959
+        ]
+      },
+      "properties": {
+        "stop_id": "682",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIRBANKS / 39TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560749164,
+          46.614585706
+        ]
+      },
+      "properties": {
+        "stop_id": "683",
+        "agency": "Yakima Transit",
+        "stop_name": "POWERHOUSE / 40TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.550948661,
+          46.617905146
+        ]
+      },
+      "properties": {
+        "stop_id": "684",
+        "agency": "Yakima Transit",
+        "stop_name": "RIVER RD / 32ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.544624,
+          46.617918
+        ]
+      },
+      "properties": {
+        "stop_id": "685",
+        "agency": "Yakima Transit",
+        "stop_name": "RIVER RD / 27TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.541968103,
+          46.617897422
+        ]
+      },
+      "properties": {
+        "stop_id": "686",
+        "agency": "Yakima Transit",
+        "stop_name": "RIVER RD / 26TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530247,
+          46.597538
+        ]
+      },
+      "properties": {
+        "stop_id": "687",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / BELMONT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.561698,
+          46.592921
+        ]
+      },
+      "properties": {
+        "stop_id": "689",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.519491031,
+          46.59902048
+        ]
+      },
+      "properties": {
+        "stop_id": "69",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AVE / 8TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.595222,
+          46.596429
+        ]
+      },
+      "properties": {
+        "stop_id": "690",
+        "agency": "Yakima Transit",
+        "stop_name": "65TH / CHESTNUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.539824,
+          46.570268
+        ]
+      },
+      "properties": {
+        "stop_id": "691",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA AIRPORT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.522732585668,
+          46.5955137426997
+        ]
+      },
+      "properties": {
+        "stop_id": "692",
+        "agency": "Yakima Transit",
+        "stop_name": "Astria Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509557242,
+          46.592257142
+        ]
+      },
+      "properties": {
+        "stop_id": "693",
+        "agency": "Yakima Transit",
+        "stop_name": "C.W.C.M.H. /4TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509982,
+          46.578064
+        ]
+      },
+      "properties": {
+        "stop_id": "694",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / MEAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530272,
+          46.585576
+        ]
+      },
+      "properties": {
+        "stop_id": "695",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE. / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530202293,
+          46.592029185
+        ]
+      },
+      "properties": {
+        "stop_id": "698",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.559980152,
+          46.611182977
+        ]
+      },
+      "properties": {
+        "stop_id": "7",
+        "agency": "Yakima Transit",
+        "stop_name": "807 N 39TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518695,
+          46.614036
+        ]
+      },
+      "properties": {
+        "stop_id": "700",
+        "agency": "Yakima Transit",
+        "stop_name": "W I ST / 5TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.481807,
+          46.605177
+        ]
+      },
+      "properties": {
+        "stop_id": "703",
+        "agency": "Yakima Transit",
+        "stop_name": "BURGER KING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530467,
+          46.584878
+        ]
+      },
+      "properties": {
+        "stop_id": "705",
+        "agency": "Yakima Transit",
+        "stop_name": "16TH AVE / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.509336,
+          46.578554
+        ]
+      },
+      "properties": {
+        "stop_id": "706",
+        "agency": "Yakima Transit",
+        "stop_name": "3RD AVE / MEAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.502965749,
+          46.607243544
+        ]
+      },
+      "properties": {
+        "stop_id": "71",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 4TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.594059,
+          46.592916
+        ]
+      },
+      "properties": {
+        "stop_id": "714",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 64TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.517527,
+          46.596865
+        ]
+      },
+      "properties": {
+        "stop_id": "716",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 7TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.523751369,
+          46.585150551
+        ]
+      },
+      "properties": {
+        "stop_id": "717",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / QUEEN A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.539326755,
+          46.58527883
+        ]
+      },
+      "properties": {
+        "stop_id": "718",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 23RD AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.545946301,
+          46.585341235
+        ]
+      },
+      "properties": {
+        "stop_id": "719",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 28TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604146,
+          46.578752
+        ]
+      },
+      "properties": {
+        "stop_id": "72",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / MEAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.594628314,
+          46.592923311
+        ]
+      },
+      "properties": {
+        "stop_id": "720",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 65TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.572785379,
+          46.592747842
+        ]
+      },
+      "properties": {
+        "stop_id": "721",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 48TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.556898,
+          46.592805
+        ]
+      },
+      "properties": {
+        "stop_id": "722",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR and 36TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.538399484,
+          46.592682237
+        ]
+      },
+      "properties": {
+        "stop_id": "723",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / 22ND A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.523402455,
+          46.592588938
+        ]
+      },
+      "properties": {
+        "stop_id": "724",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON DR / HOLTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.498221886,
+          46.602549619
+        ]
+      },
+      "properties": {
+        "stop_id": "725",
+        "agency": "Yakima Transit",
+        "stop_name": "CHESTNUT / 6TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.535133,
+          46.5925
+        ]
+      },
+      "properties": {
+        "stop_id": "726",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 20TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.495272641,
+          46.6032502
+        ]
+      },
+      "properties": {
+        "stop_id": "727",
+        "agency": "Yakima Transit",
+        "stop_name": "CHESTNUT / 8TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.599057315,
+          46.592824483
+        ]
+      },
+      "properties": {
+        "stop_id": "728",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 68TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.566453,
+          46.592562
+        ]
+      },
+      "properties": {
+        "stop_id": "729",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / 44TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604152702,
+          46.582336898
+        ]
+      },
+      "properties": {
+        "stop_id": "73",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / VIOLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.596517,
+          46.5928
+        ]
+      },
+      "properties": {
+        "stop_id": "730",
+        "agency": "Yakima Transit",
+        "stop_name": "TIETON / PICKENS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562145921,
+          46.604565301
+        ]
+      },
+      "properties": {
+        "stop_id": "732",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / RICHEY RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.487168,
+          46.592264
+        ]
+      },
+      "properties": {
+        "stop_id": "733",
+        "agency": "Yakima Transit",
+        "stop_name": "PACIFIC / FAIR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.520754028,
+          46.570890765
+        ]
+      },
+      "properties": {
+        "stop_id": "734",
+        "agency": "Yakima Transit",
+        "stop_name": "WASHINGTON AVE / 10TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562107822,
+          46.606831218
+        ]
+      },
+      "properties": {
+        "stop_id": "735",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / ENGLEWOOD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5617,
+          46.585987
+        ]
+      },
+      "properties": {
+        "stop_id": "736",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604949,
+          46.585599
+        ]
+      },
+      "properties": {
+        "stop_id": "74",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.508872241,
+          46.598871946
+        ]
+      },
+      "properties": {
+        "stop_id": "744",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 1ST AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.502328998,
+          46.600399076
+        ]
+      },
+      "properties": {
+        "stop_id": "745",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 3RD ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.514928719,
+          46.597478305
+        ]
+      },
+      "properties": {
+        "stop_id": "746",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 5TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.511870981,
+          46.598189718
+        ]
+      },
+      "properties": {
+        "stop_id": "747",
+        "agency": "Yakima Transit",
+        "stop_name": "WALNUT / 3RD AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.585020758,
+          46.600096504
+        ]
+      },
+      "properties": {
+        "stop_id": "749",
+        "agency": "Yakima Transit",
+        "stop_name": "Chalet Place Mall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.56176,
+          46.605962
+        ]
+      },
+      "properties": {
+        "stop_id": "75",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH / ENGLEWOOD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.588115,
+          46.60015
+        ]
+      },
+      "properties": {
+        "stop_id": "750",
+        "agency": "Yakima Transit",
+        "stop_name": "SHOPKO SUMMITVIEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.510974493,
+          46.612626165
+        ]
+      },
+      "properties": {
+        "stop_id": "751",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / H ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.516136104,
+          46.614397423
+        ]
+      },
+      "properties": {
+        "stop_id": "753",
+        "agency": "Yakima Transit",
+        "stop_name": "I ST / 1ST  AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.545247493,
+          46.614911577
+        ]
+      },
+      "properties": {
+        "stop_id": "754",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 29TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.543875997,
+          46.614380135
+        ]
+      },
+      "properties": {
+        "stop_id": "755",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 27TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.498468394,
+          46.604455317
+        ]
+      },
+      "properties": {
+        "stop_id": "757",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH / YAKIMA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.60414331,
+          46.573349872
+        ]
+      },
+      "properties": {
+        "stop_id": "76",
+        "agency": "Yakima Transit",
+        "stop_name": "64TH / NOB HILL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.498798609,
+          46.58841925
+        ]
+      },
+      "properties": {
+        "stop_id": "760",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST STREET / ARLIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.564565831,
+          46.599808036
+        ]
+      },
+      "properties": {
+        "stop_id": "762",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 42ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593867207,
+          46.599997299
+        ]
+      },
+      "properties": {
+        "stop_id": "763",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 65TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.533021,
+          46.599684
+        ]
+      },
+      "properties": {
+        "stop_id": "764",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 18TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.556191763,
+          46.599835313
+        ]
+      },
+      "properties": {
+        "stop_id": "765",
+        "agency": "Yakima Transit",
+        "stop_name": "SUMMITVIEW / 36TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.487919,
+          46.58895
+        ]
+      },
+      "properties": {
+        "stop_id": "766",
+        "agency": "Yakima Transit",
+        "stop_name": "STATE FAIR PARK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.50022,
+          46.601488
+        ]
+      },
+      "properties": {
+        "stop_id": "767",
+        "agency": "Yakima Transit",
+        "stop_name": "TRANSIT CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.56218482,
+          46.585333854
+        ]
+      },
+      "properties": {
+        "stop_id": "768",
+        "agency": "Yakima Transit",
+        "stop_name": "NOB HILL / 40TH AV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604427,
+          46.592508
+        ]
+      },
+      "properties": {
+        "stop_id": "769",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / TIETON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604134,
+          46.575087
+        ]
+      },
+      "properties": {
+        "stop_id": "77",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / ZIER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.593717,
+          46.571451
+        ]
+      },
+      "properties": {
+        "stop_id": "770",
+        "agency": "Yakima Transit",
+        "stop_name": "64TH / WASHINGTON"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.552329125,
+          46.603580088
+        ]
+      },
+      "properties": {
+        "stop_id": "776",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 32ND"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.549487896,
+          46.603581984
+        ]
+      },
+      "properties": {
+        "stop_id": "777",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 30TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554651116,
+          46.603582377
+        ]
+      },
+      "properties": {
+        "stop_id": "778",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 34TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.546983855,
+          46.603567016
+        ]
+      },
+      "properties": {
+        "stop_id": "779",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 28TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604158923,
+          46.576839342
+        ]
+      },
+      "properties": {
+        "stop_id": "78",
+        "agency": "Yakima Transit",
+        "stop_name": "72ND / KING ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.541609,
+          46.603551
+        ]
+      },
+      "properties": {
+        "stop_id": "780",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 24TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.538999627,
+          46.603563113
+        ]
+      },
+      "properties": {
+        "stop_id": "781",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 23RD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.533875,
+          46.603531
+        ]
+      },
+      "properties": {
+        "stop_id": "782",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 18TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.527368,
+          46.603514
+        ]
+      },
+      "properties": {
+        "stop_id": "783",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / LEWIS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.518024,
+          46.603746
+        ]
+      },
+      "properties": {
+        "stop_id": "784",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / 5TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.491848733,
+          46.577992396
+        ]
+      },
+      "properties": {
+        "stop_id": "785",
+        "agency": "Yakima Transit",
+        "stop_name": "1ST ST / MEAD AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.499826589,
+          46.607148403
+        ]
+      },
+      "properties": {
+        "stop_id": "792",
+        "agency": "Yakima Transit",
+        "stop_name": "6TH ST / MLK BLVD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.520545594,
+          46.603515859
+        ]
+      },
+      "properties": {
+        "stop_id": "795",
+        "agency": "Yakima Transit",
+        "stop_name": "LINCOLN / PIERCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.489207,
+          46.608063
+        ]
+      },
+      "properties": {
+        "stop_id": "8",
+        "agency": "Yakima Transit",
+        "stop_name": "GATEWAY CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.604205,
+          46.592396
+        ]
+      },
+      "properties": {
+        "stop_id": "809",
+        "agency": "Yakima Transit",
+        "stop_name": "72nd Ave. and Tieton Dr."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530807,
+          46.592459
+        ]
+      },
+      "properties": {
+        "stop_id": "810",
+        "agency": "Yakima Transit",
+        "stop_name": "Tieton and 16th Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.477691,
+          46.584389
+        ]
+      },
+      "properties": {
+        "stop_id": "82",
+        "agency": "Yakima Transit",
+        "stop_name": "1120 S 18TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.50422,
+          46.599942
+        ]
+      },
+      "properties": {
+        "stop_id": "833",
+        "agency": "Yakima Transit",
+        "stop_name": "Walnut and 1st st."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.506427,
+          46.613563
+        ]
+      },
+      "properties": {
+        "stop_id": "86",
+        "agency": "Yakima Transit",
+        "stop_name": "4TH ST / H ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.504221326,
+          46.611096204
+        ]
+      },
+      "properties": {
+        "stop_id": "87",
+        "agency": "Yakima Transit",
+        "stop_name": "F ST / 4TH ST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.495163,
+          46.6042
+        ]
+      },
+      "properties": {
+        "stop_id": "88",
+        "agency": "Yakima Transit",
+        "stop_name": "HOLIDAY INN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530308,
+          46.602936
+        ]
+      },
+      "properties": {
+        "stop_id": "885",
+        "agency": "Yakima Transit",
+        "stop_name": "16th Ave. and Lincoln Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.614883,
+          46.586245
+        ]
+      },
+      "properties": {
+        "stop_id": "887",
+        "agency": "Yakima Transit",
+        "stop_name": "80th Ave. and Nob Hill Blvid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.513589,
+          46.597811
+        ]
+      },
+      "properties": {
+        "stop_id": "889",
+        "agency": "Yakima Transit",
+        "stop_name": "Walnut St. and 5th Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.577936,
+          46.592813
+        ]
+      },
+      "properties": {
+        "stop_id": "890",
+        "agency": "Yakima Transit",
+        "stop_name": "Glenwood Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.529672,
+          46.618054
+        ]
+      },
+      "properties": {
+        "stop_id": "891",
+        "agency": "Yakima Transit",
+        "stop_name": "River Road and 16th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.520523,
+          46.612687
+        ]
+      },
+      "properties": {
+        "stop_id": "892",
+        "agency": "Yakima Transit",
+        "stop_name": "Fruitvale Blvd and 6th Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.506895,
+          46.60421
+        ]
+      },
+      "properties": {
+        "stop_id": "893",
+        "agency": "Yakima Transit",
+        "stop_name": "Yakima County Court House"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.539194,
+          46.612778
+        ]
+      },
+      "properties": {
+        "stop_id": "894",
+        "agency": "Yakima Transit",
+        "stop_name": "Public Works"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.607319,
+          46.585731
+        ]
+      },
+      "properties": {
+        "stop_id": "895",
+        "agency": "Yakima Transit",
+        "stop_name": "Dairy Queen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.530906,
+          46.617929
+        ]
+      },
+      "properties": {
+        "stop_id": "896",
+        "agency": "Yakima Transit",
+        "stop_name": "River Rd. and 16th Ave."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.479078,
+          46.602223
+        ]
+      },
+      "properties": {
+        "stop_id": "9",
+        "agency": "Yakima Transit",
+        "stop_name": "WALMART"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.554126,
+          46.612072
+        ]
+      },
+      "properties": {
+        "stop_id": "90",
+        "agency": "Yakima Transit",
+        "stop_name": "34TH AVE / CASTELVALE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.549688,
+          46.612474
+        ]
+      },
+      "properties": {
+        "stop_id": "91",
+        "agency": "Yakima Transit",
+        "stop_name": "YAKIMA STORAGE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560654725,
+          46.61256284
+        ]
+      },
+      "properties": {
+        "stop_id": "92",
+        "agency": "Yakima Transit",
+        "stop_name": "CASTLEVALE / 39TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560159654,
+          46.610944252
+        ]
+      },
+      "properties": {
+        "stop_id": "93",
+        "agency": "Yakima Transit",
+        "stop_name": "39TH AVE / KERN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.559222,
+          46.620479
+        ]
+      },
+      "properties": {
+        "stop_id": "94",
+        "agency": "Yakima Transit",
+        "stop_name": "FRUITVALE / 40TH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.562209078,
+          46.617599922
+        ]
+      },
+      "properties": {
+        "stop_id": "95",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / POWERHO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560139094,
+          46.60953408
+        ]
+      },
+      "properties": {
+        "stop_id": "97",
+        "agency": "Yakima Transit",
+        "stop_name": "710 N 39TH AVE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560398938,
+          46.607833515
+        ]
+      },
+      "properties": {
+        "stop_id": "98",
+        "agency": "Yakima Transit",
+        "stop_name": "FAIRBANKS / 39TH A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.560731,
+          46.603579
+        ]
+      },
+      "properties": {
+        "stop_id": "99",
+        "agency": "Yakima Transit",
+        "stop_name": "40TH AVE / LINCOLN"
+      }
+    }
+  ]
+}

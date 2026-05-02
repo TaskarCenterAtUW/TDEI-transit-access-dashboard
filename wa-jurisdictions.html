@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Washington Jurisdictions</title>
+  <link href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
+  <style>
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; font-family: system-ui, sans-serif; }
+    #map { width: 100%; height: 100%; }
+    .title {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1;
+      background: rgba(255,255,255,0.92);
+      border-radius: 4px;
+      padding: 8px 10px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div class="title">Washington Jurisdiction Boundaries</div>
+
+  <script>
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+      center: [-120.5, 47.4],
+      zoom: 6
+    });
+
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    function getBoundsFromGeoJSON(fc) {
+      const bounds = new maplibregl.LngLatBounds();
+      const extendCoord = (coord) => bounds.extend(coord);
+      const walk = (coords) => {
+        if (!Array.isArray(coords)) return;
+        if (typeof coords[0] === 'number' && typeof coords[1] === 'number') {
+          extendCoord(coords);
+          return;
+        }
+        coords.forEach(walk);
+      };
+
+      (fc.features || []).forEach((f) => {
+        if (f && f.geometry && f.geometry.coordinates) walk(f.geometry.coordinates);
+      });
+      return bounds.isEmpty() ? null : bounds;
+    }
+
+    map.on('load', async () => {
+      try {
+        const res = await fetch('jurisdiction_bounds_combined.geojson');
+        const geojson = await res.json();
+
+        map.addSource('jurisdictions', { type: 'geojson', data: geojson });
+
+        map.addLayer({
+          id: 'jurisdiction-fill',
+          type: 'fill',
+          source: 'jurisdictions',
+          paint: {
+            'fill-color': '#4c78a8',
+            'fill-opacity': 0.08
+          }
+        });
+
+        map.addLayer({
+          id: 'jurisdiction-outline',
+          type: 'line',
+          source: 'jurisdictions',
+          paint: {
+            'line-color': '#1f3d5b',
+            'line-width': 1.1,
+            'line-opacity': 0.9
+          }
+        });
+
+        const bounds = getBoundsFromGeoJSON(geojson);
+        if (bounds) {
+          map.fitBounds(bounds, { padding: 30, maxZoom: 9 });
+        }
+      } catch (err) {
+        alert('Failed to load jurisdiction boundaries. Run build_jurisdiction_geojson.py first.');
+      }
+    });
+  </script>
+</body>
+</html>

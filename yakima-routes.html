@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yakima area — bus routes & stops</title>
+  <link href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; width: 100%; font-family: system-ui, sans-serif; }
+    .layout { display: flex; height: 100%; width: 100%; }
+    .map-wrap { position: relative; flex: 1 1 auto; min-width: 0; }
+    #map { width: 100%; height: 100%; }
+    .map-title {
+      position: absolute; top: 10px; left: 10px;
+      padding: 6px 10px; background: rgba(255,255,255,0.95); border-radius: 4px;
+      font-size: 14px; font-weight: 600; z-index: 1; max-width: 280px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+    }
+    .map-title .sub { font-size: 12px; font-weight: 400; color: #555; margin-top: 4px; }
+    .sidebars {
+      display: flex; flex-direction: column; width: 340px; min-width: 300px;
+      border-left: 1px solid #ddd; background: #f8f9fa;
+    }
+    .sidebar-panel {
+      flex: 1 1 50%; border-bottom: 1px solid #ddd; background: #fff;
+      padding: 12px; box-sizing: border-box; font-size: 13px; color: #333;
+      overflow-y: auto;
+    }
+    .sidebar-panel h3 { margin: 0 0 10px; font-size: 14px; }
+    .sidebar-panel p { margin: 6px 0; }
+    .sidebar-panel .muted { color: #666; }
+    .legend-row { display: flex; align-items: center; gap: 8px; margin: 6px 0; font-size: 13px; }
+    .legend-swatch { width: 16px; height: 16px; flex-shrink: 0; border: 1px solid rgba(0,0,0,0.15); border-radius: 2px; }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div class="map-title">
+        Yakima area transit
+        <div class="sub">Click a stop: <strong>purple walkshed edges</strong>, sidebar counts, <strong>teal</strong> amenity pins.</div>
+      </div>
+    </div>
+    <div class="sidebars">
+      <div class="sidebar-panel" id="route-details"></div>
+      <div class="sidebar-panel" id="route-panel-2">
+        <h3>Route line color (score)</h3>
+        <div class="legend-row"><span class="legend-swatch" style="background:#1F77B4"></span><span>Great</span></div>
+        <div class="legend-row"><span class="legend-swatch" style="background:#AEC7E8"></span><span>Good</span></div>
+        <div class="legend-row"><span class="legend-swatch" style="background:#D6D6D6"></span><span>Acceptable</span></div>
+        <div class="legend-row"><span class="legend-swatch" style="background:#7F7F7F"></span><span>Ok</span></div>
+        <div class="legend-row"><span class="legend-swatch" style="background:#525252"></span><span>Poor</span></div>
+        <p class="muted" style="margin-top:12px">Routes: <code>WA Bus Routes with score - Yakima city subset.csv</code></p>
+        <p class="muted">Walkshed lines: <code>walkshed_edges_by_stop/*.geojson</code> from <code>export_walkshed_edges_per_stop.py</code></p>
+        <p class="muted">Stop amenities: counts CSV + <code>…_amenity_locations.csv</code></p>
+        <p class="muted" style="margin-top:8px">Blue tint: Yakima city limits (<code>jurisdiction_bounds/Yakima_city_limits.geojson</code>).</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const YAKIMA_CENTER = [-120.52, 46.60];
+    const YAKIMA_ZOOM = 11;
+
+    const map = new maplibregl.Map({
+      container: 'map',
+      style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+      center: YAKIMA_CENTER,
+      zoom: YAKIMA_ZOOM
+    });
+
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    /** Per-stop counts from count_amenities_in_walksheds.py (agency + stop_id must match map). */
+    const AMENITY_COUNTS_URL =
+      'data/95b532a7-cd6f-451b-8c5f-f78577427480/data/metrics/yakima_stop_amenity_counts.csv';
+    /** Per–(stop, agency) amenity points for map (from count_amenities_in_walksheds --out-detail). */
+    const AMENITY_LOCATIONS_URL =
+      'data/95b532a7-cd6f-451b-8c5f-f78577427480/data/metrics/yakima_stop_amenity_counts_amenity_locations.csv';
+    /** City limits backdrop (low-opacity fill under routes). */
+    const YAKIMA_CITY_BOUNDARY_URL = 'jurisdiction_bounds/Yakima_city_limits.geojson';
+    /**
+     * Per-stop walkshed edge files from export_walkshed_edges_per_stop.py
+     * (one GeoJSON per stop: {agency}_{stop_id}.geojson).
+     */
+    const WALKSHED_EDGES_BY_STOP_BASE =
+      'data/95b532a7-cd6f-451b-8c5f-f78577427480/data/walkshed_edges_by_stop';
+
+    let initialBounds = null;
+    let selectedPathId = null;
+    let routeDetailsByPathId = {};
+    /** @type {Map<string, { total: number, types: Record<string, number> }>|null} */
+    let amenityIndex = null;
+    /** @type {Map<string, Array<{ lat: number, lon: number, name: string, amenity: string }>>|null} */
+    let amenityLocationsByStop = null;
+    /** Invalidate in-flight walkshed fetches when selection changes. */
+    let walkshedFetchGen = 0;
+
+    function renderRouteDetails(pathId) {
+      const panel = document.getElementById('route-details');
+      if (!panel) return;
+      if (!pathId) {
+        panel.innerHTML =
+          '<h3>Details</h3><p class="muted">Click a <strong>stop</strong> for walkshed amenity counts, or a <strong>route line</strong> for route info.</p>';
+        return;
+      }
+      const r = routeDetailsByPathId[pathId];
+      if (!r) {
+        panel.innerHTML = '<h3>Details</h3><p class="muted">No route details.</p>';
+        return;
+      }
+      const routeId = (r.route_path_id || pathId.split('|')[1] || pathId);
+      panel.innerHTML = `
+        <h3>Route</h3>
+        <p><strong>Agency:</strong> ${escapeHtml(r.agency || '—')}</p>
+        <p><strong>Route path ID:</strong> ${escapeHtml(routeId)}</p>
+        <p><strong>Score:</strong> ${escapeHtml(r.route_score || '—')}</p>
+        <p><strong>Stops on path:</strong> ${r.stops ? r.stops.length : '—'}</p>
+        <p class="muted">Lines connect stops in <code>path_sequence</code> order.</p>
+      `;
+    }
+
+    function escapeHtml(s) {
+      const d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
+    function parseCSV(text) {
+      const lines = text.split(/\r?\n/).filter(Boolean);
+      if (!lines.length) return { header: [], rows: [] };
+      const header = lines[0].split(',');
+      const rows = [];
+      for (let i = 1; i < lines.length; i++) {
+        const values = [];
+        let rest = lines[i];
+        for (let c = 0; c < header.length; c++) {
+          if (rest.startsWith('"')) {
+            const end = rest.indexOf('"', 1);
+            values.push(rest.slice(1, end));
+            rest = rest.slice(end + 1);
+            if (rest.startsWith(',')) rest = rest.slice(1);
+          } else {
+            const idx = rest.indexOf(',');
+            if (idx === -1) { values.push(rest); break; }
+            values.push(rest.slice(0, idx));
+            rest = rest.slice(idx + 1);
+          }
+        }
+        rows.push(values);
+      }
+      return { header, rows };
+    }
+
+    function formatAmenityTypeLabel(col) {
+      return col.replace(/_/g, ' ');
+    }
+
+    /** Build lookup: key = "Agency|stop_id" -> { total, types } (types only where count > 0). */
+    function buildAmenityLookup(csvText) {
+      const { header, rows } = parseCSV(csvText);
+      const col = (name) => header.indexOf(name);
+      const si = col('stop_id');
+      const ai = col('agency');
+      const ci = col('amenity_count');
+      if (si < 0 || ai < 0 || ci < 0) return new Map();
+      const skip = new Set(['stop_id', 'agency', 'amenity_count']);
+      const typeCols = header.filter((h) => h && !skip.has(h));
+      const idx = (name) => header.indexOf(name);
+      const map = new Map();
+      rows.forEach((row) => {
+        const stopId = String(row[si] ?? '').trim();
+        const agency = String(row[ai] ?? '').trim();
+        if (!stopId || !agency) return;
+        const key = `${agency}|${stopId}`;
+        const total = parseInt(String(row[ci] ?? '').trim(), 10);
+        const types = {};
+        typeCols.forEach((name) => {
+          const j = idx(name);
+          if (j < 0) return;
+          const v = parseInt(String(row[j] ?? '').trim(), 10);
+          if (Number.isFinite(v) && v > 0) types[name] = v;
+        });
+        map.set(key, { total: Number.isFinite(total) ? total : 0, types });
+      });
+      return map;
+    }
+
+    /** key = Agency|stop_id -> list of POI points for that walkshed */
+    function buildAmenityLocationsIndex(csvText) {
+      const { header, rows } = parseCSV(csvText);
+      const col = (name) => header.indexOf(name);
+      const si = col('stop_id');
+      const ai = col('agency');
+      const la = col('lat');
+      const lo = col('lon');
+      const na = col('name');
+      const am = col('amenity');
+      if (si < 0 || ai < 0 || la < 0 || lo < 0) return new Map();
+      const map = new Map();
+      rows.forEach((row) => {
+        const agency = String(row[ai] ?? '').trim();
+        const stopId = String(row[si] ?? '').trim();
+        if (!agency || !stopId) return;
+        const lat = parseFloat(String(row[la] ?? '').trim());
+        const lon = parseFloat(String(row[lo] ?? '').trim());
+        if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+        const key = `${agency}|${stopId}`;
+        if (!map.has(key)) map.set(key, []);
+        map.get(key).push({
+          name: na >= 0 ? String(row[na] ?? '').trim() : '',
+          amenity: am >= 0 ? String(row[am] ?? '').trim() : '',
+          lat,
+          lon
+        });
+      });
+      return map;
+    }
+
+    function clearSelectedAmenityMarkers() {
+      const src = map.getSource('selected-amenities');
+      if (src) src.setData({ type: 'FeatureCollection', features: [] });
+    }
+
+    function clearSelectedWalkshed() {
+      walkshedFetchGen += 1;
+      const src = map.getSource('selected-walkshed-edges');
+      if (src) src.setData({ type: 'FeatureCollection', features: [] });
+    }
+
+    function clearSelectedStopHighlight() {
+      const src = map.getSource('selected-stop-highlight');
+      if (src) src.setData({ type: 'FeatureCollection', features: [] });
+    }
+
+    /** Soft glow + larger dot so the active stop reads clearly on the map. */
+    function setSelectedStopHighlight(feature) {
+      const src = map.getSource('selected-stop-highlight');
+      if (!src || !feature || !feature.geometry) return;
+      src.setData({
+        type: 'FeatureCollection',
+        features: [{ type: 'Feature', properties: feature.properties || {}, geometry: feature.geometry }]
+      });
+    }
+
+    /** Match export_walkshed_edges_per_stop.py safe_file_part(). */
+    function safeFilePart(s) {
+      return (
+        String(s)
+          .trim()
+          .replace(/[^\w\-]+/g, '_')
+          .replace(/_+/g, '_')
+          .replace(/^_|_$/g, '') || 'unknown'
+      );
+    }
+
+    async function showWalkshedForStop(props) {
+      const gen = ++walkshedFetchGen;
+      const src = map.getSource('selected-walkshed-edges');
+      if (!src) return;
+      src.setData({ type: 'FeatureCollection', features: [] });
+      const agency = String(props.agency ?? '').trim();
+      const stopId = String(props.stop_id ?? '').trim();
+      const base = WALKSHED_EDGES_BY_STOP_BASE;
+      const fn = `${safeFilePart(agency)}_${safeFilePart(stopId)}.geojson`;
+      const url = (base.endsWith('/') ? base : base + '/') + fn;
+      try {
+        const r = await fetch(url);
+        if (gen !== walkshedFetchGen) return;
+        if (!r.ok) {
+          src.setData({ type: 'FeatureCollection', features: [] });
+          if (r.status !== 404) console.warn('Walkshed edges:', r.status, url);
+          return;
+        }
+        const gj = await r.json();
+        if (gen !== walkshedFetchGen) return;
+        src.setData(gj);
+      } catch (e) {
+        if (gen !== walkshedFetchGen) return;
+        console.warn('Walkshed edges fetch failed:', e);
+        src.setData({ type: 'FeatureCollection', features: [] });
+      }
+    }
+
+    /** Show POI pins + labels for this stop when counts say amenities exist and detail rows exist. */
+    function showAmenityMarkersForStop(props) {
+      const agency = String(props.agency ?? '').trim();
+      const stopId = String(props.stop_id ?? '').trim();
+      const key = `${agency}|${stopId}`;
+      const summary = amenityIndex ? amenityIndex.get(key) : null;
+      const src = map.getSource('selected-amenities');
+      if (!src) return;
+
+      if (!summary || summary.total <= 0 || !amenityLocationsByStop) {
+        clearSelectedAmenityMarkers();
+        return;
+      }
+      const pts = amenityLocationsByStop.get(key) || [];
+      if (!pts.length) {
+        clearSelectedAmenityMarkers();
+        return;
+      }
+
+      const features = pts.map((pt, i) => {
+        const name = (pt.name || '').trim();
+        const amenity = (pt.amenity || '').trim();
+        const label =
+          name || (amenity ? formatAmenityTypeLabel(amenity.replace(/_/g, ' ')) : 'POI');
+        return {
+          type: 'Feature',
+          id: i,
+          properties: { name, amenity, label },
+          geometry: { type: 'Point', coordinates: [pt.lon, pt.lat] }
+        };
+      });
+      src.setData({ type: 'FeatureCollection', features });
+    }
+
+    function renderStopWalkshedPanel(props) {
+      const panel = document.getElementById('route-details');
+      if (!panel) return;
+      const agency = String(props.agency ?? '').trim();
+      const stopId = String(props.stop_id ?? '').trim();
+      const key = `${agency}|${stopId}`;
+      const row = amenityIndex ? amenityIndex.get(key) : null;
+
+      let typesBlock = '';
+      if (!amenityIndex) {
+        typesBlock =
+          '<p class="muted" style="margin-top:8px">Could not load amenity counts CSV. Serve this folder over HTTP and check <code>AMENITY_COUNTS_URL</code> in the page source.</p>';
+      } else if (!row) {
+        typesBlock =
+          '<p class="muted" style="margin-top:8px"><strong>No metrics row</strong> — no line in the counts CSV for <code>' +
+          escapeHtml(key) +
+          '</code>. This stop was not an origin in the <strong>combined walkshed edges</strong> file used for <code>count_amenities_in_walksheds.py</code>, or <code>agency</code> / <code>stop_id</code> don’t match (e.g. spelling).</p>' +
+          '<p class="muted" style="margin-top:8px;font-size:12px">After a current run of the script, <strong>total 0</strong> means a walkshed existed but no POIs fell inside it; missing rows mean the stop wasn’t in that edges file at all.</p>';
+      } else if (row.total === 0) {
+        typesBlock =
+          '<p class="muted" style="margin-top:8px">This stop’s walkshed was counted; <strong>no</strong> filtered OSM amenities fell inside the buffered pedestrian network.</p>';
+      } else {
+        const keys = Object.keys(row.types).sort();
+        if (keys.length) {
+          typesBlock =
+            '<ul style="margin:8px 0 0 18px;padding:0;line-height:1.45">' +
+            keys
+              .map(
+                (t) =>
+                  `<li>${escapeHtml(formatAmenityTypeLabel(t))}: <strong>${row.types[t]}</strong></li>`
+              )
+              .join('') +
+            '</ul>';
+        } else {
+          typesBlock =
+            '<p class="muted" style="margin-top:8px">Total &gt; 0 but no per-type columns — check CSV.</p>';
+        }
+      }
+
+      let pinHint = '';
+      if (row && row.total > 0) {
+        if (!amenityLocationsByStop) {
+          pinHint =
+            '<p class="muted" style="font-size:12px;margin-top:10px">Locations CSV not loaded — no map pins.</p>';
+        } else {
+          const n = (amenityLocationsByStop.get(key) || []).length;
+          pinHint =
+            n > 0
+              ? `<p class="muted" style="font-size:12px;margin-top:10px"><strong>${n}</strong> amenit${n === 1 ? 'y' : 'ies'} on the map (teal pins + labels).</p>`
+              : '<p class="muted" style="font-size:12px;margin-top:10px">No rows in the locations file for this stop — pins hidden (regenerate <code>*_amenity_locations.csv</code>).</p>';
+        }
+      }
+
+      panel.innerHTML = `
+        <h3>Stop · walkshed amenities</h3>
+        <p><strong>${escapeHtml(props.stop_name || 'Stop')}</strong></p>
+        <p><span class="muted">Stop ID</span> ${escapeHtml(stopId || '—')}<br/>
+        <span class="muted">Agency</span> ${escapeHtml(agency || '—')}</p>
+        <p style="margin-top:12px"><strong>Total amenities in walkshed:</strong> ${row ? row.total : '—'}</p>
+        <p class="muted" style="font-size:11px;margin-top:4px">Pedestrian combined walkshed (buffered edges), same as <code>count_amenities_in_walksheds.py</code>.</p>
+        <h4 style="margin:14px 0 6px;font-size:13px">By type</h4>
+        ${typesBlock}
+        ${pinHint}
+      `;
+    }
+
+    /** Yakima city subset: no agency exclusions; collect deduped stop points for map. */
+    function buildRoutesAndStopsFromCSV(csvText) {
+      const { header, rows } = parseCSV(csvText);
+      const i = (name) => header.indexOf(name);
+      const pathIdIdx = i('route_path_id');
+      const agencyIdx = i('agency');
+      const latIdx = i('stop_lat');
+      const lonIdx = i('stop_lon');
+      const seqIdx = i('path_sequence');
+      const colorIdx = i('route_color');
+      const scoreIdx = i('route_score');
+      const popIdx = i('population_served');
+      const popLowIdx = i('population_served_low_wheelchair_essentials');
+      const pctIdx = i('pct_served_low_essentials');
+      const stopIdIdx = i('stop_id');
+      const stopNameIdx = i('stop_name');
+
+      const byPath = {};
+      const stopsMap = new Map();
+
+      rows.forEach(row => {
+        const pathId = (row[pathIdIdx] || '').trim();
+        const agency = (row[agencyIdx] || '').trim();
+        if (!pathId) return;
+        const pathKey = agency + '|' + pathId;
+        if (!byPath[pathKey]) {
+          let rc = (colorIdx >= 0 ? (row[colorIdx] || '') : '').trim();
+          if (rc && !rc.startsWith('#')) rc = '#' + rc;
+          if (!rc) rc = '#0066cc';
+          byPath[pathKey] = {
+            pathKey,
+            agency,
+            route_path_id: pathId,
+            stops: [],
+            route_color: rc,
+            route_score: scoreIdx >= 0 ? (row[scoreIdx] || '').trim() : '',
+            population_served: popIdx >= 0 && row[popIdx] !== '' ? row[popIdx] : null,
+            population_served_low_essentials: popLowIdx >= 0 && row[popLowIdx] !== '' ? row[popLowIdx] : null,
+            pct_served_low_essentials: pctIdx >= 0 && row[pctIdx] !== '' ? row[pctIdx] : null
+          };
+        }
+        const lat = parseFloat(row[latIdx]);
+        const lon = parseFloat(row[lonIdx]);
+        const seq = parseInt(row[seqIdx], 10);
+        if (!Number.isFinite(lat) || !Number.isFinite(lon) || !Number.isFinite(seq)) return;
+        byPath[pathKey].stops.push({ path_sequence: seq, lon, lat });
+
+        const sid = stopIdIdx >= 0 ? String(row[stopIdIdx] || '').trim() : '';
+        const sname = stopNameIdx >= 0 ? String(row[stopNameIdx] || '').trim() : '';
+        const stopKey = sid ? `${agency}|${sid}` : `${agency}|${lon.toFixed(5)}|${lat.toFixed(5)}`;
+        if (!stopsMap.has(stopKey)) {
+          const rs = scoreIdx >= 0 ? String(row[scoreIdx] || '').trim() : '';
+          stopsMap.set(stopKey, {
+            type: 'Feature',
+            properties: {
+              stop_id: sid,
+              stop_name: sname,
+              agency: agency,
+              route_score: rs
+            },
+            geometry: { type: 'Point', coordinates: [lon, lat] }
+          });
+        }
+      });
+
+      const routes = Object.values(byPath).map(r => {
+        r.stops.sort((a, b) => a.path_sequence - b.path_sequence);
+        const seen = new Set();
+        r.stops = r.stops.filter(s => {
+          if (seen.has(s.path_sequence)) return false;
+          seen.add(s.path_sequence);
+          return true;
+        });
+        r.coordinates = r.stops.map(s => [s.lon, s.lat]);
+        return r;
+      });
+
+      return {
+        routes,
+        stopsGeoJSON: { type: 'FeatureCollection', features: [...stopsMap.values()] }
+      };
+    }
+
+    function routesToGeoJSON(routes) {
+      const features = routes
+        .filter(r => r.coordinates.length >= 2)
+        .map(r => ({
+          type: 'Feature',
+          properties: { pathId: r.pathKey, agency: r.agency, route_score: r.route_score || '' },
+          geometry: { type: 'LineString', coordinates: r.coordinates }
+        }));
+      return { type: 'FeatureCollection', features };
+    }
+
+    function getBoundsFromLineFeatures(features) {
+      const bounds = new maplibregl.LngLatBounds();
+      features.forEach(f => {
+        const coords = f.geometry && f.geometry.coordinates;
+        if (!coords) return;
+        coords.forEach(([lng, lat]) => bounds.extend([lng, lat]));
+      });
+      return bounds.isEmpty() ? null : bounds;
+    }
+
+    function getBoundsFromPoints(features) {
+      const bounds = new maplibregl.LngLatBounds();
+      features.forEach(f => {
+        const c = f.geometry && f.geometry.coordinates;
+        if (c && c.length >= 2) bounds.extend(c);
+      });
+      return bounds.isEmpty() ? null : bounds;
+    }
+
+    /** Extend LngLatBounds with all coordinates in a GeoJSON (Polygon / MultiPolygon / etc.). */
+    function extendBoundsFromGeoJSON(bounds, geojson) {
+      function walkCoords(coords) {
+        if (!coords || !coords.length) return;
+        if (typeof coords[0] === 'number' && typeof coords[1] === 'number') {
+          bounds.extend(/** @type {[number, number]} */ (coords));
+        } else {
+          coords.forEach(walkCoords);
+        }
+      }
+      (geojson.features || []).forEach((f) => {
+        if (f.geometry && f.geometry.coordinates) walkCoords(f.geometry.coordinates);
+      });
+    }
+
+    map.on('load', async () => {
+      try {
+        const [routesResp, amenityResp, amenityLocResp, boundaryResp] = await Promise.all([
+          fetch('WA Bus Routes with score - Yakima city subset.csv'),
+          fetch(AMENITY_COUNTS_URL),
+          fetch(AMENITY_LOCATIONS_URL),
+          fetch(YAKIMA_CITY_BOUNDARY_URL)
+        ]);
+        if (!routesResp.ok) throw new Error('Routes: ' + routesResp.status + ' ' + routesResp.statusText);
+        if (amenityResp.ok) {
+          amenityIndex = buildAmenityLookup(await amenityResp.text());
+          console.log('Amenity walkshed index:', amenityIndex.size, 'stops');
+        } else {
+          console.warn('Amenity counts CSV not loaded:', amenityResp.status, AMENITY_COUNTS_URL);
+          amenityIndex = null;
+        }
+        if (amenityLocResp.ok) {
+          amenityLocationsByStop = buildAmenityLocationsIndex(await amenityLocResp.text());
+          console.log('Amenity location groups:', amenityLocationsByStop.size);
+        } else {
+          console.warn('Amenity locations CSV not loaded:', amenityLocResp.status, AMENITY_LOCATIONS_URL);
+          amenityLocationsByStop = null;
+        }
+
+        let cityBoundaryGeoJSON = null;
+        if (boundaryResp.ok) {
+          cityBoundaryGeoJSON = await boundaryResp.json();
+        } else {
+          console.warn('Yakima city boundary not loaded:', boundaryResp.status, YAKIMA_CITY_BOUNDARY_URL);
+        }
+
+        const csvText = await routesResp.text();
+        const { routes, stopsGeoJSON } = buildRoutesAndStopsFromCSV(csvText);
+        routes.forEach(r => { routeDetailsByPathId[r.pathKey] = r; });
+        const lineGeoJSON = routesToGeoJSON(routes);
+
+        renderRouteDetails(null);
+
+        const scoreColorExpr = [
+          'match',
+          ['get', 'route_score'],
+          'Great', '#1F77B4',
+          'Good', '#AEC7E8',
+          'Acceptable', '#D6D6D6',
+          'Ok', '#7F7F7F',
+          'Poor', '#525252',
+          '#888888'
+        ];
+
+        if (cityBoundaryGeoJSON && cityBoundaryGeoJSON.features && cityBoundaryGeoJSON.features.length) {
+          map.addSource('yakima-city-boundary', { type: 'geojson', data: cityBoundaryGeoJSON });
+          map.addLayer({
+            id: 'yakima-city-boundary-fill',
+            type: 'fill',
+            source: 'yakima-city-boundary',
+            paint: {
+              'fill-color': '#1d4ed8',
+              'fill-opacity': 0.1
+            }
+          });
+          map.addLayer({
+            id: 'yakima-city-boundary-outline',
+            type: 'line',
+            source: 'yakima-city-boundary',
+            paint: {
+              'line-color': '#1e3a8a',
+              'line-width': 1,
+              'line-opacity': 0.22
+            }
+          });
+        }
+
+        map.addSource('selected-walkshed-edges', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+
+        map.addSource('routes', { type: 'geojson', data: lineGeoJSON });
+        map.addLayer({
+          id: 'routes-line',
+          type: 'line',
+          source: 'routes',
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: {
+            'line-color': scoreColorExpr,
+            'line-width': 3,
+            'line-opacity': 0.88
+          }
+        });
+
+        /* Walkshed above bus routes so it stays visible when selected; stops/amenities stay on top. */
+        map.addLayer({
+          id: 'selected-walkshed-line',
+          type: 'line',
+          source: 'selected-walkshed-edges',
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: {
+            'line-color': '#6d28d9',
+            'line-width': 4,
+            'line-opacity': 0.82
+          }
+        });
+
+        map.addSource('stops', { type: 'geojson', data: stopsGeoJSON });
+        map.addLayer({
+          id: 'stops-circle',
+          type: 'circle',
+          source: 'stops',
+          paint: {
+            'circle-radius': 4,
+            'circle-color': scoreColorExpr,
+            'circle-opacity': 0.9,
+            'circle-stroke-width': 0
+          }
+        });
+
+        map.addSource('selected-stop-highlight', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+        map.addLayer({
+          id: 'stops-selected-glow',
+          type: 'circle',
+          source: 'selected-stop-highlight',
+          paint: {
+            'circle-radius': 22,
+            'circle-color': '#fef08a',
+            'circle-opacity': 0.5,
+            'circle-blur': 1
+          }
+        });
+        map.addLayer({
+          id: 'stops-selected-dot',
+          type: 'circle',
+          source: 'selected-stop-highlight',
+          paint: {
+            'circle-radius': 9,
+            'circle-color': scoreColorExpr,
+            'circle-opacity': 1,
+            'circle-stroke-width': 2.5,
+            'circle-stroke-color': '#ffffff'
+          }
+        });
+
+        map.addSource('selected-amenities', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        });
+        map.addLayer(
+          {
+            id: 'selected-amenities-circle',
+            type: 'circle',
+            source: 'selected-amenities',
+            paint: {
+              'circle-radius': 6,
+              'circle-color': '#0f766e',
+              'circle-opacity': 0.92,
+              'circle-stroke-width': 1.5,
+              'circle-stroke-color': '#ffffff'
+            }
+          },
+          'stops-circle'
+        );
+        map.addLayer(
+          {
+            id: 'selected-amenities-label',
+            type: 'symbol',
+            source: 'selected-amenities',
+            layout: {
+              'text-field': ['get', 'label'],
+              'text-size': 11,
+              'text-offset': [0, 1.15],
+              'text-anchor': 'top',
+              'text-max-width': 14,
+              'text-optional': true,
+              'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular']
+            },
+            paint: {
+              'text-color': '#115e59',
+              'text-halo-color': '#ffffff',
+              'text-halo-width': 2
+            }
+          },
+          'stops-circle'
+        );
+
+        const bLines = getBoundsFromLineFeatures(lineGeoJSON.features);
+        const bPts = getBoundsFromPoints(stopsGeoJSON.features);
+        let bounds = bLines || bPts;
+        if (bLines && bPts) {
+          bounds = new maplibregl.LngLatBounds();
+          [
+            [bLines.getWest(), bLines.getSouth()],
+            [bLines.getEast(), bLines.getNorth()],
+            [bPts.getWest(), bPts.getSouth()],
+            [bPts.getEast(), bPts.getNorth()]
+          ].forEach(([lng, lat]) => bounds.extend([lng, lat]));
+        }
+        if (bounds && cityBoundaryGeoJSON) {
+          extendBoundsFromGeoJSON(bounds, cityBoundaryGeoJSON);
+        }
+        if (bounds) {
+          initialBounds = bounds;
+          map.fitBounds(bounds, { padding: 48, maxZoom: 13 });
+        }
+
+        map.on('click', 'routes-line', (e) => {
+          if (!e.features.length) return;
+          const f = e.features[0];
+          const pathId = f.properties.pathId;
+          if (!pathId) return;
+          clearSelectedAmenityMarkers();
+          clearSelectedWalkshed();
+          clearSelectedStopHighlight();
+          if (selectedPathId === pathId) {
+            selectedPathId = null;
+            renderRouteDetails(null);
+            if (initialBounds) map.fitBounds(initialBounds, { padding: 48, maxZoom: 13 });
+            return;
+          }
+
+          selectedPathId = pathId;
+          renderRouteDetails(pathId);
+          const coords = f.geometry && f.geometry.coordinates;
+          if (coords && coords.length) {
+            const routeBounds = new maplibregl.LngLatBounds();
+            coords.forEach(([lng, lat]) => routeBounds.extend([lng, lat]));
+            map.fitBounds(routeBounds, { padding: 50, maxZoom: 14 });
+          }
+        });
+
+        map.on('click', 'stops-circle', (e) => {
+          if (!e.features.length) return;
+          const f = e.features[0];
+          const p = f.properties || {};
+          selectedPathId = null;
+          setSelectedStopHighlight(f);
+          renderStopWalkshedPanel(p);
+          showWalkshedForStop(p);
+          showAmenityMarkersForStop(p);
+        });
+
+        map.on('click', (e) => {
+          const lineFeats = map.queryRenderedFeatures(e.point, { layers: ['routes-line'] });
+          const stopFeats = map.queryRenderedFeatures(e.point, { layers: ['stops-circle'] });
+          const stopHlFeats = map.queryRenderedFeatures(e.point, {
+            layers: ['stops-selected-glow', 'stops-selected-dot']
+          });
+          const overlayFeats = map.queryRenderedFeatures(e.point, {
+            layers: [
+              'selected-amenities-circle',
+              'selected-amenities-label',
+              'selected-walkshed-line'
+            ]
+          });
+          if (lineFeats.length || stopFeats.length || stopHlFeats.length) return;
+          if (overlayFeats.length) return;
+          selectedPathId = null;
+          renderRouteDetails(null);
+          clearSelectedAmenityMarkers();
+          clearSelectedWalkshed();
+          clearSelectedStopHighlight();
+          if (initialBounds) map.fitBounds(initialBounds, { padding: 48, maxZoom: 13 });
+        });
+
+        map.on('mouseenter', 'routes-line', () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'routes-line', () => { map.getCanvas().style.cursor = ''; });
+        map.on('mouseenter', 'stops-circle', () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'stops-circle', () => { map.getCanvas().style.cursor = ''; });
+        map.on('mouseenter', 'stops-selected-dot', () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'stops-selected-dot', () => { map.getCanvas().style.cursor = ''; });
+        map.on('mouseenter', 'selected-amenities-circle', () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'selected-amenities-circle', () => { map.getCanvas().style.cursor = ''; });
+      } catch (err) {
+        alert('Failed to load Yakima routes: ' + err.message);
+        console.error(err);
+      }
+    });
+  </script>
+</body>
+</html>
