@@ -73,12 +73,18 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
+    // TODO: after running upload_to_r2.sh, replace the DATA_BASE value with your
+    // R2 public bucket URL (e.g. 'https://pub-<hash>.r2.dev').
+    // For local development with `npx serve`, keep it as an empty string ('').
+    const DATA_BASE = '';
+    const _YAKIMA_DATA = DATA_BASE ? `${DATA_BASE}/yakima/data` : 'data/95b532a7-cd6f-451b-8c5f-f78577427480/data';
+
     /** Per-stop counts from count_amenities_in_walksheds.py (agency + stop_id must match map). */
     const AMENITY_COUNTS_URL =
-      'data/95b532a7-cd6f-451b-8c5f-f78577427480/data/metrics/yakima_stop_amenity_counts.csv';
+      `${_YAKIMA_DATA}/metrics/yakima_stop_amenity_counts.csv`;
     /** Per–(stop, agency) amenity points for map (from count_amenities_in_walksheds --out-detail). */
     const AMENITY_LOCATIONS_URL =
-      'data/95b532a7-cd6f-451b-8c5f-f78577427480/data/metrics/yakima_stop_amenity_counts_amenity_locations.csv';
+      `${_YAKIMA_DATA}/metrics/yakima_stop_amenity_counts_amenity_locations.csv`;
     /** City limits backdrop (low-opacity fill under routes). */
     const YAKIMA_CITY_BOUNDARY_URL = 'jurisdiction_bounds/Yakima_city_limits.geojson';
     /**
@@ -86,7 +92,7 @@
      * (one GeoJSON per stop: {agency}_{stop_id}.geojson).
      */
     const WALKSHED_EDGES_BY_STOP_BASE =
-      'data/95b532a7-cd6f-451b-8c5f-f78577427480/data/walkshed_edges_by_stop';
+      `${_YAKIMA_DATA}/walkshed_edges_by_stop`;
 
     let initialBounds = null;
     let selectedPathId = null;

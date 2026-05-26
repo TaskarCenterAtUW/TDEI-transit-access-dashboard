@@ -96,7 +96,11 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-    const DATASET = 'data/05776f25-f0f3-461c-ac34-4fa88a00936c/data';
+    // TODO: after running upload_to_r2.sh, replace the DATA_BASE value with your
+    // R2 public bucket URL (e.g. 'https://pub-<hash>.r2.dev').
+    // For local development with `npx serve`, keep it as an empty string ('').
+    const DATA_BASE = '';
+    const DATASET = DATA_BASE ? `${DATA_BASE}/seattle/data` : 'data/05776f25-f0f3-461c-ac34-4fa88a00936c/data';
 
     /** Pedestrian profile data URLs */
     const PROFILES = {

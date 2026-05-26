@@ -80,12 +80,18 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
+    // TODO: after running upload_to_r2.sh, replace the DATA_BASE value with your
+    // R2 public bucket URL (e.g. 'https://pub-<hash>.r2.dev').
+    // For local development with `npx serve`, keep it as an empty string ('').
+    const DATA_BASE = '';
+    const _SPOKANE_DATA = DATA_BASE ? `${DATA_BASE}/spokane/data` : 'data/cbb2ed42-c77f-4218-96de-1b13eafa939f/data';
+
     /** Per-stop counts from count_amenities_in_walksheds.py (agency + stop_id must match map). */
     const AMENITY_COUNTS_URL =
-      'data/cbb2ed42-c77f-4218-96de-1b13eafa939f/data/metrics/spokane_stop_amenity_counts.csv';
+      `${_SPOKANE_DATA}/metrics/spokane_stop_amenity_counts.csv`;
     /** Per–(stop, agency) amenity points for map (from count_amenities_in_walksheds --out-detail). */
     const AMENITY_LOCATIONS_URL =
-      'data/cbb2ed42-c77f-4218-96de-1b13eafa939f/data/metrics/spokane_stop_amenity_counts_amenity_locations.csv';
+      `${_SPOKANE_DATA}/metrics/spokane_stop_amenity_counts_amenity_locations.csv`;
     /** City limits backdrop (low-opacity fill under routes). */
     const SPOKANE_CITY_BOUNDARY_URL = 'jurisdiction_bounds/Spokane_city_limits.geojson';
     /**
@@ -93,7 +99,7 @@
      * (one GeoJSON per stop: {agency}_{stop_id}.geojson).
      */
     const WALKSHED_EDGES_BY_STOP_BASE =
-      'data/cbb2ed42-c77f-4218-96de-1b13eafa939f/data/walkshed_edges_by_stop';
+      `${_SPOKANE_DATA}/walkshed_edges_by_stop`;
 
     let initialBounds = null;
     let selectedPathId = null;
