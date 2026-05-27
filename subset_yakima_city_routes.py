@@ -2,15 +2,22 @@
 """
 Subset WA Bus Routes with score.csv for a local map / walkshed run.
 
+Named presets:
   --area yakima   Stops inside Yakima *city limits* (`Yakima_city_limits.geojson`).
   --area spokane  Stops inside Spokane *city limits* (`Spokane_city_limits.geojson`).
+  --area seattle  Stops inside Seattle *city limits* (`Seattle_city_limits.geojson`).
 
-Both use the municipal boundary polygon, not county FIPS.
+Generic mode (any city):
+  --boundary jurisdiction_bounds/Aberdeen_city_limits.geojson
+  --output "WA Bus Routes with score - Aberdeen city subset.csv"
+  [--label Aberdeen]   (optional, just for progress messages)
 
 Usage:
   python3 subset_yakima_city_routes.py --area yakima
-  python3 subset_yakima_city_routes.py --area spokane
   python3 subset_yakima_city_routes.py --area seattle
+  python3 subset_yakima_city_routes.py \\
+      --boundary jurisdiction_bounds/Aberdeen_city_limits.geojson \\
+      --output "WA Bus Routes with score - Aberdeen city subset.csv"
 """
 from __future__ import annotations
 
@@ -83,24 +90,48 @@ def subset_by_city_limits(
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Subset WA Bus Routes CSV by city limits")
-    ap.add_argument(
+    group = ap.add_mutually_exclusive_group(required=True)
+    group.add_argument(
         "--area",
         choices=("yakima", "spokane", "seattle"),
-        required=True,
-        help="City polygon from jurisdiction_bounds/",
+        help="Named preset city polygon from jurisdiction_bounds/",
+    )
+    group.add_argument(
+        "--boundary",
+        type=Path,
+        help="Path to any boundary GeoJSON (generic mode)",
+    )
+    ap.add_argument(
+        "--output",
+        type=Path,
+        default=None,
+        help="Output CSV path (required in generic --boundary mode)",
+    )
+    ap.add_argument(
+        "--label",
+        default=None,
+        help="Display label for progress messages (generic mode)",
     )
     args = ap.parse_args()
 
     if not INPUT_CSV.is_file():
         raise SystemExit(f"Input not found: {INPUT_CSV}")
 
-    if args.area == "yakima":
-        subset_by_city_limits(YAKIMA_BOUNDARY, YAKIMA_OUTPUT, "Yakima")
+    if args.area:
+        if args.area == "yakima":
+            subset_by_city_limits(YAKIMA_BOUNDARY, YAKIMA_OUTPUT, "Yakima")
+        elif args.area == "spokane":
+            subset_by_city_limits(SPOKANE_BOUNDARY, SPOKANE_OUTPUT, "Spokane")
+        else:
+            subset_by_city_limits(SEATTLE_BOUNDARY, SEATTLE_OUTPUT, "Seattle")
         return
-    if args.area == "spokane":
-        subset_by_city_limits(SPOKANE_BOUNDARY, SPOKANE_OUTPUT, "Spokane")
-        return
-    subset_by_city_limits(SEATTLE_BOUNDARY, SEATTLE_OUTPUT, "Seattle")
+
+    # Generic mode
+    if not args.output:
+        raise SystemExit("--output is required when using --boundary")
+    boundary = args.boundary if args.boundary.is_absolute() else ROOT / args.boundary
+    label = args.label or boundary.stem
+    subset_by_city_limits(boundary, args.output, label)
 
 
 if __name__ == "__main__":

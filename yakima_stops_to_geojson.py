@@ -50,7 +50,7 @@ def main() -> None:
         "--preset",
         choices=("yakima", "spokane", "seattle"),
         default=None,
-        help="Default input/output paths for Yakima, Spokane, or Seattle city",
+        help="Named preset for Yakima, Spokane, or Seattle city",
     )
     parser.add_argument(
         "--input",
@@ -64,20 +64,34 @@ def main() -> None:
         default=None,
         help="Output GeoJSON path",
     )
+    parser.add_argument(
+        "--dataset-id",
+        default=None,
+        help="TDEI OSW dataset UUID — used with --city-slug to set output path automatically",
+    )
+    parser.add_argument(
+        "--city-slug",
+        default=None,
+        help="Lowercase city slug (e.g. 'aberdeen') — sets output filename to <slug>_bus_stops.geojson",
+    )
     args = parser.parse_args()
 
-    if args.preset and (args.input is not None or args.output is not None):
-        raise SystemExit("Use either --preset alone or explicit --input/--output, not both.")
+    if args.preset and (args.input is not None or args.output is not None or args.city_slug or args.dataset_id):
+        raise SystemExit("Use either --preset alone or the generic --input/--output/--city-slug/--dataset-id flags.")
 
     if args.preset:
         cfg = PRESETS[args.preset]
         input_path = cfg["input"]
         output_path = cfg["output"]
         collection_name = cfg["collection_name"]
+    elif args.city_slug and args.dataset_id:
+        # Generic mode: derive paths from city slug + dataset ID
+        stops_dir = ROOT / "data" / args.dataset_id / "data" / "stops"
+        input_path = args.input or (ROOT / f"WA Bus Routes with score - {args.city_slug.replace('-', ' ').title()} city subset.csv")
+        output_path = args.output or (stops_dir / f"{args.city_slug}_bus_stops.geojson")
+        collection_name = f"{args.city_slug.replace('-', ' ').title()} city unique bus stops"
     else:
-        input_path = args.input or (
-            ROOT / "WA Bus Routes with score - Yakima city subset.csv"
-        )
+        input_path = args.input or (ROOT / "WA Bus Routes with score - Yakima city subset.csv")
         output_path = args.output or (ROOT / "yakima_unique_stops.geojson")
         collection_name = "Bus stops"
 

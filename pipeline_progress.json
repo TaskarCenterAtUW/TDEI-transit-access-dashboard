@@ -1,0 +1,6 @@
+{
+  "WSP_Aberdeen_City": {
+    "status": "failed",
+    "error": "Step 'subset_routes' failed (exit -11)"
+  }
+}
