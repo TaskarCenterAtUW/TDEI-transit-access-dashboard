@@ -102,12 +102,12 @@ def main() -> None:
         status = c["status"]
         if status == "completed":
             badge = '<span class="badge badge-done">Done</span>'
-            link_attr = f'href="{c["slug"]}.html"'
+            link_attr = f'href="/cities/{c["slug"]}.html"'
             link_tag = "a"
             extra_class = "card-done"
         elif status == "no_stops":
             badge = '<span class="badge badge-empty">No data</span>'
-            link_attr = f'href="{c["slug"]}.html"'
+            link_attr = f'href="/cities/{c["slug"]}.html"'
             link_tag = "a"
             extra_class = "card-empty"
         elif status == "failed":

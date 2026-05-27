@@ -1,6 +1,14 @@
 {
   "WSP_Aberdeen_City": {
-    "status": "failed",
-    "error": "Step 'subset_routes' failed (exit -11)"
+    "status": "completed"
+  },
+  "WSP_Seattle_City": {
+    "status": "completed"
+  },
+  "WSP_Spokane_City": {
+    "status": "completed"
+  },
+  "WSP_Yakima_City": {
+    "status": "completed"
   }
 }
