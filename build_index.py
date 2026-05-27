@@ -183,13 +183,12 @@ def main() -> None:
     .badge-fail    {{ background: #fee2e2; color: #991b1b; }}
     .badge-pending {{ background: #f1f5f9; color: #64748b; }}
     .card-pending, .card-fail {{ opacity: 0.6; }}
-    .back-link {{ padding: 0 28px 20px; }}
-    .back-link a {{ color: #1d4ed8; font-size: 13px; }}
   </style>
 </head>
 <body>
   <header>
     <h1>WA Transit Accessibility Maps — All Cities</h1>
+    <a href="../statewide.html" style="color:#93c5fd; font-size:13px; text-decoration:none; white-space:nowrap;">← Statewide map</a>
     <div class="stats">
       {completed} complete &nbsp;·&nbsp;
       {no_stops} no data &nbsp;·&nbsp;
@@ -207,10 +206,6 @@ def main() -> None:
       <button class="filter-btn" data-filter="pending" onclick="setFilter('pending',this)">Pending</button>
       <button class="filter-btn" data-filter="failed" onclick="setFilter('failed',this)">Failed</button>
     </div>
-  </div>
-
-  <div class="back-link">
-    <a href="../index.html">← Back to main dashboard</a>
   </div>
 
   <div class="grid" id="grid">
