@@ -400,6 +400,7 @@ def run_pipeline(
     batch_size: int = 500,
     skip_walksheds: bool = False,
     force_step: str | None = None,
+    dataset_id_override: str | None = None,
 ) -> str:
     """
     Run the full pipeline for one jurisdiction. Returns the final status string
@@ -415,6 +416,9 @@ def run_pipeline(
         raise SystemExit(f"Unknown jurisdiction: {wsp_name}\nCheck Jurisdiction Codes.csv")
 
     _, dataset_id = all_datasets[wsp_name]
+    if dataset_id_override:
+        dataset_id = dataset_id_override
+        print(f"  (dataset ID overridden to {dataset_id})")
     place, type_str = parse_wsp_name(wsp_name)
     city_display = to_display_name(place)
     city_slug = to_slug(city_display)
@@ -500,10 +504,11 @@ def run_pipeline(
                        "--batch-size", batch_size,
                        "--batch-index", start // batch_size),
                     f"walksheds_ped batch {start}-{end}")
-            # Merge batches
+            # Merge batches and delete intermediates to save disk space
             run(py("run_walksheds_from_geojson.py",
                    "--dataset", dataset_id,
-                   "--merge-batches"),
+                   "--merge-batches",
+                   "--delete-batch-files"),
                 "walksheds_ped merge")
             ped_combined = find_combined_edges(data_path, ped_profile)
         else:
@@ -531,7 +536,8 @@ def run_pipeline(
                     f"walksheds_wc batch {start}-{end}")
             run(py("run_walksheds_from_geojson.py",
                    "--dataset", dataset_id,
-                   "--merge-batches"),
+                   "--merge-batches",
+                   "--delete-batch-files"),
                 "walksheds_wc merge")
             wc_combined = find_combined_edges(data_path, wc_profile)
         else:
@@ -610,6 +616,11 @@ def main() -> None:
         help="WSP jurisdiction name, e.g. WSP_Aberdeen_City (from Jurisdiction Codes.csv)",
     )
     ap.add_argument(
+        "--dataset-id",
+        default=None,
+        help="Override the dataset ID instead of using the highest-version one from Jurisdiction Codes.csv",
+    )
+    ap.add_argument(
         "--batch-size",
         type=int,
         default=500,
@@ -639,6 +650,7 @@ def main() -> None:
             batch_size=args.batch_size,
             skip_walksheds=args.skip_walksheds,
             force_step=args.force_step,
+            dataset_id_override=args.dataset_id,
         )
         progress[args.city] = {"status": status}
         save_progress(progress)
