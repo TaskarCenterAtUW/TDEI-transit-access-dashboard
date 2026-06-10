@@ -1,0 +1,7 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+3305,0,3305_0,4,47.562847,-122.626062,810942,Bremerton Ferry Terminal,Mason Transit Authority,,,,,,NO,NO,NO,NO,53035080500,805,035,080500,Ok
+3305,1,3305_1,1,47.562847,-122.626062,810942,Bremerton Ferry Terminal,Mason Transit Authority,,,,,,NO,NO,NO,NO,53035080500,805,035,080500,Ok
+3423,0,3423_0,3,47.562847,-122.626062,810942,Bremerton Ferry Terminal,Mason Transit Authority,,,,,,NO,NO,NO,NO,53035080500,805,035,080500,Ok
+3423,1,3423_1,1,47.562847,-122.626062,810942,Bremerton Ferry Terminal,Mason Transit Authority,,,,,,NO,NO,NO,NO,53035080500,805,035,080500,Ok
+47,0,47_0,1,47.562533,-122.625146,4,Bremerton,Washington State Ferries,,,,,,YES,YES,NO,YES,53035080500,805,035,080500,Good
+74,0,74_0,2,47.562533,-122.625146,4,Bremerton,Washington State Ferries,,,,,,YES,YES,NO,YES,53035080500,805,035,080500,Good

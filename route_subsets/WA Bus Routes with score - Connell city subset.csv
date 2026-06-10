@@ -1,0 +1,3 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19707,0,19707_0,7,46.649618,-118.862447,2754799,Columbia Basin Health Assoc - Connell,People for People,,,,,,NO,NO,NO,NO,53021020802,208.02,021,020802,Poor
+19707,1,19707_1,2,46.649618,-118.862447,2754799,Columbia Basin Health Assoc - Connell,People for People,,,,,,NO,NO,NO,NO,53021020802,208.02,021,020802,Poor

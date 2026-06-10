@@ -1,0 +1,7 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+578,0,578_0,12,47.201602,-122.244408,11093,Sumner Station - Bay 2,Pierce Transit,,,,,,NO,NO,NO,YES,53053073302,733.02,053,073302,Good
+578,1,578_1,2,47.201767,-122.244198,17959,Sumner Station - Bay 1,Pierce Transit,,,,,,NO,NO,NO,YES,53053073302,733.02,053,073302,Great
+596,0,596_0,2,47.201336,-122.244691,24903,Sumner Station - Bay 3,Pierce Transit,,,,,,NO,NO,NO,NO,53053073302,733.02,053,073302,Poor
+596,1,596_1,1,47.201336,-122.244691,24903,Sumner Station - Bay 3,Pierce Transit,,,,,,NO,NO,NO,NO,53053073302,733.02,053,073302,Poor
+SNDR_TL,0,SNDR_TL_0,5,47.201418,-122.244497,S_SU_NB,Sumner Station,Sound Transit,,,,,,NO,NO,NO,NO,53053073302,733.02,053,073302,Poor
+SNDR_TL,1,SNDR_TL_1,5,47.201418,-122.244497,S_SU_NB,Sumner Station,Sound Transit,,,,,,NO,NO,NO,NO,53053073302,733.02,053,073302,Poor

@@ -1,0 +1,9 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19664,0,19664_0,1,45.7292193339999,-121.480701149785,2753607,"Pioneer Center and Senior Services 501 NE Washington Street, White Salmon",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950301,9503.01,039,950301,Poor
+19664,0,19664_0,2,45.7279339735472,-121.486768622246,2753608,White Salmon West: Main and Jewett,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950301,9503.01,039,950301,Poor
+19664,0,19664_0,5,45.72418868,-121.4919218,2753614,White Salmon/Hood River Bridge Park and Ride,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950301,9503.01,039,950301,Poor
+19664,1,19664_1,4,45.72418868,-121.4919218,2753614,White Salmon/Hood River Bridge Park and Ride,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950301,9503.01,039,950301,Poor
+19664,1,19664_1,9,45.7223209191394,-121.469303224733,4211489,Rhine Village Lyons Shelter Rhine  Village Dr. WS,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950302,9503.02,039,950302,Poor
+19664,1,19664_1,10,45.727499295085416,-121.4838879412514,2753619,"Downtown White Salmon, Estes & Jewett",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950301,9503.01,039,950301,Poor
+19664,1,19664_1,11,45.7292193339999,-121.480701149785,2753607,"Pioneer Center and Senior Services 501 NE Washington Street, White Salmon",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950301,9503.01,039,950301,Poor
+19662,0,19662_0,7,45.724170081366,-121.49225567086,3449154,White Salmon/Hood River Bridge Park and Ride,Skamania County Transit,,,,,,NO,NO,NO,NO,53039950301,9503.01,039,950301,Poor

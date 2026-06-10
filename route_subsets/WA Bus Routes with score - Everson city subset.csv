@@ -1,0 +1,13 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+71X,0,71X_0,16,48.897453,-122.35294,215,Mission Rd at Suchanon Dr,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010702,107.02,073,010702,Good
+71X,0,71X_0,17,48.905973,-122.355484,205,Mission Rd at Chestnut St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010702,107.02,073,010702,Good
+71X,0,71X_0,18,48.91135,-122.35503,203,Everson Rd at Strandell St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010702,107.02,073,010702,Good
+71X,0,71X_0,19,48.915852,-122.3522,201,Everson Rd at Kale Rd,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010702,107.02,073,010702,Good
+71X,0,71X_0,20,48.920071,-122.34155,199,Main St at Kirsch Dr,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010202,102.02,073,010202,Good
+71X,0,71X_0,21,48.920143,-122.32845,229,Nooksack Valley Middle School,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010202,102.02,073,010202,Good
+71X,1,71X_1,6,48.920269,-122.32879,228,Nooksack Valley Middle School,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010201,102.01,073,010201,Good
+71X,1,71X_1,7,48.920231,-122.34151,198,Main St at Kirsch Rd,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010202,102.02,073,010202,Good
+71X,1,71X_1,8,48.915993,-122.35239,200,Everson Rd at Kale Rd,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010702,107.02,073,010702,Good
+71X,1,71X_1,9,48.911443,-122.355193,202,Everson Rd at Roeder St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010702,107.02,073,010702,Good
+71X,1,71X_1,10,48.906329,-122.355903,204,Mission Rd at Chestnut St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010702,107.02,073,010702,Good
+71X,1,71X_1,11,48.898445,-122.35312,206,Mission Rd at Suchanon Dr,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010702,107.02,073,010702,Good

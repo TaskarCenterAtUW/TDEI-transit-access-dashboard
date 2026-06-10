@@ -1,0 +1,7 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+102699,0,102699_0,8,47.649868,-121.91304,78046,Tolt Ave & W Rutherford St,Metro Transit,,,,,,NO,NO,NO,YES,53033032500,325,033,032500,Good
+102699,0,102699_0,9,47.648613,-121.913895,64326,Sr 203 & W Bird St,Metro Transit,,,,,,NO,NO,NO,YES,53033032500,325,033,032500,Good
+102699,0,102699_0,10,47.644371,-121.915649,64366,Sr 203 & NE 40th St,Metro Transit,,,,,,NO,NO,NO,YES,53033032500,325,033,032500,Good
+102699,1,102699_1,3,47.6442986,-121.915428,64364,Sr 203 & NE 40th St,Metro Transit,,,,,,NO,NO,NO,YES,53033032500,325,033,032500,Good
+102699,1,102699_1,4,47.6485634,-121.913704,78045,Sr 203 & W Bird St,Metro Transit,,,,,,NO,NO,NO,YES,53033032500,325,033,032500,Good
+102699,1,102699_1,5,47.6507492,-121.912216,78044,Tolt Ave & W Morrison St,Metro Transit,,,,,,NO,NO,NO,YES,53033032500,325,033,032500,Good

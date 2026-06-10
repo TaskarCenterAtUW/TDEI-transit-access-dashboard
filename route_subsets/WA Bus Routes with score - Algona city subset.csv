@@ -1,0 +1,18 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+100300,0,100300_0,8,47.2912216,-122.255173,81110,Algona Blvd N & 10th Ave N,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,9,47.2887192,-122.255104,81114,Algona Blvd N & 8th Ave N,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,10,47.2865067,-122.2556,81115,Algona Blvd N & Broadway,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,11,47.2839699,-122.254272,81117,Main St & 5th Ave N,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,12,47.2807388,-122.252129,81122,Main St & 2nd Ave N,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,13,47.278286,-122.250023,81126,Milwaukee Blvd S & Warde St,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,14,47.2753601,-122.250076,81130,Milwaukee Blvd S & 3rd Ave S,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,15,47.2741089,-122.250107,81132,Milwaukee Blvd S & 4th Ave S,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,1,100300_1,5,47.2711449,-122.23938,57856,Pacific Ave N & Ellingson Rd,Metro Transit,,,,,,NO,NO,NO,YES,53033030902,309.02,033,030902,Acceptable
+100300,1,100300_1,7,47.2742195,-122.249886,81172,Milwaukee Blvd S & 4th Ave S,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Acceptable
+100300,1,100300_1,8,47.2755203,-122.249878,81174,Milwaukee Blvd S & 3rd Ave S,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Acceptable
+100300,1,100300_1,9,47.2786369,-122.249817,81178,Milwaukee Blvd S & Warde St,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Acceptable
+100300,1,100300_1,10,47.2809525,-122.252045,81182,Main St & 2nd Ave N,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Acceptable
+100300,1,100300_1,11,47.28405,-122.254112,81186,Main St & 5th Ave N,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Acceptable
+100300,1,100300_1,12,47.2862015,-122.255569,81188,Main St & Broadway,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Acceptable
+100300,1,100300_1,13,47.2888412,-122.254913,81190,Algona Blvd N & 8th Ave N,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Acceptable
+100300,1,100300_1,14,47.2912331,-122.254967,81194,Algona Blvd N & 10th Ave N,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Acceptable

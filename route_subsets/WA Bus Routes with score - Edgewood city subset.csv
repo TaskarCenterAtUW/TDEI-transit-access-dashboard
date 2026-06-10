@@ -1,0 +1,20 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+402,0,402_0,15,47.252689,-122.293932,1001,Meridian E & Emerald St,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+402,0,402_0,16,47.248922,-122.293954,999,Meridian E & Milton Wy,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+402,0,402_0,17,47.24491,-122.293987,984,Meridian E & Queens Way,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+402,0,402_0,18,47.242264,-122.294003,1009,Meridian N & Taylor St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053940009,9400.09,053,940009,Good
+402,0,402_0,19,47.235181,-122.294078,991,Meridian Ave E & 24th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053940009,9400.09,053,940009,Good
+402,0,402_0,20,47.230976,-122.294048,993,Meridian Ave E & 29th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053940009,9400.09,053,940009,Good
+402,0,402_0,21,47.228476,-122.294063,994,Meridian Ave E & 32nd St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053940009,9400.09,053,940009,Good
+402,0,402_0,22,47.225451,-122.29409,997,Meridian Ave E & 36th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053940009,9400.09,053,940009,Good
+402,1,402_1,43,47.225328,-122.293937,996,Meridian Ave E & 36th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053073502,735.02,053,073502,Good
+402,1,402_1,44,47.228358,-122.293925,995,Meridian Ave E & 32nd St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053073502,735.02,053,073502,Good
+402,1,402_1,45,47.231383,-122.293925,992,Meridian Ave E & 29th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053073502,735.02,053,073502,Good
+402,1,402_1,46,47.236086,-122.293917,990,Meridian Ave E & 24th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053073501,735.01,053,073501,Good
+402,1,402_1,47,47.239545,-122.293883,986,Meridian E & 20th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053073501,735.01,053,073501,Good
+402,1,402_1,48,47.242861,-122.293842,985,Meridian E & 16th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053073501,735.01,053,073501,Good
+402,1,402_1,49,47.245343,-122.293871,983,Meridian E & 13th St Ct E,Pierce Transit,,,,,,NO,NO,NO,YES,53053073501,735.01,053,073501,Good
+402,1,402_1,50,47.249974,-122.293797,998,Meridian E & 8th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053073501,735.01,053,073501,Good
+402,1,402_1,51,47.252337,-122.293776,1000,Meridian E & Emerald St,Pierce Transit,,,,,,NO,NO,NO,YES,53053073501,735.01,053,073501,Good
+501,0,501_0,21,47.252689,-122.293932,1001,Meridian E & Emerald St,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+501,1,501_1,28,47.252337,-122.293776,1000,Meridian E & Emerald St,Pierce Transit,,,,,,NO,NO,NO,YES,53053073501,735.01,053,073501,Great

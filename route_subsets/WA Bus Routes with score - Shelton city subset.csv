@@ -1,0 +1,65 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+3303,0,3303_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3303,0,3303_0,2,47.2144,-123.094777,811122,Hwy 3 @ Pear Orchard Park & Ride,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3303,1,3303_1,7,47.2144,-123.094777,811122,Hwy 3 @ Pear Orchard Park & Ride,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3303,1,3303_1,8,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3307,0,3307_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3307,0,3307_0,2,47.216906,-123.106667,811114,7th St @ Shelton Timberland Library,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3307,0,3307_0,3,47.218071,-123.115165,819336,Birch and B Street,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960700,9607,045,960700,Good
+3307,0,3307_0,4,47.22056,-123.112228,819338,12th and King Street,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3307,0,3307_0,5,47.225601,-123.112627,811128,N 13th St & Professional Way,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3307,0,3307_0,6,47.229185714397,-123.111930784061,811107,N 13th St & Olympic College,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960800,9608,045,960800,Good
+3307,0,3307_0,7,47.226480039817,-123.12400956742,2754995,Olympic Highway N @ Gateway Center,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960700,9607,045,960700,Good
+3307,0,3307_0,8,47.223506,-123.121722,811111,Berkeley Square,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960700,9607,045,960700,Good
+3307,0,3307_0,9,47.22078,-123.119618,811112,Olympic Hwy N & F St,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960700,9607,045,960700,Good
+3307,0,3307_0,10,47.218734,-123.11789,811113,Olympic Hwy & C St,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960700,9607,045,960700,Good
+3307,0,3307_0,11,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3307,0,3307_0,12,47.208306,-123.107923,819962,7th St &Turner,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960900,9609,045,960900,Good
+3307,0,3307_0,13,47.20843,-123.110526,819963,9th St and Turner Ave,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960900,9609,045,960900,Good
+3307,0,3307_0,14,47.208649,-123.116549,811116,14th St @ Turner Ave,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960900,9609,045,960900,Good
+3307,0,3307_0,15,47.207222,-123.119358,2328575,16th Street @ Harvard Ave,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960900,9609,045,960900,Good
+3307,0,3307_0,16,47.201591,-123.102535,819959,2nd St and Satsop Ave,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960900,9609,045,960900,Good
+3307,0,3307_0,17,47.199862,-123.101471,819958,Arcadia Ave @ S. 1st St,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960900,9609,045,960900,Good
+3307,0,3307_0,18,47.201405,-123.091833,811117,Cascade Ave & Olympic Hwy S,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960900,9609,045,960900,Good
+3307,0,3307_0,19,47.208049,-123.100826,811119,1st st @ Shelton School District Office,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960900,9609,045,960900,Good
+3307,0,3307_0,20,47.212569,-123.105605,811121,Cota & 5th @ Peninsula Credit Union,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3307,0,3307_0,21,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3308,0,3308_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3308,0,3308_0,2,47.201405,-123.091833,811117,Cascade Ave & Olympic Hwy S,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960900,9609,045,960900,Good
+3308,1,3308_1,7,47.201405,-123.091833,811117,Cascade Ave & Olympic Hwy S,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960900,9609,045,960900,Good
+3308,1,3308_1,8,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3309,0,3309_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3309,0,3309_0,3,47.231749,-123.12402,811108,Wallace Kneeland Blvd @ Walmart,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960600,9606,045,960600,Good
+3309,0,3309_0,4,47.226480039817,-123.12400956742,2754995,Olympic Highway N @ Gateway Center,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960700,9607,045,960700,Good
+3309,0,3309_0,5,47.22056,-123.112228,819338,12th and King Street,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3309,0,3309_0,6,47.225601,-123.112627,811128,N 13th St & Professional Way,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3309,0,3309_0,7,47.229185714397,-123.111930784061,811107,N 13th St & Olympic College,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960800,9608,045,960800,Good
+3309,0,3309_0,8,47.235184,-123.108076,811046,Johns Prairie Rd @ Pine Garden Apts,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3309,0,3309_0,15,47.231749,-123.12402,811108,Wallace Kneeland Blvd @ Walmart,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960600,9606,045,960600,Good
+3309,0,3309_0,17,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3310,0,3310_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3310,0,3310_0,2,47.224382,-123.108491,811127,Northcliff Rd & Terrace Blvd,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3310,0,3310_0,3,47.229185714397,-123.111930784061,811107,N 13th St & Olympic College,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960800,9608,045,960800,Good
+3310,0,3310_0,4,47.231749,-123.12402,811108,Wallace Kneeland Blvd @ Walmart,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960600,9606,045,960600,Good
+3310,1,3310_1,6,47.231749,-123.12402,811108,Wallace Kneeland Blvd @ Walmart,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960600,9606,045,960600,Good
+3310,1,3310_1,7,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3312,0,3312_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3312,0,3312_0,2,47.229185714397,-123.111930784061,811107,N 13th St & Olympic College,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960800,9608,045,960800,Good
+3312,0,3312_0,3,47.231749,-123.12402,811108,Wallace Kneeland Blvd @ Walmart,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960600,9606,045,960600,Good
+3312,1,3312_1,5,47.231749,-123.12402,811108,Wallace Kneeland Blvd @ Walmart,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960600,9606,045,960600,Good
+3312,1,3312_1,6,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3427,0,3427_0,2,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+3427,0,3427_0,3,47.2144,-123.094777,811122,Hwy 3 @ Pear Orchard Park & Ride,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3427,1,3427_1,4,47.2144,-123.094777,811122,Hwy 3 @ Pear Orchard Park & Ride,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960800,9608,045,960800,Good
+3427,1,3427_1,5,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+67979,0,67979_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+67979,0,67979_0,2,47.23119,-123.122644,811109,Kneeland Plaza,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960600,9606,045,960600,Good
+67979,0,67979_0,3,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+76995,0,76995_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+76995,0,76995_0,2,47.201405,-123.091833,811117,Cascade Ave & Olympic Hwy S,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960900,9609,045,960900,Good
+76995,1,76995_1,4,47.201405,-123.091833,811117,Cascade Ave & Olympic Hwy S,Mason Transit Authority,,,,,,NO,NO,NO,YES,53045960900,9609,045,960900,Good
+76995,1,76995_1,5,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+77336,0,77336_0,1,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+77336,0,77336_0,3,47.23119,-123.122644,811109,Kneeland Plaza,Mason Transit Authority,,,,,,NO,NO,NO,NO,53045960600,9606,045,960600,Good
+77336,0,77336_0,4,47.214155,-123.106105,811115,Transit-Community Center (TCC),Mason Transit Authority,,,,,,YES,YES,NO,YES,53045960800,9608,045,960800,Good
+77297,0,77297_0,2,47.231747336,-123.12402352,4250816,Walmart (100 E Wallace Kneeland Blvd),Squaxin Island Transit,,,,,,NO,NO,NO,NO,53045960600,9606,045,960600,Poor

@@ -1,0 +1,18 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+230,0,230_0,1,48.249829,-121.603885,2864,Darrington St & Givens Ave,Community Transit,,,,,,NO,YES,NO,NO,53061053700,537,061,053700,Great
+230,0,230_0,2,48.24841,-121.603371,886,Givens Ave & Fir St,Community Transit,,,,,,NO,YES,NO,NO,53061053700,537,061,053700,Great
+230,0,230_0,3,48.251867,-121.601024,926,Mountain Loop Hwy & Alvord St,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Great
+230,0,230_0,4,48.25484,-121.601604,927,Mountain Loop Hwy & Seeman St,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Great
+230,0,230_0,5,48.255345,-121.603407,1845,Seeman St & Givens Ave,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Great
+230,0,230_0,6,48.255532,-121.608831,1873,Hwy 530 & Seeman St,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Great
+230,1,230_1,54,48.255155,-121.608266,22,Seeman St & Fullerton Ave,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Good
+230,1,230_1,55,48.255181,-121.603204,483,Seeman St & Givens Ave,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Good
+230,1,230_1,56,48.254793,-121.601816,1420,Mountain Loop Hwy & Seeman St,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Good
+230,1,230_1,57,48.25134,-121.601001,1419,Mountain Loop Hwy & Alvord St,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Good
+230,1,230_1,58,48.249505,-121.602275,1354,S Emens Ave & Darrington St,Community Transit,,,,,,NO,NO,NO,NO,53061053700,537,061,053700,Good
+230,1,230_1,59,48.24841,-121.603371,886,Givens Ave & Fir St,Community Transit,,,,,,NO,YES,NO,NO,53061053700,537,061,053700,Good
+230,1,230_1,60,48.249829,-121.603885,2864,Darrington St & Givens Ave,Community Transit,,,,,,NO,YES,NO,NO,53061053700,537,061,053700,Good
+77167,0,77167_0,1,48.2478457,-121.6040208,4248654,Darrington Community Center,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53061053700,537,061,053700,Poor
+77167,0,77167_0,2,48.25437414951065,-121.60352481644875,4248655,Givens Ave & Cascade St,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53061053700,537,061,053700,Poor
+77167,0,77167_0,3,48.25575468563213,-121.60352981558165,4248666,Darrington IGA Market,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53061053700,537,061,053700,Poor
+77167,0,77167_0,4,48.2597936,-121.6041255,4248656,Forest Lane,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53061053700,537,061,053700,Poor

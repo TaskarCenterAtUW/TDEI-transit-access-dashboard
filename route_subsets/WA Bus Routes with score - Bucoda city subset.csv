@@ -1,0 +1,2 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19714,0,19714_0,4,46.7997000625937,-122.86824219758286,4251912,Main St between 5th and 6th St,ruralTRANSIT,,,,,,NO,NO,NO,YES,53067012620,126.20,067,012620,Ok

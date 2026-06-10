@@ -1,0 +1,51 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+26,0,26_0,14,48.933197,-122.487483,1050,Bay-Lyn Dr at Grocery Outlet,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,0,26_0,15,48.935172,-122.48289,460,Kok Rd at 19th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,0,26_0,16,48.936245,-122.4817,713,19th St at Kok Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,0,26_0,17,48.938404,-122.48226,25,Lynden Station,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,0,26_0,18,48.939091,-122.47673,438,Front St at Fairgrounds West,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,0,26_0,19,48.939335,-122.47259,463,Front St at 18th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,0,26_0,20,48.939548,-122.466705,464,Front St at 15th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,0,26_0,21,48.939625,-122.463196,465,Front St at British Columbia Ave,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,22,48.940771,-122.459415,466,Front St at 10th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,23,48.941255,-122.457806,467,Front St at 9th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,24,48.941886,-122.455714,468,Front St at 7th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,25,48.943916,-122.4527,28,Grover St at 4th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,26,48.944622,-122.450492,439,Grover St at 3rd St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,27,48.945316,-122.44815,440,Grover St at 1st St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,28,48.945892,-122.44633,441,Grover St at Lawrence St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,29,48.946673,-122.443731,442,Grover St at Hawley St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,30,48.947602,-122.440629,443,Grover St at Division St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,31,48.948981,-122.436093,444,Grover St at Tierney St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,32,48.950217,-122.431916,445,Grover St at S Garden Dr,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,33,48.952339,-122.42986,446,Vinup Rd at Lynden High School,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,34,48.953103,-122.423116,986,Bradley Rd at Bradley Meadows,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,35,48.957296,-122.418734,1004,Line Rd at Kamm Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,36,48.960246,-122.418594,987,Line Rd at Lynden Middle School,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,37,48.962346,-122.421176,988,Aaron Dr at Mercedes Dr,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,38,48.962455,-122.428629,989,Aaron Dr at Cherry St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,39,48.962493,-122.432929,449,Aaron Dr at Willow St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,40,48.962553,-122.436872,450,Aaron Dr at Lynden Manor,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,41,48.962587,-122.440713,451,Aaron Dr at Bender Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010303,103.03,073,010303,Good
+26,0,26_0,42,48.961322,-122.441279,452,Bender Rd at Heather Dr,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,43,48.957939,-122.441946,453,Homestead Blvd at Bender Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,44,48.960135,-122.447002,454,Homestead Blvd at Twin Sister Ct,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,0,26_0,45,48.95969,-122.450876,32,Homestead Blvd at Depot Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,YES,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,1,48.95969,-122.450876,32,Homestead Blvd at Depot Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,YES,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,2,48.958195,-122.45234,455,Depot Rd at Maberry Dr,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,3,48.953793,-122.45235,456,Depot Rd at Springview Dr,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,4,48.952095,-122.452349,457,Depot Rd at Cedar Dr,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,5,48.948991,-122.452366,458,Depot Rd at South Park St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,6,48.945922,-122.452447,748,3rd St at Main St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,7,48.944293,-122.452187,24,Grover St at 4th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,8,48.941939,-122.455929,720,Front St at 7th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,9,48.941257,-122.458243,719,Front St at 9th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,10,48.940528,-122.460731,721,Front St at 11th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,11,48.939901,-122.462924,722,Front St at British Columbia Ave,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010302,103.02,073,010302,Good
+26,1,26_1,12,48.939704,-122.466825,723,Front St at 15th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,1,26_1,13,48.939602,-122.470381,724,Front St at 17th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,1,26_1,14,48.939377,-122.47449,725,Front St at Fairside Dr,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,1,26_1,15,48.938404,-122.48226,25,Lynden Station,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,1,26_1,16,48.936279,-122.481873,747,19th St at Kok Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,1,26_1,17,48.935306,-122.483236,461,Kok Rd at 19th St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good
+26,1,26_1,18,48.934704,-122.48563,726,Guide Meridian at Birch Bay Lynden Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073010301,103.01,073,010301,Good

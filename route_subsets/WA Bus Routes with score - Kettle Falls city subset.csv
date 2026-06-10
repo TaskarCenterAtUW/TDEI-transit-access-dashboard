@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+76651,0,76651_0,3,48.61033886887114,-118.06240966866224,4223974,Kettle Falls,Colville Confederated Tribes Transit,,,,,,NO,NO,NO,NO,53065950101,9501.01,065,950101,Poor
+19754,0,19754_0,3,48.611346938,-118.058291054,2755046,Kettle Falls Harvest Foods,Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950101,9501.01,065,950101,Poor
+19754,0,19754_0,4,48.6079143060075,-118.07231113944073,2755047,Kettle Falls Chevron,Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950101,9501.01,065,950101,Poor
+19754,0,19754_0,5,48.602568428,-118.058223559,2755048,Three Rivers Ranger Station,Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950101,9501.01,065,950101,Poor

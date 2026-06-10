@@ -1,0 +1,80 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+101,0,101_0,1,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,2,48.476705,-122.33706,1359,W Victoria Ave,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,3,48.475646,-122.341106,1350,155 N Norris St,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,4,48.47329,-122.341156,4301,Norris St. at Cambridge Apts.,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,5,48.471889,-122.344788,4302,Peterson Rd across from Burlington Terrace Apts.,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,6,48.467746,-122.343836,1347,Nevitt near Holiday Sports,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,7,48.465101,-122.342283,1348,Goldenrod at Tacoma Screw,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,8,48.459784,-122.342186,1349,Goldenrod Rd,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,9,48.453199,-122.345278,1353,I-5 Auto World,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,10,48.449891,-122.33829,1356,Burlington Crossings,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,11,48.448546,-122.332789,1357,Dick's Sporting Goods,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,12,48.452059,-122.330417,1358,Comfort Suites,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,13,48.453722,-122.327389,1360,Housing Authority,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,14,48.457169,-122.329731,1362,Pease Rd,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,15,48.462375,-122.324673,1363,Anacortes @ Annett,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,16,48.464299,-122.319731,1364,Skagit River Park,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,17,48.467006,-122.319283,1365,Skagit & Shuler,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,18,48.469296,-122.319284,1366,Lucille Umbarger School,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,19,48.473257,-122.32133,4121,Burlington Community Center,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,20,48.474657,-122.323754,4122,Burlington Public Library,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,21,48.474265,-122.319334,4120,Maiben City Park,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,22,48.471536,-122.315697,1367,Rio Vista & Wade Pl,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,23,48.471573,-122.311158,1368,Rio Vista west of Gardner,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,24,48.472951,-122.308407,1369,Gardner @ Sunset,Skagit Transit,,,,,,NO,NO,NO,YES,53057951600,9516,057,951600,Good
+101,0,101_0,26,48.475504,-122.31096,1511,Fairhaven @ Betty Court,Skagit Transit,,,,,,NO,NO,NO,YES,53057951600,9516,057,951600,Good
+101,0,101_0,27,48.475537,-122.317585,1512,Fairhaven west of Skagit,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,28,48.475608,-122.322839,4185,Fairhaven Avenue and Holly Street,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,29,48.475639,-122.327358,4186,Fairhaven at Alpha Park,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+101,0,101_0,30,48.475621,-122.330391,4187,Fairhaven Avenue and Spruce Street,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,31,48.475658,-122.333451,4188,Fairhaven and Alder,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+101,0,101_0,32,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+208,0,208_0,1,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+208,0,208_0,2,48.474758,-122.335761,1421,Burlington Boulevard and Fairhaven,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,0,208_0,3,48.470399,-122.335899,1422,Burlington Boulevard and Haggen Drive,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,0,208_0,4,48.466543,-122.335952,1423,Burlington Boulevard Near Target Shopping Center,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,0,208_0,5,48.46362,-122.335968,1424,Popeye's,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,0,208_0,6,48.456117,-122.335802,1425,Burlington Boulevard Near Michaels and Outlet Shop,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,0,208_0,7,48.453856,-122.335742,1426,Burlington Boulevard at Costco,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,0,208_0,8,48.449663,-122.335563,1427,Burlington Boulevard at Burlington Crossings,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,10,48.447838,-122.335164,1411,Burlington Blvd. north of bridge,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,11,48.450614,-122.335265,1412,Burlington Blvd. South of George Hopper,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,12,48.454681,-122.335448,1413,Burlington Blvd. at Sports Keg,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,13,48.456443,-122.335515,1414,Burlington Blvd. Near Shari's,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,14,48.463478,-122.335667,1416,Burlington Bloulevard Medical Clinic,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,15,48.466771,-122.335583,1417,Fred Meyer,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,16,48.468518,-122.335619,1418,Burlington Blvd. at Sterling Motor Inn,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,17,48.47028,-122.335608,1419,Burlington Blvd. at Sharon Avenue,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,18,48.473536,-122.335532,1420,Burlington Blvd. South of Fairhaven Avenue,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+208,1,208_1,19,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+301,0,301_0,1,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+301,0,301_0,2,48.475433,-122.333945,4307,Fairhaven Ave. at Thrifty Foods,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+301,0,301_0,3,48.475404,-122.328273,4308,Fairhaven near Cherry St.,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+301,0,301_0,4,48.475387,-122.322305,4309,Fairhaven & Regent,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+301,0,301_0,5,48.476996,-122.319084,4123,Skagit St. and Hazel Ave. just north of Home Place,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+301,0,301_0,6,48.478887,-122.318743,4124,SR 20 at Skagit St.,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+301,0,301_0,7,48.4804,-122.314156,4125,SR 20 at Section St.,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+301,0,301_0,8,48.482047,-122.30906,4126,SR 20 west of Gardner,Skagit Transit,,,,,,NO,NO,NO,YES,53057951600,9516,057,951600,Good
+301,1,301_1,9,48.48082,-122.31345,4183,SR 20 at Peacock Lane,Skagit Transit,,,,,,NO,NO,NO,YES,53057951600,9516,057,951600,Good
+301,1,301_1,10,48.476603,-122.319274,4184,Skagit Street & Victoria Avenue,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+301,1,301_1,11,48.475608,-122.322839,4185,Fairhaven Avenue and Holly Street,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+301,1,301_1,12,48.475639,-122.327358,4186,Fairhaven at Alpha Park,Skagit Transit,,,,,,NO,NO,NO,YES,53057951700,9517,057,951700,Good
+301,1,301_1,13,48.475621,-122.330391,4187,Fairhaven Avenue and Spruce Street,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+301,1,301_1,14,48.475658,-122.333451,4188,Fairhaven and Alder,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+301,1,301_1,15,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+409,0,409_0,1,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+513,0,513_0,1,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+513,0,513_0,2,48.475378,-122.339434,4189,Fairhaven and Koch,Skagit Transit,,,,,,NO,NO,NO,NO,53057951800,9518,057,951800,Good
+513,0,513_0,3,48.47329,-122.341156,4301,Norris St. at Cambridge Apts.,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+513,0,513_0,4,48.471889,-122.344788,4302,Peterson Rd across from Burlington Terrace Apts.,Skagit Transit,,,,,,NO,NO,NO,YES,53057951800,9518,057,951800,Good
+513,1,513_1,9,48.471738,-122.344885,4304,Peterson Rd. at Burlington Terrace Apts.,Skagit Transit,,,,,,NO,NO,NO,NO,53057951800,9518,057,951800,Good
+513,1,513_1,10,48.473686,-122.340933,4305,Norris St. at Where the Heart Is,Skagit Transit,,,,,,NO,NO,NO,NO,53057951800,9518,057,951800,Good
+513,1,513_1,11,48.475226,-122.339109,4190,Fairhaven across from Koch at Heritage Place Apts.,Skagit Transit,,,,,,NO,NO,NO,NO,53057951800,9518,057,951800,Good
+513,1,513_1,12,48.4752807602454,-122.337075909202,4306,Fairhaven at Hulbush Lane,Skagit Transit,,,,,,NO,NO,NO,NO,53057951800,9518,057,951800,Good
+513,1,513_1,13,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+80X,0,80X_0,4,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+80X,1,80X_1,2,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+90X,0,90X_0,7,48.482441,-122.336798,6300,Chuckanut P&R (Park & Ride),Skagit Transit,,,,,,YES,YES,NO,YES,53057951800,9518,057,951800,Good
+80X,0,80X_0,4,48.482383,-122.336821,842,Chuckanut Park & Ride,Whatcom Transportation Authority,80X,Mt. Vernon&Bellingham,3,b86964,ffffff,YES,NO,NO,YES,53057951800,9518,057,951800,Good
+80X,1,80X_1,2,48.482383,-122.336821,842,Chuckanut Park & Ride,Whatcom Transportation Authority,80X,Mt. Vernon&Bellingham,3,b86964,ffffff,YES,NO,NO,YES,53057951800,9518,057,951800,Good

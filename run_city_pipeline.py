@@ -111,7 +111,12 @@ def find_boundary_file(place: str, type_str: str) -> str | None:
     t = type_str.lower()
 
     if t in ("city",):
-        candidates = [f"{place}_city_limits.geojson"]
+        # Try both naming conventions: "Benton_city_limits.geojson" and
+        # "Benton_City_city_limits.geojson" (places where "City" is baked into the name)
+        candidates = [
+            f"{place}_city_limits.geojson",
+            f"{place}_City_city_limits.geojson",
+        ]
     elif t == "ui":
         # Urban Interface areas map to county boundaries
         candidates = [
@@ -127,6 +132,7 @@ def find_boundary_file(place: str, type_str: str) -> str | None:
     elif t == "plus":
         candidates = [
             f"{place}_city_limits.geojson",
+            f"{place}_City_city_limits.geojson",
             f"{place}_county_limits.geojson",
         ]
     else:
@@ -139,10 +145,22 @@ def find_boundary_file(place: str, type_str: str) -> str | None:
         if (BOUNDS_DIR / candidate).exists():
             return candidate
 
-    # Fuzzy fallback: any file whose stem starts with the place name
-    for f in BOUNDS_DIR.iterdir():
-        if f.name.startswith(place + "_") and "limits" in f.name:
-            return f.name
+    # Fuzzy fallback: any file whose stem starts with the place name.
+    # Prefer file types that match the jurisdiction type — for "city" jurisdictions
+    # never silently fall back to "_county_limits" files (those are huge regions).
+    fuzzy_matches = [
+        f.name for f in BOUNDS_DIR.iterdir()
+        if f.name.startswith(place + "_") and "limits" in f.name
+    ]
+    if t == "city":
+        # Filter out any county-type fallbacks for city jurisdictions
+        city_only = [n for n in fuzzy_matches if "_county_limits" not in n.lower()]
+        if city_only:
+            return sorted(city_only)[0]
+        # No city-shaped match → don't accept a county fallback
+        return None
+    if fuzzy_matches:
+        return sorted(fuzzy_matches)[0]
 
     return None
 
@@ -251,8 +269,8 @@ def generate_city_html(
 
     # Title and heading
     html = html.replace(
-        "<title>Seattle city — bus routes &amp; stops</title>",
-        f"<title>{city_display} city — bus routes &amp; stops</title>",
+        "<title>Seattle city — bus routes & stops</title>",
+        f"<title>{city_display} city — bus routes & stops</title>",
     )
     html = html.replace(
         "Seattle city transit",
@@ -262,7 +280,7 @@ def generate_city_html(
     # Sidebar muted text
     html = html.replace(
         "Routes: <code>WA Bus Routes with score - Seattle city subset.csv</code>",
-        f"Routes: <code>WA Bus Routes with score - {city_display} city subset.csv</code>",
+        f"Routes: <code>route_subsets/WA Bus Routes with score - {city_display} city subset.csv</code>",
     )
     html = html.replace(
         "Blue tint: Seattle city limits (<code>jurisdiction_bounds/Seattle_city_limits.geojson</code>).",
@@ -278,10 +296,10 @@ def generate_city_html(
     html = html.replace("center: SEATTLE_CENTER,", "center: CENTER,")
     html = html.replace("zoom: SEATTLE_ZOOM", "zoom: ZOOM")
 
-    # DATASET path — note ${DATA_BASE} is a JS template literal, not Python
+    # DATASET path: city pages are served from cities/ so paths go up one level
     html = html.replace(
-        "const DATASET = DATA_BASE ? `${DATA_BASE}/seattle/data` : 'data/05776f25-f0f3-461c-ac34-4fa88a00936c/data';",
-        f"const DATASET = DATA_BASE ? `${{DATA_BASE}}/{city_slug}/data` : '../data/{dataset_id}/data';",
+        "const DATASET = 'data/05776f25-f0f3-461c-ac34-4fa88a00936c/data';",
+        f"const DATASET = '../data/{dataset_id}/data';",
     )
 
     # Amenity CSV filenames
@@ -302,8 +320,8 @@ def generate_city_html(
 
     # Routes CSV fetch (relative from cities/)
     html = html.replace(
-        "fetch('WA Bus Routes with score - Seattle city subset.csv'),",
-        f"fetch('../WA Bus Routes with score - {city_display} city subset.csv'),",
+        "fetch('route_subsets/WA Bus Routes with score - Seattle city subset.csv'),",
+        f"fetch('../route_subsets/WA Bus Routes with score - {city_display} city subset.csv'),",
     )
 
     # Boundary fetch and warn
@@ -445,7 +463,7 @@ def run_pipeline(
     ped_edges_dir = data_path / "walkshed_edges_by_stop"
     wc_edges_dir = data_path / "walkshed_edges_by_stop_wheelchair"
 
-    routes_subset_csv = ROOT / f"WA Bus Routes with score - {city_display} city subset.csv"
+    routes_subset_csv = ROOT / "route_subsets" / f"WA Bus Routes with score - {city_display} city subset.csv"
     stops_geojson = stops_dir / f"{city_slug}_bus_stops.geojson"
     amenities_csv = data_path / "csv_pois" / f"{dataset_id}_filtered_amenities.csv"
     ped_counts_csv = metrics_dir / f"{city_slug}_ped_amenity_counts.csv"
@@ -554,7 +572,7 @@ def run_pipeline(
 
     # ── Step 7: Query OSM amenities ──────────────────────────────────────────
     if should_run("query_osm", amenities_csv_exists(data_path, dataset_id)):
-        run(py("query_osm_pois.py"), "query_osm")
+        run(py("query_osm_pois.py", "--dataset", dataset_id), "query_osm")
     else:
         print(f"[SKIP] query_osm — amenities CSV exists")
 
@@ -603,7 +621,62 @@ def run_pipeline(
     html_out.write_text(html_content, encoding="utf-8")
     print(f"  Wrote: {html_out}")
 
+    # ── Step 11: Update statewide manifest ───────────────────────────────────
+    try:
+        agency = _infer_agency_from_routes(routes_subset_csv)
+        update_processed_cities_manifest(
+            slug=city_slug, name=city_display, agency=agency,
+            stops=stop_count, dataset_id=dataset_id,
+            boundary=boundary_filename,
+            center=[center_lon, center_lat], zoom=zoom,
+        )
+    except Exception as exc:
+        print(f"  [WARN] Failed to update statewide manifest: {exc}")
+
     return "completed"
+
+
+# ── Manifest helpers ─────────────────────────────────────────────────────────
+
+PROCESSED_CITIES_MANIFEST = CITIES_DIR / "processed_cities.json"
+
+
+def _infer_agency_from_routes(routes_csv: Path) -> str:
+    """Return the most common agency name from a routes subset CSV."""
+    from collections import Counter
+    try:
+        with routes_csv.open(encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            agencies = [r.get("agency", "").strip() for r in reader if r.get("agency", "").strip()]
+        return Counter(agencies).most_common(1)[0][0] if agencies else ""
+    except Exception:
+        return ""
+
+
+def update_processed_cities_manifest(*, slug, name, agency, stops,
+                                     dataset_id, boundary, center, zoom):
+    """Add/update this city's entry in cities/processed_cities.json."""
+    manifest: dict = {}
+    if PROCESSED_CITIES_MANIFEST.is_file():
+        try:
+            manifest = json.loads(PROCESSED_CITIES_MANIFEST.read_text(encoding="utf-8"))
+        except Exception:
+            manifest = {}
+    manifest[slug] = {
+        "name": name,
+        "agency": agency,
+        "stops": stops,
+        "dataset_id": dataset_id,
+        "boundary": boundary,
+        "center": center,
+        "zoom": zoom,
+    }
+    # Stable, alphabetical ordering for diffs
+    ordered = {k: manifest[k] for k in sorted(manifest)}
+    PROCESSED_CITIES_MANIFEST.write_text(
+        json.dumps(ordered, indent=2) + "\n", encoding="utf-8"
+    )
+    print(f"  Updated manifest: {PROCESSED_CITIES_MANIFEST}")
 
 
 def main() -> None:

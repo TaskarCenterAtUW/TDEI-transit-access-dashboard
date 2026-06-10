@@ -1,0 +1,12 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+76651,0,76651_0,4,48.53602204556225,-117.908538209353,4223976,Colville,Colville Confederated Tribes Transit,,,,,,NO,NO,NO,NO,53065950500,9505,065,950500,Poor
+76651,0,76651_0,5,48.5534251156121,-117.91583065943155,4223977,Colville Walmart,Colville Confederated Tribes Transit,,,,,,NO,NO,NO,NO,53065950300,9503,065,950300,Poor
+76651,1,76651_1,1,48.5534251156121,-117.91583065943155,4223977,Colville Walmart,Colville Confederated Tribes Transit,,,,,,NO,NO,NO,NO,53065950300,9503,065,950300,Poor
+19754,0,19754_0,1,48.547810162,-117.907095254,2755056,Colville Safeway,Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950300,9503,065,950300,Poor
+19754,0,19754_0,2,48.553385406,-117.915837942,2755045,Colville Walmart,Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950300,9503,065,950300,Poor
+19754,1,19754_1,2,48.553385406,-117.915837942,2755045,Colville Walmart,Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950300,9503,065,950300,Poor
+19754,1,19754_1,3,48.547810162,-117.907095254,2755056,Colville Safeway,Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950300,9503,065,950300,Poor
+19754,1,19754_1,4,48.53568155,-117.901344366,2755049,Spokane Community College - Colville,Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950500,9505,065,950500,Poor
+19754,1,19754_1,5,48.536030351,-117.908520974,2755050,Rural Resources Office (South Town Plaza),Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950500,9505,065,950500,Poor
+19755,0,19755_0,5,48.536030351,-117.908520974,2755050,Rural Resources Office (South Town Plaza),Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950500,9505,065,950500,Poor
+19755,1,19755_1,1,48.536030351,-117.908520974,2755050,Rural Resources Office (South Town Plaza),Rural Resources Community Action,,,,,,NO,NO,NO,NO,53065950500,9505,065,950500,Poor

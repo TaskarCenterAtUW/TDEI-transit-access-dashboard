@@ -1,0 +1,10 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+271,0,271_0,9,47.86813,-121.776976,1921,Hwy 2 & 339th Ave SE,Community Transit,,,,,,NO,NO,NO,YES,53061053803,538.03,061,053803,Good
+271,0,271_0,10,47.862608,-121.807928,1830,Main St & Hwy 2,Community Transit,,,,,,NO,NO,NO,YES,53061053802,538.02,061,053802,Good
+271,0,271_0,11,47.862963,-121.809792,778,8th St & Alder St,Community Transit,,,,,,NO,NO,NO,YES,53061053802,538.02,061,053802,Good
+271,0,271_0,12,47.862508,-121.816568,1123,4th St & Main St,Community Transit,,,,,,NO,NO,NO,YES,53061053802,538.02,061,053802,Good
+271,0,271_0,13,47.858418,-121.82974,1912,Hwy 2 & Old Owen Rd,Community Transit,,,,,,NO,NO,NO,YES,53061053802,538.02,061,053802,Good
+271,1,271_1,38,47.85808,-121.830246,558,Hwy 2 & Fern Bluff Rd,Community Transit,,,,,,NO,NO,NO,YES,53061053802,538.02,061,053802,Good
+271,1,271_1,39,47.862845,-121.816385,639,4th St & Alder Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053802,538.02,061,053802,Good
+271,1,271_1,40,47.862968,-121.803907,548,Sultan Park & Ride Bay 2,Community Transit,,,,,,NO,NO,NO,YES,53061053802,538.02,061,053802,Good
+271,1,271_1,41,47.868011,-121.776258,550,Hwy 2 & 339th Ave SE,Community Transit,,,,,,NO,NO,NO,YES,53061053803,538.03,061,053803,Good

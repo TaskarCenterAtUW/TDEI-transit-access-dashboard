@@ -1,0 +1,80 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+67972,0,67972_0,1,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,0,67972_0,2,47.3214122,-119.5536669,3879590,GC Courthouse on Division St W,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,0,67972_0,3,47.31999042,-119.5540341,3879591,Basin Retirement Home on C st SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,0,67972_0,4,47.3160492,-119.5551485,3879592,Banner Bank on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,0,67972_0,5,47.3134609,-119.5570384,3879593,AutoZone Auto Parts on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,0,67972_0,6,47.3103771,-119.5592821,3879594,Pizza Hut on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,1,67972_1,4,47.3102425,-119.5589928,3879585,Safeway on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,1,67972_1,5,47.3136957,-119.5565369,3879586,O'Reilly Auto Parts on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,1,67972_1,6,47.3180333,-119.5534161,3879587,Rite Aid on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,1,67972_1,7,47.3213087,-119.5538996,3879588,Grant County (GC) Courthouse on Division St W,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67972,1,67972_1,8,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,0,67973_0,1,47.303643,-119.539766,3879596,Walmart on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,0,67973_0,2,47.3097233,-119.5412821,3879597,St. Rose of Lima Catholic School on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,0,67973_0,3,47.3141151,-119.5441189,3879598,Columbia Basin Hospital on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,0,67973_0,4,47.31629737551697,-119.54941127726424,3879599,Grant County P.U.D. Service Center on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,0,67973_0,5,47.3107569,-119.5550747,3879600,Food Bank on A St SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,0,67973_0,6,47.3102425,-119.5589928,3879585,Safeway on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,0,67973_0,7,47.3136957,-119.5565369,3879586,O'Reilly Auto Parts on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,0,67973_0,8,47.3180333,-119.5534161,3879587,Rite Aid on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,0,67973_0,9,47.3213087,-119.5538996,3879588,Grant County (GC) Courthouse on Division St W,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,0,67973_0,10,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,1,67973_1,1,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,1,67973_1,2,47.3213087,-119.5538996,3879588,Grant County (GC) Courthouse on Division St W,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,1,67973_1,3,47.31999042,-119.5540341,3879591,Basin Retirement Home on C st SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,1,67973_1,4,47.317198885663,-119.552812427531,4147698,Confluence Health on 3rd Ave SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67973,1,67973_1,5,47.318756723946,-119.543771365275,4147699,Mi Cochinita & Groceries on Division St E,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,1,67973_1,6,47.3187682,-119.538558,4147700,Columbia Ridge Elementary School on Division St E,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,1,67973_1,7,47.31463058173307,-119.52884367672095,4147701,Grant County Public Works on Enterprise St,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,1,67973_1,8,47.31077646702079,-119.5417470736694,4254391,5th Ave. SE & Nat. Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,1,67973_1,9,47.3093723,-119.5413686,4147703,Nat Washington Way / 6th Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,1,67973_1,10,47.3076036,-119.5404758,4147704,Nat Washington Way / 8th Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67973,1,67973_1,11,47.303643,-119.539766,3879596,Walmart on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67974,0,67974_0,10,47.3298642,-119.5451884,3879618,D.K.'s DRIVE-IN on Basin St NW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67974,0,67974_0,11,47.3249851,-119.5487028,3879619,Advanced Tire & Auto on Basin St NW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67974,0,67974_0,12,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+67974,1,67974_1,1,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+67974,1,67974_1,2,47.3260871,-119.5476192,3879601,Anytime Fitness on Basin St NW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67974,1,67974_1,3,47.3284866,-119.5458828,3879602,Grant County Museum on Basin St NW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67974,1,67974_1,4,47.3388118,-119.5346742,3879603,Urban Archeologist on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,0,67976_0,12,47.2863578,-119.5762927,3880705,Basin Estates on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67976,0,67976_0,13,47.2912612,-119.5727418,3880706,Segalini Electric on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67976,0,67976_0,14,47.2932173,-119.571348,3880707,Jolain Store All on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67976,0,67976_0,15,47.3055203,-119.562434,3880708,Hale's Farm & Feed,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67976,0,67976_0,16,47.3102425,-119.5589928,3879585,Safeway on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,0,67976_0,17,47.3136957,-119.5565369,3879586,O'Reilly Auto Parts on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,0,67976_0,18,47.3213087,-119.5538996,3879588,Grant County (GC) Courthouse on Division St W,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,0,67976_0,19,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,1,67976_1,1,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,1,67976_1,2,47.3103771,-119.5592821,3879594,Pizza Hut on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,1,67976_1,3,47.3052017,-119.56298822,3879645,Animal Tracks Veterinary Clinic/Davis Chiropratic Clinic on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,1,67976_1,4,47.3039636,-119.5638623,3880691,Sun City Apartments on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+67976,1,67976_1,5,47.2959701,-119.5696726,3880692,Basin Industrial Park on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67976,1,67976_1,6,47.292139,-119.572361,3879647,Sunrise Estates on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+67976,1,67976_1,7,47.2846607,-119.5777575,3879648,Oasis Park on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,17,47.31999042,-119.5540341,3879591,Basin Retirement Home on C st SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,0,77622_0,18,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,0,77622_0,19,47.3093723,-119.5413686,4147703,Nat Washington Way / 6th Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,20,47.3076036,-119.5404758,4147704,Nat Washington Way / 8th Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,21,47.303643,-119.539766,3879596,Walmart on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,22,47.3097233,-119.5412821,3879597,St. Rose of Lima Catholic School on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,23,47.3141151,-119.5441189,3879598,Columbia Basin Hospital on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,24,47.31629737551697,-119.54941127726424,3879599,Grant County P.U.D. Service Center on Nat Washington Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,25,47.3160492,-119.5551485,3879592,Banner Bank on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,0,77622_0,26,47.3134609,-119.5570384,3879593,AutoZone Auto Parts on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,0,77622_0,27,47.3103771,-119.5592821,3879594,Pizza Hut on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,0,77622_0,28,47.3052017,-119.56298822,3879645,Animal Tracks Veterinary Clinic/Davis Chiropratic Clinic on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,0,77622_0,29,47.3039636,-119.5638623,3880691,Sun City Apartments on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,0,77622_0,30,47.2959701,-119.5696726,3880692,Basin Industrial Park on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,31,47.292139,-119.572361,3879647,Sunrise Estates on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,0,77622_0,32,47.2846607,-119.5777575,3879648,Oasis Park on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,1,77622_1,8,47.2863578,-119.5762927,3880705,Basin Estates on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,1,77622_1,9,47.2912612,-119.5727418,3880706,Segalini Electric on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,1,77622_1,10,47.2932173,-119.571348,3880707,Jolain Store All on Hwy 28,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,1,77622_1,11,47.3055203,-119.562434,3880708,Hale's Farm & Feed,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Acceptable
+77622,1,77622_1,12,47.3102425,-119.5589928,3879585,Safeway on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,1,77622_1,13,47.3136957,-119.5565369,3879586,O'Reilly Auto Parts on Basin St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010401,104.01,025,010401,Acceptable
+77622,1,77622_1,14,47.3208865,-119.5494283,3879589,Ephrata Transit Center (ETC),Grant Transit Authority,,,,,,YES,YES,NO,NO,53025010401,104.01,025,010401,Acceptable
+19705,0,19705_0,3,47.314258,-119.546358,2754764,Columbia Basin Hospital - Ephrata,People for People,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Poor
+19705,1,19705_1,5,47.314258,-119.546358,2754764,Columbia Basin Hospital - Ephrata,People for People,,,,,,NO,NO,NO,NO,53025010402,104.02,025,010402,Poor

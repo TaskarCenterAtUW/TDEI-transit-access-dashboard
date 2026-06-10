@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19662,0,19662_0,3,45.692739,-121.885823,2753578,Stevenson Central (Main Street Convenience Store),Skamania County Transit,,,,,,NO,NO,NO,NO,53059950300,9503,059,950300,Poor
+19662,1,19662_1,1,45.692739,-121.885823,2753578,Stevenson Central (Main Street Convenience Store),Skamania County Transit,,,,,,NO,NO,NO,NO,53059950300,9503,059,950300,Poor
+19662,1,19662_1,4,45.692739,-121.885823,2753578,Stevenson Central (Main Street Convenience Store),Skamania County Transit,,,,,,NO,NO,NO,NO,53059950300,9503,059,950300,Poor
+19662,1,19662_1,5,45.692652,-121.895148,2753579,Hegewald Center,Skamania County Transit,,,,,,NO,NO,NO,NO,53059950300,9503,059,950300,Poor

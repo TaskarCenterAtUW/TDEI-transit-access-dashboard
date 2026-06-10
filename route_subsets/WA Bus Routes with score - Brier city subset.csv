@@ -1,0 +1,20 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+111,0,111_0,1,47.790884,-122.27437,2188,Brier Rd & 228th St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,0,111_0,2,47.78955,-122.274373,1316,Brier Rd & 232nd St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,0,111_0,3,47.786282,-122.274353,2775,Brier Rd & 232nd St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,0,111_0,4,47.784361,-122.273367,2776,236th St SW & Brier Rd,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,0,111_0,5,47.78851,-122.271895,603,29th Ave W & 232nd St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,0,111_0,6,47.79028,-122.271894,604,29th Ave W & 228th St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,0,111_0,7,47.792082,-122.272403,1687,228th St SW & 29th Ave W,Community Transit,,,,,,NO,NO,NO,NO,53061051913,519.13,061,051913,Good
+111,0,111_0,8,47.791927,-122.276999,1681,228th St SW & 32nd Ave W,Community Transit,,,,,,NO,NO,NO,NO,53061051913,519.13,061,051913,Good
+111,0,111_0,9,47.791868,-122.279486,1685,228th St SW & 35th Ave W,Community Transit,,,,,,NO,NO,NO,NO,53061051913,519.13,061,051913,Good
+111,1,111_1,12,47.791731,-122.283025,309,228th St SW & 228th Pl SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,13,47.791764,-122.27932,305,228th St SW & 35th Ave W,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,14,47.791839,-122.276009,304,228th St SW & 32nd Ave W,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,15,47.790884,-122.27437,2188,Brier Rd & 228th St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,16,47.78955,-122.274373,1316,Brier Rd & 232nd St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,17,47.786282,-122.274353,2775,Brier Rd & 232nd St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,18,47.784361,-122.273367,2776,236th St SW & Brier Rd,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,19,47.78851,-122.271895,603,29th Ave W & 232nd St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,20,47.79028,-122.271894,604,29th Ave W & 228th St SW,Community Transit,,,,,,NO,NO,NO,NO,53061051914,519.14,061,051914,Good
+111,1,111_1,21,47.792082,-122.272403,1687,228th St SW & 29th Ave W,Community Transit,,,,,,NO,NO,NO,NO,53061051913,519.13,061,051913,Good

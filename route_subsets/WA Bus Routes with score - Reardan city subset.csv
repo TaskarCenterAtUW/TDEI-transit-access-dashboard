@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+74368,0,74368_0,2,47.66848556074257,-117.88073486628724,4147525,Reardan Post Office (155 S Lake St),Special Mobility Services (SMS),,Davenport - Spokane,3,6b982e,000000,NO,NO,NO,NO,53043960200,9602,043,960200,Poor
+74368,0,74368_0,3,47.66986055637281,-117.87047791081501,4147530,Reardan Health Clinic,Special Mobility Services (SMS),,Davenport - Spokane,3,6b982e,000000,NO,NO,NO,NO,53043960200,9602,043,960200,Poor
+74368,1,74368_1,2,47.66986055637281,-117.87047791081501,4147530,Reardan Health Clinic,Special Mobility Services (SMS),,Davenport - Spokane,3,6b982e,000000,NO,NO,NO,NO,53043960200,9602,043,960200,Poor
+74368,1,74368_1,3,47.66848556074257,-117.88073486628724,4147525,Reardan Post Office (155 S Lake St),Special Mobility Services (SMS),,Davenport - Spokane,3,6b982e,000000,NO,NO,NO,NO,53043960200,9602,043,960200,Poor

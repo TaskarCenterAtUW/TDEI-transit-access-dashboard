@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+123,0,123_0,5,47.759454,-122.651103,viking_tc,N. Viking Transit Center,Clallam Transit System,,,,,,NO,NO,NO,NO,53035090202,902.02,035,090202,Good
+123,1,123_1,3,47.759454,-122.651103,viking_tc,N. Viking Transit Center,Clallam Transit System,,,,,,NO,NO,NO,NO,53035090202,902.02,035,090202,Good
+7,0,7_0,45,47.759441,-122.651085,177,North Viking Transit Center - Poulsbo,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53035090202,902.02,035,090202,Good
+7,1,7_1,1,47.759441,-122.651085,177,North Viking Transit Center - Poulsbo,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53035090202,902.02,035,090202,Good

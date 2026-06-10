@@ -1,0 +1,4 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+20,0,20_0,5,46.34718127,-124.05459434,10416951,Kompton's Mini Mart at 8th St SE,Pacific Transit,,,,,,NO,NO,NO,NO,53049950600,9506,049,950600,Ok
+20,0,20_0,6,46.3528919,-124.05427787,coulter,N. 3rd St.- LB,Pacific Transit,,,,,,NO,NO,NO,NO,53049950600,9506,049,950600,Ok
+20,1,20_1,4,46.35299002,-124.05450982,3rd,Coulter Park / N. 3rd St. - LB,Pacific Transit,,,,,,NO,NO,NO,NO,53049950600,9506,049,950600,Ok

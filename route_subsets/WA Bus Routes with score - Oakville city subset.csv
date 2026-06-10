@@ -1,0 +1,3 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+45,0,45_0,7,46.84080535,-123.23418975,45115,Oakville - Post Office EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000700,7,027,000700,Poor
+45,1,45_1,5,46.84095212,-123.23428631,45116,Oakville - Post Office WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000700,7,027,000700,Poor

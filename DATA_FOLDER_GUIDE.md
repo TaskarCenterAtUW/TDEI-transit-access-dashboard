@@ -1,5 +1,7 @@
 # Dataset Folder Guide
 
+> For instructions on how to generate these folders, see **[QUICKSTART.md](QUICKSTART.md)**.
+
 Each city processed by this pipeline generates a folder under `data/` named after its **TDEI OSW dataset ID**.  
 Example for Seattle: `data/05776f25-f0f3-461c-ac34-4fa88a00936c/`
 
@@ -21,7 +23,7 @@ data/<dataset_id>/
 
 ## `stops/`
 
-**Created by:** `yakima_stops_to_geojson.py`
+**Created by:** `run_city_pipeline.py` (step 2 — calls internal `generate_bus_stops_geojson` logic)
 
 Contains one file:
 
@@ -29,7 +31,7 @@ Contains one file:
 |------|-------------|
 | `{city}_bus_stops.geojson` | GeoJSON FeatureCollection of all **unique bus stop locations** for the city. Each Feature is a Point with `stop_id`, `agency`, `name`, `lat`, `lon` properties. This is the primary input to the walkshed pipeline — one walkshed is generated per stop. |
 
-> **Why this exists:** The GTFS/CSV route data lists the same stop many times across many routes. This script deduplicates them into a clean point file, one feature per physical stop location.
+> **Why this exists:** The route CSV lists the same stop many times across many routes and paths. This step deduplicates them into a clean point file, one feature per physical stop location.
 
 ---
 
@@ -54,7 +56,7 @@ Contains the **city-wide walkshed edge networks** for each accessibility profile
 
 ## `walkshed_edges_by_stop/`
 
-**Created by:** `run_walksheds_from_geojson.py`
+**Created by:** `export_walkshed_edges_per_stop.py` (called by `run_city_pipeline.py` step 4)
 
 Contains **one GeoJSON file per bus stop** for the **pedestrian** profile.
 
@@ -70,7 +72,7 @@ Example: `Metro_Transit_22510.geojson`, `City_of_Seattle_1-26645.geojson`
 
 ## `walkshed_edges_by_stop_wheelchair/`
 
-**Created by:** `run_walksheds_from_geojson.py` (when run with the Manual Wheelchair profile)
+**Created by:** `export_walkshed_edges_per_stop.py` (called by `run_city_pipeline.py` step 6, wheelchair profile)
 
 Identical structure to `walkshed_edges_by_stop/`, but for the **Manual Wheelchair** profile.
 
@@ -84,7 +86,7 @@ Identical structure to `walkshed_edges_by_stop/`, but for the **Manual Wheelchai
 
 ## `metrics/`
 
-**Created by:** `run_walksheds_from_geojson.py` (amenity counts) and `query_osm_pois.py` (amenity locations)
+**Created by:** `count_amenities_in_walksheds.py` (amenity counts, steps 8–9) and `run_walksheds_from_geojson.py` (infrastructure metrics); amenity location detail files are a by-product of `count_amenities_in_walksheds.py`
 
 Contains summary statistics used directly by the HTML map.
 

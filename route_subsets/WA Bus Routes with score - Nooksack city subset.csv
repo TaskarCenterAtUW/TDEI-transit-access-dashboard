@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+71X,0,71X_0,22,48.921818,-122.32177,226,Nooksack Rd at Columbia St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010201,102.01,073,010201,Good
+71X,0,71X_0,23,48.928192,-122.32173,227,Nooksack Rd at Madison St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010201,102.01,073,010201,Good
+71X,1,71X_1,4,48.927755,-122.321942,196,Nooksack Rd at Madison St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010201,102.01,073,010201,Good
+71X,1,71X_1,5,48.921612,-122.32201,197,Nooksack Rd at Columbia St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010201,102.01,073,010201,Good

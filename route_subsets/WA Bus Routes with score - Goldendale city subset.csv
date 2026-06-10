@@ -1,0 +1,22 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+74516,0,74516_0,5,45.822689457,-120.812829801,4242010,Goldendale Center Place Market (IGA Foods),Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Poor
+74516,0,74516_0,6,45.814517563858985,-120.8222685134784,4255519,Goldendale Dino Mart,Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Poor
+74516,0,74516_0,7,45.81288919067222,-120.80801188661043,4149649,Goldendale Chevron (821 E Simcoe Dr),Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Poor
+19748,0,19748_0,1,45.821533953204536,-120.82357250562545,3878367,County Building 115 W Court,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,0,19748_0,2,45.8194066496699,-120.832142980124,2753634,S. Washington & Collins,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,0,19748_0,3,45.8146655574674,-120.822871026275,2753646,"Bible Baptist Church, S. Columbus & Nesbitt",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,0,19748_0,5,45.81367897607916,-120.81739212414058,2753628,E. Simcoe & Schuster Ave,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,0,19748_0,6,45.8192914066422,-120.819092857152,2753648,"WW II Park, Wilbur & Collins",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,0,19748_0,7,45.82210184295215,-120.82071611277624,4245632,S. Chatfield & E. Main,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,0,19748_0,8,45.8228202386627,-120.812372744816,2753632,IGA Roosevelt and Broadway,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,0,19748_0,9,45.82006858089338,-120.81004442319434,4245583,KVH Clinic 317 Sanders Way,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,0,19748_0,10,45.81280391911,-120.80906315356,2753647,"McDonalds, E. Simcoe & Hwy 97",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,9,45.81288746157445,-120.8083845385853,2753635,"Chevron, Simcoe & Hwy 97",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,10,45.82000098985293,-120.80986235227209,2753629,KVH Clinic 317 Sanders Way,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,11,45.8228171733474,-120.81214495064508,2753642,N. Roosevelt & Broadway,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,12,45.82209857223893,-120.82092532222501,4211480,S. Chatfield & E. Main,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,13,45.81917078704467,-120.81908888985359,2755041,"WW II Park, Wilbur & Collins",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,14,45.813676706243825,-120.817699182191,4211594,E. Simcoe & Schuster Ave,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,16,45.81451880895423,-120.82226985361291,2753630,Sinclair Columbus & Nesbitt,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,17,45.8194170693255,-120.831965394449,4211595,S. Washington & Collins,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok
+19748,1,19748_1,18,45.821533953204536,-120.82357250562545,3878367,County Building 115 W Court,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950103,9501.03,039,950103,Ok

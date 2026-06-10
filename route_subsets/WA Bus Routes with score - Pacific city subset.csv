@@ -1,0 +1,9 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+100300,0,100300_0,16,47.2716141,-122.250145,57851,Milwaukee Blvd N & Ellingson Rd,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,17,47.2672806,-122.250259,57852,Milwaukee Blvd S & Homer Ave SE,Metro Transit,,,,,,NO,NO,NO,YES,53033030901,309.01,033,030901,Ok
+100300,0,100300_0,18,47.2645836,-122.249489,81144,3rd Ave SE & Milwaukee Blvd S,Metro Transit,,,,,,NO,NO,NO,YES,53033030902,309.02,033,030902,Ok
+100300,1,100300_1,1,47.2645836,-122.249489,81144,3rd Ave SE & Milwaukee Blvd S,Metro Transit,,,,,,NO,NO,NO,YES,53033030902,309.02,033,030902,Acceptable
+100300,1,100300_1,2,47.2645988,-122.244835,81146,3rd Ave SE & Butte Ave,Metro Transit,,,,,,NO,NO,NO,YES,53033030902,309.02,033,030902,Acceptable
+100300,1,100300_1,3,47.264595,-122.239914,57853,3rd Ave SE & Pacific Ave S,Metro Transit,,,,,,NO,NO,NO,YES,53033030902,309.02,033,030902,Acceptable
+100300,1,100300_1,4,47.2681923,-122.239441,57854,Pacific Ave S & 1st Ave SE,Metro Transit,,,,,,NO,NO,NO,YES,53033030902,309.02,033,030902,Acceptable
+100300,1,100300_1,6,47.2723122,-122.249931,81170,Milwaukee Blvd S & Ellingson Rd,Metro Transit,,,,,,NO,NO,NO,YES,53033030902,309.02,033,030902,Acceptable

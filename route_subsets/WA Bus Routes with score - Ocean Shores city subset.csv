@@ -1,0 +1,25 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+161,0,161_0,1,47.00694814,-124.16769505,60012,Ocean Shores Transit Center,Grays Harbor Transit,,,,,,NO,YES,NO,YES,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,2,46.98393406,-124.16540444,60360,Ocean Shores Blvd at Ocean Lake,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,3,46.97190719,-124.16602135,60308,Ocean Shores Blvd at Taurus,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,4,46.95236415,-124.1681242,60310,Ocean Shores Blvd at Marineview Drive,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,5,46.950929,-124.147486,60312,Marine View Dr at Tonquin,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,6,46.951671,-124.131952,60020,Ocean Shores Marina,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,7,46.95342606,-124.13073421,60309,Brookdale at Catala Ave,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,8,46.9670166,-124.1383034,60333,Duck Lake Drive at Blue Wing Loop SE,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,9,46.97878472,-124.14176881,60355,Duck Lake Dr at Harbor View Loop,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,10,46.98887616,-124.1445905,60302,Duck Lake Dr at Hutton St,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,11,46.99898032,-124.14463878,60316,Duck Lake Dr & Airport,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,12,47.0077017,-124.15557146,60334,E Chance A la Mer at Dolphin,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Acceptable
+161,0,161_0,13,47.00694814,-124.16769505,60012,Ocean Shores Transit Center,Grays Harbor Transit,,,,,,NO,YES,NO,YES,53027000201,2.01,027,000201,Acceptable
+60,0,60_0,15,47.00694814,-124.16769505,60012,Ocean Shores Transit Center,Grays Harbor Transit,,,,,,NO,YES,NO,YES,53027000201,2.01,027,000201,Good
+60,1,60_1,1,47.00694814,-124.16769505,60012,Ocean Shores Transit Center,Grays Harbor Transit,,,,,,NO,YES,NO,YES,53027000201,2.01,027,000201,Good
+60,1,60_1,2,46.951671,-124.131952,60020,Ocean Shores Marina,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Good
+60,1,60_1,3,46.95342606,-124.13073421,60309,Brookdale at Catala Ave,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Good
+60,1,60_1,4,46.9670166,-124.1383034,60333,Duck Lake Drive at Blue Wing Loop SE,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Good
+60,1,60_1,5,46.97878472,-124.14176881,60355,Duck Lake Dr at Harbor View Loop,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Good
+60,1,60_1,6,46.98887616,-124.1445905,60302,Duck Lake Dr at Hutton St,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Good
+60,1,60_1,7,46.99898032,-124.14463878,60316,Duck Lake Dr & Airport,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Good
+60,1,60_1,8,47.0077017,-124.15557146,60334,E Chance A la Mer at Dolphin,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Good
+60,1,60_1,9,47.00694814,-124.16769505,60012,Ocean Shores Transit Center,Grays Harbor Transit,,,,,,NO,YES,NO,YES,53027000201,2.01,027,000201,Good
+60,1,60_1,10,47.007949,-124.161139,60015,Ocean Shores Shell,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000201,2.01,027,000201,Good

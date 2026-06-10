@@ -1,0 +1,7 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+102561,0,102561_0,28,47.3223534,-122.006813,99413,Sr 169 & S Summit Dr,Metro Transit,,,,,,NO,NO,NO,NO,53033031605,316.05,033,031605,Good
+102561,0,102561_0,29,47.3182793,-122.004944,99418,Sr 169 & Black Diamond-Ravensdl Rd SE,Metro Transit,,,,,,NO,NO,NO,NO,53033031605,316.05,033,031605,Good
+102561,0,102561_0,30,47.3094673,-122.004059,52353,Baker St & 3rd Ave,Metro Transit,,,,,,NO,NO,NO,NO,53033031603,316.03,033,031603,Good
+102561,1,102561_1,1,47.3094673,-122.004059,52353,Baker St & 3rd Ave,Metro Transit,,,,,,NO,NO,NO,NO,53033031603,316.03,033,031603,Good
+102561,1,102561_1,2,47.3183708,-122.004784,99417,Sr 169 & Black Diamond-Ravensdl Rd SE,Metro Transit,,,,,,NO,NO,NO,NO,53033031603,316.03,033,031603,Good
+102561,1,102561_1,3,47.3228264,-122.006813,99411,Sr 169 & Black Diamond-Ravensdl Rd SE,Metro Transit,,,,,,NO,NO,NO,NO,53033031603,316.03,033,031603,Good

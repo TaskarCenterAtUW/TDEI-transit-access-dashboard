@@ -1,0 +1,10 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19721,0,19721_0,6,46.5542795206207,-122.275902457333,2754950,Morton Chevron Station,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Poor
+19721,1,19721_1,9,46.5542795206207,-122.275902457333,2754950,Morton Chevron Station,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Poor
+76388,0,76388_0,8,46.55591888659979,-122.28025581019287,4223958,"Arbor Health-Morton Hospital - 521 Adams Ave, Morton",Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Good
+76388,0,76388_0,9,46.55379213991236,-122.27575298453677,4211507,Chevron - 497 2nd St. - Morton,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Good
+76388,1,76388_1,1,46.55334270391475,-122.27632736580044,4249049,Morton E - Transit Station 200 Westlake Ave,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Good
+77478,0,77478_0,1,46.55334270391475,-122.27632736580044,4249049,Morton E - Transit Station 200 Westlake Ave,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Poor
+77478,0,77478_0,2,46.55591888659979,-122.28025581019287,4223958,"Arbor Health-Morton Hospital - 521 Adams Ave, Morton",Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Poor
+77478,1,77478_1,9,46.55591888659979,-122.28025581019287,4223958,"Arbor Health-Morton Hospital - 521 Adams Ave, Morton",Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Poor
+77478,1,77478_1,10,46.55334270391475,-122.27632736580044,4249049,Morton E - Transit Station 200 Westlake Ave,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971900,9719,041,971900,Poor

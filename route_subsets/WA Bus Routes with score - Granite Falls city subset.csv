@@ -1,0 +1,19 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+280,0,280_0,1,48.080475,-121.969112,890,Granite Falls Park & Ride,Community Transit,,,,,,NO,YES,NO,YES,53061053604,536.04,061,053604,Good
+280,0,280_0,2,48.079831,-121.966741,1932,S Kentucky Ave & E Pioneer St,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,0,280_0,3,48.080462,-121.963972,1933,S Alder Ave & E Pioneer St,Community Transit,,,,,,NO,NO,NO,YES,53061053606,536.06,061,053606,Good
+280,0,280_0,4,48.082845,-121.963961,1934,S Alder Ave & E Stanley St,Community Transit,,,,,,NO,NO,NO,YES,53061053606,536.06,061,053606,Good
+280,0,280_0,5,48.083458,-121.966229,2628,E Stanley St & N Kentucky Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,0,280_0,6,48.083353,-121.975185,1904,W Stanley St & Portage Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,0,280_0,7,48.086849,-121.980759,3152,100th St NE & Jordan Rd,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,0,280_0,8,48.086758,-121.985194,3153,100th St NE & Eagle View Dr,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,0,280_0,9,48.08671,-121.987836,3154,100th St NE & Granite Falls High School,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,41,48.085788,-121.990534,3150,Quarry Rd & 100th St NE,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,42,48.086579,-121.985509,3151,100th St NE & Penny Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,43,48.083085,-121.976645,3155,W Stanley St & Jordan Rd,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,44,48.083229,-121.974339,543,W Stanley St & Portage Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,45,48.083262,-121.970844,544,W Stanley St & Cascade Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,46,48.083332,-121.965748,2622,E Stanley St & S Indiana Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,47,48.083095,-121.964193,1302,E Stanley St & S Alder Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,48,48.079848,-121.964492,1839,E Pioneer St & S Alder Ave,Community Transit,,,,,,NO,NO,NO,YES,53061053604,536.04,061,053604,Good
+280,1,280_1,49,48.080475,-121.969112,890,Granite Falls Park & Ride,Community Transit,,,,,,NO,YES,NO,YES,53061053604,536.04,061,053604,Good

@@ -1,0 +1,14 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19698,0,19698_0,5,46.309291,-119.977731,2754742,Sunnyside A.M.-P.M./Kidney Ctr.,People for People,,,,,,NO,NO,NO,NO,53077001801,18.01,077,001801,Poor
+19698,0,19698_0,6,46.315998,-119.986761,2754741,Sunnyside Walmart,People for People,,,,,,NO,NO,NO,NO,53077002005,20.05,077,002005,Poor
+19698,0,19698_0,7,46.31636,-120.01084,2754738,Sunnyside Health Center,People for People,,,,,,NO,NO,NO,NO,53077002005,20.05,077,002005,Poor
+19698,0,19698_0,8,46.32146,-120.01321,2754739,Sunnyside Safeway/Library,People for People,,,,,,NO,NO,NO,NO,53077002003,20.03,077,002003,Poor
+19698,1,19698_1,1,46.32146,-120.01321,2754739,Sunnyside Safeway/Library,People for People,,,,,,NO,NO,NO,NO,53077002003,20.03,077,002003,Poor
+19698,1,19698_1,2,46.32376120562734,-120.0077402458233,3194501,Sunnyside Astria Hospital,People for People,,,,,,NO,NO,NO,NO,53077002003,20.03,077,002003,Poor
+19698,1,19698_1,3,46.32424,-119.99348,2754740,Fiesta Foods - Sunnyside,People for People,,,,,,NO,NO,NO,NO,53077002003,20.03,077,002003,Poor
+19700,0,19700_0,3,46.308862,-119.9789634,2754730,Sunnyside Exit 69 Shell,People for People,,,,,,NO,NO,NO,NO,53077002005,20.05,077,002005,Poor
+19700,1,19700_1,4,46.308862,-119.9789634,2754730,Sunnyside Exit 69 Shell,People for People,,,,,,NO,NO,NO,NO,53077002005,20.05,077,002005,Poor
+19704,0,19704_0,1,46.32424,-119.99348,2754740,Fiesta Foods - Sunnyside,People for People,,,,,,NO,NO,NO,NO,53077002003,20.03,077,002003,Poor
+19704,0,19704_0,2,46.333336,-120.020161,2754746,Sunnyside Neighborhood Health,People for People,,,,,,NO,NO,NO,NO,53077002004,20.04,077,002004,Poor
+19704,1,19704_1,5,46.333336,-120.020161,2754746,Sunnyside Neighborhood Health,People for People,,,,,,NO,NO,NO,NO,53077002004,20.04,077,002004,Poor
+19704,1,19704_1,6,46.32424,-119.99348,2754740,Fiesta Foods - Sunnyside,People for People,,,,,,NO,NO,NO,NO,53077002003,20.03,077,002003,Poor

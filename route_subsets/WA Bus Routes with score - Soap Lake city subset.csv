@@ -1,0 +1,19 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+67974,0,67974_0,1,47.3903641,-119.4845863,3879610,Soap Lake City Park on 1st Ave NE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,0,67974_0,2,47.3873277,-119.4864286,4147705,Lava Links on 2nd Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,0,67974_0,3,47.3873227,-119.4884885,3879611,Soap Lake Senior Center on 2nd Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,0,67974_0,4,47.3859634,-119.4906125,3879612,Soap Lake Gardens on Division St S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,0,67974_0,5,47.3840589,-119.4906145,3879613,Soap Lake Post Office on Division St S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,0,67974_0,6,47.3797389,-119.4905579,3879614,Division St S / 8th Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,0,67974_0,7,47.37704,-119.4905817,3879615,Gas N Go on Division St S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,1,67974_1,9,47.3863854,-119.4830822,3879608,Daisy St S / 3rd Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,1,67974_1,10,47.3888535,-119.4830913,3879609,Sacred Tattoo on Dasiy St S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+67974,1,67974_1,11,47.3903641,-119.4845863,3879610,Soap Lake City Park on 1st Ave NE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+77622,0,77622_0,9,47.3888535,-119.4830913,3879609,Sacred Tattoo on Dasiy St S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+77622,0,77622_0,10,47.3903641,-119.4845863,3879610,Soap Lake City Park on 1st Ave NE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+77622,0,77622_0,11,47.3873277,-119.4864286,4147705,Lava Links on 2nd Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+77622,0,77622_0,12,47.3873227,-119.4884885,3879611,Soap Lake Senior Center on 2nd Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+77622,0,77622_0,13,47.3859634,-119.4906125,3879612,Soap Lake Gardens on Division St S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+77622,0,77622_0,14,47.3840589,-119.4906145,3879613,Soap Lake Post Office on Division St S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+77622,0,77622_0,15,47.3797389,-119.4905579,3879614,Division St S / 8th Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable
+77622,0,77622_0,16,47.37704,-119.4905817,3879615,Gas N Go on Division St S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010300,103,025,010300,Acceptable

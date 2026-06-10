@@ -1,0 +1,27 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+77167,0,77167_0,9,48.538782,-121.745418,4248661,Upper Skagit Library - Concrete,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53057951102,9511.02,057,951102,Poor
+77167,0,77167_0,10,48.53889317573501,-121.75173468765414,4248662,Concrete Post Office,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53057951102,9511.02,057,951102,Poor
+77167,0,77167_0,11,48.53738148686409,-121.7585010459519,4248663,Concrete Park & Ride,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53057951102,9511.02,057,951102,Poor
+77167,1,77167_1,1,48.53738148686409,-121.7585010459519,4248663,Concrete Park & Ride,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53057951102,9511.02,057,951102,Poor
+77167,1,77167_1,2,48.53889317573501,-121.75173468765414,4248662,Concrete Post Office,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53057951102,9511.02,057,951102,Poor
+77167,1,77167_1,3,48.538782,-121.745418,4248661,Upper Skagit Library - Concrete,Sauk-Suiattle Tribe,,DC Direct,3,e2be12,000000,NO,NO,NO,NO,53057951102,9511.02,057,951102,Poor
+70X,0,70X_0,1,48.537406,-121.758497,5205,Concrete Park & Ride,Skagit Transit,,,,,,YES,NO,NO,YES,53057951102,9511.02,057,951102,Good
+70X,0,70X_0,2,48.538398,-121.756881,5131,Main St & Nellie Ln,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Good
+70X,0,70X_0,3,48.538801,-121.751777,5132,Concrete Post Office and City Hall,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Good
+70X,0,70X_0,4,48.538425,-121.749924,5202,Voss Way & Hwy 20,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Good
+70X,0,70X_0,5,48.536055,-121.758442,5103,SR 20 at N Superior Ave,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Good
+70X,1,70X_1,13,48.536184,-121.760601,5119,SR 20 & Superior Ave (Drive in & gas),Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Good
+70X,1,70X_1,14,48.537406,-121.758497,5205,Concrete Park & Ride,Skagit Transit,,,,,,YES,NO,NO,YES,53057951102,9511.02,057,951102,Good
+717,0,717_0,1,48.537406,-121.758497,5205,Concrete Park & Ride,Skagit Transit,,,,,,YES,NO,NO,YES,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,2,48.538398,-121.756881,5131,Main St & Nellie Ln,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,3,48.538801,-121.751777,5132,Concrete Post Office and City Hall,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,4,48.538819,-121.746167,5133,Concrete Theatre,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,5,48.5376,-121.746955,5204,Hwy 20 across from Mill Ave,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,6,48.536055,-121.758442,5103,SR 20 at N Superior Ave,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,7,48.53568,-121.759124,5134,SR 20 & Superior Ave ,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,8,48.531224,-121.758361,5150,Concrete High School,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,9,48.534719,-121.761135,5120,Cedar St & Park St.,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,32,48.534629,-121.760907,5139,Cedar St & Reitze,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,33,48.531224,-121.758361,5150,Concrete High School,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,34,48.535619,-121.758957,5212,S Superior Ave @ Hwy 20,Skagit Transit,,,,,,NO,NO,NO,NO,53057951102,9511.02,057,951102,Acceptable
+717,0,717_0,35,48.537406,-121.758497,5205,Concrete Park & Ride,Skagit Transit,,,,,,YES,NO,NO,YES,53057951102,9511.02,057,951102,Acceptable

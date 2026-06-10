@@ -1,0 +1,29 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+40,0,40_0,34,47.00054,-123.445263,40039,Hurd Rd EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000501,5.01,027,000501,Good
+40,0,40_0,35,47.003333,-123.419456,40138,Elma Mini-Mart EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,0,40_0,36,47.003505,-123.414561,40048,Elma High School EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,0,40_0,37,47.00367043,-123.40820611,40052,Elma Transit Center,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,0,40_0,38,47.004284,-123.402845,40150,Main & 2nd EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,0,40_0,39,47.004471,-123.400987,40056,Main & 1st EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,0,40_0,40,47.00524,-123.393739,40060,E Main EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,0,40_0,41,47.006139,-123.391499,40154,Rusty Tractor EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,0,40_0,42,47.008459,-123.387961,40158,Elma Gateway EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,10,47.00886127,-123.3878535,40346,Elma Gateway 76 WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,11,47.006053,-123.392035,40350,Rusty Tractor WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,12,47.00470571,-123.40022385,40354,E Main & N A St WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,13,47.00450085,-123.40231061,40358,W Main & 2nd WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,14,47.00367043,-123.40820611,40052,Elma Transit Center,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,15,47.003716,-123.410261,40123,W Main & Division WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,16,47.003641,-123.415019,40131,Main & 18th WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,17,47.003474,-123.419575,40366,Elma Mini-Mart WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Good
+40,1,40_1,18,47.003147,-123.433985,40133,Elma Elementary WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000501,5.01,027,000501,Good
+45,0,45_0,1,47.00367043,-123.40820611,40052,Elma Transit Center,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+45,0,45_0,2,47.004284,-123.402845,40150,Main & 2nd EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+45,0,45_0,3,47.004471,-123.400987,40056,Main & 1st EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+45,0,45_0,4,47.00524,-123.393739,40060,E Main EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+45,0,45_0,5,47.006139,-123.391499,40154,Rusty Tractor EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+45,1,45_1,7,47.006053,-123.392035,40350,Rusty Tractor WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+45,1,45_1,8,47.00470571,-123.40022385,40354,E Main & N A St WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+45,1,45_1,9,47.00450085,-123.40231061,40358,W Main & 2nd WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+45,1,45_1,10,47.00367043,-123.40820611,40052,Elma Transit Center,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor
+76900,1,76900_1,2,47.00369484621686,-123.40814666225205,4244465,Elma Transit Center,Squaxin Island Transit,,,,,,NO,NO,NO,NO,53027000502,5.02,027,000502,Poor

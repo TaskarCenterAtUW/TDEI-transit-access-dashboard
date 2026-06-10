@@ -1,0 +1,37 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+123,0,123_0,2,48.080868,-123.104438,333,Sequim Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009002100,21,009,002100,Good
+123,1,123_1,6,48.080868,-123.104438,333,Sequim Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009002100,21,009,002100,Good
+Rt30,0,Rt30_0,28,48.075441,-123.134792,30E_28,River Road,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002001,20.01,009,002001,Good
+Rt30,0,Rt30_0,29,48.077919,-123.131606,30E_29,Washington Street at Home Depot,Clallam Transit System,,,,,,NO,NO,NO,YES,53009002001,20.01,009,002001,Good
+Rt30,0,Rt30_0,30,48.078315,-123.128721,30E_30,Washington Street at Costco,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002001,20.01,009,002001,Good
+Rt30,0,Rt30_0,31,48.079438,-123.12048,30E_31,Washington Street at Domino's Pizza,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002001,20.01,009,002001,Good
+Rt30,0,Rt30_0,32,48.079631,-123.116648,30E_32,7th & Washington,Clallam Transit System,,,,,,NO,NO,NO,YES,53009002100,21,009,002100,Good
+Rt30,0,Rt30_0,33,48.079591,-123.112869,30E_33,5th and Washington Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt30,0,Rt30_0,34,48.079584,-123.110118,30E_34,4th and Washington St,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt30,0,Rt30_0,35,48.080868,-123.104438,333,Sequim Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009002100,21,009,002100,Good
+Rt30,1,Rt30_1,1,48.080868,-123.104438,333,Sequim Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009002100,21,009,002100,Good
+Rt30,1,Rt30_1,2,48.079746,-123.110131,30W_50,Washington Street and 4th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt30,1,Rt30_1,3,48.079763,-123.112723,30W_51,Washington Street and 5th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt30,1,Rt30_1,4,48.079538,-123.121086,30W_52,Washington Street at Mini Mart,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002001,20.01,009,002001,Good
+Rt30,1,Rt30_1,5,48.078864,-123.126361,30W_53,Washington Street at Senior Apartments,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002001,20.01,009,002001,Good
+Rt30,1,Rt30_1,6,48.078015,-123.132764,30W_54,Washington Street at Walmart,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002001,20.01,009,002001,Good
+Rt50,0,Rt50_0,1,48.080868,-123.104438,333,Sequim Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009002100,21,009,002100,Good
+Rt50,0,Rt50_0,2,48.079565,-123.097774,52E_1,Washington Street at Pioneer Park,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt50,0,Rt50_0,3,48.074007,-123.080926,50_10,South Rhodefer Road,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt50,1,Rt50_1,3,48.074083,-123.080183,50_20,North Rhodefer Road,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002002,20.02,009,002002,Good
+Rt50,1,Rt50_1,4,48.079763,-123.099213,52W_29,Washington at Coop,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt50,1,Rt50_1,5,48.080868,-123.104438,333,Sequim Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009002100,21,009,002100,Good
+Rt52,0,Rt52_0,1,48.080868,-123.104438,333,Sequim Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009002100,21,009,002100,Good
+Rt52,0,Rt52_0,2,48.079565,-123.097774,52E_1,Washington Street at Pioneer Park,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt52,0,Rt52_0,3,48.075904,-123.082059,52E_2,Sequim Bay Road and Rhodefer Road,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002002,20.02,009,002002,Good
+Rt52,0,Rt52_0,4,48.062654,-123.042009,52E_3,Sequim Marina,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002002,20.02,009,002002,Good
+Rt52,1,Rt52_1,8,48.063098,-123.041728,52W_26,Sequim Marina,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002002,20.02,009,002002,Good
+Rt52,1,Rt52_1,10,48.076018,-123.084222,52W_28,Sequim Bay Road and Washington,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001902,19.02,009,001902,Good
+Rt52,1,Rt52_1,11,48.079763,-123.099213,52W_29,Washington at Coop,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+Rt52,1,Rt52_1,12,48.080868,-123.104438,333,Sequim Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009002100,21,009,002100,Good
+8,0,8_0,13,48.076244,-123.085907,211,Washington Street at S. Blake Avenue,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53009001902,19.02,009,001902,Good
+8,0,8_0,14,48.0797634242919,-123.099212944507,214,Washington at Co-op,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+8,0,8_0,15,48.080824,-123.104349,186,Sequim Transit Center,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+8,1,8_1,1,48.080824,-123.104349,186,Sequim Transit Center,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+8,1,8_1,2,48.079565,-123.097774,210,Washington Street at Pioneer Park,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good
+8,1,8_1,3,48.078473,-123.091889,212,Washington Street at S. Brown Road,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53009002100,21,009,002100,Good

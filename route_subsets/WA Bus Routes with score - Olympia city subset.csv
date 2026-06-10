@@ -1,0 +1,565 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+100,1,100_1,2,47.0482368469,-122.831253,524,Martin Way Station [wb],Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+100,1,100_1,3,47.0472984314,-122.845215,528,Martin Way at Lilly Rd [wb],Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+100,1,100_1,4,47.04636,-122.859829,441,Martin Way at Pattison St [wb],Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+100,1,100_1,5,47.046962738,-122.876755,532,State Ave at Turner St [wb],Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+100,1,100_1,6,47.0466384888,-122.889458,164,State Ave at Eastside St [wb],Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+100,1,100_1,7,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+100,1,100_1,8,47.0445632935,-122.907219,796,4th Ave at Simmons St [wb],Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+100,1,100_1,9,47.0460090637,-122.920486,271,Harrison Ave at Perry St [wb],Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+100,1,100_1,10,47.046131134,-122.926704,411,Harrison Ave at Division St [wb],Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+100,1,100_1,11,47.0422782898,-122.932533,323,Capital Mall Station,Intercity Transit,ONE,The One,3,F6AF65,0A1045,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+12,0,12_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+12,0,12_0,2,47.0459136963,-122.90316,869,Columbia St at State Ave [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+12,0,12_0,3,47.0438079834,-122.905922,267,5th Ave at Sylvester St [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+12,0,12_0,4,47.0436515808,-122.908066,268,5th Ave at Deschutes Pkwy [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+12,0,12_0,5,47.0431976318,-122.910957,801,Deschutes Pkwy at 5th Ave [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,6,47.0408325195,-122.914383,320,Capitol Lake [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,7,47.0373077393,-122.913193,319,Marathon Park [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,8,47.034538269,-122.911545,318,Percival Cove [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,9,47.0325393677,-122.910522,321,Deschutes Pkwy at Lakeridge Dr [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,10,47.0283203125,-122.913414,322,County Courthouse [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,11,47.0279998779,-122.914902,338,S. Evergreen Park Dr at 24th Way [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,12,47.0300827026,-122.915237,339,Regency Apts [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,13,47.0308532715,-122.916817,340,Heritage Park Apts [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,14,47.0307273865,-122.919006,341,Broadmoor West [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,15,47.0296325684,-122.920708,791,Evergreen Park [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,16,47.028427124,-122.922684,342,Evergreen Park Dr at S. Evergreen Park D,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,17,47.0272865295,-122.92392,1022,Cooper Point Dr at Evergreen Park Dr [sb,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,0,12_0,19,47.0232200623,-122.929276,88,South Puget Sound Community College,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,1,12_1,34,47.0232200623,-122.929276,88,South Puget Sound Community College,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,1,12_1,36,47.0283851624,-122.92231,334,Evergreen Park Dr at S Evergreen Park Dr,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,37,47.0292015076,-122.920914,792,Evergreen Park [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,38,47.0304298401,-122.919243,335,Sherwood Glen Apts [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,39,47.0307769775,-122.917374,336,Heritage Park Apts [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,40,47.0298423767,-122.915283,337,Westlake Apts [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,41,47.0293960571,-122.913193,300,County Courthouse [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,42,47.0325813293,-122.910362,301,Deschutes Pkwy at Lakeridge Dr [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,43,47.0346565247,-122.91143,304,Percival Cove [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,44,47.037399292,-122.913101,303,Marathon Park [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,45,47.0408287048,-122.914253,302,Capitol Lake [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,46,47.0430908203,-122.91098,800,Deschutes Pkwy at 5th Ave [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+12,1,12_1,47,47.0435523987,-122.907532,802,5th Ave at Deschutes Pkwy [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+12,1,12_1,48,47.043684,-122.905502,265,5th Ave at Sylvester St [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+12,1,12_1,49,47.0460319519,-122.903,266,Columbia St at State Ave [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+12,1,12_1,50,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,2,47.044418335,-122.901711,1,Capitol Way at 4th Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,3,47.0428886414,-122.901489,2,Capitol Way at Legion Way [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,4,47.0404891968,-122.901131,3,Capitol Way at 9th Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,5,47.0392608643,-122.900948,4,Capitol Way at Union Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,6,47.0378189087,-122.901024,5,Capitol Way at 11th Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,7,47.0351676941,-122.900932,950,Capitol Way at 14th Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,8,47.0320091248,-122.900925,7,Capitol Way at 18th Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,9,47.0298919678,-122.900917,867,Capitol Way at 21st Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,10,47.0274581909,-122.900909,8,Capitol Way at 24th Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,0,13_0,11,47.0234909058,-122.896332,9,Capitol Blvd at O'Farrell Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+13,1,13_1,20,47.0233268738,-122.895828,50,Capitol Blvd at Eskridge Way [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+13,1,13_1,21,47.0278129578,-122.900734,51,Capitol Way at 24th Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,22,47.0304450989,-122.900734,52,Capitol Way at 21st Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,23,47.0319480896,-122.900719,53,Capitol Way at 18th Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,24,47.0342025757,-122.900719,54,Capitol Way at Maple Park Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,25,47.0372314453,-122.900703,55,Capitol Way at 11th Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,26,47.0393829346,-122.900749,56,Capitol Way at Union Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,27,47.0410232544,-122.901001,57,Capitol Way at 9th Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,28,47.042766571,-122.901299,58,Capitol Way at 7th Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,29,47.0441703796,-122.90152,962,Capitol Way at 5th Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,30,47.0460014343,-122.901756,868,Capitol Way at State Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+13,1,13_1,31,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,2,47.0431938171,-122.899017,212,Franklin St at Legion Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,3,47.0416183472,-122.898262,213,8th Ave at Franklin St [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,4,47.0419273376,-122.893776,214,8th Ave at Chestnut St [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,5,47.0395126343,-122.893967,781,Union Ave at Cherry St [wb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,6,47.038269043,-122.895988,314,Jefferson St at 11th Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,7,47.0366897583,-122.895973,315,Jefferson St at 13th Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,8,47.0340042114,-122.896332,290,Maple Park Ave at Jefferson St [wb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,9,47.0338859558,-122.89798,316,Maple Park Ave at Franklin St [wb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,10,47.0338859558,-122.899529,317,Maple Park Ave at Capitol Way [wb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,11,47.0342025757,-122.900719,54,Capitol Way at Maple Park Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,12,47.0363311768,-122.90387,894,State Capitol Building [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,13,47.0354042053,-122.902916,896,Newhouse Building [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,14,47.035446167,-122.901588,961,Sid Snyder Ave at Capitol Way [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,15,47.0372314453,-122.900703,55,Capitol Way at 11th Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,16,47.0393829346,-122.900749,56,Capitol Way at Union Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,17,47.0410232544,-122.901001,57,Capitol Way at 9th Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,18,47.042766571,-122.901299,58,Capitol Way at 7th Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,19,47.0441703796,-122.90152,962,Capitol Way at 5th Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,20,47.0460014343,-122.901756,868,Capitol Way at State Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,21,47.0485458374,-122.9021,70,Capitol Way at A Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,0,14_0,22,47.0501785278,-122.902603,69,Olympia Farmers Market,Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,1,47.0501785278,-122.902603,69,Olympia Farmers Market,Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,2,47.04869,-122.90237,71,Capitol Way at A Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,3,47.044418335,-122.901711,1,Capitol Way at 4th Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,4,47.0428886414,-122.901489,2,Capitol Way at Legion Way [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,5,47.0404891968,-122.901131,3,Capitol Way at 9th Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,6,47.0392608643,-122.900948,4,Capitol Way at Union Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,7,47.0378189087,-122.901024,5,Capitol Way at 11th Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,8,47.0363311768,-122.90387,894,State Capitol Building [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,9,47.0354042053,-122.902916,896,Newhouse Building [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,10,47.035446167,-122.901588,961,Sid Snyder Ave at Capitol Way [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,11,47.0351676941,-122.900932,950,Capitol Way at 14th Ave [sb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,12,47.0336761475,-122.900131,305,Maple Park Ave at Capitol Way [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,13,47.0336952209,-122.897903,306,Maple Park Ave at Franklin St [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,14,47.0343170166,-122.895653,307,Jefferson St at Maple Park Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,15,47.0369911194,-122.895721,308,Jefferson St at 13th Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,16,47.038444519,-122.895775,309,Jefferson St at 11th Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,17,47.039276123,-122.894951,707,Union Ave at Jefferson St [eb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,18,47.0420455933,-122.894142,209,8th Ave at Chestnut St [wb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,19,47.041809082,-122.897789,210,8th Ave at Adams St [wb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,20,47.0436134338,-122.898926,211,Franklin St at Legion Ave [nb],Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+14,1,14_1,21,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,14,Capitol Campus,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+21,0,21_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+21,0,21_0,2,47.0451393127,-122.897659,168,4th at Adams [eb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+21,0,21_0,3,47.0453300476,-122.89447,858,4th Ave at Chestnut St [eb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+21,0,21_0,4,47.0455131531,-122.891594,169,4th Ave at Pear St [eb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,0,21_0,5,47.0471343994,-122.887215,909,Puget St at State Ave [nb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,0,21_0,6,47.0486831665,-122.887421,170,Puget St at Thurston Ave [nb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,0,21_0,7,47.0500183105,-122.887512,171,Puget St at Bigelow Ave [nb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,0,21_0,8,47.0500984192,-122.884239,172,Bigelow Ave at Garrison St [eb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,0,21_0,9,47.0500869751,-122.881493,173,Bigelow Ave at Central St [eb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,0,21_0,10,47.0503845215,-122.877304,174,Fir St at Bigelow Ave [nb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,0,21_0,11,47.0536270142,-122.878372,175,Pine Ave at McCormick St [wb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,0,21_0,12,47.0536384583,-122.8806,176,Pine Ave at Lybarger St [wb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,0,21_0,13,47.0538024902,-122.882401,177,Central St at Pine Ave [nb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,0,21_0,14,47.0583572388,-122.882439,178,Central St at Massey Ave [nb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,0,21_0,15,47.0607528687,-122.882362,179,Central St at Ethridge Ave [nb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,0,21_0,16,47.061985,-122.880324,877,Miller Ave at Marion St [eb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,0,21_0,17,47.061958313,-122.877533,180,Miller Ave at McCormick St [eb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,0,21_0,18,47.0619430542,-122.872742,181,Miller Ave at Ann St [eb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,3,47.0672836304,-122.884697,153,Bethel St at Brandon Ct [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,4,47.0657653809,-122.884705,154,Bethel St at Devon Ct [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,5,47.0617027283,-122.884796,155,Bethel St at Miller Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,6,47.0598831177,-122.884811,156,Bethel St at Ethridge Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,7,47.0576858521,-122.884888,157,Bethel St at San Francisco Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,8,47.0569152832,-122.887482,158,Puget St at San Francisco Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,9,47.0553283691,-122.887512,159,Puget St at Leavenworth Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,10,47.0534667969,-122.887505,160,Puget St at Pine Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,11,47.0514297485,-122.887688,161,Puget St at Yew Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010200,102,067,010200,Poor
+21,1,21_1,12,47.0497817993,-122.887695,162,Puget St at Bigelow Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,1,21_1,13,47.0484695435,-122.887558,163,Puget St at Thurston Ave [sb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,1,21_1,14,47.0466384888,-122.889458,164,State Ave at Eastside St [wb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+21,1,21_1,15,47.0463600159,-122.893753,165,State Ave at East Bay Dr [wb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+21,1,21_1,16,47.0462036133,-122.896172,166,State at Cherry [wb],Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+21,1,21_1,17,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,21,N Bethel/N Central,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+41,0,41_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+41,0,41_0,2,47.0457115173,-122.902855,797,State Ave at Columbia St [wb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+41,0,41_0,3,47.0445632935,-122.907219,796,4th Ave at Simmons St [wb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+41,0,41_0,4,47.0459251404,-122.916389,269,Harrison Ave at Percival St [wb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,5,47.0459403992,-122.918617,270,Harrison Ave at Plymouth St [wb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,6,47.0460090637,-122.920486,271,Harrison Ave at Perry St [wb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,7,47.046043396,-122.923203,272,Harrison Ave at Milroy St [wb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,8,47.0466079712,-122.925781,273,Division St at Harrison Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,9,47.0496749878,-122.925682,274,Division St at Madison Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,10,47.0521507263,-122.925583,275,Division St at Giles Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,11,47.0533981323,-122.925522,276,Division St at Bowman Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,12,47.0550422668,-122.925484,277,Division St at Dickinson Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,13,47.0569000244,-122.925491,278,Division St at Farwell Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,14,47.0594673157,-122.925591,279,Division St at Muirhead Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,15,47.0636062622,-122.928436,280,Division St at Elliott Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,16,47.0649414063,-122.928879,281,Division St at Burbank Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,0,41_0,17,47.0667304993,-122.929367,282,Butler Cove Apts [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,0,41_0,19,47.0712013245,-122.935577,284,28th Ave at Division St [wb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,0,41_0,20,47.0713691711,-122.941582,285,28th Ave at Cooper Point Rd [wb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,1,41_1,8,47.0711326599,-122.941612,248,28th Ave at Cooper Point Rd [eb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,1,41_1,9,47.0711250305,-122.93541,249,28th Ave at Division St [eb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,1,41_1,10,47.0690155029,-122.931183,250,Division St at 26th Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,1,41_1,11,47.0663566589,-122.929459,251,Butler Cove Apts [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,1,41_1,12,47.0648880005,-122.929001,252,Division St at Burbank Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,1,41_1,13,47.0633583069,-122.928459,253,Division St at Elliott Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+41,1,41_1,14,47.059173584,-122.925713,254,Division St at Muirhead Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,1,41_1,15,47.0573501587,-122.925659,255,Division St at Walnut Rd [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,1,41_1,16,47.05493927,-122.925636,256,Division St at Dickinson Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,1,41_1,17,47.0532455444,-122.925652,257,Division St at Bowman Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,1,41_1,18,47.0513343811,-122.925758,258,Division St at Conger Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,1,41_1,19,47.0495605469,-122.925842,259,Division St at Madison Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,1,41_1,20,47.0473747253,-122.925919,260,Division St at Garfield Ave [sb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+41,1,41_1,21,47.0459098816,-122.92511,261,Harrison Ave at Division St [eb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+41,1,41_1,22,47.0458869934,-122.92276,262,Harrison Ave at Decatur St [eb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+41,1,41_1,23,47.0458602905,-122.919998,263,Harrison Ave at Plymouth St [eb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+41,1,41_1,24,47.0457763672,-122.915245,264,Harrison Ave at Foote St [eb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+41,1,41_1,25,47.0444717407,-122.906227,798,4th Ave at Simmons St [eb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+41,1,41_1,26,47.044593811,-122.904648,941,4th Ave at Water St [eb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+41,1,41_1,27,47.0460014343,-122.901756,868,Capitol Way at State Ave [nb],Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+41,1,41_1,28,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,41,Evergreen College/Nightline,3,B10086,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+42,0,42_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+42,0,42_0,2,47.0459136963,-122.90316,869,Columbia St at State Ave [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+42,0,42_0,3,47.0438079834,-122.905922,267,5th Ave at Sylvester St [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+42,0,42_0,4,47.0436515808,-122.908066,268,5th Ave at Deschutes Pkwy [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+42,0,42_0,5,47.0431976318,-122.910957,801,Deschutes Pkwy at 5th Ave [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,6,47.0408325195,-122.914383,320,Capitol Lake [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,7,47.0373077393,-122.913193,319,Marathon Park [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,8,47.034538269,-122.911545,318,Percival Cove [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,9,47.0325393677,-122.910522,321,Deschutes Pkwy at Lakeridge Dr [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,10,47.0283203125,-122.913414,322,County Courthouse [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,11,47.0279998779,-122.914902,338,S. Evergreen Park Dr at 24th Way [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,12,47.0300827026,-122.915237,339,Regency Apts [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,13,47.0308532715,-122.916817,340,Heritage Park Apts [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,14,47.0307273865,-122.919006,341,Broadmoor West [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,15,47.0296325684,-122.920708,791,Evergreen Park [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,16,47.028427124,-122.922684,342,Evergreen Park Dr at S. Evergreen Park D,Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,17,47.0272865295,-122.92392,1022,Cooper Point Dr at Evergreen Park Dr [sb,Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,0,42_0,20,47.0253982544,-122.942978,1035,New Horizon Communities [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,1,42_1,6,47.0253181458,-122.928581,1074,SPSCC Mottman Entrance [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,1,42_1,7,47.0283851624,-122.92231,334,Evergreen Park Dr at S Evergreen Park Dr,Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,8,47.0292015076,-122.920914,792,Evergreen Park [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,9,47.0304298401,-122.919243,335,Sherwood Glen Apts [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,10,47.0307769775,-122.917374,336,Heritage Park Apts [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,11,47.0298423767,-122.915283,337,Westlake Apts [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,12,47.0293960571,-122.913193,300,County Courthouse [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,13,47.0325813293,-122.910362,301,Deschutes Pkwy at Lakeridge Dr [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,14,47.0346565247,-122.91143,304,Percival Cove [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,15,47.037399292,-122.913101,303,Marathon Park [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,16,47.0408287048,-122.914253,302,Capitol Lake [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,17,47.0430908203,-122.91098,800,Deschutes Pkwy at 5th Ave [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+42,1,42_1,18,47.0435523987,-122.907532,802,5th Ave at Deschutes Pkwy [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+42,1,42_1,19,47.043684,-122.905502,265,5th Ave at Sylvester St [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+42,1,42_1,20,47.0460319519,-122.903,266,Columbia St at State Ave [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+42,1,42_1,21,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,0,45_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,0,45_0,2,47.0485458374,-122.9021,70,Capitol Way at A Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,0,45_0,3,47.0501785278,-122.902603,69,Olympia Farmers Market,Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,0,45_0,4,47.04869,-122.90237,71,Capitol Way at A Ave [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,0,45_0,5,47.0463485718,-122.902,951,Capitol Way at Olympia Ave [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,0,45_0,6,47.0457115173,-122.902855,797,State Ave at Columbia St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,0,45_0,7,47.0445632935,-122.907219,796,4th Ave at Simmons St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,0,45_0,8,47.0459251404,-122.916389,269,Harrison Ave at Percival St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,9,47.0462417603,-122.917801,370,Rogers St at Harrison Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,10,47.048664093,-122.917732,371,Rogers St at Jackson Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,11,47.0508117676,-122.918411,372,Rogers St at Conger Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,12,47.0535926819,-122.918938,373,Bowman Ave at Rogers St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,13,47.0536117554,-122.922707,374,Bowman Ave at Milroy St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,14,47.0532455444,-122.925652,257,Division St at Bowman Ave [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,15,47.0516319275,-122.927948,375,Jefferson Middle School [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,16,47.051651001,-122.932358,376,Conger Ave at Cardigan St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,17,47.0516319275,-122.934532,377,Capital High School [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,18,47.0515823364,-122.938454,378,Conger Ave at Wily St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,19,47.0515861511,-122.940239,379,Conger Ave at Cooper Point Rd [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,0,45_0,20,47.0510368347,-122.94133,380,Cooper Point Rd at Conger Ave [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+45,0,45_0,21,47.0487785339,-122.941422,966,Cooper Point Rd at Limited Ln [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+45,0,45_0,22,47.0454711914,-122.941406,327,Cooper Point Rd at Harrison Ave [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,0,45_0,23,47.0422782898,-122.932533,323,Capital Mall Station,Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,1,47.0422782898,-122.932533,323,Capital Mall Station,Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,2,47.0450401306,-122.934212,324,Kenyon St at 4th Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,3,47.0462913513,-122.934715,325,Harrison Ave at Kenyon St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,4,47.0471839905,-122.938583,326,2920 Harrison Ave [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,5,47.0454711914,-122.941406,327,Cooper Point Rd at Harrison Ave [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,6,47.0403900146,-122.939339,381,Cooper Point Rd at Capital Mall Dr [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,7,47.0399589539,-122.942322,383,Capital Mall Dr at Archwood Dr E [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,8,47.0399513245,-122.944725,384,Capital Mall Dr at Alta St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,9,47.04139328,-122.948868,385,Capital Mall Dr at Courtside St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,10,47.0418434143,-122.951859,348,Capital Medical Center [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,11,47.0419616699,-122.956352,1042,7th Ave at Fieldstone Dr [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,12,47.0469665527,-122.959633,1030,Harrison Ave at Kaiser Rd [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,13,47.0469970703,-122.948975,1031,Harrison Ave at Yauger Way [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+45,1,45_1,14,47.049505,-122.941151,359,Cooper Point Rd at Harrison Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,15,47.0515136719,-122.938065,361,Conger Ave at Wily St [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,16,47.0515670776,-122.933632,362,Capital High School [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,17,47.0515708923,-122.930878,363,Conger Ave at Cardigan St [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,18,47.0515136719,-122.928108,364,Jefferson Middle School [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,19,47.0521507263,-122.925583,275,Division St at Giles Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,20,47.0533981323,-122.925522,276,Division St at Bowman Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,21,47.0535430908,-122.922783,365,Bowman Ave at Milroy St [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,22,47.0535354614,-122.91909,366,Bowman Ave at Rogers St [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,23,47.0510826111,-122.918526,367,Rogers St at Conger Ave [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,24,47.0482521057,-122.917854,368,Rogers St at Jackson Ave [sb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,25,47.0472488403,-122.919495,369,Garfield Ave at Plymouth St [wb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+45,1,45_1,26,47.0458602905,-122.919998,263,Harrison Ave at Plymouth St [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+45,1,45_1,27,47.0457763672,-122.915245,264,Harrison Ave at Foote St [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+45,1,45_1,28,47.0444717407,-122.906227,798,4th Ave at Simmons St [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,1,45_1,29,47.044593811,-122.904648,941,4th Ave at Water St [eb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,1,45_1,30,47.0460014343,-122.901756,868,Capitol Way at State Ave [nb],Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+45,1,45_1,31,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,45,Conger/Capital Mall,3,005BAA,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+47,0,47_0,1,47.046131134,-122.926704,411,Harrison Ave at Division St [wb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+47,0,47_0,2,47.0461997986,-122.930717,412,2400 Harrison Ave [wb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+47,0,47_0,3,47.0462913513,-122.934715,325,Harrison Ave at Kenyon St [wb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+47,0,47_0,4,47.0471839905,-122.938583,326,2920 Harrison Ave [wb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+47,0,47_0,5,47.0472068787,-122.942032,1033,Harrison Ave at Cooper Point Rd [wb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+47,0,47_0,6,47.0472145081,-122.950439,1034,Harrison Ave at Yauger Way [wb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+47,0,47_0,7,47.0471687317,-122.958183,1026,Harrison Ave at Twin Flowers St [wb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+47,0,47_0,8,47.0433731079,-122.960495,1025,Kaiser Rd at Greenwood Dr [sb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067012001,120.01,067,012001,Poor
+47,0,47_0,9,47.0418548584,-122.956329,1041,7th Ave at Fieldstone Dr [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,0,47_0,10,47.0415153503,-122.950966,1027,Capital Medical Center [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,0,47_0,11,47.0410270691,-122.948219,354,Capital Mall Dr at Courtside St [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,0,47_0,12,47.0398368835,-122.945236,355,Capital Mall Dr at Archwood Dr W [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,0,47_0,13,47.039806366,-122.942726,356,Capital Mall Dr at Archwood Dr E [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,0,47_0,14,47.0411376953,-122.939102,347,Cooper Point Rd at Capital Mall Dr [nb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,0,47_0,15,47.0422782898,-122.932533,323,Capital Mall Station,Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,1,47_1,1,47.0422782898,-122.932533,323,Capital Mall Station,Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,1,47_1,2,47.0418205261,-122.929405,390,Black Lake Blvd at Capital Mall [sb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+47,1,47_1,3,47.0397872925,-122.930801,391,9th Ave at Black Lake Blvd [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,4,47.0397796631,-122.92823,392,9th Ave at Fern St [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,5,47.0397911072,-122.926071,393,Village Garden Apts [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,6,47.0400390625,-122.92263,394,Decatur St at 9th Ave [nb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,7,47.0419578552,-122.922569,395,Decatur St at 7th Ave [nb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,8,47.0434837341,-122.922279,396,5th Ave at Decatur St [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,9,47.0434188843,-122.920532,397,5th Ave at Thomas St [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,10,47.0434036255,-122.918129,398,5th Ave at Rogers St [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,11,47.0441207886,-122.914688,399,Sherman St at 4th Ave [nb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+47,1,47_1,12,47.0444717407,-122.906227,798,4th Ave at Simmons St [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+47,1,47_1,13,47.044593811,-122.904648,941,4th Ave at Water St [eb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+47,1,47_1,14,47.0460014343,-122.901756,868,Capitol Way at State Ave [nb],Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+47,1,47_1,15,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,47,Capital Medical Center,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+48,0,48_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+48,0,48_0,2,47.0457115173,-122.902855,797,State Ave at Columbia St [wb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+48,0,48_0,3,47.0445632935,-122.907219,796,4th Ave at Simmons St [wb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+48,0,48_0,4,47.0459251404,-122.916389,269,Harrison Ave at Percival St [wb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,5,47.0459403992,-122.918617,270,Harrison Ave at Plymouth St [wb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,6,47.0460090637,-122.920486,271,Harrison Ave at Perry St [wb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,7,47.046043396,-122.923203,272,Harrison Ave at Milroy St [wb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,8,47.046131134,-122.926704,411,Harrison Ave at Division St [wb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,9,47.0461997986,-122.930717,412,2400 Harrison Ave [wb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,10,47.0451545715,-122.934387,878,Kenyon St at Harrison Ave [sb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+48,0,48_0,11,47.0422782898,-122.932533,323,Capital Mall Station,Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+48,0,48_0,12,47.0451087952,-122.941109,358,Capital Village [nb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+48,0,48_0,13,47.049505,-122.941151,359,Cooper Point Rd at Harrison Ave [nb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,14,47.0519790649,-122.941116,360,Cooper Point Rd at Conger Ave [nb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,15,47.0539321899,-122.941193,416,Cooper Point Rd at Sarah Ct [nb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,16,47.057723999,-122.941124,417,Cooper Point Rd at Walnut Rd [nb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010600,106,067,010600,Poor
+48,0,48_0,17,47.0635070801,-122.941742,418,Cooper Point Rd at 20th Ave [nb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+48,1,48_1,8,47.063457489,-122.94191,413,Cooper Point Rd at 20th Ave [sb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+48,1,48_1,9,47.058467865,-122.941284,414,Cooper Point Rd at 14th Ave [sb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+48,1,48_1,10,47.053817749,-122.941322,415,Cooper Point Rd at Sarah Ct [sb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+48,1,48_1,11,47.0510368347,-122.94133,380,Cooper Point Rd at Conger Ave [sb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+48,1,48_1,12,47.0487785339,-122.941422,966,Cooper Point Rd at Limited Ln [sb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067011100,111,067,011100,Poor
+48,1,48_1,13,47.0454711914,-122.941406,327,Cooper Point Rd at Harrison Ave [sb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+48,1,48_1,14,47.0422782898,-122.932533,323,Capital Mall Station,Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+48,1,48_1,15,47.0450401306,-122.934212,324,Kenyon St at 4th Ave [nb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+48,1,48_1,16,47.0460662842,-122.933212,386,Harrison Ave at Kenyon St [eb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+48,1,48_1,17,47.045961,-122.928801,387,2303 Harrison Ave [eb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+48,1,48_1,18,47.0459098816,-122.92511,261,Harrison Ave at Division St [eb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+48,1,48_1,19,47.0458869934,-122.92276,262,Harrison Ave at Decatur St [eb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+48,1,48_1,20,47.0458602905,-122.919998,263,Harrison Ave at Plymouth St [eb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+48,1,48_1,21,47.0457763672,-122.915245,264,Harrison Ave at Foote St [eb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+48,1,48_1,22,47.0444717407,-122.906227,798,4th Ave at Simmons St [eb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+48,1,48_1,23,47.044593811,-122.904648,941,4th Ave at Water St [eb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+48,1,48_1,24,47.0460014343,-122.901756,868,Capitol Way at State Ave [nb],Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+48,1,48_1,25,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,48,Capital Mall/Evergreen,3,C9500E,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+60,1,60_1,3,47.0479545593,-122.835564,525,Martin Way at Sleater Kinney Rd [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+60,1,60_1,4,47.0477294922,-122.838051,526,3924 Martin Way [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+60,1,60_1,5,47.0475158691,-122.842041,527,3700 Martin Way [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,6,47.0485420227,-122.844353,430,Lilly Rd at Mary Elder Rd [nb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,7,47.05078125,-122.844315,431,Lilly Rd at Ensign Rd [nb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,8,47.0534858704,-122.844307,432,Lilly Rd at 10th Ave [nb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,9,47.0569152832,-122.844322,433,Lilly Rd at 12th Ave [nb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,10,47.0576591492,-122.84182,434,Kaiser Permanente Bldg.,Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,11,47.056696,-122.844523,435,Lilly Rd at 12th Ave [sb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,12,47.0531806946,-122.84449,436,Providence St. Peter Medical Center [sb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,13,47.0510864258,-122.844902,437,Ensign Rd at Lilly Rd [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,14,47.051109314,-122.847969,438,Providence St. Peter Emergency [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,15,47.0503883362,-122.85128,439,Ensign Rd at Providence Ln [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,16,47.046663,-122.855108,440,Animal Services [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+60,1,60_1,17,47.04636,-122.859829,441,Martin Way at Pattison St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,18,47.0461502075,-122.862999,442,Martin Way at Phoenix St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,19,47.0449714661,-122.865967,443,Pacific Ave at Phoenix St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,20,47.0439224243,-122.869186,444,Boulevard Rd at 7th Ave [sb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,21,47.0435714722,-122.873001,445,"7th Ave at Wilson St, Lions Park [wb]",Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,22,47.043548584,-122.87603,446,7th Ave at Fairview St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,23,47.0444145203,-122.878693,447,Legion Way at McCormick St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,24,47.0443954468,-122.881287,872,Legion Ave at Central St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,25,47.0443572998,-122.885269,448,Legion Way at Boundary St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,26,47.0441169739,-122.888664,449,Legion Way at Eastside St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,27,47.0422363281,-122.891243,208,8th Ave at Pear St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+60,1,60_1,28,47.0420455933,-122.894142,209,8th Ave at Chestnut St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+60,1,60_1,29,47.041809082,-122.897789,210,8th Ave at Adams St [wb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+60,1,60_1,30,47.0436134338,-122.898926,211,Franklin St at Legion Ave [nb],Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+60,1,60_1,31,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,60,St Peter Hospital,3,613FA6,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,2,47.044418335,-122.901711,1,Capitol Way at 4th Ave [sb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,3,47.0428886414,-122.901489,2,Capitol Way at Legion Way [sb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,4,47.0404891968,-122.901131,3,Capitol Way at 9th Ave [sb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,5,47.0392608643,-122.900948,4,Capitol Way at Union Ave [sb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,6,47.0378189087,-122.901024,5,Capitol Way at 11th Ave [sb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,7,47.0351676941,-122.900932,950,Capitol Way at 14th Ave [sb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,8,47.0336761475,-122.900131,305,Maple Park Ave at Capitol Way [eb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,9,47.0336952209,-122.897903,306,Maple Park Ave at Franklin St [eb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,0,600_0,10,47.0343170166,-122.895653,307,Jefferson St at Maple Park Ave [nb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,4,47.0340042114,-122.896332,290,Maple Park Ave at Jefferson St [wb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,5,47.0338859558,-122.89798,316,Maple Park Ave at Franklin St [wb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,6,47.0338859558,-122.899529,317,Maple Park Ave at Capitol Way [wb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,7,47.0342025757,-122.900719,54,Capitol Way at Maple Park Ave [nb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,8,47.0372314453,-122.900703,55,Capitol Way at 11th Ave [nb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,9,47.0393829346,-122.900749,56,Capitol Way at Union Ave [nb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,10,47.0410232544,-122.901001,57,Capitol Way at 9th Ave [nb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,11,47.042766571,-122.901299,58,Capitol Way at 7th Ave [nb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,12,47.0441703796,-122.90152,962,Capitol Way at 5th Ave [nb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,13,47.0460014343,-122.901756,868,Capitol Way at State Ave [nb],Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+600,1,600_1,14,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,600,Lakewood Commuter,3,001f99,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,2,47.044418335,-122.901711,1,Capitol Way at 4th Ave [sb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,3,47.0428886414,-122.901489,2,Capitol Way at Legion Way [sb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,4,47.0404891968,-122.901131,3,Capitol Way at 9th Ave [sb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,5,47.0392608643,-122.900948,4,Capitol Way at Union Ave [sb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,6,47.0378189087,-122.901024,5,Capitol Way at 11th Ave [sb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,7,47.0351676941,-122.900932,950,Capitol Way at 14th Ave [sb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,8,47.0336761475,-122.900131,305,Maple Park Ave at Capitol Way [eb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,9,47.0336952209,-122.897903,306,Maple Park Ave at Franklin St [eb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,0,610_0,10,47.0343170166,-122.895653,307,Jefferson St at Maple Park Ave [nb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,8,47.0340042114,-122.896332,290,Maple Park Ave at Jefferson St [wb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,9,47.0338859558,-122.89798,316,Maple Park Ave at Franklin St [wb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,10,47.0338859558,-122.899529,317,Maple Park Ave at Capitol Way [wb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,11,47.0342025757,-122.900719,54,Capitol Way at Maple Park Ave [nb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,12,47.0372314453,-122.900703,55,Capitol Way at 11th Ave [nb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,13,47.0393829346,-122.900749,56,Capitol Way at Union Ave [nb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,14,47.0410232544,-122.901001,57,Capitol Way at 9th Ave [nb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,15,47.042766571,-122.901299,58,Capitol Way at 7th Ave [nb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,16,47.0441703796,-122.90152,962,Capitol Way at 5th Ave [nb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,17,47.0460014343,-122.901756,868,Capitol Way at State Ave [nb],Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+610,1,610_1,18,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,610,Lacey Connector,3,0058cc,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+621,1,621_1,21,47.0486373901,-122.825409,523,Martin Way at College St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+621,1,621_1,22,47.0482368469,-122.831253,524,Martin Way Station [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+621,1,621_1,27,47.0479545593,-122.835564,525,Martin Way at Sleater Kinney Rd [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+621,1,621_1,28,47.0477294922,-122.838051,526,3924 Martin Way [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+621,1,621_1,29,47.0475158691,-122.842041,527,3700 Martin Way [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+621,1,621_1,30,47.0472984314,-122.845215,528,Martin Way at Lilly Rd [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+621,1,621_1,31,47.0470161926,-122.849166,529,Martin Way at Mary Elder Rd [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+621,1,621_1,32,47.046663,-122.855108,440,Animal Services [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+621,1,621_1,33,47.04636,-122.859829,441,Martin Way at Pattison St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,34,47.0461502075,-122.862999,442,Martin Way at Phoenix St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,35,47.0461387634,-122.869263,530,4th Ave at Chambers St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,36,47.0464324951,-122.872009,531,Pacific Ave at Sawyer St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,37,47.046962738,-122.876755,532,State Ave at Turner St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,38,47.0469779968,-122.879692,533,State Ave at McCormick St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,39,47.0469245911,-122.88298,534,State Ave at Central St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,40,47.0468902588,-122.884964,535,State Ave at Bethel St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,41,47.0466384888,-122.889458,164,State Ave at Eastside St [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+621,1,621_1,42,47.0463600159,-122.893753,165,State Ave at East Bay Dr [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+621,1,621_1,43,47.0462036133,-122.896172,166,State at Cherry [wb],Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+621,1,621_1,44,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,62A,Martin Way/NE Lacey,3,A92023,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+622,1,622_1,20,47.0486373901,-122.825409,523,Martin Way at College St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+622,1,622_1,21,47.0482368469,-122.831253,524,Martin Way Station [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+622,1,622_1,26,47.0479545593,-122.835564,525,Martin Way at Sleater Kinney Rd [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+622,1,622_1,27,47.0477294922,-122.838051,526,3924 Martin Way [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+622,1,622_1,28,47.0475158691,-122.842041,527,3700 Martin Way [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+622,1,622_1,29,47.0472984314,-122.845215,528,Martin Way at Lilly Rd [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+622,1,622_1,30,47.0470161926,-122.849166,529,Martin Way at Mary Elder Rd [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+622,1,622_1,31,47.046663,-122.855108,440,Animal Services [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067012223,122.23,067,012223,Poor
+622,1,622_1,32,47.04636,-122.859829,441,Martin Way at Pattison St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,33,47.0461502075,-122.862999,442,Martin Way at Phoenix St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,34,47.0461387634,-122.869263,530,4th Ave at Chambers St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,35,47.0464324951,-122.872009,531,Pacific Ave at Sawyer St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,36,47.046962738,-122.876755,532,State Ave at Turner St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,37,47.0469779968,-122.879692,533,State Ave at McCormick St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,38,47.0469245911,-122.88298,534,State Ave at Central St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,39,47.0468902588,-122.884964,535,State Ave at Bethel St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,40,47.0466384888,-122.889458,164,State Ave at Eastside St [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+622,1,622_1,41,47.0463600159,-122.893753,165,State Ave at East Bay Dr [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+622,1,622_1,42,47.0462036133,-122.896172,166,State at Cherry [wb],Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+622,1,622_1,43,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,62B,Martin Way - The Meadows,3,A92023,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+64,0,64_0,1,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+64,0,64_0,2,47.0431938171,-122.899017,212,Franklin St at Legion Ave [sb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+64,0,64_0,3,47.0416183472,-122.898262,213,8th Ave at Franklin St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+64,0,64_0,4,47.0419273376,-122.893776,214,8th Ave at Chestnut St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+64,0,64_0,5,47.0421409607,-122.891052,215,8th Ave at Pear St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,6,47.0418663025,-122.888039,216,Eastside St at 8th Ave [sb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,7,47.04078,-122.88648,217,St. Michaels Church [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,8,47.0409507751,-122.882553,218,10th Ave at Central St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,9,47.0400695801,-122.879982,219,Union Ave at Lybarger St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,10,47.040058136,-122.876999,918,Union Ave at Fir St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,11,47.039855957,-122.873825,220,Union Ave at Wilson St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,12,47.0405654907,-122.871628,221,Frederick St at Union Ave [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,13,47.0416374207,-122.871124,222,9th Ave at Frederick St [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,14,47.040654,-122.869188,223,Boulevard Rd at Union Ave [sb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,0,64_0,15,47.0386734009,-122.869148,224,Boulevard Rd at 12th Ave [sb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,0,64_0,16,47.0364151001,-122.86882,225,Boulevard Rd at 15th Ave [sb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,0,64_0,17,47.0324935913,-122.864525,226,18th Ave at Boulevard Rd [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,0,64_0,18,47.0325508118,-122.862602,227,18th Ave at Karen Frazier Rd [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,0,64_0,19,47.032535553,-122.85984,228,18th Ave at Amhurst St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,0,64_0,20,47.0325279236,-122.857361,229,18th Ave at Allen Rd [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,0,64_0,21,47.0324935913,-122.855362,230,18th Ave at Craig Rd [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,0,64_0,22,47.0324707031,-122.852386,231,18th Ave at Kempton St [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,0,64_0,23,47.0324249268,-122.848602,232,18th Ave at Hoffman Rd [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067011300,113,067,011300,Poor
+64,0,64_0,24,47.03299,-122.8442,233,Elizabeth St at 18th Ave [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067011300,113,067,011300,Poor
+64,0,64_0,25,47.034198761,-122.84124,234,Colonial Estates MHP [eb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067011300,113,067,011300,Poor
+64,1,64_1,37,47.0343284607,-122.841873,190,Colonial Estates MHP [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067011200,112,067,011200,Poor
+64,1,64_1,38,47.0335617065,-122.844345,382,Elizabeth St at 14th Ave [sb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067011200,112,067,011200,Poor
+64,1,64_1,39,47.0325813293,-122.848152,191,18th Ave at Fones Rd [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,40,47.0326385498,-122.853119,193,18th Ave at Kempton St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,41,47.0326118469,-122.855186,192,18th Ave at Craig Rd [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,42,47.0326042175,-122.857399,194,18th Ave at Allen Rd [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,43,47.0326271057,-122.85923,195,18th Ave at Amhurst St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,44,47.0326957703,-122.862617,196,18th Ave at Karen Frazier Rd [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,45,47.0330619812,-122.866539,197,Boulevard Rd at 18th Ave [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,46,47.0370667,-122.868917,198,Boulevard Rd at 15th Ave [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,47,47.0391082764,-122.868988,199,Boulevard Rd at 12th Ave [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+64,1,64_1,48,47.0410308838,-122.868973,200,Boulevard Rd at Union Ave [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,49,47.0417747498,-122.870995,201,9th Ave at Sawyer St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,50,47.0404281616,-122.871742,202,Frederick St at Union Ave [sb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,51,47.0399360657,-122.874344,203,Union Ave at Fairview St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,52,47.0401382446,-122.876999,919,Union Ave at Fir St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,53,47.040145874,-122.880066,204,Union Ave at Lybarger St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,54,47.0410194397,-122.882431,205,10th Ave at Central St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,55,47.0408973694,-122.886414,206,St. Michael Church [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,56,47.0418128967,-122.887863,207,Eastside St at 9th Ave [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,57,47.0422363281,-122.891243,208,8th Ave at Pear St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+64,1,64_1,58,47.0420455933,-122.894142,209,8th Ave at Chestnut St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+64,1,64_1,59,47.041809082,-122.897789,210,8th Ave at Adams St [wb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+64,1,64_1,60,47.0436134338,-122.898926,211,Franklin St at Legion Ave [nb],Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+64,1,64_1,61,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,64,College St/Amtrak,3,337CBB,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+65,0,65_0,3,47.0479736328,-122.8311,794,Kasey Keller Dr [eb],Intercity Transit,65,Hawks Prairie,3,7B9D33,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+65,0,65_0,4,47.0483589172,-122.825928,491,Martin Way at College St [eb],Intercity Transit,65,Hawks Prairie,3,7B9D33,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+65,1,65_1,17,47.0486373901,-122.825409,523,Martin Way at College St [wb],Intercity Transit,65,Hawks Prairie,3,7B9D33,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+65,1,65_1,18,47.0482368469,-122.831253,524,Martin Way Station [wb],Intercity Transit,65,Hawks Prairie,3,7B9D33,ffffff,NO,NO,NO,NO,53067012224,122.24,067,012224,Poor
+66,0,66_0,1,47.0426750183,-122.857635,564,Pacific Ave at Pattison St [eb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,0,66_0,2,47.0416946411,-122.845863,565,Pacific Ave at Fones Rd [eb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067011200,112,067,011200,Poor
+66,0,66_0,3,47.0410995483,-122.841972,468,Pacific Ave at Poplar St [eb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067011200,112,067,011200,Poor
+66,0,66_0,4,47.0403060913,-122.838997,469,3801 Pacific Ave [eb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067011200,112,067,011200,Poor
+66,1,66_1,36,47.0408782959,-122.840462,426,Pacific Ave at Birch St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067011200,112,067,011200,Poor
+66,1,66_1,37,47.0414619446,-122.842598,427,Pacific Ave at Weir St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067011200,112,067,011200,Poor
+66,1,66_1,38,47.0419311523,-122.845009,615,Pacific Ave at Lilly Rd [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+66,1,66_1,39,47.0429801941,-122.858276,616,Pacific Ave at Pattison St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,40,47.0435218811,-122.861206,617,Pacific Ave at Devoe St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,41,47.0449714661,-122.865967,443,Pacific Ave at Phoenix St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,42,47.0464324951,-122.872009,531,Pacific Ave at Sawyer St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,43,47.046962738,-122.876755,532,State Ave at Turner St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,44,47.0469779968,-122.879692,533,State Ave at McCormick St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,45,47.0469245911,-122.88298,534,State Ave at Central St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,46,47.0468902588,-122.884964,535,State Ave at Bethel St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,47,47.0466384888,-122.889458,164,State Ave at Eastside St [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+66,1,66_1,48,47.0463600159,-122.893753,165,State Ave at East Bay Dr [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+66,1,66_1,49,47.0462036133,-122.896172,166,State at Cherry [wb],Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+66,1,66_1,50,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,66,Ruddell Road,3,CE5504,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+68,0,68_0,52,47.0050506592,-122.880798,142,Henderson Blvd at Yelm Hwy [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067011721,117.21,067,011721,Poor
+68,0,68_0,53,47.0076675415,-122.880814,143,Henderson Blvd at Briggs Dr [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067011721,117.21,067,011721,Poor
+68,0,68_0,54,47.0132637024,-122.879166,144,Henderson Blvd at Middle St [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067011721,117.21,067,011721,Poor
+68,0,68_0,55,47.0166358948,-122.879791,890,North St at Henderson Blvd [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,56,47.0166130066,-122.882462,145,North St at Central St [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,57,47.0166244507,-122.884239,146,Olympia High School [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,74,47.0232200623,-122.929276,88,South Puget Sound Community College,Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,76,47.0279350281,-122.924545,1021,Cooper Point Dr at Evergreen Park Dr [nb,Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+68,0,68_0,77,47.0293579102,-122.927917,803,Cooper Point Rd at Caton Way [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+68,0,68_0,78,47.030456543,-122.933105,343,Cooper Point Rd at Carriage Dr [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+68,0,68_0,79,47.0322608948,-122.935143,344,1800 Cooper Point Rd [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+68,0,68_0,80,47.0336875916,-122.936241,345,Cooper Point Rd at Black Lake Blvd [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010520,105.20,067,010520,Poor
+68,0,68_0,81,47.0377044678,-122.939018,346,Cooper Point Rd at 12th Ave [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+68,0,68_0,82,47.0411376953,-122.939102,347,Cooper Point Rd at Capital Mall Dr [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+68,0,68_0,83,47.0422782898,-122.932533,323,Capital Mall Station,Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010510,105.10,067,010510,Poor
+94,1,94_1,55,47.0093612671,-122.86512,775,Boulevard Rd at Boulevard Park Ct [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067011721,117.21,067,011721,Poor
+94,1,94_1,56,47.0158996582,-122.865128,776,Boulevard Rd at 36th Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067011721,117.21,067,011721,Poor
+94,1,94_1,57,47.0174407959,-122.86512,774,Boulevard Rd at Morse-Merryman Rd [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067011721,117.21,067,011721,Poor
+94,1,94_1,58,47.0203857422,-122.865074,773,Boulevard Rd at 31st Ct [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+94,1,94_1,59,47.0250053406,-122.865044,772,Boulevard Rd at 28th Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+94,1,94_1,60,47.0278587341,-122.865051,771,Boulevard Rd at 24th Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+94,1,94_1,61,47.0290565491,-122.866447,766,22nd Ave at Myrtle Pl [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+94,1,94_1,62,47.0290756226,-122.870079,767,22nd Ave at Brown St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010700,107,067,010700,Poor
+94,1,94_1,63,47.0294532776,-122.873863,768,22nd Ave at Wilson St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+94,1,94_1,64,47.0294685364,-122.876923,764,22nd Ave at Fir St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+94,1,94_1,65,47.029624939,-122.883545,765,22nd Ave at Boundary St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+94,1,94_1,66,47.0330619812,-122.88678,778,Eastside St at 18th Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+94,1,94_1,67,47.0377693176,-122.88726,779,Eastside St at 12th Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+94,1,94_1,68,47.0399093628,-122.888168,780,Union Ave at Eastside St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+94,1,94_1,69,47.0397186279,-122.890892,782,Union Ave at Plum St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010300,103,067,010300,Poor
+94,1,94_1,70,47.0395126343,-122.893967,781,Union Ave at Cherry St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+94,1,94_1,71,47.0396232605,-122.895821,310,Jefferson St at Union Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+94,1,94_1,72,47.0406417847,-122.89592,311,Jefferson St at 9th Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+94,1,94_1,73,47.0436859131,-122.89769,769,Adams St at Legion Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+94,1,94_1,74,47.0453910828,-122.897911,770,Adams St at 4th Ave [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+94,1,94_1,75,47.0462989807,-122.900032,167,Olympia Transit Center,Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067010100,101,067,010100,Poor
+3308,0,3308_0,7,47.046616,-122.967593,4247390,Harrison Ave @ Greenwood Dr,Mason Transit Authority,,,,,,NO,NO,NO,NO,53067012001,120.01,067,012001,Good
+3308,0,3308_0,8,47.04641599185764,-122.90052185284969,810944,Olympia Transit Center,Mason Transit Authority,,,,,,NO,NO,NO,YES,53067010100,101,067,010100,Good
+3308,1,3308_1,1,47.04641599185764,-122.90052185284969,810944,Olympia Transit Center,Mason Transit Authority,,,,,,NO,NO,NO,YES,53067010100,101,067,010100,Good
+3308,1,3308_1,2,47.046616,-122.967593,4247390,Harrison Ave @ Greenwood Dr,Mason Transit Authority,,,,,,NO,NO,NO,NO,53067012001,120.01,067,012001,Good
+32879,0,32879_0,1,47.046549,-122.900584,3460588,Olympia Transit Center - 280 Washington St NE,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067010100,101,067,010100,Good
+32879,1,32879_1,7,47.046549,-122.900584,3460588,Olympia Transit Center - 280 Washington St NE,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067010100,101,067,010100,Good
+77350,0,77350_0,1,47.046549,-122.900584,3460588,Olympia Transit Center - 280 Washington St NE,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067010100,101,067,010100,Good
+77350,1,77350_1,7,47.046549,-122.900584,3460588,Olympia Transit Center - 280 Washington St NE,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067010100,101,067,010100,Good

@@ -1,0 +1,2 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19662,1,19662_1,9,45.581224,-122.386625,2753573,Washougal Park & Ride,Skamania County Transit,,,,,,NO,NO,NO,NO,53011041500,415,011,041500,Poor

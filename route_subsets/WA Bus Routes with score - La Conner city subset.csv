@@ -1,0 +1,18 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+615,0,615_0,2,48.384992,-122.495186,3460,Maple Ave  & Caledonia St,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Ok
+615,0,615_0,3,48.386273,-122.495226,3422,Caledonia & Park St,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Ok
+615,0,615_0,4,48.386923,-122.496875,3423,Caledonia & 4th st.,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Ok
+615,0,615_0,5,48.388991,-122.497481,3424,S. 2nd St & E. Douglas St.,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Ok
+615,0,615_0,6,48.390281,-122.496338,3425,2nd St & Benton,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Ok
+615,0,615_0,7,48.391547,-122.495186,3426,2nd & Washington,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Ok
+615,0,615_0,8,48.393701,-122.494575,3427,State St & 3rd Street,Skagit Transit,,,,,,NO,NO,NO,YES,53057952100,9521,057,952100,Ok
+615,0,615_0,9,48.392118,-122.489777,3428,Morris St east & 6th St.,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Ok
+615,0,615_0,10,48.392112,-122.488241,3429,Morris St east & Maple Ave,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Ok
+615,1,615_1,14,48.392275,-122.491245,3454,Morris St & 6th St,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Good
+615,1,615_1,15,48.393701,-122.494575,3427,State St & 3rd Street,Skagit Transit,,,,,,NO,NO,NO,YES,53057952100,9521,057,952100,Good
+615,1,615_1,16,48.391385,-122.495515,3455,2nd & Washington,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Good
+615,1,615_1,17,48.390213,-122.496538,3456,2nd and Benton,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Good
+615,1,615_1,18,48.389081,-122.49764,3457,2nd and Douglas St.,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Good
+615,1,615_1,19,48.386819,-122.496984,3458,Caledonia St & 4th St,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Good
+615,1,615_1,20,48.386197,-122.495328,3459,Caledonia St & Park,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Good
+615,1,615_1,21,48.385318,-122.495074,3421,913 Maple south of Caledonia,Skagit Transit,,,,,,NO,NO,NO,NO,53057952100,9521,057,952100,Good

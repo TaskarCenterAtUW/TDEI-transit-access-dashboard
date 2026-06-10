@@ -1,0 +1,8 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+75,0,75_0,4,45.71502,-121.46873,BNG,Bingen-White Salmon Amtrak,Amtrak,,,,,,NO,NO,NO,NO,53039950302,9503.02,039,950302,Ok
+75,1,75_1,2,45.71502,-121.46873,BNG,Bingen-White Salmon Amtrak,Amtrak,,,,,,NO,NO,NO,NO,53039950302,9503.02,039,950302,Ok
+19664,0,19664_0,3,45.71450389534197,-121.465412948351,2753612,"Gorge Building, Maple & Steuben",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950302,9503.02,039,950302,Poor
+19664,0,19664_0,4,45.716176,-121.469843,2753622,West Bingen/Public Parking Lot Hwy 14 and Walnut,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950302,9503.02,039,950302,Poor
+19664,1,19664_1,5,45.715649881,-121.469789974,2753616,"Amtrak Building, Walnut & Depot",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950302,9503.02,039,950302,Poor
+19664,1,19664_1,7,45.711091,-121.457025,2753618,Lions Shelter/Guided Path Hwy 14 & Wind Ranch Rd BN,Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950302,9503.02,039,950302,Poor
+19664,1,19664_1,8,45.714230714486455,-121.46249808661773,2753617,"East Bingen/Hostel, Humboldt & Cedar",Mount Adams Transportation Service,,,,,,NO,NO,NO,NO,53039950302,9503.02,039,950302,Poor

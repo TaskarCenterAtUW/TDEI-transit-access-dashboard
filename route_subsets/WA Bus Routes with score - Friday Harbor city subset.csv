@@ -1,0 +1,9 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+101,0,101_0,1,48.535066,-123.01475,10,Friday Harbor,Washington State Ferries,,,,,,YES,YES,NO,YES,53055990100,9901,055,990100,Great
+1013,0,1013_0,1,48.535066,-123.01475,10,Friday Harbor,Washington State Ferries,,,,,,YES,YES,NO,YES,53055990100,9901,055,990100,Good
+1015,0,1015_0,1,48.535066,-123.01475,10,Friday Harbor,Washington State Ferries,,,,,,YES,YES,NO,YES,53055990100,9901,055,990100,Good
+1018,0,1018_0,1,48.535066,-123.01475,10,Friday Harbor,Washington State Ferries,,,,,,YES,YES,NO,YES,53055990100,9901,055,990100,Good
+110,0,110_0,2,48.535066,-123.01475,10,Friday Harbor,Washington State Ferries,,,,,,YES,YES,NO,YES,53055990100,9901,055,990100,Great
+1310,0,1310_0,2,48.535066,-123.01475,10,Friday Harbor,Washington State Ferries,,,,,,YES,YES,NO,YES,53055990100,9901,055,990100,Good
+1510,0,1510_0,2,48.535066,-123.01475,10,Friday Harbor,Washington State Ferries,,,,,,YES,YES,NO,YES,53055990100,9901,055,990100,Good
+1810,0,1810_0,2,48.535066,-123.01475,10,Friday Harbor,Washington State Ferries,,,,,,YES,YES,NO,YES,53055990100,9901,055,990100,Good

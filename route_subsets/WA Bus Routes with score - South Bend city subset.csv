@@ -1,0 +1,9 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+14,1,14_1,3,46.66700509,-123.81285623,101Pacific,Pacific & Hwy 101 - South Bend,Pacific Transit,,,,,,NO,NO,NO,YES,53049950301,9503.01,049,950301,Good
+32,0,32_0,6,46.66317828,-123.78961218,monroe_water,Monroe & Water - RV,Pacific Transit,,,,,,YES,NO,NO,YES,53049950302,9503.02,049,950302,Good
+32,0,32_0,7,46.66700509,-123.81285623,101Pacific,Pacific & Hwy 101 - South Bend,Pacific Transit,,,,,,NO,NO,NO,YES,53049950301,9503.01,049,950301,Good
+32,1,32_1,1,46.66700509,-123.81285623,101Pacific,Pacific & Hwy 101 - South Bend,Pacific Transit,,,,,,NO,NO,NO,YES,53049950301,9503.01,049,950301,Good
+32,1,32_1,2,46.66212259,-123.81203679,hosp,Willapa Harbor Hospital - SB,Pacific Transit,,,,,,NO,NO,NO,NO,53049950302,9503.02,049,950302,Good
+32,1,32_1,3,46.66317828,-123.78961218,monroe_water,Monroe & Water - RV,Pacific Transit,,,,,,YES,NO,NO,YES,53049950302,9503.02,049,950302,Good
+50,0,50_0,1,46.66700509,-123.81285623,101Pacific,Pacific & Hwy 101 - South Bend,Pacific Transit,,,,,,NO,NO,NO,YES,53049950301,9503.01,049,950301,Acceptable
+50,1,50_1,6,46.66700509,-123.81285623,101Pacific,Pacific & Hwy 101 - South Bend,Pacific Transit,,,,,,NO,NO,NO,YES,53049950301,9503.01,049,950301,Acceptable

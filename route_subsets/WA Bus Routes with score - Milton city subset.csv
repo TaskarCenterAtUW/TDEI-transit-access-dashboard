@@ -1,0 +1,27 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+402,0,402_0,14,47.257827,-122.295031,29922,Enchanted Pkwy & Military Rd,Pierce Transit,,,,,,NO,NO,NO,YES,53033030403,304.03,033,030403,Good
+402,1,402_1,52,47.25791,-122.294852,15944,Enchanted Pkwy & Military Rd,Pierce Transit,,,,,,NO,NO,NO,YES,53033030404,304.04,033,030404,Good
+402,1,402_1,53,47.262253,-122.298055,30091,Enchanted Pkwy & 28th Ave S,Pierce Transit,,,,,,NO,NO,NO,YES,53033030404,304.04,033,030404,Good
+500,0,500_0,14,47.262621,-122.336338,1787,Pacific Hwy E & 6th St Ct NE,Pierce Transit,,,,,,NO,NO,NO,YES,53053940002,9400.02,053,940002,Good
+500,0,500_0,15,47.25646,-122.33622,1790,Pacific Hwy E & Birch St,Pierce Transit,,,,,,NO,NO,NO,YES,53053940002,9400.02,053,940002,Good
+500,0,500_0,16,47.253254,-122.335748,1791,Pacific Hwy E & 70th Ave E,Pierce Transit,,,,,,NO,NO,NO,YES,53053940002,9400.02,053,940002,Good
+500,1,500_1,20,47.245332,-122.336173,1775,Pacific Hwy S & 70th Ave E,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+500,1,500_1,21,47.251754,-122.335378,1783,Pacific Hwy S & Porter Way,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+500,1,500_1,22,47.256301,-122.336041,1789,Pacific Hwy E & Birch St,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+500,1,500_1,23,47.258852,-122.336398,1785,Pacific Hwy S & Johnson Rd NE,Pierce Transit,,,,,,NO,NO,NO,YES,53053940002,9400.02,053,940002,Great
+500,1,500_1,24,47.263403,-122.335958,1788,Pacific Hwy S & 7th St Ct NE,Pierce Transit,,,,,,NO,NO,NO,YES,53053940002,9400.02,053,940002,Great
+501,0,501_0,20,47.257827,-122.295031,29922,Enchanted Pkwy & Military Rd,Pierce Transit,,,,,,NO,NO,NO,YES,53033030403,304.03,033,030403,Good
+501,0,501_0,22,47.250111,-122.296903,26550,Milton Wy & 28th Ave,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+501,0,501_0,23,47.250146,-122.304722,24244,Milton Wy & 23rd Ave,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+501,0,501_0,24,47.250206,-122.309815,18031,Milton Wy & 19th Ave,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+501,0,501_0,25,47.24665,-122.320971,3558,Milton Wy & 11th Ave,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+501,0,501_0,26,47.244246,-122.323535,25016,Milton Wy & Porter Wy,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+501,0,501_0,27,47.239138,-122.32763,14743,Milton Wy & 20th St E,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Good
+501,1,501_1,21,47.24027,-122.326952,29891,Milton Wy & Fife Way,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+501,1,501_1,22,47.244556,-122.322833,31234,Milton Wy & Porter Wy,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+501,1,501_1,23,47.246898,-122.31972,18902,Milton Wy & 11th Av,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+501,1,501_1,24,47.248459,-122.31456,6622,Milton Wy & Maine St,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+501,1,501_1,25,47.250091,-122.308941,17407,Milton Wy & 19th Ave,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+501,1,501_1,26,47.250044,-122.303333,6779,Milton Wy & 23rd Ave,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+501,1,501_1,27,47.250008,-122.297029,23407,Milton Wy & 28th Ave S,Pierce Transit,,,,,,NO,NO,NO,YES,53053070703,707.03,053,070703,Great
+501,1,501_1,29,47.25791,-122.294852,15944,Enchanted Pkwy & Military Rd,Pierce Transit,,,,,,NO,NO,NO,YES,53033030404,304.04,033,030404,Great

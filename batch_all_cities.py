@@ -95,6 +95,12 @@ def main() -> None:
         action="store_true",
         help="Print the list of cities that would be processed, then exit",
     )
+    ap.add_argument(
+        "--include-ui",
+        action="store_true",
+        help="Include _UI (Urban Interface) jurisdictions — skipped by default since "
+             "they produce very large Overpass bboxes and overlap with _City entries",
+    )
     args = ap.parse_args()
 
     all_jurisdictions = load_highest_version_datasets()
@@ -104,14 +110,22 @@ def main() -> None:
     pending: list[str] = []
     skipped_done: list[str] = []
 
+    skipped_ui = 0
     for wsp_name in sorted(all_jurisdictions.keys()):
         # Apply --filter if specified
         if args.filter and args.filter.lower() not in wsp_name.lower():
             continue
 
+        # Skip Urban Interface (_UI) jurisdictions — these are county-scale
+        # planning overlays that produce huge Overpass bboxes and largely
+        # duplicate the _City entries they overlap with.
+        if wsp_name.endswith("_UI") and not args.include_ui:
+            skipped_ui += 1
+            continue
+
         status = (progress.get(wsp_name) or {}).get("status")
 
-        if status in ("completed", "no_stops", "no_boundary"):
+        if status in ("completed", "no_stops", "no_boundary", "skipped"):
             skipped_done.append(wsp_name)
             continue
         if status == "failed" and not args.retry_failed:
@@ -122,6 +136,8 @@ def main() -> None:
 
     print(f"\nJurisdictions to process : {len(pending)}")
     print(f"Already done (skipped)   : {len(skipped_done)}")
+    if skipped_ui:
+        print(f"UI jurisdictions skipped : {skipped_ui}  (use --include-ui to process)")
     print()
 
     if args.dry_run:

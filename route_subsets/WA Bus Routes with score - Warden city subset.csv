@@ -1,0 +1,14 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+67975,0,67975_0,1,46.9687591,-119.0395414,3879641,Warden Police Department on E 2nd St,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Acceptable
+67975,0,67975_0,2,46.9697532,-119.04290772,3879642,Cougar Car Wash on E 1st St,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Acceptable
+67975,0,67975_0,3,46.9722876,-119.0541454,3879635,Lamb Weston on Basin St,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Acceptable
+67975,0,67975_0,4,46.9697717,-119.0630506,3879634,Washington Potato on Hwy 170,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Acceptable
+67975,1,67975_1,2,46.9697717,-119.0630506,3879634,Washington Potato on Hwy 170,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor
+67975,1,67975_1,3,46.9609906,-119.0420362,3879639,Warden School District on Beck Way,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor
+67975,1,67975_1,4,46.9687591,-119.0395414,3879641,Warden Police Department on E 2nd St,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor
+19709,0,19709_0,11,46.97009,-119.063175,2754773,Washington Potato - Warden,People for People,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor
+19709,0,19709_0,12,46.969908,-119.055176,2754772,Lamb Weston - Warden,People for People,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor
+19709,0,19709_0,13,46.968353,-119.039217,2754771,Police Station - Warden,People for People,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor
+19709,1,19709_1,1,46.968353,-119.039217,2754771,Police Station - Warden,People for People,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor
+19709,1,19709_1,2,46.969908,-119.055176,2754772,Lamb Weston - Warden,People for People,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor
+19709,1,19709_1,3,46.97009,-119.063175,2754773,Washington Potato - Warden,People for People,,,,,,NO,NO,NO,NO,53025011300,113,025,011300,Poor

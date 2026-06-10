@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+77516,0,77516_0,11,46.404764828987425,-120.26941490059261,4242007,Zillah Teapot Dome Historical Site,Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53077002201,22.01,077,002201,Poor
+77516,0,77516_0,12,46.405741779956855,-120.27822286088987,4149650,Zillah Circle K/Shell (900 Vintage Valley Pkwy),Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53077002201,22.01,077,002201,Poor
+19700,0,19700_0,5,46.40532239,-120.2778724,2754807,Zillah Shell Sun Mart,People for People,,,,,,NO,NO,NO,NO,53077002201,22.01,077,002201,Poor
+19700,1,19700_1,2,46.40532239,-120.2778724,2754807,Zillah Shell Sun Mart,People for People,,,,,,NO,NO,NO,NO,53077002201,22.01,077,002201,Poor

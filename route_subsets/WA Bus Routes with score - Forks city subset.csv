@@ -1,0 +1,31 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+Rt14,0,Rt14_0,28,47.968283,-124.403833,14_30,Ki'tla Business Park at Hwy 101,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002400,24,009,002400,Good
+Rt14,0,Rt14_0,29,47.954441,-124.38566,14_21,Forks Avenue across from Tillicum Park,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Good
+Rt14,0,Rt14_0,30,47.949923,-124.385575,14_22,Forks Avenue and A Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Good
+Rt14,0,Rt14_0,31,47.948567,-124.385583,17_19,Forks Avenue at Mocha Motion,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Good
+Rt14,0,Rt14_0,32,47.941752,-124.385823,14_65,Forks Outfitter,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Good
+Rt14,0,Rt14_0,33,47.945138,-124.384672,14_24,Forks Transit Center,Clallam Transit System,,,,,,NO,NO,NO,YES,53009000300,3,009,000300,Good
+Rt14,1,Rt14_1,1,47.945138,-124.384672,14_24,Forks Transit Center,Clallam Transit System,,,,,,NO,NO,NO,YES,53009000300,3,009,000300,Good
+Rt14,1,Rt14_1,2,47.941752,-124.385823,14_65,Forks Outfitter,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Good
+Rt14,1,Rt14_1,3,47.954277,-124.385289,14_29,Tillicum Park and Forks Avenue,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Good
+Rt14,1,Rt14_1,4,47.968668,-124.403561,14_20,Hwy 101 at 110 (across from Ki'tla Center on 101),Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Good
+Rt15,0,Rt15_0,1,47.945138,-124.384672,14_24,Forks Transit Center,Clallam Transit System,,,,,,NO,NO,NO,YES,53009000300,3,009,000300,Acceptable
+Rt15,0,Rt15_0,2,47.947876,-124.384176,17_112,Forks High School,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Acceptable
+Rt15,0,Rt15_0,3,47.950917,-124.384196,17_113,Clallam Public Utilities District,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Acceptable
+Rt15,0,Rt15_0,4,47.954277,-124.385289,14_29,Tillicum Park and Forks Avenue,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Acceptable
+Rt15,0,Rt15_0,5,47.9675011,-124.4055313,15_18,LaPush Road near Hwy 101 at Ki'tla Center,Clallam Transit System,,,,,,NO,NO,NO,NO,53009002400,24,009,002400,Acceptable
+Rt15,1,Rt15_1,10,47.9673165,-124.4048881,15_17,LaPush Road near Hwy 101 across from Ki'tla Center,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Acceptable
+Rt15,1,Rt15_1,11,47.954441,-124.38566,14_21,Forks Avenue across from Tillicum Park,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Acceptable
+Rt15,1,Rt15_1,12,47.949923,-124.385575,14_22,Forks Avenue and A Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Acceptable
+Rt15,1,Rt15_1,13,47.948567,-124.385583,17_19,Forks Avenue at Mocha Motion,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Acceptable
+Rt15,1,Rt15_1,14,47.945138,-124.384672,14_24,Forks Transit Center,Clallam Transit System,,,,,,NO,NO,NO,YES,53009000300,3,009,000300,Acceptable
+Rt16,0,Rt16_0,1,47.945138,-124.384672,14_24,Forks Transit Center,Clallam Transit System,,,,,,NO,NO,NO,YES,53009000300,3,009,000300,Ok
+Rt16,0,Rt16_0,2,47.954277,-124.385289,14_29,Tillicum Park and Forks Avenue,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Ok
+Rt16,0,Rt16_0,3,47.968668,-124.403561,14_20,Hwy 101 at 110 (across from Ki'tla Center on 101),Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Ok
+Rt16,1,Rt16_1,22,47.968668,-124.403561,14_20,Hwy 101 at 110 (across from Ki'tla Center on 101),Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Ok
+Rt16,1,Rt16_1,23,47.954441,-124.38566,14_21,Forks Avenue across from Tillicum Park,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Ok
+Rt16,1,Rt16_1,24,47.949923,-124.385575,14_22,Forks Avenue and A Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Ok
+Rt16,1,Rt16_1,25,47.948567,-124.385583,17_19,Forks Avenue at Mocha Motion,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Ok
+Rt16,1,Rt16_1,26,47.945138,-124.384672,14_24,Forks Transit Center,Clallam Transit System,,,,,,NO,NO,NO,YES,53009000300,3,009,000300,Ok
+JTOC,0,JTOC_0,1,47.945133,-124.384633,219,Forks Transit Center,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Poor
+JTOC,1,JTOC_1,8,47.945133,-124.384633,219,Forks Transit Center,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53009000300,3,009,000300,Poor

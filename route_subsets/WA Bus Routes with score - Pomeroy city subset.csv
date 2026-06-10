@@ -1,0 +1,4 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19718,0,19718_0,1,46.47096,-117.60405,2754930,Catholic School,Garfield County Transportation Authority,,,,,,NO,NO,NO,NO,53023970300,9703,023,970300,Poor
+19718,0,19718_0,2,46.47362,-117.59233,2754931,Pirate Pit Stop,Garfield County Transportation Authority,,,,,,NO,NO,NO,NO,53023970300,9703,023,970300,Poor
+19718,0,19718_0,3,46.47526,-117.57908,2754932,NAPA Auto Parts/Four Star Supply,Garfield County Transportation Authority,,,,,,NO,NO,NO,NO,53023970300,9703,023,970300,Poor

@@ -1,0 +1,13 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19702,0,19702_0,2,47.1275721844921,-118.3802332869493,3446957,Ritzville,People for People,,,,,,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+19702,1,19702_1,2,47.1275721844921,-118.3802332869493,3446957,Ritzville,People for People,,,,,,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+19703,0,19703_0,1,47.119329,-118.364611,2754767,Zip's Drive-in - Ritzville,People for People,,,,,,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+19703,1,19703_1,2,47.119329,-118.364611,2754767,Zip's Drive-in - Ritzville,People for People,,,,,,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+19708,0,19708_0,1,47.126327,-118.381904,2754768,Library - Ritzville,People for People,,,,,,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+19708,0,19708_0,2,47.119329,-118.364611,2754767,Zip's Drive-in - Ritzville,People for People,,,,,,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+19708,1,19708_1,3,47.119329,-118.364611,2754767,Zip's Drive-in - Ritzville,People for People,,,,,,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+19708,1,19708_1,4,47.126327,-118.381904,2754768,Library - Ritzville,People for People,,,,,,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+74370,0,74370_0,1,47.12092496235351,-118.37211847253444,4147547,East Adams Rural Health Clinic,Special Mobility Services (SMS),,Ritzville - Spokane,3,fe3939,000000,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+74370,1,74370_1,3,47.119406729903716,-118.36478195904658,4147548,Zip's Drive-In - Ritzville,Special Mobility Services (SMS),,Ritzville - Spokane,3,fe3939,000000,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+74370,1,74370_1,4,47.127111989365915,-118.38220127086996,4147546,Adams County Courthouse,Special Mobility Services (SMS),,Ritzville - Spokane,3,fe3939,000000,NO,NO,NO,NO,53001950100,9501,001,950100,Poor
+74370,1,74370_1,5,47.12092496235351,-118.37211847253444,4147547,East Adams Rural Health Clinic,Special Mobility Services (SMS),,Ritzville - Spokane,3,fe3939,000000,NO,NO,NO,NO,53001950100,9501,001,950100,Poor

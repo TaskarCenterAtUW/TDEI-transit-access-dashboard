@@ -1,0 +1,3 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+596,0,596_0,1,47.173257,-122.184856,11431,Bonney Lake P&R - Bay 5,Pierce Transit,,,,,,NO,NO,NO,NO,53053070312,703.12,053,070312,Poor
+596,1,596_1,2,47.173257,-122.184856,11431,Bonney Lake P&R - Bay 5,Pierce Transit,,,,,,NO,NO,NO,NO,53053070312,703.12,053,070312,Poor

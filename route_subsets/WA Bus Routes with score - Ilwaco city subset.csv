@@ -1,0 +1,12 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+14,0,14_0,1,46.30622293,-124.03967057,ilwaco_port,Ilwaco Port,Pacific Transit,,,,,,NO,NO,NO,YES,53049950502,9505.02,049,950502,Good
+14,1,14_1,5,46.30622293,-124.03967057,ilwaco_port,Ilwaco Port,Pacific Transit,,,,,,NO,NO,NO,YES,53049950502,9505.02,049,950502,Good
+20,0,20_0,1,46.30622293,-124.03967057,ilwaco_port,Ilwaco Port,Pacific Transit,,,,,,NO,NO,NO,YES,53049950502,9505.02,049,950502,Ok
+20,0,20_0,2,46.30945518,-124.0432781,10416947,1st at Spruce St E,Pacific Transit,,,,,,NO,NO,NO,NO,53049950501,9505.01,049,950501,Ok
+20,0,20_0,3,46.31080676,-124.0432781,10416949,Ilwaco Timberland Library,Pacific Transit,,,,,,NO,NO,NO,NO,53049950501,9505.01,049,950501,Ok
+20,0,20_0,4,46.31302443,-124.04294014,10416950,Ilwaco High School,Pacific Transit,,,,,,NO,NO,NO,NO,53049950501,9505.01,049,950501,Ok
+20,1,20_1,5,46.30622293,-124.03967057,ilwaco_port,Ilwaco Port,Pacific Transit,,,,,,NO,NO,NO,YES,53049950502,9505.02,049,950502,Ok
+24,0,24_0,1,46.30622293,-124.03967057,ilwaco_port,Ilwaco Port,Pacific Transit,,,,,,NO,NO,NO,YES,53049950502,9505.02,049,950502,Ok
+24,1,24_1,3,46.30622293,-124.03967057,ilwaco_port,Ilwaco Port,Pacific Transit,,,,,,NO,NO,NO,YES,53049950502,9505.02,049,950502,Ok
+50,0,50_0,6,46.30622293,-124.03967057,ilwaco_port,Ilwaco Port,Pacific Transit,,,,,,NO,NO,NO,YES,53049950502,9505.02,049,950502,Acceptable
+50,1,50_1,1,46.30622293,-124.03967057,ilwaco_port,Ilwaco Port,Pacific Transit,,,,,,NO,NO,NO,YES,53049950502,9505.02,049,950502,Acceptable

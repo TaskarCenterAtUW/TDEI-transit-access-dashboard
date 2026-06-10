@@ -1,0 +1,3 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+77340,0,77340_0,1,46.984355,-120.417715,4251812,Kittitas City Hall,HopeSource,,,,,,NO,NO,NO,YES,53037975700,9757,037,975700,Ok
+77340,0,77340_0,2,46.985652,-120.414373,4251811,Patrick Place,HopeSource,,,,,,NO,NO,NO,YES,53037975700,9757,037,975700,Ok

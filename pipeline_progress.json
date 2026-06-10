@@ -10,5 +10,848 @@
   },
   "WSP_Yakima_City": {
     "status": "completed"
+  },
+  "WSP_Bellingham_City": {
+    "status": "completed"
+  },
+  "WSP_Bellevue_City": {
+    "status": "completed"
+  },
+  "WSP_Aberdeen_Cosmopolis_City": {
+    "status": "failed",
+    "error": "Step 'walksheds_ped batch 0-83' failed (exit 1)"
+  },
+  "WSP_Airway_Heights_City": {
+    "status": "completed"
+  },
+  "WSP_Albion_City": {
+    "status": "no_stops"
+  },
+  "WSP_Algona_City": {
+    "status": "completed"
+  },
+  "WSP_Algona_Pacific_City": {
+    "status": "failed",
+    "error": "Step 'walksheds_ped batch 0-24' failed (exit 1)"
+  },
+  "WSP_Anacortes_City": {
+    "status": "completed"
+  },
+  "WSP_Arlington_City": {
+    "status": "completed"
+  },
+  "WSP_Asotin_City": {
+    "status": "completed"
+  },
+  "WSP_Auburn_City": {
+    "status": "completed"
+  },
+  "WSP_Bainbridge_Island_City": {
+    "status": "completed"
+  },
+  "WSP_Battle_Ground_City": {
+    "status": "no_stops"
+  },
+  "WSP_Beaux_Arts_Village_City": {
+    "status": "no_stops"
+  },
+  "WSP_Bingen_City": {
+    "status": "completed"
+  },
+  "WSP_Black_Diamond_City": {
+    "status": "completed"
+  },
+  "WSP_Blaine_City": {
+    "status": "completed"
+  },
+  "WSP_Bonney_Lake_City": {
+    "status": "completed"
+  },
+  "WSP_Bothell_City": {
+    "status": "completed"
+  },
+  "WSP_Bremerton_City": {
+    "status": "completed"
+  },
+  "WSP_Brewster_City": {
+    "status": "completed"
+  },
+  "WSP_Bridgeport_City": {
+    "status": "no_stops"
+  },
+  "WSP_Brier_City": {
+    "status": "completed"
+  },
+  "WSP_Buckley_City": {
+    "status": "no_stops"
+  },
+  "WSP_Bucoda_City": {
+    "status": "completed"
+  },
+  "WSP_Burien_City": {
+    "status": "completed"
+  },
+  "WSP_Burlington_City": {
+    "status": "completed"
+  },
+  "WSP_Camas_City": {
+    "status": "completed"
+  },
+  "WSP_Carbonado_City": {
+    "status": "no_stops"
+  },
+  "WSP_Carnation_City": {
+    "status": "completed"
+  },
+  "WSP_Cashmere_City": {
+    "status": "no_stops"
+  },
+  "WSP_Castle_Rock_City": {
+    "status": "completed"
+  },
+  "WSP_Cathlamet_City": {
+    "status": "completed"
+  },
+  "WSP_Centralia_Chehalis_City": {
+    "status": "failed",
+    "error": "Step 'walksheds_ped batch 0-88' failed (exit 1)"
+  },
+  "WSP_Centralia_City": {
+    "status": "completed"
+  },
+  "WSP_Chehalis_City": {
+    "status": "completed"
+  },
+  "WSP_Chelan_City": {
+    "status": "no_stops"
+  },
+  "WSP_Cheney_City": {
+    "status": "completed"
+  },
+  "WSP_Chewelah_City": {
+    "status": "completed"
+  },
+  "WSP_Clarkston_City": {
+    "status": "completed"
+  },
+  "WSP_Clyde_Hill_City": {
+    "status": "completed"
+  },
+  "WSP_Colfax_City": {
+    "status": "no_stops"
+  },
+  "WSP_College_Place_City": {
+    "status": "completed"
+  },
+  "WSP_Colton_City": {
+    "status": "no_stops"
+  },
+  "WSP_Colville_City": {
+    "status": "completed"
+  },
+  "WSP_Conconully_City": {
+    "status": "no_stops"
+  },
+  "WSP_Concrete_City": {
+    "status": "completed"
+  },
+  "WSP_Connell_City": {
+    "status": "completed"
+  },
+  "WSP_Cosmopolis_City": {
+    "status": "completed"
+  },
+  "WSP_Coulee_City": {
+    "status": "failed",
+    "error": "Step 'export_ped' failed (exit 1)"
+  },
+  "WSP_Coulee_Dam_City": {
+    "status": "completed"
+  },
+  "WSP_Coupeville_City": {
+    "status": "completed"
+  },
+  "WSP_Covington_City": {
+    "status": "completed"
+  },
+  "WSP_Creston_City": {
+    "status": "completed"
+  },
+  "WSP_Cusick_City": {
+    "status": "failed",
+    "error": "Step 'export_ped' failed (exit 1)"
+  },
+  "WSP_Darrington_City": {
+    "status": "completed"
+  },
+  "WSP_Davenport_City": {
+    "status": "completed"
+  },
+  "WSP_Dayton_City": {
+    "status": "no_stops"
+  },
+  "WSP_Deer_Park_City": {
+    "status": "completed"
+  },
+  "WSP_Des_Moines_City": {
+    "status": "completed"
+  },
+  "WSP_DuPont_City": {
+    "status": "completed"
+  },
+  "WSP_Duvall_City": {
+    "status": "completed"
+  },
+  "WSP_East_Wenatchee_City": {
+    "status": "no_stops"
+  },
+  "WSP_Eatonville_City": {
+    "status": "no_stops"
+  },
+  "WSP_Edgewood_City": {
+    "status": "completed"
+  },
+  "WSP_Edmonds_City": {
+    "status": "completed"
+  },
+  "WSP_Electric_City": {
+    "status": "no_stops"
+  },
+  "WSP_Ellensburg_City": {
+    "status": "completed"
+  },
+  "WSP_Elma_City": {
+    "status": "completed"
+  },
+  "WSP_Elmer_City": {
+    "status": "no_stops"
+  },
+  "WSP_Endicott_City": {
+    "status": "no_stops"
+  },
+  "WSP_Entiat_City": {
+    "status": "no_stops"
+  },
+  "WSP_Enumclaw_City": {
+    "status": "completed"
+  },
+  "WSP_Ephrata_City": {
+    "status": "completed"
+  },
+  "WSP_Everett_City": {
+    "status": "completed"
+  },
+  "WSP_Everson_City": {
+    "status": "completed"
+  },
+  "WSP_Fairfield_City": {
+    "status": "no_stops"
+  },
+  "WSP_Farmington_City": {
+    "status": "no_stops"
+  },
+  "WSP_Federal_way_City": {
+    "status": "completed"
+  },
+  "WSP_Ferndale_City": {
+    "status": "completed"
+  },
+  "WSP_Fife_City": {
+    "status": "completed"
+  },
+  "WSP_Firecrest_City": {
+    "status": "no_boundary"
+  },
+  "WSP_Forks_City": {
+    "status": "completed"
+  },
+  "WSP_Friday_Harbor_City": {
+    "status": "completed"
+  },
+  "WSP_Garfield_City": {
+    "status": "no_stops"
+  },
+  "WSP_George_City": {
+    "status": "failed",
+    "error": "Step 'export_ped' failed (exit 1)"
+  },
+  "WSP_Gig_Harbor_City": {
+    "status": "completed"
+  },
+  "WSP_GoldBar_City": {
+    "status": "no_boundary"
+  },
+  "WSP_Goldendale_City": {
+    "status": "completed"
+  },
+  "WSP_Grand_Coulee_City": {
+    "status": "completed"
+  },
+  "WSP_Grandview_City": {
+    "status": "completed"
+  },
+  "WSP_Granger_City": {
+    "status": "completed"
+  },
+  "WSP_Granite_Falls_City": {
+    "status": "completed"
+  },
+  "WSP_Hamilton_City": {
+    "status": "failed",
+    "error": "Step 'export_wc' failed (exit 1)"
+  },
+  "WSP_Harrah_City": {
+    "status": "no_stops"
+  },
+  "WSP_Harrington_City": {
+    "status": "no_stops"
+  },
+  "WSP_Hartline_City": {
+    "status": "no_stops"
+  },
+  "WSP_Hatton_City": {
+    "status": "no_stops"
+  },
+  "WSP_Hoquiam_City": {
+    "status": "completed"
+  },
+  "WSP_Hunts_Point_City": {
+    "status": "no_stops"
+  },
+  "WSP_Hurrah_City": {
+    "status": "no_boundary"
+  },
+  "WSP_Ilwaco_City": {
+    "status": "completed"
+  },
+  "WSP_Index_City": {
+    "status": "no_stops"
+  },
+  "WSP_Ione_City": {
+    "status": "completed"
+  },
+  "WSP_Issaquah_City": {
+    "status": "completed"
+  },
+  "WSP_Kahlotus_City": {
+    "status": "no_stops"
+  },
+  "WSP_Kalama_City": {
+    "status": "completed"
+  },
+  "WSP_Kelso_City": {
+    "status": "completed"
+  },
+  "WSP_Kenmore_City": {
+    "status": "completed"
+  },
+  "WSP_Kennewick_City": {
+    "status": "completed"
+  },
+  "WSP_Kent_City": {
+    "status": "completed"
+  },
+  "WSP_Kettle_Falls_City": {
+    "status": "completed"
+  },
+  "WSP_Kirkland_City": {
+    "status": "completed"
+  },
+  "WSP_Kittitas_City": {
+    "status": "completed"
+  },
+  "WSP_Krupp_City": {
+    "status": "no_stops"
+  },
+  "WSP_LaCrosse_City": {
+    "status": "no_stops"
+  },
+  "WSP_La_Center_City": {
+    "status": "no_stops"
+  },
+  "WSP_La_Conner_City": {
+    "status": "completed"
+  },
+  "WSP_Lacey_City": {
+    "status": "completed"
+  },
+  "WSP_Lake_Forest_Park_City": {
+    "status": "completed"
+  },
+  "WSP_Lake_Stevens_City": {
+    "status": "completed"
+  },
+  "WSP_Lakewood_City": {
+    "status": "completed"
+  },
+  "WSP_Lamont_City": {
+    "status": "no_stops"
+  },
+  "WSP_Langley_City": {
+    "status": "completed"
+  },
+  "WSP_Latah_City": {
+    "status": "no_stops"
+  },
+  "WSP_Leavenworth_City": {
+    "status": "no_stops"
+  },
+  "WSP_Liberty_Lake_City": {
+    "status": "completed"
+  },
+  "WSP_Lind_City": {
+    "status": "no_stops"
+  },
+  "WSP_Long_Beach_City": {
+    "status": "completed"
+  },
+  "WSP_Longview_City": {
+    "status": "completed"
+  },
+  "WSP_Lyman_City": {
+    "status": "completed"
+  },
+  "WSP_Lynden_City": {
+    "status": "completed"
+  },
+  "WSP_Lynnwood_City": {
+    "status": "completed"
+  },
+  "WSP_Mabton_City": {
+    "status": "completed"
+  },
+  "WSP_Malden_City": {
+    "status": "no_stops"
+  },
+  "WSP_Mansfield_City": {
+    "status": "no_stops"
+  },
+  "WSP_Maple_Valley_City": {
+    "status": "completed"
+  },
+  "WSP_Marysville_City": {
+    "status": "completed"
+  },
+  "WSP_Mattawa_City": {
+    "status": "no_stops"
+  },
+  "WSP_McCleary_City": {
+    "status": "completed"
+  },
+  "WSP_Medical_Lake_City": {
+    "status": "completed"
+  },
+  "WSP_Medina_City": {
+    "status": "completed"
+  },
+  "WSP_Mercer_Island_City": {
+    "status": "completed"
+  },
+  "WSP_Mesa_City": {
+    "status": "failed",
+    "error": "Step 'export_ped' failed (exit 1)"
+  },
+  "WSP_Metaline_City": {
+    "status": "no_stops"
+  },
+  "WSP_Metaline_Falls_City": {
+    "status": "no_stops"
+  },
+  "WSP_Mill_Creek_City": {
+    "status": "completed"
+  },
+  "WSP_Milton_City": {
+    "status": "completed"
+  },
+  "WSP_Monroe_City": {
+    "status": "completed"
+  },
+  "WSP_Montesano_City": {
+    "status": "completed"
+  },
+  "WSP_Morton_City": {
+    "status": "completed"
+  },
+  "WSP_Moses_Lake_City": {
+    "status": "completed"
+  },
+  "WSP_Mossyrock_City": {
+    "status": "completed"
+  },
+  "WSP_MountLake_Terrace_City": {
+    "status": "completed"
+  },
+  "WSP_Mount_Vernon_City": {
+    "status": "completed"
+  },
+  "WSP_Moxee_City": {
+    "status": "no_stops"
+  },
+  "WSP_Mukilteo_City": {
+    "status": "completed"
+  },
+  "WSP_Naches_City": {
+    "status": "no_stops"
+  },
+  "WSP_Napavine_City": {
+    "status": "no_stops"
+  },
+  "WSP_Nespelem_City": {
+    "status": "no_stops"
+  },
+  "WSP_Newport_City": {
+    "status": "completed"
+  },
+  "WSP_Nooksack_City": {
+    "status": "completed"
+  },
+  "WSP_Normandy_Park_City": {
+    "status": "completed"
+  },
+  "WSP_North_Bend_City": {
+    "status": "completed"
+  },
+  "WSP_North_Bonneville_City": {
+    "status": "completed"
+  },
+  "WSP_Northport_City": {
+    "status": "no_stops"
+  },
+  "WSP_Oak_Harbor_City": {
+    "status": "completed"
+  },
+  "WSP_Oakesdale_City": {
+    "status": "no_stops"
+  },
+  "WSP_Oakville_City": {
+    "status": "completed"
+  },
+  "WSP_Ocean_Shores_City": {
+    "status": "completed"
+  },
+  "WSP_Odessa_City": {
+    "status": "completed"
+  },
+  "WSP_Okanogan_City": {
+    "status": "completed"
+  },
+  "WSP_Olympia_City": {
+    "status": "completed"
+  },
+  "WSP_Omak_City": {
+    "status": "completed"
+  },
+  "WSP_Oroville_City": {
+    "status": "completed"
+  },
+  "WSP_Orting_City": {
+    "status": "no_stops"
+  },
+  "WSP_Othello_City": {
+    "status": "completed"
+  },
+  "WSP_Pacific_City": {
+    "status": "completed"
+  },
+  "WSP_Palouse_City": {
+    "status": "no_stops"
+  },
+  "WSP_Pasco_City": {
+    "status": "completed"
+  },
+  "WSP_Pateros_City": {
+    "status": "completed"
+  },
+  "WSP_Pe_Ell_City": {
+    "status": "no_stops"
+  },
+  "WSP_Pomeroy_City": {
+    "status": "completed"
+  },
+  "WSP_Port_Angeles_City": {
+    "status": "completed"
+  },
+  "WSP_Port_Orchard_City": {
+    "status": "no_stops"
+  },
+  "WSP_Port_Townsend_City": {
+    "status": "completed"
+  },
+  "WSP_Poulsbo_City": {
+    "status": "completed"
+  },
+  "WSP_Prescott_City": {
+    "status": "no_stops"
+  },
+  "WSP_Prosser_City": {
+    "status": "completed"
+  },
+  "WSP_Pullman_City": {
+    "status": "completed"
+  },
+  "WSP_Puyallup_City": {
+    "status": "completed"
+  },
+  "WSP_Quincy_City": {
+    "status": "completed"
+  },
+  "WSP_Rainier_City": {
+    "status": "completed"
+  },
+  "WSP_Raymond_City": {
+    "status": "completed"
+  },
+  "WSP_Raymond_Southbend_City": {
+    "status": "no_boundary"
+  },
+  "WSP_Reardan_City": {
+    "status": "completed"
+  },
+  "WSP_Redmond_City": {
+    "status": "completed"
+  },
+  "WSP_Renton Health Through Housing": {
+    "status": "no_boundary"
+  },
+  "WSP_Renton_City": {
+    "status": "completed"
+  },
+  "WSP_Republic_City": {
+    "status": "no_stops"
+  },
+  "WSP_Richland_City": {
+    "status": "completed"
+  },
+  "WSP_Ridgefield_City": {
+    "status": "no_stops"
+  },
+  "WSP_Ritzville_City": {
+    "status": "completed"
+  },
+  "WSP_Riverside_City": {
+    "status": "completed"
+  },
+  "WSP_Rock_Island_City": {
+    "status": "no_stops"
+  },
+  "WSP_Rockford_City": {
+    "status": "no_stops"
+  },
+  "WSP_Rosalia_City": {
+    "status": "no_stops"
+  },
+  "WSP_Roy_City": {
+    "status": "no_stops"
+  },
+  "WSP_Royal_City": {
+    "status": "no_stops"
+  },
+  "WSP_Sammamish_City": {
+    "status": "completed"
+  },
+  "WSP_Seatac_City": {
+    "status": "completed"
+  },
+  "WSP_Sedro_Woolley_City": {
+    "status": "no_boundary"
+  },
+  "WSP_Selah_City": {
+    "status": "completed"
+  },
+  "WSP_Sequim_City": {
+    "status": "completed"
+  },
+  "WSP_Shelton_City": {
+    "status": "completed"
+  },
+  "WSP_Shoreline_City": {
+    "status": "completed"
+  },
+  "WSP_Skykomish_City": {
+    "status": "no_stops"
+  },
+  "WSP_Snohomish_City": {
+    "status": "completed"
+  },
+  "WSP_Snoqualmie_City": {
+    "status": "completed"
+  },
+  "WSP_Soap_Lake_City": {
+    "status": "completed"
+  },
+  "WSP_South_Bend_City": {
+    "status": "completed"
+  },
+  "WSP_South_Prairie_City": {
+    "status": "no_stops"
+  },
+  "WSP_Spangle_City": {
+    "status": "no_stops"
+  },
+  "WSP_Spokane_Valley_City": {
+    "status": "completed"
+  },
+  "WSP_Spokane_Valley_city": {
+    "status": "skipped",
+    "reason": "manually excluded"
+  },
+  "WSP_Sprague_City": {
+    "status": "failed",
+    "error": "Step 'export_wc' failed (exit 1)"
+  },
+  "WSP_Springdale_City": {
+    "status": "completed"
+  },
+  "WSP_St . John_City": {
+    "status": "no_boundary"
+  },
+  "WSP_Stanwood_City": {
+    "status": "completed"
+  },
+  "WSP_Starbuck_City": {
+    "status": "no_stops"
+  },
+  "WSP_Steilacoom_City": {
+    "status": "no_stops"
+  },
+  "WSP_Stevens_County": {
+    "status": "skipped",
+    "reason": "too large / manually excluded"
+  },
+  "WSP_Stevenson_City": {
+    "status": "completed"
+  },
+  "WSP_Sultan_City": {
+    "status": "completed"
+  },
+  "WSP_Sumas_City": {
+    "status": "completed"
+  },
+  "WSP_Sumner_City": {
+    "status": "completed"
+  },
+  "WSP_Sunnyside_City": {
+    "status": "completed"
+  },
+  "WSP_Tacoma_City": {
+    "status": "completed"
+  },
+  "WSP_Tekoa_City": {
+    "status": "no_stops"
+  },
+  "WSP_Tenino_City": {
+    "status": "completed"
+  },
+  "WSP_Tieton_City": {
+    "status": "no_stops"
+  },
+  "WSP_Toledo_City": {
+    "status": "no_stops"
+  },
+  "WSP_Tonasket_City": {
+    "status": "completed"
+  },
+  "WSP_Toppenish_City": {
+    "status": "completed"
+  },
+  "WSP_Tukwila_City": {
+    "status": "completed"
+  },
+  "WSP_Tumwater_City": {
+    "status": "completed"
+  },
+  "WSP_Twisp_City": {
+    "status": "completed"
+  },
+  "WSP_Union_Gap_City": {
+    "status": "completed"
+  },
+  "WSP_Uniontown_City": {
+    "status": "no_stops"
+  },
+  "WSP_University_Place_City": {
+    "status": "completed"
+  },
+  "WSP_Vader_City": {
+    "status": "no_stops"
+  },
+  "WSP_Vancouver_City": {
+    "status": "completed"
+  },
+  "WSP_Waitsburg_City": {
+    "status": "no_stops"
+  },
+  "WSP_Walla_Walla_City": {
+    "status": "completed"
+  },
+  "WSP_Wapato_City": {
+    "status": "completed"
+  },
+  "WSP_Warden_City": {
+    "status": "completed"
+  },
+  "WSP_Washougal_City": {
+    "status": "no_stops"
+  },
+  "WSP_Washtucna_City": {
+    "status": "no_stops"
+  },
+  "WSP_Waterville_City": {
+    "status": "no_stops"
+  },
+  "WSP_Waverly_City": {
+    "status": "no_stops"
+  },
+  "WSP_Wenatchee_City": {
+    "status": "completed"
+  },
+  "WSP_West_Richland_City": {
+    "status": "completed"
+  },
+  "WSP_Westport_City": {
+    "status": "completed"
+  },
+  "WSP_White_Salmon_City": {
+    "status": "completed"
+  },
+  "WSP_Wilbur_City": {
+    "status": "completed"
+  },
+  "WSP_Wilkeson_City": {
+    "status": "no_stops"
+  },
+  "WSP_Wilson_Creek_City": {
+    "status": "no_stops"
+  },
+  "WSP_Winlock_City": {
+    "status": "no_stops"
+  },
+  "WSP_Winthrop_City": {
+    "status": "failed",
+    "error": "Step 'export_wc' failed (exit 1)"
+  },
+  "WSP_Woodinville_City": {
+    "status": "completed"
+  },
+  "WSP_Woodland_City": {
+    "status": "completed"
+  },
+  "WSP_Woodway_City": {
+    "status": "no_stops"
+  },
+  "WSP_Yacolt_City": {
+    "status": "no_stops"
+  },
+  "WSP_Yelm_City": {
+    "status": "completed"
+  },
+  "WSP_Yelm_City_Plus": {
+    "status": "no_boundary"
+  },
+  "WSP_Zillah_City": {
+    "status": "completed"
+  },
+  "WSP_Benton_City": {
+    "status": "completed"
   }
 }

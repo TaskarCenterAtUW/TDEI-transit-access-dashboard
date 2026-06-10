@@ -1,0 +1,15 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+40,0,40_0,15,46.977726,-123.612192,40034,Pioneer & 9th EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,0,40_0,16,46.97816619,-123.60948443,40141,Pioneer & 7th EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,0,40_0,17,46.97942,-123.602781,40062,Pioneer & Fleet EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,0,40_0,18,46.979709,-123.59902,7777,Montesano Transit Center,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,0,40_0,19,46.979513,-123.594082,40036,Pioneer & Academy EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,0,40_0,20,46.979588,-123.590148,40074,Pioneer & S Glenn EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,0,40_0,21,46.982528,-123.572178,40078,Poplar EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,1,40_1,31,46.98373644,-123.56710017,40418,Beacon Ave WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,1,40_1,32,46.9826605,-123.57218027,40422,Poplar Rd WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,1,40_1,33,46.979706,-123.590313,40426,Pioneer & S Glenn WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,1,40_1,34,46.97965213,-123.59361649,40430,Pioneer & Academy WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,1,40_1,35,46.979709,-123.59902,7777,Montesano Transit Center,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,1,40_1,36,46.97954965,-123.60387325,40438,Pioneer & 3rd St WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good
+40,1,40_1,37,46.97822109,-123.60994041,40442,Pioneer & 7th WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000402,4.02,027,000402,Good

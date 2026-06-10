@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+123,0,123_0,7,47.623688,-122.511536,ferry_bi,Bainbridge Ferry Terminal,Clallam Transit System,,,,,,NO,NO,NO,NO,53035090902,909.02,035,090902,Good
+123,1,123_1,1,47.623688,-122.511536,ferry_bi,Bainbridge Ferry Terminal,Clallam Transit System,,,,,,NO,NO,NO,NO,53035090902,909.02,035,090902,Good
+37,0,37_0,1,47.623094,-122.510809,3,Bainbridge Island,Washington State Ferries,,,,,,YES,YES,NO,YES,53035090902,909.02,035,090902,Good
+73,0,73_0,2,47.623094,-122.510809,3,Bainbridge Island,Washington State Ferries,,,,,,YES,YES,NO,YES,53035090902,909.02,035,090902,Good

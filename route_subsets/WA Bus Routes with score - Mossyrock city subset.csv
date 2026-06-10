@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19721,0,19721_0,7,46.5285663838481,-122.482918992042,2754951,Mossyrock Community Center,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041971700,9717,041,971700,Poor
+19721,1,19721_1,8,46.5285663838481,-122.482918992042,2754951,Mossyrock Community Center,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041971700,9717,041,971700,Poor
+76388,0,76388_0,7,46.53253877106739,-122.48521808712388,4211506,Mossyrock School Bus Yard - 600 Williams St,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971700,9717,041,971700,Good
+76388,1,76388_1,2,46.53253877106739,-122.48521808712388,4211506,Mossyrock School Bus Yard - 600 Williams St,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53041971700,9717,041,971700,Good

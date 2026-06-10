@@ -1,0 +1,12 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+30,0,30_0,5,46.960065,-123.776437,30115,1st. SouthBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,6,46.954481,-123.77,30120,C at 1st,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,7,46.95335,-123.771962,30125,C at 3rd,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,8,46.953491,-123.773226,30130,4th at D,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,9,46.955455,-123.775519,30135,4th at G,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,10,46.954064,-123.778458,30157,G at Altenau,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,11,46.948234,-123.77819,30140,Altenau & Holly Lane,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,12,46.948252,-123.77555,30145,Holly Lane at Alder,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,13,46.953776,-123.7845302,30150,Franklin Dr. (park),Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,14,46.953873,-123.778723,30156,Franklin Dr. at Altenau,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good
+30,0,30_0,15,46.956978,-123.776886,30160,4th at I St.,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000900,9,027,000900,Good

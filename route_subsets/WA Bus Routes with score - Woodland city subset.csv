@@ -1,0 +1,3 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+77483,0,77483_0,2,45.90483405160349,-122.74368570965191,4254472,Woodland Park & Ride,RiverCities Transit,,,,,,NO,NO,NO,NO,53015001504,15.04,015,001504,Good
+77483,1,77483_1,3,45.90483405160349,-122.74368570965191,4254472,Woodland Park & Ride,RiverCities Transit,,,,,,NO,NO,NO,NO,53015001504,15.04,015,001504,Good

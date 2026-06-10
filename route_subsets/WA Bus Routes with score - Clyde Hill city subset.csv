@@ -1,0 +1,6 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+100162,0,100162_0,7,47.6327553,-122.227989,73010,84th Ave NE & NE 24th St,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Great
+100162,0,100162_0,8,47.6282043,-122.228004,73020,84th Ave NE & NE 20th St,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Great
+100162,1,100162_1,50,47.621109,-122.227501,72960,NE 12th St & 84th Ave NE,Metro Transit,,,,,,YES,NO,NO,YES,53033024100,241,033,024100,Great
+100162,1,100162_1,51,47.6284943,-122.227798,72970,84th Ave NE & NE 20th St,Metro Transit,,,,,,YES,NO,NO,YES,53033024100,241,033,024100,Great
+100162,1,100162_1,52,47.6326141,-122.227783,72980,84th Ave NE & NE 24th St,Metro Transit,,,,,,YES,NO,NO,YES,53033024100,241,033,024100,Great

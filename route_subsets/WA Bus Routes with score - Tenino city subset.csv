@@ -1,0 +1,6 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19714,0,19714_0,3,46.85295262830861,-122.85693295636788,4251893,W Park Ave between McArthur St and W 5th Ave,ruralTRANSIT,,,,,,NO,NO,NO,YES,53067012620,126.20,067,012620,Ok
+19716,0,19716_0,3,46.85295262830861,-122.85693295636788,4251893,W Park Ave between McArthur St and W 5th Ave,ruralTRANSIT,,,,,,NO,NO,NO,YES,53067012620,126.20,067,012620,Acceptable
+19716,0,19716_0,4,46.85602145060099,-122.8509814602788,4251894,W Park Ave between S Olympia St and S Hodgden St,ruralTRANSIT,,,,,,NO,NO,NO,YES,53067012620,126.20,067,012620,Acceptable
+19716,1,19716_1,4,46.85295262830861,-122.85693295636788,4251893,W Park Ave between McArthur St and W 5th Ave,ruralTRANSIT,,,,,,NO,NO,NO,YES,53067012620,126.20,067,012620,Acceptable
+19716,1,19716_1,5,46.85602145060099,-122.8509814602788,4251894,W Park Ave between S Olympia St and S Hodgden St,ruralTRANSIT,,,,,,NO,NO,NO,YES,53067012620,126.20,067,012620,Acceptable

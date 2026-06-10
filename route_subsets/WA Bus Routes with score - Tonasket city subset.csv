@@ -1,0 +1,6 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+OKAN_5,0,OKAN_5_0,1,48.705765,-119.440009,OKAN_133,Tonasket PUD,TranGO,,,,,,YES,NO,NO,NO,53047970400,9704,047,970400,Acceptable
+OKAN_5,1,OKAN_5_1,6,48.705765,-119.440009,OKAN_133,Tonasket PUD,TranGO,,,,,,YES,NO,NO,NO,53047970400,9704,047,970400,Acceptable
+OKAN_7,0,OKAN_7_0,5,48.705765,-119.440009,OKAN_133,Tonasket PUD,TranGO,,,,,,YES,NO,NO,NO,53047970400,9704,047,970400,Ok
+OKAN_7,1,OKAN_7_1,1,48.705765,-119.440009,OKAN_133,Tonasket PUD,TranGO,,,,,,YES,NO,NO,NO,53047970400,9704,047,970400,Ok
+OKAN_8,0,OKAN_8_0,7,48.705765,-119.440009,OKAN_133,Tonasket PUD,TranGO,,,,,,YES,NO,NO,NO,53047970400,9704,047,970400,Ok

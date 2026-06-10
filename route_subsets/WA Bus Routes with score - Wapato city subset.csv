@@ -1,0 +1,7 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+74515,0,74515_0,11,46.44789634496817,-120.42537859161368,4149596,International Market (512 W 1st St),Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53077940008,9400.08,077,940008,Poor
+74515,0,74515_0,15,46.44789634496817,-120.42537859161368,4149596,International Market (512 W 1st St),Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53077940008,9400.08,077,940008,Poor
+77516,0,77516_0,2,46.44789634496817,-120.42537859161368,4149596,International Market (512 W 1st St),Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53077940008,9400.08,077,940008,Poor
+77516,0,77516_0,4,46.44789634496817,-120.42537859161368,4149596,International Market (512 W 1st St),Confederated Tribes and Bands of The Yakama Nation (Pahto Transit),,,,,,NO,NO,NO,NO,53077940008,9400.08,077,940008,Poor
+19704,0,19704_0,4,46.44820152,-120.4252222,2754809,Wapato International Market,People for People,,,,,,NO,NO,NO,NO,53077940008,9400.08,077,940008,Poor
+19704,1,19704_1,2,46.44820152,-120.4252222,2754809,Wapato International Market,People for People,,,,,,NO,NO,NO,NO,53077940008,9400.08,077,940008,Poor

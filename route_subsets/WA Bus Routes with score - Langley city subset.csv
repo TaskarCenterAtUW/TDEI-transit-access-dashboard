@@ -1,0 +1,17 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+32479,0,32479_0,12,48.032312,-122.401854,3449399,Camano Ave at Langley P&R,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,0,32479_0,13,48.035523,-122.402449,3449676,Camano Ave at Edgecliff Dr,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,0,32479_0,14,48.038354,-122.405318,3449398,Cascade Ave at 4th St,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,0,32479_0,15,48.040005,-122.40837,3449397,2nd St at Star Store,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,0,32479_0,16,48.0391975,-122.409554,3449678,Anthes Ave at Third St,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,0,32479_0,17,48.03643,-122.406676,3449396,6th St at Creekside Terrace,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,0,32479_0,18,48.034461,-122.402465,3449677,Camano Ave at South Whidbey Community Center,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,0,32479_0,19,48.032177,-122.401995,3449395,Camano Ave at Langley Fair Grounds,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,1,32479_1,16,48.032312,-122.401854,3449399,Camano Ave at Langley P&R,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,1,32479_1,17,48.035523,-122.402449,3449676,Camano Ave at Edgecliff Dr,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,1,32479_1,18,48.038354,-122.405318,3449398,Cascade Ave at 4th St,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,1,32479_1,19,48.040005,-122.40837,3449397,2nd St at Star Store,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,1,32479_1,20,48.0391975,-122.409554,3449678,Anthes Ave at Third St,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,1,32479_1,21,48.03643,-122.406676,3449396,6th St at Creekside Terrace,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,1,32479_1,22,48.034461,-122.402465,3449677,Camano Ave at South Whidbey Community Center,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great
+32479,1,32479_1,23,48.032177,-122.401995,3449395,Camano Ave at Langley Fair Grounds,Island Transit,,,,,,YES,YES,NO,YES,53029972000,9720,029,972000,Great

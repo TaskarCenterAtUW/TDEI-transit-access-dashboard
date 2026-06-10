@@ -1,0 +1,6 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+71X,0,71X_0,26,48.993536,-122.262733,860,Sumas Ave at Morton St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010202,102.02,073,010202,Good
+71X,0,71X_0,27,48.996915,-122.262716,861,Sumas Ave at Columbia St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010202,102.02,073,010202,Good
+71X,0,71X_0,28,48.998659,-122.265083,862,Cherry St at 1st St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,YES,NO,NO,NO,53073010202,102.02,073,010202,Good
+71X,1,71X_1,1,48.998659,-122.265083,862,Cherry St at 1st St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,YES,NO,NO,NO,53073010202,102.02,073,010202,Good
+71X,1,71X_1,2,48.995263,-122.26506,863,Cherry St at Vancouver St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,NO,53073010202,102.02,073,010202,Good

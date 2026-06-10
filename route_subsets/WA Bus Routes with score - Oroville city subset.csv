@@ -1,0 +1,8 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+OKAN_7,0,OKAN_7_0,1,48.946878,-119.435894,OKAN_142,Prince's Center,TranGO,,,,,,NO,NO,NO,NO,53047970301,9703.01,047,970301,Ok
+OKAN_7,0,OKAN_7_0,2,48.939169,-119.43476,OKAN_143,Chevron Oroville,TranGO,,,,,,NO,NO,NO,NO,53047970301,9703.01,047,970301,Ok
+OKAN_7,1,OKAN_7_1,4,48.939169,-119.43476,OKAN_143,Chevron Oroville,TranGO,,,,,,NO,NO,NO,NO,53047970301,9703.01,047,970301,Ok
+OKAN_7,1,OKAN_7_1,5,48.946878,-119.435894,OKAN_142,Prince's Center,TranGO,,,,,,NO,NO,NO,NO,53047970301,9703.01,047,970301,Ok
+OKAN_8,0,OKAN_8_0,1,48.939169,-119.43476,OKAN_143,Chevron Oroville,TranGO,,,,,,NO,NO,NO,NO,53047970301,9703.01,047,970301,Ok
+OKAN_8,0,OKAN_8_0,3,48.946878,-119.435894,OKAN_142,Prince's Center,TranGO,,,,,,NO,NO,NO,NO,53047970301,9703.01,047,970301,Ok
+OKAN_8,0,OKAN_8_0,4,48.939169,-119.43476,OKAN_143,Chevron Oroville,TranGO,,,,,,NO,NO,NO,NO,53047970301,9703.01,047,970301,Ok

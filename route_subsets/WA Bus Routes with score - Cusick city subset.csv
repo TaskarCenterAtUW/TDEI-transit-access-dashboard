@@ -1,0 +1,8 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+74321,0,74321_0,4,48.3370723141824,-117.293903890913,4146977,Kalispel Park,Kaltran,,,,,,NO,NO,NO,NO,53051970200,9702,051,970200,Poor
+74322,0,74322_0,3,48.3370723141824,-117.293903890913,4146977,Kalispel Park,Kaltran,,,,,,NO,NO,NO,NO,53051970200,9702,051,970200,Poor
+74322,1,74322_1,1,48.3370723141824,-117.293903890913,4146977,Kalispel Park,Kaltran,,,,,,NO,NO,NO,NO,53051970200,9702,051,970200,Poor
+74323,0,74323_0,1,48.3370723141824,-117.293903890913,4146977,Kalispel Park,Kaltran,,,,,,NO,NO,NO,NO,53051970200,9702,051,970200,Poor
+74323,1,74323_1,2,48.3370723141824,-117.293903890913,4146977,Kalispel Park,Kaltran,,,,,,NO,NO,NO,NO,53051970200,9702,051,970200,Poor
+74324,0,74324_0,2,48.3370723141824,-117.293903890913,4146977,Kalispel Park,Kaltran,,,,,,NO,NO,NO,NO,53051970200,9702,051,970200,Poor
+74324,1,74324_1,1,48.3370723141824,-117.293903890913,4146977,Kalispel Park,Kaltran,,,,,,NO,NO,NO,NO,53051970200,9702,051,970200,Poor

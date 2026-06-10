@@ -1,0 +1,16 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+62,0,62_0,4,47.579781,-117.669301,MEDGRAWN,Medical Lake Hwy @ Graham,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063014100,141,063,014100,Good
+62,0,62_0,5,47.579359,-117.67412,MEDSTAWN,Med Lake Hwy @ Stanley (Conoco),Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,0,62_0,6,47.579795,-117.680977,MEDLEFWN,Med Lake Hwy @ Lefevre (Harvest Foods),Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,0,62_0,7,47.578457,-117.682732,LEFJAMSN,Lefevre @ James,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,0,62_0,8,47.577599,-117.688148,4THMINWM,4th @ Minnie,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,0,62_0,9,47.572174,-117.693711,EASTERNW,Maple @ Alder (Eastern State Hospital),Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,1,47.570043,-117.678139,CAMBROEF,Campbell @ Brower,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,2,47.570345,-117.672994,PRECAMNF,Prentis @ Campbell,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,3,47.57294,-117.673525,LAKPREWF,Lake @ Prentis,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,4,47.572935,-117.677667,LAKWALWF,Lake @ Walker,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,5,47.572586,-117.681144,MLC,Medical Lake Center,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,6,47.577889,-117.682564,MEDLKHS,Lefevre @ Medical Lake High School,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,7,47.579709,-117.680912,MEDLEFEF,Medical Lake @ Lefevre,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,8,47.579239,-117.673795,MEDSTAEF,Med Lake Hwy @ Stanley (Conoco),Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good
+62,1,62_1,9,47.57965,-117.669262,MEDGRAEN,Medical Lake Hwy @ Graham,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013900,139,063,013900,Good

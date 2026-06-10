@@ -1,0 +1,24 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19707,0,19707_0,8,46.814163,-119.153331,2754800,Columbia Basin Health Assoc - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19707,1,19707_1,1,46.814163,-119.153331,2754800,Columbia Basin Health Assoc - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19708,0,19708_0,3,46.824431,-119.146687,2754780,Wal-Mart - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19708,0,19708_0,4,46.814163,-119.153331,2754800,Columbia Basin Health Assoc - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19708,1,19708_1,1,46.814163,-119.153331,2754800,Columbia Basin Health Assoc - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19708,1,19708_1,2,46.824431,-119.146687,2754780,Wal-Mart - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,0,19709_0,1,46.824431,-119.146687,2754780,Wal-Mart - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,0,19709_0,2,46.814163,-119.153331,2754800,Columbia Basin Health Assoc - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,0,19709_0,3,46.829895,-119.154408,2754779,Community Hospital - Othello,People for People,,,,,,NO,NO,NO,NO,53001950400,9504,001,950400,Poor
+19709,0,19709_0,4,46.826304,-119.168403,2754778,McDonald's - Othello,People for People,,,,,,NO,NO,NO,NO,53001950400,9504,001,950400,Poor
+19709,0,19709_0,5,46.831469,-119.172139,2754777,Coventry House - Othello,People for People,,,,,,NO,NO,NO,NO,53001950400,9504,001,950400,Poor
+19709,0,19709_0,7,46.815865,-119.173783,2754775,Bethel Assembly of God Church - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,0,19709_0,8,46.826073,-119.170617,2754774,Pioneer Park - Othello,People for People,,,,,,NO,NO,NO,NO,53001950400,9504,001,950400,Poor
+19709,0,19709_0,9,46.814163,-119.153331,2754800,Columbia Basin Health Assoc - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,0,19709_0,10,46.824431,-119.146687,2754780,Wal-Mart - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,1,19709_1,4,46.824431,-119.146687,2754780,Wal-Mart - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,1,19709_1,5,46.829895,-119.154408,2754779,Community Hospital - Othello,People for People,,,,,,NO,NO,NO,NO,53001950400,9504,001,950400,Poor
+19709,1,19709_1,6,46.826304,-119.168403,2754778,McDonald's - Othello,People for People,,,,,,NO,NO,NO,NO,53001950400,9504,001,950400,Poor
+19709,1,19709_1,7,46.831469,-119.172139,2754777,Coventry House - Othello,People for People,,,,,,NO,NO,NO,NO,53001950400,9504,001,950400,Poor
+19709,1,19709_1,9,46.815865,-119.173783,2754775,Bethel Assembly of God Church - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,1,19709_1,10,46.826073,-119.170617,2754774,Pioneer Park - Othello,People for People,,,,,,NO,NO,NO,NO,53001950400,9504,001,950400,Poor
+19709,1,19709_1,11,46.814163,-119.153331,2754800,Columbia Basin Health Assoc - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor
+19709,1,19709_1,12,46.824431,-119.146687,2754780,Wal-Mart - Othello,People for People,,,,,,NO,NO,NO,NO,53001950500,9505,001,950500,Poor

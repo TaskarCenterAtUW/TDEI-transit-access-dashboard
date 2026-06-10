@@ -1,0 +1,142 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+12,0,12_0,18,47.0233879089,-122.923279,332,Crosby Blvd at Mottman Rd [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,20,47.0205001831,-122.926353,100,Crosby Blvd at Somerset Hill Dr [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,21,47.0176277161,-122.920486,101,Barnes Blvd at Ridgeview Loop [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,22,47.0164031982,-122.918152,102,Overlook Point Park [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,23,47.0152778625,-122.915154,103,Barnes Blvd at Vista Loop [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,24,47.0113220215,-122.913025,967,7th Ave at Ebbets Dr [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,25,47.0084724426,-122.913048,104,7th Ave at I St [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,26,47.0074224417,-122.916636,787,Linwood Ave at G St [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,27,47.0074157715,-122.920631,14,Linwood Ave at Liberty St [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,28,47.0074157715,-122.925858,15,Linwood Ave at Rural Rd [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,0,12_0,29,47.0047302246,-122.926788,16,Rural Rd at 48th Ave [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,30,47.0005569458,-122.926826,17,Rural Rd at Trosper Rd [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,31,46.99992,-122.9251,18,Trosper Rd at Commander Dr [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,32,46.999912262,-122.921021,20,Olympics West Retirement Inn,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,33,46.9998703003,-122.918144,19,Trosper Rd at Lake Park Dr [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,34,46.9983291626,-122.917,21,Littlerock Rd at Trosper Rd [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,35,46.9967422485,-122.919014,22,Twin Star Plaza [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,36,46.9949035645,-122.921722,23,Littlerock at Kingswood Dr [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,37,46.9920845032,-122.923538,24,Tumwater Middle School [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,38,46.9894714355,-122.927231,25,Littlerock Rd at Odegard Rd [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,39,46.9879074097,-122.929451,26,Littlerock Rd at Glenwood Dr sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,40,46.9862661,-122.93154,908,Littlerock Rd at Miner Dr [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,41,46.985408783,-122.931084,27,Israel Rd at Littlerock Rd [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,42,46.9857254028,-122.926323,873,Israel Rd at Old Israel Rd [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,0,12_0,43,46.9853363037,-122.920609,790,Israel Rd at Linderson Way [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,0,12_0,44,46.9848098755,-122.918404,28,Linderson Way at Israel Rd [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,0,12_0,45,46.9829673767,-122.920609,29,Labor & Industries Building,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,1,46.9829673767,-122.920609,29,Labor & Industries Building,Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,2,46.9811553955,-122.918419,30,Linderson Way at Tumwater Blvd [sb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,3,46.9796066284,-122.91552,875,Tumwater Blvd at New Market St [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,4,46.9805717468,-122.909622,763,Tumwater Blvd at Terminal St [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,5,46.9821090698,-122.906944,879,Tumwater Blvd at Cleanwater Dr [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,6,46.983455658,-122.904518,996,Tumwater Blvd at Capitol Blvd [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+12,1,12_1,7,46.985458374,-122.904114,997,Israel Rd at Nikolas St [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+12,1,12_1,8,46.9854850769,-122.909538,78,Indian Creek Apts [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,9,46.9854774475,-122.913239,79,Israel Rd at New Market St [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,10,46.9855308533,-122.91629,80,Tumwater High School [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,11,46.9854850769,-122.920067,799,Israel Rd at Linderson Way [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+12,1,12_1,12,46.9858322144,-122.926559,874,Israel Rd at Old Israel Rd [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,13,46.9855194092,-122.931404,59,Israel Rd at Littlerock Rd [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,14,46.98594,-122.93159,31,Littlerock at Miner Dr [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,15,46.9877967834,-122.929268,32,Littlerock Rd at McIver Ct [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,16,46.9892692566,-122.927208,33,Littlerock Rd at Odegard Rd [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,17,46.9913291931,-122.92421,34,Tumwater Middle School [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,18,46.9949913025,-122.92144,60,Littlerock Rd at Kingswood Dr [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,19,46.996711731,-122.918411,35,"Twin Star Plaza, Costco [nb]",Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,20,46.9981765747,-122.916771,36,Littlerock Rd at Trosper Rd [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,21,47.000038147,-122.917259,37,Trosper Rd at 2nd Ave [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,22,47.0000457764,-122.921333,38,Tumwater Mobile Estates [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,23,47.0000572205,-122.925682,39,Western Plaza MHP [wb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,24,47.0011520386,-122.926659,40,Rural Rd at Trosper Rd [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,25,47.00443,-122.92658,41,Rural Rd at 48th Ave [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,26,47.0073547363,-122.925812,42,Linwood Ave at Rural Rd [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,27,47.00734,-122.92116,43,Linwood Ave at Liberty St [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,28,47.0072631836,-122.916656,44,Linwood Ave at G St [eb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010920,109.20,067,010920,Poor
+12,1,12_1,29,47.0088424683,-122.912842,85,7th Ave at I St [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,1,12_1,30,47.0154724121,-122.915138,86,Barnes Blvd at Vista Loop [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,1,12_1,31,47.01652,-122.91813,785,Barnes Blvd at Blue Sky Dr [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,1,12_1,32,47.018989563,-122.922569,87,Barnes Blvd at Ridgeview Loop [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,1,12_1,33,47.0208816528,-122.926132,784,Crosby Blvd at Westbury Lane [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+12,1,12_1,35,47.0230407715,-122.922981,333,Crosby Blvd at Mottman Rd [nb],Intercity Transit,12,West Tumwater,3,5A8400,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+13,0,13_0,12,47.02073,-122.89715,10,Capitol Blvd at Carlyon Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+13,0,13_0,13,47.0181045532,-122.898788,893,Tumwater Square [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+13,0,13_0,14,47.0131416321,-122.9039,61,Tumwater Falls Park [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,0,13_0,15,47.0110206604,-122.905289,11,Capitol Blvd at E St [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,0,13_0,16,47.009792,-122.906055,1077,Capitol Blvd at Tumwater Valley Dr [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,0,13_0,17,47.0074768066,-122.90731,12,Capitol Blvd at Linwood Ave [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,0,13_0,18,47.0010223389,-122.909439,72,Southgate Center [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,0,13_0,19,46.9973640442,-122.907753,73,Capitol Blvd at Lee St [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,20,46.9954872131,-122.907738,74,Capitol Blvd at Pinehurst Dr [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,21,46.993560791,-122.907761,75,6131 Capitol Blvd [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,22,46.9915237427,-122.907784,76,6330 Capitol Blvd [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,23,46.9875717163,-122.907867,77,Capitol Blvd at Dennis St [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,24,46.9854850769,-122.909538,78,Indian Creek Apts [wb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,25,46.9854774475,-122.913239,79,Israel Rd at New Market St [wb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,26,46.9855308533,-122.91629,80,Tumwater High School [wb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,27,46.9848098755,-122.918404,28,Linderson Way at Israel Rd [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,0,13_0,28,46.9829673767,-122.920609,29,Labor & Industries Building,Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,1,13_1,1,46.9829673767,-122.920609,29,Labor & Industries Building,Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,1,13_1,2,46.9811553955,-122.918419,30,Linderson Way at Tumwater Blvd [sb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,1,13_1,3,46.9796066284,-122.91552,875,Tumwater Blvd at New Market St [eb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,1,13_1,4,46.9805717468,-122.909622,763,Tumwater Blvd at Terminal St [eb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,1,13_1,5,46.9821090698,-122.906944,879,Tumwater Blvd at Cleanwater Dr [eb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010801,108.01,067,010801,Poor
+13,1,13_1,6,46.9848175049,-122.906647,939,Capitol Blvd at Tumwater Blvd [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,7,46.9862861633,-122.907394,62,Capitol Blvd at Israel Rd [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,8,46.988609314,-122.90757,63,Capitol Blvd at Dennis St [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,9,46.9913978577,-122.907547,64,Courtyard Plaza [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,10,46.9937171936,-122.907478,65,Capitol Blvd and W St [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,11,46.9952201843,-122.907471,66,Capitol Blvd at U St [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,12,46.9975776672,-122.907608,67,Capitol Blvd and Lee St [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,13,46.9990932349,-122.908218,1080,Capitol Blvd at Ruby St [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,14,47.0023384094,-122.909615,68,Capitol 5000 [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,15,47.00736,-122.90711,46,Capitol Blvd at Linwood Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,16,47.009346,-122.905878,1078,Capitol Blvd at Tumwater Valley Dr [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,17,47.0121383667,-122.904282,47,Capitol Blvd at E [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010802,108.02,067,010802,Poor
+13,1,13_1,18,47.0180473328,-122.898529,48,Tumwater Square [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+13,1,13_1,19,47.02065,-122.89713,49,Capitol Blvd at Carlyon Ave [nb],Intercity Transit,13,East Tumwater,3,C9500E,ffffff,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+42,0,42_0,18,47.0254554749,-122.928917,1071,SPSCC Mottman Entrance [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,0,42_0,19,47.0254364014,-122.934929,1072,Mottman Rd at Firland St [wb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,0,42_0,21,47.0240783691,-122.946465,1037,Crites St at 26th Ave [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,0,42_0,22,47.021812439,-122.944588,1038,29th Ave at Ferguson St [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,0,42_0,23,47.0205421448,-122.939346,91,RW Johnson Blvd at 29th Ave [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,0,42_0,24,47.014297,-122.94086,95,RW Johnson Blvd at 37th Ave [sb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,0,42_0,25,47.0152664185,-122.944397,96,Accountability & Restitution Center [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,0,42_0,26,47.0179862976,-122.9422,92,Family Court Building,Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,1,42_1,1,47.0179862976,-122.9422,92,Family Court Building,Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,1,42_1,2,47.0192298889,-122.939156,93,RW Johnson Blvd at Somerset Hill Dr [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,1,42_1,3,47.0222091675,-122.93914,942,RW Johnson Blvd at 29th Ave [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,1,42_1,4,47.0238075256,-122.939102,94,RW Johnson Blvd at 27th Ave [nb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+42,1,42_1,5,47.0252227783,-122.936287,1073,Mottman Rd at Firland St [eb],Intercity Transit,42,Family Court,3,C9500E,ffffff,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,58,47.0166320801,-122.887001,147,North St at Hawthorne Pl [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,59,47.016634,-122.890532,148,North St at Hoadly St [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,60,47.0166473389,-122.893089,149,North St at Lorne St [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,61,47.0166625977,-122.8965,150,North St at Cleveland Ave [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,62,47.0180473328,-122.898529,48,Tumwater Square [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,63,47.0181045532,-122.898788,893,Tumwater Square [sb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,64,47.0167808533,-122.902512,81,Custer Way at Schmidt Pl [wb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010400,104,067,010400,Poor
+68,0,68_0,65,47.0150260925,-122.906807,82,2nd ave at Division St [sb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,66,47.0137138367,-122.906845,83,2nd Ave at C St [sb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,67,47.0110092163,-122.906807,891,2nd Ave at F St [sb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,68,47.0072904384,-122.910304,998,Linwood Ave at 5th Ave [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,69,47.0088424683,-122.912842,85,7th Ave at I St [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,70,47.0154724121,-122.915138,86,Barnes Blvd at Vista Loop [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,71,47.01652,-122.91813,785,Barnes Blvd at Blue Sky Dr [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,72,47.018989563,-122.922569,87,Barnes Blvd at Ridgeview Loop [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,73,47.0208816528,-122.926132,784,Crosby Blvd at Westbury Lane [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+68,0,68_0,75,47.0230407715,-122.922981,333,Crosby Blvd at Mottman Rd [nb],Intercity Transit,68,Yelm Highway - Capital Mall,3,ff1414,000000,NO,NO,NO,NO,53067010910,109.10,067,010910,Poor
+32879,0,32879_0,2,46.98298,-122.920635,3460567,Tumwater Transit Hub - L&I Bldg. 7273 Linderson Way SW,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067010801,108.01,067,010801,Good
+32879,0,32879_0,3,46.95203889256389,-122.94142365736711,4248681,Flying Js 2725 93rd Ave SW,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067011822,118.22,067,011822,Good
+32879,1,32879_1,5,46.95203889256389,-122.94142365736711,4248681,Flying Js 2725 93rd Ave SW,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067011822,118.22,067,011822,Good
+32879,1,32879_1,6,46.98298,-122.920635,3460567,Tumwater Transit Hub - L&I Bldg. 7273 Linderson Way SW,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067010801,108.01,067,010801,Good
+77350,0,77350_0,2,46.98298,-122.920635,3460567,Tumwater Transit Hub - L&I Bldg. 7273 Linderson Way SW,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067010801,108.01,067,010801,Good
+77350,0,77350_0,3,46.95203889256389,-122.94142365736711,4248681,Flying Js 2725 93rd Ave SW,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067011822,118.22,067,011822,Good
+77350,1,77350_1,5,46.95203889256389,-122.94142365736711,4248681,Flying Js 2725 93rd Ave SW,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067011822,118.22,067,011822,Good
+77350,1,77350_1,6,46.98298,-122.920635,3460567,Tumwater Transit Hub - L&I Bldg. 7273 Linderson Way SW,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,NO,53067010801,108.01,067,010801,Good
+19715,0,19715_0,5,47.01786,-122.89877,2754888,Tumwater Square Cleveland Ave SE & Emerson St SE,ruralTRANSIT,,,,,,YES,NO,NO,YES,53067010400,104,067,010400,Acceptable
+19715,1,19715_1,1,47.01786,-122.89877,2754888,Tumwater Square Cleveland Ave SE & Emerson St SE,ruralTRANSIT,,,,,,YES,NO,NO,YES,53067010400,104,067,010400,Acceptable
+19716,0,19716_0,6,46.98481,-122.9066,2754890,Capitol Blvd S & Israel Rd SW,ruralTRANSIT,,,,,,NO,NO,NO,NO,53067010802,108.02,067,010802,Acceptable
+19716,0,19716_0,7,47.01786,-122.89877,2754888,Tumwater Square Cleveland Ave SE & Emerson St SE,ruralTRANSIT,,,,,,YES,NO,NO,YES,53067010400,104,067,010400,Acceptable
+19716,1,19716_1,1,47.01786,-122.89877,2754888,Tumwater Square Cleveland Ave SE & Emerson St SE,ruralTRANSIT,,,,,,YES,NO,NO,YES,53067010400,104,067,010400,Acceptable
+19716,1,19716_1,2,46.98546,-122.90412,2754878,Israel Rd SE & Capitol Blvd S,ruralTRANSIT,,,,,,NO,NO,NO,NO,53067010802,108.02,067,010802,Acceptable

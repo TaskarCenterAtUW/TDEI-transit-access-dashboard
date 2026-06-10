@@ -1,0 +1,1003 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+42954,0,42954_0,4,48.720263,-122.511255,BEL,Bellingham Amtrak Station,Amtrak,,,,,,NO,NO,NO,NO,53073001101,11.01,073,001101,Ok
+42954,1,42954_1,1,48.720263,-122.511255,BEL,Bellingham Amtrak Station,Amtrak,,,,,,NO,NO,NO,NO,53073001101,11.01,073,001101,Ok
+60,0,60_0,12,48.720263,-122.511255,BEL,Bellingham Amtrak Station,Amtrak,,,,,,NO,NO,NO,NO,53073001101,11.01,073,001101,Acceptable
+80X,0,80X_0,1,48.750672,-122.475101,7002,Bellingham Transit Station,Skagit Transit,,,,,,NO,NO,NO,YES,53073000600,6,073,000600,Good
+80X,0,80X_0,2,48.7345712622745,-122.466171977888,7001,Lincoln Creek Park & Ride,Skagit Transit,,,,,,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+80X,1,80X_1,4,48.7345712622745,-122.466171977888,7001,Lincoln Creek Park & Ride,Skagit Transit,,,,,,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+80X,1,80X_1,5,48.750672,-122.475101,7002,Bellingham Transit Station,Skagit Transit,,,,,,NO,NO,NO,YES,53073000600,6,073,000600,Good
+1,0,1_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+1,0,1_0,2,48.746983,-122.47945,695,State St at Chestnut St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+1,0,1_0,3,48.744464,-122.483198,1066,State St at Rose St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+1,0,1_0,4,48.743265,-122.485715,698,Boulevard at Wharf St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,0,1_0,5,48.741341,-122.48956,699,Boulevard at 500 Block,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,0,1_0,6,48.735007,-122.497068,692,State St at 200 Block,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,0,1_0,7,48.732132,-122.49981,690,State St at 14th St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,0,1_0,8,48.728956,-122.503394,686,State St at 12th St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,0,1_0,9,48.726221,-122.503915,682,11th St at Bennett Ave,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,0,1_0,10,48.720658,-122.50235,677,12th St at Mill Ave,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+1,0,1_0,11,48.719096,-122.502352,101,12th St at McKenzie Ave,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+1,0,1_0,12,48.720227,-122.505495,656,Harris Ave at 9th St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+1,0,1_0,13,48.720356,-122.51069,92,Fairhaven Transportation Center,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+1,1,1_1,1,48.720356,-122.51069,92,Fairhaven Transportation Center,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+1,1,1_1,2,48.720058,-122.505316,657,Harris Ave at 9th St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+1,1,1_1,3,48.71911,-122.502077,16,12th St at McKenzie Ave,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+1,1,1_1,4,48.721148,-122.502217,676,12th St at Mill Ave,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+1,1,1_1,5,48.725727,-122.50368,681,11th St at Taylor Ave,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,1,1_1,6,48.729219,-122.502773,685,State St at 12th St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,1,1_1,7,48.73199,-122.499618,689,State St at 14th St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,1,1_1,8,48.734287,-122.49736,691,State St at 200 Block,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,1,1_1,9,48.738167,-122.49211,702,State St at South Hill Apartments,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+1,1,1_1,10,48.740402,-122.48884,102,State St at Cedar St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+1,1,1_1,11,48.742964,-122.484966,700,State St at Forest St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+1,1,1_1,12,48.745533,-122.47917,694,Forest St at Maple St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+1,1,1_1,13,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+1,1,1_1,14,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,1,Fairhaven&Downtown,3,e5bfa1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+10,0,10_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+10,0,10_0,2,48.751954,-122.477102,175,Champion St at Unity St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+10,0,10_0,3,48.751943,-122.479077,223,Champion St at Grand Ave,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+10,0,10_0,4,48.75193,-122.481404,349,Champion St at Prospect St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000600,6,073,000600,Good
+10,0,10_0,5,48.752732,-122.48359,348,Holly St at Central Ave,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000600,6,073,000600,Good
+10,0,10_0,6,48.754439,-122.486235,347,Holly St at D St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+10,0,10_0,7,48.757168,-122.49039,345,Holly St at J St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+10,0,10_0,8,48.758834,-122.495195,344,Eldridge Ave at Williams St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+10,0,10_0,9,48.759961,-122.498899,342,Eldridge Ave at Jaeger St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+10,0,10_0,10,48.761823,-122.505186,340,Eldridge Ave at Lafayette St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+10,0,10_0,11,48.763336,-122.508404,844,Nequalicum Ave at Eldridge Ave,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+10,0,10_0,12,48.764887,-122.510672,3,Bellingham Technical College,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+10,1,10_1,1,48.764887,-122.510672,3,Bellingham Technical College,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+10,1,10_1,2,48.765975,-122.51518,832,Lindbergh Ave at Eldridge Ave,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+10,1,10_1,3,48.763998,-122.512098,755,Eldridge Ave at Gilligan Way,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+10,1,10_1,4,48.761021,-122.503256,333,Eldridge Ave at Lafayette St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+10,1,10_1,5,48.760021,-122.49943,331,Eldridge Ave at West St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+10,1,10_1,6,48.758735,-122.495033,329,Eldridge Ave at Victor St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+10,1,10_1,7,48.757033,-122.490472,11,Holly St at J St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+10,1,10_1,8,48.754258,-122.486211,328,Holly St at D St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+10,1,10_1,9,48.752571,-122.483662,327,Holly St at Central Ave,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,NO,NO,YES,53073000600,6,073,000600,Good
+10,1,10_1,10,48.751817,-122.48052,321,Champion St at Prospect St,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+10,1,10_1,11,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,10,Eldridge&Downtown,3,b2d235,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+105,0,105_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+105,0,105_0,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+105,0,105_0,3,48.745853,-122.472929,672,Billy Frank Jr St at Holly St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+105,0,105_0,4,48.744488,-122.474936,670,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,0,105_0,5,48.742462,-122.47797,668,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,0,105_0,6,48.739931,-122.483756,666,High St at Nash Hall,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,0,105_0,7,48.738656,-122.48557,14,Viking Union,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,0,105_0,8,48.733671,-122.490899,665,Highland Dr at Ridgeway,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+105,0,105_0,9,48.730423,-122.489106,86,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+105,0,105_0,10,48.727148,-122.490488,612,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+105,0,105_0,11,48.726345,-122.486871,611,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+105,0,105_0,12,48.72916,-122.481186,616,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,13,48.730842,-122.47756,87,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,14,48.733173,-122.471904,80,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,15,48.730126,-122.472947,618,Fielding Ave at 36th St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,16,48.728597,-122.475486,619,32nd St at Adams Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,17,48.726071,-122.475511,622,32nd St at Rosewood Villa,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,18,48.724759,-122.47548,623,32nd St at Taylor Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,19,48.721516,-122.475505,626,32nd St at Community Garden,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,20,48.718821,-122.475505,628,32nd St at McKenzie Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,21,48.717349,-122.476503,139,Donovan Ave at 31st St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,0,105_0,22,48.715412,-122.478251,90,30th St at Cowgill Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,1,48.715366,-122.47807,93,30th St at Cowgill Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,2,48.717682,-122.47533,629,32nd St at Donovan Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,3,48.719791,-122.4753,627,32nd St at McKenzie Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,4,48.721742,-122.475307,625,32nd St at Community Garden,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,5,48.724542,-122.475292,624,32nd St at Taylor Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,6,48.726581,-122.475301,621,32nd St at Bennett Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,7,48.728653,-122.47527,620,32nd St at Adams Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,8,48.729974,-122.474509,84,Fielding Ave at 32nd St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105,1,105_1,9,48.733701,-122.470799,77,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,10,48.730836,-122.478078,85,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,11,48.72971,-122.480767,617,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,12,48.726524,-122.486858,614,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,13,48.727673,-122.49015,613,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,14,48.730434,-122.48873,88,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,15,48.73404,-122.490459,664,Highland Dr at Ridgeway,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,16,48.737798,-122.486609,18,Haggard Hall,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,17,48.739887,-122.483519,667,High St at Higginson Hall,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,18,48.742778,-122.477196,669,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,19,48.744859,-122.474103,671,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105,1,105_1,20,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+105,1,105_1,21,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+105,1,105_1,22,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,105,Fairhaven&Downtown,3,4fc6e0,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+105S,1,105S_1,1,48.715366,-122.47807,93,30th St at Cowgill Ave,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105S,1,105S_1,2,48.717682,-122.47533,629,32nd St at Donovan Ave,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105S,1,105S_1,3,48.719791,-122.4753,627,32nd St at McKenzie Ave,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105S,1,105S_1,4,48.721742,-122.475307,625,32nd St at Community Garden,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105S,1,105S_1,5,48.724542,-122.475292,624,32nd St at Taylor Ave,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105S,1,105S_1,6,48.726581,-122.475301,621,32nd St at Bennett Ave,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105S,1,105S_1,7,48.728653,-122.47527,620,32nd St at Adams Ave,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105S,1,105S_1,8,48.729974,-122.474509,84,Fielding Ave at 32nd St,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,NO,NO,NO,YES,53073001204,12.04,073,001204,Good
+105S,1,105S_1,9,48.733701,-122.470799,77,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105S,1,105S_1,10,48.730836,-122.478078,85,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105S,1,105S_1,11,48.72971,-122.480767,617,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105S,1,105S_1,12,48.726524,-122.486858,614,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105S,1,105S_1,13,48.727673,-122.49015,613,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105S,1,105S_1,14,48.730434,-122.48873,88,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105S,1,105S_1,15,48.73404,-122.490459,664,Highland Dr at Ridgeway,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+105S,1,105S_1,16,48.737798,-122.486609,18,Haggard Hall,Whatcom Transportation Authority,105S,WWU,3,4fc6e0,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+107,0,107_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+107,0,107_0,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+107,0,107_0,3,48.745853,-122.472929,672,Billy Frank Jr St at Holly St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+107,0,107_0,4,48.744488,-122.474936,670,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+107,0,107_0,5,48.742462,-122.47797,668,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+107,0,107_0,6,48.739931,-122.483756,666,High St at Nash Hall,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+107,0,107_0,7,48.738656,-122.48557,14,Viking Union,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+107,0,107_0,8,48.733671,-122.490899,665,Highland Dr at Ridgeway,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+107,0,107_0,9,48.730423,-122.489106,86,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+107,0,107_0,10,48.727148,-122.490488,612,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+107,0,107_0,11,48.726345,-122.486871,611,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+107,0,107_0,12,48.72916,-122.481186,616,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+107,0,107_0,13,48.730842,-122.47756,87,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+107,0,107_0,14,48.733173,-122.471904,80,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+107,1,107_1,1,48.733173,-122.471904,80,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+107,1,107_1,2,48.734449,-122.469724,601,Samish Way at Bill McDonald Pkwy,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,NO,NO,NO,YES,53073001000,10,073,001000,Good
+107,1,107_1,3,48.736486,-122.469709,602,Samish Way at Consolidation Ave,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,NO,NO,NO,YES,53073001000,10,073,001000,Good
+107,1,107_1,4,48.739017,-122.4697,603,Samish Way at Otis St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,NO,NO,NO,YES,53073001000,10,073,001000,Good
+107,1,107_1,5,48.740826,-122.47134,604,Maple St at Edwards St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+107,1,107_1,6,48.742783,-122.471756,605,Ellis St at Whatcom St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+107,1,107_1,7,48.746089,-122.471622,887,Ellis St at Potter St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+107,1,107_1,8,48.749265,-122.472089,979,Champion St at Ellis St,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+107,1,107_1,9,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,107,WWU/Samish,3,abe1fa,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+108,0,108_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+108,0,108_0,2,48.750195,-122.472246,775,Forest St at Ellis St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+108,0,108_0,3,48.749342,-122.4718,889,Ellis St at Gladstone St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+108,0,108_0,4,48.747564,-122.47183,890,Ellis St at High St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+108,0,108_0,5,48.744106,-122.471932,292,Ellis St at Holly St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,0,108_0,6,48.741283,-122.47198,608,Ellis St at Maple St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,0,108_0,7,48.738288,-122.46993,1064,Samish Way at Pasco St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,0,108_0,8,48.735187,-122.470038,1065,Samish Way at Consolidation Ave,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,0,108_0,9,48.733701,-122.470799,77,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,1,48.733701,-122.470799,77,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,2,48.730836,-122.478078,85,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,3,48.72971,-122.480767,617,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,4,48.726524,-122.486858,614,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,5,48.727673,-122.49015,613,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,6,48.730434,-122.48873,88,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,7,48.73404,-122.490459,664,Highland Dr at Ridgeway,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,8,48.737798,-122.486609,18,Haggard Hall,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,9,48.739887,-122.483519,667,High St at Higginson Hall,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,10,48.742778,-122.477196,669,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,11,48.744859,-122.474103,671,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+108,1,108_1,12,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+108,1,108_1,13,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+108,1,108_1,14,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,108,Samish/WWU,3,6dcff6,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+14,0,14_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+14,0,14_0,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+14,0,14_0,3,48.745853,-122.472929,672,Billy Frank Jr St at Holly St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+14,0,14_0,4,48.744488,-122.474936,670,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,0,14_0,5,48.742462,-122.47797,668,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,0,14_0,6,48.739931,-122.483756,666,High St at Nash Hall,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,0,14_0,7,48.738656,-122.48557,14,Viking Union,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,0,14_0,8,48.733671,-122.490899,665,Highland Dr at Ridgeway,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+14,0,14_0,9,48.730423,-122.489106,86,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+14,0,14_0,10,48.727148,-122.490488,612,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+14,0,14_0,11,48.72506,-122.490432,633,21st St at Taylor Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001101,11.01,073,001101,Good
+14,0,14_0,12,48.722589,-122.490463,632,21st St at Knox Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001101,11.01,073,001101,Good
+14,0,14_0,13,48.720211,-122.491207,15,Harris Ave at 21st St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001203,12.03,073,001203,Good
+14,0,14_0,14,48.720224,-122.493178,655,Harris Ave at 19th St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001203,12.03,073,001203,Good
+14,0,14_0,15,48.720209,-122.49841,661,Harris Ave at 15th St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001203,12.03,073,001203,Good
+14,0,14_0,16,48.717739,-122.500386,642,Old Fairhaven Pkwy at 14th St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+14,0,14_0,17,48.71911,-122.502077,16,12th St at McKenzie Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+14,1,14_1,1,48.71911,-122.502077,16,12th St at McKenzie Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+14,1,14_1,2,48.720071,-122.49793,660,Harris Ave at 15th St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001203,12.03,073,001203,Good
+14,1,14_1,3,48.720128,-122.493181,662,Harris Ave at 19th St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001203,12.03,073,001203,Good
+14,1,14_1,4,48.719913,-122.49046,631,21st St at Harris Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001203,12.03,073,001203,Good
+14,1,14_1,5,48.717587,-122.48996,630,Donovan Ave at 21st St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,NO,NO,YES,53073001203,12.03,073,001203,Good
+14,1,14_1,6,48.717717,-122.48613,17,24th St at Donovan Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14,1,14_1,7,48.719524,-122.486155,637,24th St at McKenzie Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14,1,14_1,8,48.720959,-122.48611,636,24th St at Mill Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14,1,14_1,9,48.722818,-122.486128,635,24th St at Knox Ave,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14,1,14_1,10,48.723801,-122.48576,634,Douglas Ave at 25th St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14,1,14_1,11,48.726223,-122.485211,615,25th St at Bill McDonald Pkwy,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14,1,14_1,12,48.726524,-122.486858,614,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,1,14_1,13,48.727673,-122.49015,613,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,1,14_1,14,48.730434,-122.48873,88,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,1,14_1,15,48.73404,-122.490459,664,Highland Dr at Ridgeway,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,1,14_1,16,48.737798,-122.486609,18,Haggard Hall,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,1,14_1,17,48.739887,-122.483519,667,High St at Higginson Hall,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,1,14_1,18,48.742778,-122.477196,669,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,1,14_1,19,48.744859,-122.474103,671,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14,1,14_1,20,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+14,1,14_1,21,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+14,1,14_1,22,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,14,Fairhaven&Downtown,3,009fc3,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+14S,0,14S_0,1,48.717717,-122.48613,17,24th St at Donovan Ave,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14S,0,14S_0,2,48.719524,-122.486155,637,24th St at McKenzie Ave,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14S,0,14S_0,3,48.720959,-122.48611,636,24th St at Mill Ave,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14S,0,14S_0,4,48.722818,-122.486128,635,24th St at Knox Ave,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14S,0,14S_0,5,48.723801,-122.48576,634,Douglas Ave at 25th St,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14S,0,14S_0,6,48.726223,-122.485211,615,25th St at Bill McDonald Pkwy,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+14S,0,14S_0,7,48.726524,-122.486858,614,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,0,14S_0,8,48.727673,-122.49015,613,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,0,14S_0,9,48.730434,-122.48873,88,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,0,14S_0,10,48.73404,-122.490459,664,Highland Dr at Ridgeway,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,0,14S_0,11,48.737798,-122.486609,18,Haggard Hall,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,1,14S_1,1,48.745853,-122.472929,672,Billy Frank Jr St at Holly St,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+14S,1,14S_1,2,48.744488,-122.474936,670,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,1,14S_1,3,48.742462,-122.47797,668,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,1,14S_1,4,48.739931,-122.483756,666,High St at Nash Hall,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,1,14S_1,5,48.738656,-122.48557,14,Viking Union,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+14S,1,14S_1,6,48.733671,-122.490899,665,Highland Dr at Ridgeway,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+14S,1,14S_1,7,48.730423,-122.489106,86,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+14S,1,14S_1,8,48.727148,-122.490488,612,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,14S,WWU&Billy Frank Jr,3,009fc3,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+15,0,15_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+15,0,15_0,2,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+15,0,15_0,3,48.791369,-122.491571,304,Cordata Pkwy at Westerly Rd,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+15,0,15_0,4,48.787738,-122.488511,868,Bellis Fair Mall,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+15,0,15_0,5,48.781891,-122.48633,185,Meridian St at McLeod Rd,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000302,3.02,073,000302,Good
+15,0,15_0,6,48.776735,-122.48622,1013,Meridian St at Birchwood Ave,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000302,3.02,073,000302,Good
+15,0,15_0,7,48.773599,-122.486181,186,Meridian St at Victor St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,0,15_0,8,48.770748,-122.486182,187,Meridian St at Oregon St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,0,15_0,9,48.767029,-122.486208,20,Meridian St at Illinois St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,0,15_0,10,48.76454,-122.486216,188,Meridian St at North St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,0,15_0,11,48.762417,-122.48619,189,Meridian St at Monroe St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+15,0,15_0,12,48.760815,-122.485563,190,Girard St at J St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+15,0,15_0,13,48.75959,-122.483675,191,Girard St at H St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+15,0,15_0,14,48.757555,-122.480544,192,Girard St at D St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+15,0,15_0,15,48.753963,-122.478157,1032,Commerical St at Central Ave,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000600,6,073,000600,Good
+15,0,15_0,16,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+15,1,15_1,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+15,1,15_1,2,48.751954,-122.477102,175,Champion St at Unity St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+15,1,15_1,3,48.7542,-122.478078,1030,Commercial St at Central Ave,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000600,6,073,000600,Good
+15,1,15_1,4,48.755983,-122.478107,1031,Commercial St at Young St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+15,1,15_1,5,48.757602,-122.480353,177,Girard St at C St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+15,1,15_1,6,48.759262,-122.48282,178,Girard St at G St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+15,1,15_1,7,48.760875,-122.485317,179,Girard St at J St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+15,1,15_1,8,48.761759,-122.485994,180,Meridian St at Broadway,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+15,1,15_1,9,48.764728,-122.485987,181,Meridian St at North St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,1,15_1,10,48.767281,-122.485953,19,Meridian St at Illinois St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,1,15_1,11,48.771153,-122.485951,182,Meridian St at Oregon St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,1,15_1,12,48.77396,-122.48594,183,Meridian St at Victor St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,1,15_1,13,48.779123,-122.485964,184,Meridian St at Orchard Dr,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,1,15_1,14,48.780964,-122.486012,230,Meridian St at Baker St,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,NO,NO,YES,53073000401,4.01,073,000401,Good
+15,1,15_1,15,48.787889,-122.488917,869,Bellis Fair Mall,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+15,1,15_1,16,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,15,Cordata/WCC&Downtown,3,f58220,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,2,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,3,48.792036,-122.492696,770,Westerly Rd at Cordata Pkwy,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,4,48.793386,-122.495659,808,Westerly Rd at Eliza Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,5,48.792448,-122.497098,772,Eliza Ave at Darby Dr,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,6,48.789794,-122.498365,773,Bakerview Rd at Eliza Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,7,48.789776,-122.502943,774,Bakerview Rd at Palisade Way,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,8,48.789824,-122.513634,9,Bakerview Rd at Costco,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,0,18_0,9,48.786379,-122.51709,729,Maplewood Ave at Bakerview Rd,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,0,18_0,10,48.78458,-122.514432,730,Maplewood Ave at Bradley Ln,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,0,18_0,11,48.782345,-122.511101,731,Maplewood Ave at McLeod Rd,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,0,18_0,12,48.779197,-122.506496,732,Maplewood Ave at Alderwood Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,0,18_0,13,48.777359,-122.50374,733,Maplewood Ave at Cottonwood Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,0,18_0,14,48.776164,-122.500123,734,Maplewood Ave at Partridge Ln,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,0,18_0,15,48.775205,-122.496971,10,Northwest Ave at Birchwood Center,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+18,0,18_0,16,48.775069,-122.492552,984,Birchwood Ave at Northwest Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000302,3.02,073,000302,Good
+18,0,18_0,17,48.775865,-122.489089,985,Birchwood Ave at 1200 Block,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000302,3.02,073,000302,Good
+18,0,18_0,18,48.777094,-122.483869,314,Birchwood Ave at Meridian St,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000401,4.01,073,000401,Good
+18,0,18_0,19,48.777066,-122.479422,313,Birchwood Ave at Orchard Pl,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000401,4.01,073,000401,Good
+18,0,18_0,20,48.777054,-122.47682,312,Birchwood Ave at Squalicum Pkwy,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000401,4.01,073,000401,Good
+18,0,18_0,21,48.772079,-122.472613,535,Squalicum Pkwy at Ellis St,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000401,4.01,073,000401,Good
+18,0,18_0,22,48.772256,-122.470659,530,Squalicum Pkwy at Levin Ln,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+18,0,18_0,23,48.772846,-122.46978,531,Levin Ln at St. Francis,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+18,0,18_0,24,48.774144,-122.469531,532,The Willows,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+18,0,18_0,25,48.772375,-122.470648,1090,Squalicum Pkwy at St. Joseph Hospital,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+18,1,18_1,1,48.772375,-122.470648,1090,Squalicum Pkwy at St. Joseph Hospital,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+18,1,18_1,2,48.772145,-122.473506,534,Squalicum Pkwy at Ellis St,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000401,4.01,073,000401,Good
+18,1,18_1,3,48.777143,-122.476077,311,Birchwood Ave at Squalicum Pkwy,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000401,4.01,073,000401,Good
+18,1,18_1,4,48.777184,-122.47949,310,Birchwood Ave at Orchard Pl,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000401,4.01,073,000401,Good
+18,1,18_1,5,48.77719,-122.483878,309,Birchwood Ave at Meridian St,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000401,4.01,073,000401,Good
+18,1,18_1,6,48.775953,-122.489255,982,Birchwood Ave at 1200 Block,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000302,3.02,073,000302,Good
+18,1,18_1,7,48.775087,-122.492907,983,Birchwood Ave at Northwest Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000302,3.02,073,000302,Good
+18,1,18_1,8,48.774864,-122.49639,7,Northwest Ave at Birchwood Center,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+18,1,18_1,9,48.776144,-122.499456,771,Maplewood Ave at Northwest Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,1,18_1,10,48.777383,-122.503466,912,Maplewood Ave at Cottonwood Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,1,18_1,11,48.779242,-122.506279,707,Maplewood Ave at Alderwood Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,1,18_1,12,48.782592,-122.511242,708,Maplewood Ave at McLeod Rd,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,1,18_1,13,48.784648,-122.514231,709,Maplewood Ave at Bradley Ln,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,1,18_1,14,48.786451,-122.516889,710,Maplewood Ave at Bakerview Rd,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+18,1,18_1,15,48.789614,-122.510958,4,Bakerview Rd at Fred Meyer,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+18,1,18_1,16,48.789612,-122.503523,768,Bakerview Rd at Palisade Way,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+18,1,18_1,17,48.789593,-122.49959,769,Bakerview Rd at Eliza Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+18,1,18_1,18,48.79238,-122.496922,274,Eliza Ave at Darby Dr,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,1,18_1,19,48.793241,-122.495718,806,Westerly Rd at Eliza Ave,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,1,18_1,20,48.791897,-122.492316,807,Westerly Rd at Cordata Pkwy,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+18,1,18_1,21,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,18,Hospital&Cordata/WCC,3,bbd976,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+190,0,190_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+190,0,190_0,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+190,0,190_0,3,48.745853,-122.472929,672,Billy Frank Jr St at Holly St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+190,0,190_0,4,48.744488,-122.474936,670,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,0,190_0,5,48.742462,-122.47797,668,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,0,190_0,6,48.739931,-122.483756,666,High St at Nash Hall,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,0,190_0,7,48.738656,-122.48557,14,Viking Union,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,0,190_0,8,48.733671,-122.490899,665,Highland Dr at Ridgeway,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+190,0,190_0,9,48.730423,-122.489106,86,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+190,0,190_0,10,48.727148,-122.490488,612,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+190,0,190_0,11,48.726345,-122.486871,611,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+190,0,190_0,12,48.72916,-122.481186,616,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+190,0,190_0,13,48.730842,-122.47756,87,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+190,0,190_0,14,48.733173,-122.471904,80,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+190,0,190_0,15,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+190,0,190_0,16,48.73727,-122.46518,597,Lincoln St at Maple St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190,0,190_0,17,48.739619,-122.464293,598,Lincoln St at Viking Circle,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190,0,190_0,18,48.74173,-122.46332,600,Lincoln St at Mobile Estates,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190,0,190_0,19,48.743614,-122.46244,45,Lincoln St at Lakeway Dr,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190,1,190_1,1,48.743614,-122.46244,45,Lincoln St at Lakeway Dr,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190,1,190_1,2,48.745886,-122.462597,490,Lincoln St at Potter St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+190,1,190_1,3,48.743202,-122.46297,46,Lincoln St at Lakeway Dr,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190,1,190_1,4,48.74001,-122.464446,599,Lincoln St at Viking Circle,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190,1,190_1,5,48.737436,-122.465458,596,Lincoln St at Maple St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190,1,190_1,6,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+190,1,190_1,7,48.733701,-122.470799,77,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,8,48.730836,-122.478078,85,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,9,48.72971,-122.480767,617,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,10,48.726524,-122.486858,614,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,11,48.727673,-122.49015,613,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,12,48.730434,-122.48873,88,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,13,48.73404,-122.490459,664,Highland Dr at Ridgeway,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,14,48.737798,-122.486609,18,Haggard Hall,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,15,48.739887,-122.483519,667,High St at Higginson Hall,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,16,48.742778,-122.477196,669,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,17,48.744859,-122.474103,671,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190,1,190_1,18,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+190,1,190_1,19,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+190,1,190_1,20,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,190,Lincoln St&Downtown,3,0095da,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+190S,0,190S_0,1,48.743202,-122.46297,46,Lincoln St at Lakeway Dr,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190S,0,190S_0,2,48.74001,-122.464446,599,Lincoln St at Viking Circle,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190S,0,190S_0,3,48.737436,-122.465458,596,Lincoln St at Maple St,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190S,0,190S_0,4,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+190S,0,190S_0,5,48.733701,-122.470799,77,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,6,48.730836,-122.478078,85,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,7,48.72971,-122.480767,617,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,8,48.726524,-122.486858,614,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,9,48.727673,-122.49015,613,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,10,48.730434,-122.48873,88,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,11,48.73404,-122.490459,664,Highland Dr at Ridgeway,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,12,48.737798,-122.486609,18,Haggard Hall,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,13,48.739887,-122.483519,667,High St at Higginson Hall,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,14,48.742778,-122.477196,669,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,15,48.744859,-122.474103,671,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,0,190S_0,16,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+190S,0,190S_0,17,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+190S,0,190S_0,18,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+190S,1,190S_1,1,48.738656,-122.48557,14,Viking Union,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001000,10,073,001000,Good
+190S,1,190S_1,2,48.733671,-122.490899,665,Highland Dr at Ridgeway,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+190S,1,190S_1,3,48.730423,-122.489106,86,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+190S,1,190S_1,4,48.727148,-122.490488,612,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+190S,1,190S_1,5,48.726345,-122.486871,611,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+190S,1,190S_1,6,48.72916,-122.481186,616,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+190S,1,190S_1,7,48.730842,-122.47756,87,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+190S,1,190S_1,8,48.733173,-122.471904,80,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+190S,1,190S_1,9,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+190S,1,190S_1,10,48.73727,-122.46518,597,Lincoln St at Maple St,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190S,1,190S_1,11,48.739619,-122.464293,598,Lincoln St at Viking Circle,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190S,1,190S_1,12,48.74173,-122.46332,600,Lincoln St at Mobile Estates,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+190S,1,190S_1,13,48.743614,-122.46244,45,Lincoln St at Lakeway Dr,Whatcom Transportation Authority,190S,Lincoln St&WWU,3,0095da,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+196,0,196_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+196,0,196_0,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+196,0,196_0,3,48.745853,-122.472929,672,Billy Frank Jr St at Holly St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+196,0,196_0,4,48.744488,-122.474936,670,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+196,0,196_0,5,48.742462,-122.47797,668,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+196,0,196_0,6,48.739931,-122.483756,666,High St at Nash Hall,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+196,0,196_0,7,48.738656,-122.48557,14,Viking Union,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+196,0,196_0,8,48.733671,-122.490899,665,Highland Dr at Ridgeway,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001102,11.02,073,001102,Good
+196,0,196_0,9,48.730423,-122.489106,86,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+196,0,196_0,10,48.727148,-122.490488,612,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001101,11.01,073,001101,Good
+196,0,196_0,11,48.726345,-122.486871,611,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001203,12.03,073,001203,Good
+196,0,196_0,12,48.72916,-122.481186,616,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+196,0,196_0,13,48.730842,-122.47756,87,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+196,0,196_0,14,48.733173,-122.471904,80,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+196,1,196_1,1,48.733173,-122.471904,80,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073001204,12.04,073,001204,Good
+196,1,196_1,2,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+196,1,196_1,3,48.73727,-122.46518,597,Lincoln St at Maple St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,4,48.739619,-122.464293,598,Lincoln St at Viking Circle,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,5,48.74173,-122.46332,600,Lincoln St at Mobile Estates,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,6,48.743614,-122.46244,45,Lincoln St at Lakeway Dr,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,7,48.744846,-122.46103,41,Lakeway Dr at Lincoln St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,8,48.744816,-122.45757,491,Lakeway Dr at Pacific St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,9,48.746829,-122.455568,990,Puget St at Civic Field,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,10,48.74918,-122.455287,991,Puget St at Gladstone St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,11,48.751668,-122.454822,981,Puget St at Fraser St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,12,48.751893,-122.45828,1016,Fraser St at Haskell,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,13,48.75191,-122.460616,992,Fraser St at Moore St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,14,48.75243,-122.4623,481,Lincoln St at Meador Ave,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+196,1,196_1,15,48.753208,-122.46506,1085,James St at Meador Ave,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+196,1,196_1,16,48.750651,-122.467905,484,York St at Humboldt St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+196,1,196_1,17,48.75074,-122.47033,486,York St at Franklin St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+196,1,196_1,18,48.749342,-122.4718,889,Ellis St at Gladstone St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+196,1,196_1,19,48.749265,-122.472089,979,Champion St at Ellis St,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+196,1,196_1,20,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,196,WWU/Lincoln,3,1268b3,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+197,0,197_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+197,0,197_0,2,48.750195,-122.472246,775,Forest St at Ellis St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+197,0,197_0,3,48.750591,-122.470742,487,York St at Franklin St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+197,0,197_0,4,48.750565,-122.46781,994,York St at Humboldt St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+197,0,197_0,5,48.75312,-122.46492,1086,James St at Meador Ave,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,NO,NO,NO,YES,53073000501,5.01,073,000501,Good
+197,0,197_0,6,48.751777,-122.461398,911,Fraser St at Moore St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,7,48.751775,-122.458309,1017,Fraser St at Haskell,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,8,48.751155,-122.454831,882,Puget St at Fraser,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,9,48.74893,-122.455424,891,Puget St at Gladstone St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,10,48.746852,-122.455741,892,Puget St at Civic Field,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,11,48.745041,-122.45879,478,Lakeway Dr at Orleans St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,12,48.743202,-122.46297,46,Lincoln St at Lakeway Dr,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,13,48.74001,-122.464446,599,Lincoln St at Viking Circle,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,14,48.737436,-122.465458,596,Lincoln St at Maple St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+197,0,197_0,15,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+197,0,197_0,16,48.733701,-122.470799,77,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,1,48.733701,-122.470799,77,Bill McDonald Pkwy at Samish Way,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,2,48.730836,-122.478078,85,Bill McDonald Pkwy at Birnam Wood,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,3,48.72971,-122.480767,617,Bill McDonald Pkwy at Ferry Ave,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,4,48.726524,-122.486858,614,Bill McDonald Pkwy at Buchanan Towers,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,5,48.727673,-122.49015,613,Bill McDonald Pkwy at Campus Services,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,6,48.730434,-122.48873,88,Bill McDonald Pkwy at Rec Center,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,7,48.73404,-122.490459,664,Highland Dr at Ridgeway,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,8,48.737798,-122.486609,18,Haggard Hall,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,9,48.739887,-122.483519,667,High St at Higginson Hall,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,10,48.742778,-122.477196,669,Billy Frank Jr St at Laurel St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,11,48.744859,-122.474103,671,Billy Frank Jr St at Chestnut St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073001000,10,073,001000,Good
+197,1,197_1,12,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+197,1,197_1,13,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+197,1,197_1,14,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,197,Lincoln/WWU,3,034ea2,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+232,0,232_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+232,0,232_0,2,48.795213,-122.494229,812,Kellogg Rd at Whatcom Community College,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+232,0,232_0,3,48.792448,-122.497098,772,Eliza Ave at Darby Dr,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+232,0,232_0,4,48.789794,-122.498365,773,Bakerview Rd at Eliza Ave,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+232,0,232_0,5,48.789776,-122.502943,774,Bakerview Rd at Palisade Way,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+232,0,232_0,6,48.78833,-122.5068,96,Northwest Ave at Bakerview Rd,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,0,232_0,7,48.785867,-122.504955,298,Northwest Ave at Sterling Dr,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,0,232_0,8,48.780906,-122.501238,297,Northwest Ave at McLeod Rd,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+232,0,232_0,9,48.779156,-122.499941,307,Northwest Ave at Shuksan Middle School,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+232,0,232_0,10,48.777627,-122.498803,296,Northwest Ave at 3400 Block,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+232,0,232_0,11,48.775205,-122.496971,10,Northwest Ave at Birchwood Center,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+232,0,232_0,12,48.772098,-122.494463,295,Northwest Ave at Lynn St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+232,0,232_0,13,48.768639,-122.49165,97,Northwest Ave at Illinois St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+232,0,232_0,14,48.766134,-122.489628,294,Northwest Ave at Connecticut St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+232,0,232_0,15,48.762779,-122.48848,293,Elm St at Jefferson St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+232,0,232_0,16,48.760388,-122.488508,326,Elm St at Broadway,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+232,0,232_0,17,48.759396,-122.48795,325,Dupont St at J St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+232,0,232_0,18,48.758096,-122.486011,324,Dupont St at H St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+232,0,232_0,19,48.755453,-122.481948,323,Dupont St at D St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+232,0,232_0,20,48.753765,-122.481197,322,Prospect St at Central Ave,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+232,0,232_0,21,48.751817,-122.48052,321,Champion St at Prospect St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+232,0,232_0,22,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+232,1,232_1,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+232,1,232_1,2,48.751954,-122.477102,175,Champion St at Unity St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+232,1,232_1,3,48.751943,-122.479077,223,Champion St at Grand Ave,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+232,1,232_1,4,48.753415,-122.480891,320,Prospect St at Flora St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+232,1,232_1,5,48.755989,-122.482467,319,Dupont St at C St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+232,1,232_1,6,48.757916,-122.485407,754,Dupont St at G St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+232,1,232_1,7,48.760342,-122.48828,318,Elm St at Broadway,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+232,1,232_1,8,48.763365,-122.488292,317,Elm St at Jefferson St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+232,1,232_1,9,48.765986,-122.489275,316,Northwest Ave at Connecticut St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+232,1,232_1,10,48.768693,-122.491449,94,Northwest Ave at Illinois St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+232,1,232_1,11,48.771198,-122.49345,315,Northwest Ave at Lynn St,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+232,1,232_1,12,48.774864,-122.49639,7,Northwest Ave at Birchwood Center,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,1,232_1,13,48.77819,-122.498986,308,Northwest Ave at Shuksan Middle School,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,1,232_1,14,48.781626,-122.501536,306,Northwest Ave at McLeod Rd,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,1,232_1,15,48.786117,-122.504878,305,Northwest Ave at Sterling Dr,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,1,232_1,16,48.787616,-122.505985,95,Northwest Ave at Bakerview Rd,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,1,232_1,17,48.789612,-122.503523,768,Bakerview Rd at Palisade Way,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,1,232_1,18,48.789593,-122.49959,769,Bakerview Rd at Eliza Ave,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+232,1,232_1,19,48.79238,-122.496922,274,Eliza Ave at Darby Dr,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+232,1,232_1,20,48.795051,-122.494069,232,Kellogg Rd at Whatcom Community College,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+232,1,232_1,21,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+232,1,232_1,22,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,232,Cordata/WCC&Downtown,3,8dc63f,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+24,0,24_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+24,0,24_0,2,48.795078,-122.48828,21,Kellogg Rd at Meridian St,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+24,0,24_0,3,48.801399,-122.48579,29,Meridian St at Walmart,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+24,0,24_0,4,48.807953,-122.487764,914,Horton Rd at Meridian,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+24,0,24_0,5,48.806769,-122.495071,885,Horton Rd at Ryzex Way,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+24,0,24_0,6,48.809044,-122.497339,756,Cordata Pkwy at Sequoia Rd,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+24,0,24_0,7,48.811572,-122.497491,758,Cordata Pkwy at Tremont Ave,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+24,0,24_0,8,48.812192,-122.501282,757,Tremont Ave at Corona Ct,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,NO,NO,YES,53073000202,2.02,073,000202,Good
+24,0,24_0,9,48.809681,-122.50011,22,Meadowbrook Ct at Tremont Ave,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,YES,NO,YES,53073000202,2.02,073,000202,Good
+24,1,24_1,1,48.809681,-122.50011,22,Meadowbrook Ct at Tremont Ave,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,YES,NO,YES,53073000202,2.02,073,000202,Good
+24,1,24_1,2,48.808144,-122.49796,301,Cordata Pkwy at El Dorado Way,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,NO,NO,YES,53073000202,2.02,073,000202,Good
+24,1,24_1,3,48.80484,-122.49602,302,Cordata Pkwy at Horton Rd,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,NO,NO,YES,53073000203,2.03,073,000203,Good
+24,1,24_1,4,48.801559,-122.49614,303,Cordata Pkwy at Sea Mar,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,NO,NO,YES,53073000203,2.03,073,000203,Good
+24,1,24_1,5,48.79861,-122.495261,1018,Cordata Pkwy at Stuart Rd,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,NO,NO,YES,53073000203,2.03,073,000203,Good
+24,1,24_1,6,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+24,1,24_1,7,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,24,Cordata,3,028848,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+26,0,26_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+26,0,26_0,2,48.795078,-122.48828,21,Kellogg Rd at Meridian St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+26,0,26_0,3,48.801399,-122.48579,29,Meridian St at Walmart,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+26,0,26_0,4,48.808329,-122.485813,207,Guide Meridian at Horton Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+26,0,26_0,5,48.815556,-122.48576,208,Guide Meridian at Kline Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+26,1,26_1,27,48.814651,-122.486177,220,Guide Meridian at Kline Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+26,1,26_1,28,48.807461,-122.48622,221,Guide Meridian at Horton Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+26,1,26_1,29,48.799221,-122.48619,33,Meridian St at Stuart Rd,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+26,1,26_1,30,48.795278,-122.488016,174,Kellogg Rd at Meridian St,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+26,1,26_1,31,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+26,1,26_1,32,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,26,Lynden&Cordata/WCC,3,7a6026,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+27,0,27_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+27,0,27_0,2,48.795213,-122.494229,812,Kellogg Rd at Whatcom Community College,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+27,0,27_0,3,48.795773,-122.49984,1020,Kellogg Rd at Village Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,0,27_0,4,48.796905,-122.503322,1021,June Rd at Fuchsia Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,0,27_0,5,48.796723,-122.50776,1022,June Rd at Aldrich Rd,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,0,27_0,6,48.791009,-122.508166,1023,Aldrich Rd at Northwest Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,0,27_0,7,48.796501,-122.512737,433,Northwest Dr at Larrabee Rd,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,28,48.796169,-122.5127,413,Northwest Dr at Larrabee Rd,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,29,48.791744,-122.50936,799,Northwest Dr at Aldrich Rd,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,30,48.79111,-122.507898,1024,Aldrich Rd at Northwest Rd,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,31,48.796588,-122.507477,1025,June Rd at Aldrich Rd,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,32,48.796798,-122.502917,1026,June Rd at Fuchsia Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,33,48.795691,-122.500028,1027,Kellogg Rd at Village Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,34,48.795051,-122.494069,232,Kellogg Rd at Whatcom Community College,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,35,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+27,1,27_1,36,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+29,0,29_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+29,0,29_0,2,48.798237,-122.49459,1029,Cordata Pkwy at Stuart Rd,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+29,0,29_0,3,48.802377,-122.495593,1028,Cordata Pkwy at Cordata Park,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+29,0,29_0,4,48.805744,-122.497507,1033,Horton Rd at Cordata Pkwy,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+29,0,29_0,5,48.804361,-122.500941,23,Horton Rd at Pacific Rim Way,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+29,0,29_0,8,48.815023,-122.50195,1037,Kline Rd at Springside St,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+29,0,29_0,9,48.815037,-122.498585,1036,Kline Rd at Spring Vista Way,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+29,0,29_0,10,48.812192,-122.501282,757,Tremont Ave at Corona Ct,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,NO,NO,YES,53073000202,2.02,073,000202,Good
+29,0,29_0,11,48.809681,-122.50011,22,Meadowbrook Ct at Tremont Ave,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,YES,NO,YES,53073000202,2.02,073,000202,Good
+29,1,29_1,1,48.809681,-122.50011,22,Meadowbrook Ct at Tremont Ave,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,YES,NO,YES,53073000202,2.02,073,000202,Good
+29,1,29_1,2,48.808144,-122.49796,301,Cordata Pkwy at El Dorado Way,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,NO,NO,YES,53073000202,2.02,073,000202,Good
+29,1,29_1,3,48.80484,-122.49602,302,Cordata Pkwy at Horton Rd,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,NO,NO,YES,53073000203,2.03,073,000203,Good
+29,1,29_1,4,48.801559,-122.49614,303,Cordata Pkwy at Sea Mar,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,NO,NO,YES,53073000203,2.03,073,000203,Good
+29,1,29_1,5,48.79861,-122.495261,1018,Cordata Pkwy at Stuart Rd,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,NO,NO,YES,53073000203,2.03,073,000203,Good
+29,1,29_1,6,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+29,1,29_1,7,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,29,Cordata/Kline,3,50b848,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,2,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,3,48.792036,-122.492696,770,Westerly Rd at Cordata Pkwy,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,4,48.793386,-122.495659,808,Westerly Rd at Eliza Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,5,48.792448,-122.497098,772,Eliza Ave at Darby Dr,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,6,48.789794,-122.498365,773,Bakerview Rd at Eliza Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,7,48.789776,-122.502943,774,Bakerview Rd at Palisade Way,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,8,48.789824,-122.513634,9,Bakerview Rd at Costco,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,0,3_0,9,48.786109,-122.521842,741,Airport Dr at Bennett Dr,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000201,2.01,073,000201,Good
+3,0,3_0,13,48.789551,-122.522757,883,Bakerview Rd at Maplewood Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,NO,YES,NO,YES,53073000201,2.01,073,000201,Good
+3,0,3_0,21,48.763998,-122.512098,755,Eldridge Ave at Gilligan Way,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+3,0,3_0,22,48.763336,-122.508404,844,Nequalicum Ave at Eldridge Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+3,0,3_0,23,48.764887,-122.510672,3,Bellingham Technical College,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+3,0,3_0,24,48.765975,-122.51518,832,Lindbergh Ave at Eldridge Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+3,0,3_0,25,48.763998,-122.512098,755,Eldridge Ave at Gilligan Way,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+3,0,3_0,26,48.761021,-122.503256,333,Eldridge Ave at Lafayette St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+3,0,3_0,27,48.760021,-122.49943,331,Eldridge Ave at West St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+3,0,3_0,28,48.758735,-122.495033,329,Eldridge Ave at Victor St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+3,0,3_0,29,48.757033,-122.490472,11,Holly St at J St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+3,0,3_0,30,48.754258,-122.486211,328,Holly St at D St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+3,0,3_0,31,48.752571,-122.483662,327,Holly St at Central Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000600,6,073,000600,Good
+3,0,3_0,32,48.751817,-122.48052,321,Champion St at Prospect St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+3,0,3_0,33,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+3,1,3_1,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+3,1,3_1,2,48.751954,-122.477102,175,Champion St at Unity St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+3,1,3_1,3,48.751943,-122.479077,223,Champion St at Grand Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+3,1,3_1,4,48.75193,-122.481404,349,Champion St at Prospect St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000600,6,073,000600,Good
+3,1,3_1,5,48.752732,-122.48359,348,Holly St at Central Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000600,6,073,000600,Good
+3,1,3_1,6,48.754439,-122.486235,347,Holly St at D St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+3,1,3_1,7,48.757168,-122.49039,345,Holly St at J St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000502,5.02,073,000502,Good
+3,1,3_1,8,48.758834,-122.495195,344,Eldridge Ave at Williams St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+3,1,3_1,9,48.759961,-122.498899,342,Eldridge Ave at Jaeger St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+3,1,3_1,10,48.761823,-122.505186,340,Eldridge Ave at Lafayette St,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,NO,NO,YES,53073000402,4.02,073,000402,Good
+3,1,3_1,11,48.763336,-122.508404,844,Nequalicum Ave at Eldridge Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+3,1,3_1,12,48.764887,-122.510672,3,Bellingham Technical College,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+3,1,3_1,13,48.765975,-122.51518,832,Lindbergh Ave at Eldridge Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000301,3.01,073,000301,Good
+3,1,3_1,21,48.783342,-122.518567,284,Bennett Dr at McLeod Rd,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,NO,NO,NO,YES,53073000301,3.01,073,000301,Good
+3,1,3_1,22,48.786109,-122.521842,741,Airport Dr at Bennett Dr,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000201,2.01,073,000201,Good
+3,1,3_1,26,48.789551,-122.522757,883,Bakerview Rd at Maplewood Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,NO,YES,NO,YES,53073000201,2.01,073,000201,Good
+3,1,3_1,27,48.789614,-122.510958,4,Bakerview Rd at Fred Meyer,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+3,1,3_1,28,48.789612,-122.503523,768,Bakerview Rd at Palisade Way,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+3,1,3_1,29,48.789593,-122.49959,769,Bakerview Rd at Eliza Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+3,1,3_1,30,48.79238,-122.496922,274,Eliza Ave at Darby Dr,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,1,3_1,31,48.793241,-122.495718,806,Westerly Rd at Eliza Ave,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,1,3_1,32,48.791897,-122.492316,807,Westerly Rd at Cordata Pkwy,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+3,1,3_1,33,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,3,Airport/Cordata&Airport/Downtown,3,d7df23,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+331,0,331_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+331,0,331_0,2,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+331,0,331_0,3,48.791369,-122.491571,304,Cordata Pkwy at Westerly Rd,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+331,0,331_0,4,48.787738,-122.488511,868,Bellis Fair Mall,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+331,0,331_0,5,48.787374,-122.484642,857,Bellis Fair Pkwy at Value Village,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,0,331_0,6,48.787772,-122.481633,858,Bellis Fair Pkwy at WinCo Foods,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,0,331_0,7,48.785495,-122.478567,877,Deemer Rd at Telegraph Rd,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,0,331_0,8,48.785168,-122.475611,898,Telegraph Rd at Primrose Ln,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,0,331_0,9,48.785891,-122.468534,899,Telegraph Rd at James St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,0,331_0,10,48.782831,-122.464273,900,James St at McLeod Rd,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,0,331_0,11,48.776019,-122.464438,901,James St at Sunset Pond,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,0,331_0,12,48.774343,-122.457753,902,Orleans at Sunset Square,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,0,331_0,13,48.774906,-122.45271,164,Sunset Dr at Racine St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+331,0,331_0,14,48.775442,-122.445491,750,Woburn St at Sunset Dr,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+331,0,331_0,15,48.772847,-122.445524,749,Woburn St at Rimland Dr,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+331,0,331_0,16,48.768804,-122.445485,72,Woburn St at Barkley Village,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,0,331_0,17,48.765621,-122.445439,537,Woburn St at Connecticut St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,0,331_0,18,48.763112,-122.44723,99,Alabama St at Valencia St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,0,331_0,19,48.763087,-122.452395,514,Alabama St at St Paul St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,0,331_0,20,48.763115,-122.45876,852,Alabama St at Orleans St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,0,331_0,21,48.763121,-122.464549,100,Alabama St at James St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,0,331_0,22,48.763101,-122.469938,864,Alabama St at Grant St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,0,331_0,23,48.762272,-122.4752,6,Cornwall Ave at E St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+331,0,331_0,24,48.758957,-122.475224,515,Cornwall Ave at Kearney St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+331,0,331_0,25,48.756176,-122.475206,516,Cornwall Ave at New St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+331,0,331_0,26,48.754787,-122.47521,517,Cornwall Ave at Halleck St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+331,0,331_0,27,48.752957,-122.475295,518,Cornwall Ave at Flora St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+331,0,331_0,28,48.751954,-122.477102,175,Champion St at Unity St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+331,0,331_0,29,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+331,1,331_1,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+331,1,331_1,2,48.753024,-122.474975,501,Cornwall Ave at York St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+331,1,331_1,3,48.755381,-122.474922,502,Cornwall Ave at Ohio St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,1,331_1,4,48.758079,-122.474955,503,Cornwall Ave at Kentucky St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,1,331_1,5,48.759787,-122.47496,504,Cornwall Ave at Virginia St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,1,331_1,6,48.761585,-122.474951,8,Cornwall Ave at Texas St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,1,331_1,7,48.762948,-122.473225,751,Alabama St at Dean Ave,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,1,331_1,8,48.76295,-122.467191,507,Alabama St at Humboldt St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,1,331_1,9,48.762935,-122.463897,98,Alabama St at James St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+331,1,331_1,10,48.762942,-122.458746,508,Alabama St at Nevada St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,1,331_1,11,48.762937,-122.455406,509,Alabama St at Queen St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,1,331_1,12,48.762944,-122.451223,510,Alabama St at St Paul St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,1,331_1,13,48.762933,-122.448443,511,Alabama St at Undine St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,1,331_1,14,48.764305,-122.44521,64,Woburn St at North St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,1,331_1,15,48.766968,-122.445225,538,Woburn St at Maryland St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000700,7,073,000700,Good
+331,1,331_1,16,48.76891,-122.445153,65,Woburn St at Barkley Village,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+331,1,331_1,17,48.773667,-122.445142,539,Woburn St at Rimland Dr,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+331,1,331_1,18,48.77673,-122.44621,162,Sunset Dr at Woburn St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,19,48.774428,-122.454763,789,Sunset Dr at Racine,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,20,48.774408,-122.457565,897,Orleans St at Sunset Square,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,21,48.776638,-122.464214,893,James St at Sunset Pond,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,22,48.782772,-122.464117,894,James St at McLeod Rd,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,23,48.786024,-122.46899,895,Telegraph Rd at James St,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,24,48.785303,-122.475916,896,Telegraph Rd at Primrose Ln,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,25,48.785587,-122.478373,876,Deemer Rd at Telegraph Rd,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,26,48.787894,-122.481629,855,Bellis Fair Pkwy at WinCo Foods,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,27,48.787274,-122.484818,856,Bellis Fair Pkwy at Value Village,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+331,1,331_1,28,48.787889,-122.488917,869,Bellis Fair Mall,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+331,1,331_1,29,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,331,Cordata/WCC&Downtown,3,faa61a,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+45,0,45_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+45,0,45_0,2,48.795078,-122.48828,21,Kellogg Rd at Meridian St,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+45,0,45_0,3,48.795111,-122.484392,1079,Kellogg Rd at Tull Rd,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,4,48.795059,-122.480573,1080,Kellogg Rd at Archer Dr,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,5,48.795105,-122.473446,1081,Creston Way at Kellogg Rd,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,6,48.799532,-122.469519,1069,James St at Creston Way,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,7,48.798105,-122.46556,1082,James St at Foothills Ct,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,8,48.795407,-122.464392,1083,James St at King Ave,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,9,48.789372,-122.455439,867,Bakerview Rd at Kramer Ln,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,10,48.783683,-122.453512,279,Irongate Rd at Alpine Way,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,11,48.782175,-122.450273,282,Division St at Bakerview Spur,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,0,45_0,12,48.785885,-122.44917,277,Midway Ln at Bakerview Spur,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,1,48.785885,-122.44917,277,Midway Ln at Bakerview Spur,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,2,48.789534,-122.455699,866,Bakerview Rd at Kramer Ln,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,3,48.795529,-122.464264,1074,James St at King Ave,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,4,48.798324,-122.465623,1075,James St at Foothill Ct,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,5,48.800078,-122.469523,1070,James St at Creston Way,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,6,48.795223,-122.473563,1076,Creston Way at Kellogg Rd,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,7,48.795169,-122.480619,1077,Kellogg Rd at Archer Dr,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,8,48.795275,-122.484541,1078,Kellogg Rd at Tull Rd,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+45,1,45_1,9,48.795278,-122.488016,174,Kellogg Rd at Meridian St,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+45,1,45_1,10,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+45,1,45_1,11,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,45,KingMountain&Cordata/WCC,3,e29957,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+47,0,47_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+47,0,47_0,2,48.748979,-122.48048,1071,Cornwall Ave at Maple St,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+47,0,47_0,3,48.747154,-122.484269,1059,Laurel St at Cornwall Ave,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+47,0,47_0,4,48.750902,-122.484113,1060,Granary Ave at Chestnut St,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+47,0,47_0,5,48.758501,-122.503449,1058,Squalicum Harbor,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+47,1,47_1,1,48.758501,-122.503449,1058,Squalicum Harbor,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+47,1,47_1,2,48.757566,-122.494396,1056,Roeder Ave at Bellwether Way,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000402,4.02,073,000402,Good
+47,1,47_1,3,48.754386,-122.488215,1057,Roeder Ave at F St,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000502,5.02,073,000502,Good
+47,1,47_1,4,48.750935,-122.484331,1061,Granary Ave at Chestnut St,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+47,1,47_1,5,48.746927,-122.484267,1062,Laurel St at Cornwall Ave,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+47,1,47_1,6,48.74856,-122.480826,1063,Cornwall Ave at Chestnut St,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+47,1,47_1,7,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+47,1,47_1,8,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,47,Harbor&Downtown,3,e7efc1,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+48,0,48_0,1,48.785885,-122.44917,277,Midway Ln at Bakerview Spur,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+48,0,48_0,2,48.789534,-122.455699,866,Bakerview Rd at Kramer Ln,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+48,0,48_0,3,48.789513,-122.463663,52,Bakerview Rd at James St,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+48,0,48_0,4,48.789742,-122.477673,1051,Bakerview Rd at Deemer Rd,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+48,0,48_0,5,48.789805,-122.481677,275,Bakerview Rd at Deemer Rd,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+48,0,48_0,6,48.791956,-122.489014,728,Westerly Rd at Meridian St,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000203,2.03,073,000203,Good
+48,0,48_0,7,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+48,1,48_1,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+48,1,48_1,2,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+48,1,48_1,3,48.791908,-122.48742,300,Westerly Rd at Meridian St,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000203,2.03,073,000203,Good
+48,1,48_1,4,48.789608,-122.48128,276,Bakerview Rd at Deemer Rd,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+48,1,48_1,5,48.789528,-122.476167,1052,Bakerview Rd at Deemer Rd,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+48,1,48_1,6,48.789383,-122.46461,53,Bakerview Rd at James St,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+48,1,48_1,7,48.789372,-122.455439,867,Bakerview Rd at Kramer Ln,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+48,1,48_1,8,48.785802,-122.449466,278,Midway Ln at Irongate Rd,Whatcom Transportation Authority,48,Cordata/WCC&Bakerview Spur,3,f15a22,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+49,0,49_0,1,48.785885,-122.44917,277,Midway Ln at Bakerview Spur,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+49,0,49_0,2,48.783683,-122.453512,279,Irongate Rd at Alpine Way,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+49,0,49_0,3,48.782175,-122.450273,282,Division St at Bakerview Spur,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+49,0,49_0,4,48.782096,-122.444222,739,Division St at Hannegan Rd,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+49,0,49_0,5,48.77673,-122.44621,162,Sunset Dr at Woburn St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+49,0,49_0,6,48.774428,-122.454763,789,Sunset Dr at Racine,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+49,0,49_0,7,48.77278,-122.459156,55,Sunset Dr at Sunset Square,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+49,0,49_0,8,48.768714,-122.465023,790,James St at Illinois St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,0,49_0,9,48.765344,-122.465024,163,James St at Connecticut St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,0,49_0,10,48.762065,-122.465053,13,James St at Alabama St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,0,49_0,11,48.76062,-122.46506,156,James St at Carolina St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,0,49_0,12,48.757948,-122.465038,157,James St at Kentucky St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,0,49_0,13,48.755941,-122.466055,778,State St at Iron St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,0,49_0,14,48.753986,-122.46905,158,State St at Kansas St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,0,49_0,15,48.752242,-122.471568,779,State St at Ellis St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,0,49_0,16,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+49,1,49_1,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+49,1,49_1,2,48.750195,-122.472246,775,Forest St at Ellis St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,1,49_1,3,48.753359,-122.469553,776,State St at Meador Ave,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,1,49_1,4,48.758068,-122.46477,159,James St at Kentucky St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,1,49_1,5,48.761377,-122.464806,160,James St at Texas St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,1,49_1,6,48.766337,-122.464825,777,James St at Maryland St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,1,49_1,7,48.768781,-122.464806,740,James St at Illinois St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+49,1,49_1,8,48.772781,-122.45852,56,Sunset Dr at Sunset Square,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,NO,53073000700,7,073,000700,Good
+49,1,49_1,9,48.774906,-122.45271,164,Sunset Dr at Racine St,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+49,1,49_1,10,48.782201,-122.443824,738,Division St at Hannegan Rd,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+49,1,49_1,11,48.782272,-122.449381,281,Division St at Bakerview Spur,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+49,1,49_1,12,48.783673,-122.453269,280,Irongate Rd at Alpine Way,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+49,1,49_1,13,48.785802,-122.449466,278,Midway Ln at Irongate Rd,Whatcom Transportation Authority,49,Downtown&Bakerview Spur,3,da1f3d,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+50,0,50_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,0,50_0,2,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,0,50_0,3,48.792036,-122.492696,770,Westerly Rd at Cordata Pkwy,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,0,50_0,4,48.793386,-122.495659,808,Westerly Rd at Eliza Ave,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,0,50_0,5,48.792448,-122.497098,772,Eliza Ave at Darby Dr,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,0,50_0,6,48.789794,-122.498365,773,Bakerview Rd at Eliza Ave,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,0,50_0,7,48.789776,-122.502943,774,Bakerview Rd at Palisade Way,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,0,50_0,8,48.789824,-122.513634,9,Bakerview Rd at Costco,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,0,50_0,9,48.786109,-122.521842,741,Airport Dr at Bennett Dr,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000201,2.01,073,000201,Good
+50,1,50_1,29,48.785929,-122.522622,339,Airport Dr at Canterbury Ln,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,NO,NO,NO,YES,53073000201,2.01,073,000201,Good
+50,1,50_1,30,48.789614,-122.510958,4,Bakerview Rd at Fred Meyer,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+50,1,50_1,31,48.789612,-122.503523,768,Bakerview Rd at Palisade Way,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+50,1,50_1,32,48.789593,-122.49959,769,Bakerview Rd at Eliza Ave,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000302,3.02,073,000302,Good
+50,1,50_1,33,48.79238,-122.496922,274,Eliza Ave at Darby Dr,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,1,50_1,34,48.793241,-122.495718,806,Westerly Rd at Eliza Ave,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,1,50_1,35,48.791897,-122.492316,807,Westerly Rd at Cordata Pkwy,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+50,1,50_1,36,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,50,LummiNation&Cordata/WCC,3,ffdd00,000000,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+512,0,512_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+512,0,512_0,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+512,0,512_0,3,48.744914,-122.46889,820,Lakeway Dr at Grant St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+512,0,512_0,4,48.744878,-122.46512,290,Lakeway Dr at Fred Meyer,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+512,0,512_0,5,48.744846,-122.46103,41,Lakeway Dr at Lincoln St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+512,0,512_0,6,48.744816,-122.45757,491,Lakeway Dr at Pacific St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+512,0,512_0,7,48.745131,-122.45367,492,Lakeway Dr at Racine St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000904,9.04,073,000904,Good
+512,0,512_0,8,48.745375,-122.449707,494,Lakeway Dr at Undine St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000904,9.04,073,000904,Good
+512,0,512_0,9,48.746155,-122.441431,103,Lakeway Dr at Woburn St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+512,0,512_0,10,48.747032,-122.44057,497,Lakeway Dr at Bayview Cemetery,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+512,0,512_0,11,48.747495,-122.437692,498,Lakeway Dr at Clearbrook Dr,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+512,0,512_0,12,48.747337,-122.43374,499,Lakeway Dr at Kenoyer Dr,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+512,0,512_0,13,48.747973,-122.431397,500,Lakeway Dr at Roland St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+512,0,512_0,14,48.748404,-122.427553,109,Lakeway Dr at Birch St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+512,1,512_1,21,48.748379,-122.423175,767,Lakeway Dr at Portal Dr,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+512,1,512_1,22,48.748557,-122.42756,137,Lakeway Dr at Birch St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+512,1,512_1,23,48.748186,-122.431237,471,Lakeway Dr at Roland St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000805,8.05,073,000805,Good
+512,1,512_1,24,48.74756,-122.435826,472,Lakeway Dr at Kenoyer Dr,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000903,9.03,073,000903,Good
+512,1,512_1,25,48.747674,-122.438555,473,Lakeway Dr at Clearbrook Dr,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000903,9.03,073,000903,Good
+512,1,512_1,26,48.746445,-122.44143,474,Lakeway Dr at Bayview Cemetery,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,NO,NO,YES,53073000903,9.03,073,000903,Good
+512,1,512_1,27,48.745539,-122.450046,108,Lakeway Dr at Undine St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+512,1,512_1,28,48.745212,-122.454174,476,Lakeway Dr at Queen St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+512,1,512_1,29,48.745041,-122.45879,478,Lakeway Dr at Orleans St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+512,1,512_1,30,48.74509,-122.46195,50,Lakeway Dr at Lincoln St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+512,1,512_1,31,48.745094,-122.467954,288,Lakeway Dr at Humboldt St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+512,1,512_1,32,48.745089,-122.469953,289,Lakeway Dr at Franklin St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+512,1,512_1,33,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+512,1,512_1,34,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+512,1,512_1,35,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,512,Sudden Valley&Downtown,3,f287b7,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+525,0,525_0,1,48.771758,-122.44344,996,Newmarket St at Barkely Blvd,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+525,0,525_0,2,48.772847,-122.445524,749,Woburn St at Rimland Dr,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+525,0,525_0,3,48.768804,-122.445485,72,Woburn St at Barkley Village,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000700,7,073,000700,Good
+525,0,525_0,4,48.765621,-122.445439,537,Woburn St at Connecticut St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000700,7,073,000700,Good
+525,0,525_0,5,48.762962,-122.44312,68,Alabama St at Yew St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000700,7,073,000700,Good
+525,0,525_0,6,48.762939,-122.439243,512,Alabama St at Michigan St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+525,0,525_0,7,48.762927,-122.433344,880,Alabama St at Erie Terrace,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+525,0,525_0,8,48.762936,-122.428097,593,Alabama St at Crestline Dr,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+525,0,525_0,9,48.762936,-122.42402,594,Alabama St at Fir St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+525,0,525_0,10,48.762691,-122.4209,848,Electric Ave at Alabama St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+525,0,525_0,11,48.760166,-122.42085,126,Electric Ave at Bloedel Donovan,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,0,525_0,12,48.757647,-122.421362,127,Electric Ave at 2100 Block,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,0,525_0,13,48.755957,-122.422161,128,Electric Ave at Flynn St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,0,525_0,14,48.753635,-122.42319,129,Electric Ave at Kansas St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,0,525_0,15,48.751539,-122.424158,130,Electric Ave at Fraser St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,0,525_0,16,48.74934,-122.426743,76,Electric Ave at Whatcom Falls Park,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,0,525_0,17,48.748186,-122.431237,471,Lakeway Dr at Roland St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,0,525_0,18,48.74756,-122.435826,472,Lakeway Dr at Kenoyer Dr,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000903,9.03,073,000903,Good
+525,0,525_0,19,48.747674,-122.438555,473,Lakeway Dr at Clearbrook Dr,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000903,9.03,073,000903,Good
+525,0,525_0,20,48.746445,-122.44143,474,Lakeway Dr at Bayview Cemetery,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000903,9.03,073,000903,Good
+525,0,525_0,21,48.745539,-122.450046,108,Lakeway Dr at Undine St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+525,0,525_0,22,48.745212,-122.454174,476,Lakeway Dr at Queen St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+525,0,525_0,23,48.745041,-122.45879,478,Lakeway Dr at Orleans St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+525,0,525_0,24,48.74509,-122.46195,50,Lakeway Dr at Lincoln St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+525,0,525_0,25,48.745094,-122.467954,288,Lakeway Dr at Humboldt St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+525,0,525_0,26,48.745089,-122.469953,289,Lakeway Dr at Franklin St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+525,0,525_0,27,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+525,0,525_0,28,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+525,0,525_0,29,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+525,1,525_1,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+525,1,525_1,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+525,1,525_1,3,48.744914,-122.46889,820,Lakeway Dr at Grant St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+525,1,525_1,4,48.744878,-122.46512,290,Lakeway Dr at Fred Meyer,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+525,1,525_1,5,48.744846,-122.46103,41,Lakeway Dr at Lincoln St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+525,1,525_1,6,48.744816,-122.45757,491,Lakeway Dr at Pacific St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+525,1,525_1,7,48.745131,-122.45367,492,Lakeway Dr at Racine St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000904,9.04,073,000904,Good
+525,1,525_1,8,48.745375,-122.449707,494,Lakeway Dr at Undine St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000904,9.04,073,000904,Good
+525,1,525_1,9,48.746155,-122.441431,103,Lakeway Dr at Woburn St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+525,1,525_1,10,48.747032,-122.44057,497,Lakeway Dr at Bayview Cemetery,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+525,1,525_1,11,48.747495,-122.437692,498,Lakeway Dr at Clearbrook Dr,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+525,1,525_1,12,48.747337,-122.43374,499,Lakeway Dr at Kenoyer Dr,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+525,1,525_1,13,48.747973,-122.431397,500,Lakeway Dr at Roland St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000904,9.04,073,000904,Good
+525,1,525_1,14,48.749473,-122.425969,73,Electric Ave at Whatcom Falls Park,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,1,525_1,15,48.751736,-122.42384,120,Electric Ave at Fraser St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,1,525_1,16,48.753578,-122.42302,121,Electric Ave at Kansas St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,1,525_1,17,48.756352,-122.421747,122,Electric Ave at Flynn St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,1,525_1,18,48.757873,-122.421101,123,Electric Ave at 2100 Block,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,1,525_1,19,48.76046,-122.42068,124,Electric Ave at Bloedel Donovan,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000805,8.05,073,000805,Good
+525,1,525_1,20,48.762329,-122.420689,847,Electric Ave at Alabama St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+525,1,525_1,21,48.763056,-122.424133,752,Alabama St at Fir St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000803,8.03,073,000803,Good
+525,1,525_1,22,48.763073,-122.427339,753,Alabama St at Vista Dr,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000803,8.03,073,000803,Good
+525,1,525_1,23,48.763101,-122.432757,879,Alabama St at Vining St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000803,8.03,073,000803,Good
+525,1,525_1,24,48.763091,-122.439566,513,Alabama St at Michigan St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000700,7,073,000700,Good
+525,1,525_1,25,48.763087,-122.443223,853,Alabama St at Yew St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,NO,NO,YES,53073000700,7,073,000700,Good
+525,1,525_1,26,48.764305,-122.44521,64,Woburn St at North St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000700,7,073,000700,Good
+525,1,525_1,27,48.766968,-122.445225,538,Woburn St at Maryland St,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000700,7,073,000700,Good
+525,1,525_1,28,48.76891,-122.445153,65,Woburn St at Barkley Village,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+525,1,525_1,29,48.771758,-122.44344,996,Newmarket St at Barkely Blvd,Whatcom Transportation Authority,525,Barkley&Downtown,3,8f53a1,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+533,0,533_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+533,0,533_0,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+533,0,533_0,3,48.744914,-122.46889,820,Lakeway Dr at Grant St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+533,0,533_0,4,48.744878,-122.46512,290,Lakeway Dr at Fred Meyer,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+533,0,533_0,5,48.743202,-122.46297,46,Lincoln St at Lakeway Dr,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+533,0,533_0,6,48.74001,-122.464446,599,Lincoln St at Viking Circle,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+533,0,533_0,7,48.737436,-122.465458,596,Lincoln St at Maple St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+533,0,533_0,8,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,9,48.730359,-122.469747,550,Samish Way at Lincoln St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,10,48.727124,-122.471819,47,Samish Way at Ridgemont Way,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,11,48.724525,-122.471628,551,Samish Way at Taylor Ave,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,12,48.722042,-122.47077,553,Samish Way at Evergreen Motel,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,13,48.718834,-122.46967,555,Samish Way at 36th St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,14,48.716961,-122.46903,557,Samish Way at Donovan Ave,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,15,48.713964,-122.467981,559,Samish Way at Lindsay Ave,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,16,48.711682,-122.466688,561,Samish Way at Cody Ave,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,17,48.709265,-122.463537,563,Samish Way at 40th St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,18,48.707003,-122.459385,565,Samish Way at College St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,19,48.706352,-122.454758,567,Samish Way at W Lake Padden,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,0,533_0,21,48.706428,-122.445413,48,Samish Way at Yew St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+533,1,533_1,1,48.706428,-122.445413,48,Samish Way at Yew St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+533,1,533_1,12,48.737364,-122.442406,590,Yew St at 900 Block,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000902,9.02,073,000902,Good
+533,1,533_1,13,48.739984,-122.442373,591,Yew St at Princeton Ct,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000904,9.04,073,000904,Good
+533,1,533_1,14,48.744006,-122.442432,49,Yew St at Old Lakeway Dr,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,NO,NO,NO,YES,53073000904,9.04,073,000904,Good
+533,1,533_1,15,48.745539,-122.450046,108,Lakeway Dr at Undine St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+533,1,533_1,16,48.745212,-122.454174,476,Lakeway Dr at Queen St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+533,1,533_1,17,48.745041,-122.45879,478,Lakeway Dr at Orleans St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+533,1,533_1,18,48.74509,-122.46195,50,Lakeway Dr at Lincoln St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+533,1,533_1,19,48.745094,-122.467954,288,Lakeway Dr at Humboldt St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+533,1,533_1,20,48.745089,-122.469953,289,Lakeway Dr at Franklin St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+533,1,533_1,21,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+533,1,533_1,22,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+533,1,533_1,23,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,533,Yew St,3,f8c1d9,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+540,0,540_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+540,0,540_0,2,48.747589,-122.47287,607,Magnolia St at High St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+540,0,540_0,3,48.744914,-122.46889,820,Lakeway Dr at Grant St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+540,0,540_0,4,48.744878,-122.46512,290,Lakeway Dr at Fred Meyer,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+540,0,540_0,5,48.744846,-122.46103,41,Lakeway Dr at Lincoln St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+540,0,540_0,6,48.744816,-122.45757,491,Lakeway Dr at Pacific St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+540,0,540_0,7,48.745131,-122.45367,492,Lakeway Dr at Racine St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000904,9.04,073,000904,Good
+540,0,540_0,8,48.745375,-122.449707,494,Lakeway Dr at Undine St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000904,9.04,073,000904,Good
+540,0,540_0,9,48.746144,-122.44299,131,Woburn St at Lakeway Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+540,0,540_0,10,48.748128,-122.44488,142,Woburn St at Old Woburn St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+540,0,540_0,11,48.751307,-122.445104,132,Woburn St at Fraser St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+540,0,540_0,12,48.758754,-122.445225,133,Woburn St at Kentucky St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000700,7,073,000700,Good
+540,0,540_0,13,48.761261,-122.445225,801,Woburn St at Texas St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000700,7,073,000700,Good
+540,0,540_0,14,48.762962,-122.44312,68,Alabama St at Yew St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000700,7,073,000700,Good
+540,0,540_0,15,48.762939,-122.439243,512,Alabama St at Michigan St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,0,540_0,16,48.762927,-122.433344,880,Alabama St at Erie Terrace,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,0,540_0,17,48.762936,-122.428097,593,Alabama St at Crestline Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,0,540_0,18,48.762936,-122.42402,594,Alabama St at Fir St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,0,540_0,19,48.766246,-122.415379,519,Northshore Dr at Martin St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,0,540_0,20,48.766241,-122.412876,74,Northshore Dr at Poplar Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,0,540_0,21,48.769096,-122.410892,520,Northshore Rd at Britton Rd,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,0,540_0,22,48.77014,-122.409887,521,Britton Rd at Alice St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,0,540_0,30,48.782344,-122.423947,67,McLeod Rd at Squalicum High School,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,0,540_0,31,48.782303,-122.42885,528,McLeod Rd at Sunset Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,0,540_0,32,48.781856,-122.431662,814,Sunset Dr at Vining St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,NO,NO,YES,53073000102,1.02,073,000102,Good
+540,0,540_0,33,48.780543,-122.434591,788,Sunset Dr at Idell Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,NO,NO,YES,53073000102,1.02,073,000102,Good
+540,0,540_0,34,48.778678,-122.438734,161,Sunset Dr at 2500 block,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,NO,NO,YES,53073000102,1.02,073,000102,Good
+540,0,540_0,35,48.775442,-122.445491,750,Woburn St at Sunset Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,1,48.775442,-122.445491,750,Woburn St at Sunset Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,2,48.772847,-122.445524,749,Woburn St at Rimland Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,3,48.771188,-122.447342,540,Barkley Bvld at Woburn St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,4,48.77117,-122.451116,541,Barkley Bvld at St Paul St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,5,48.771182,-122.455889,542,Barkley Bvld at Pacific St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,6,48.771963,-122.457576,66,Orleans St at Sunset Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,7,48.774906,-122.45271,164,Sunset Dr at Racine St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,8,48.776723,-122.444498,165,Sunset Dr at Woburn St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,9,48.777466,-122.440899,784,Sunset Dr at 2500 Block,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,10,48.779938,-122.435342,785,Sunset Dr at Idell Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,11,48.781427,-122.432044,802,Sunset Dr at Vining St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,12,48.782146,-122.42809,1010,McLeod Rd at Sunset Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,13,48.782107,-122.424026,70,McLeod Rd at Squalicum High School,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,20,48.769917,-122.410035,547,Britton Rd at Alice St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,1,540_1,21,48.769217,-122.411337,548,Northshore Dr at Britton Rd,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,1,540_1,22,48.766637,-122.41219,75,Northshore Dr at Poplar Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,1,540_1,23,48.766358,-122.415577,549,Northshore Dr at Martin St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000804,8.04,073,000804,Good
+540,1,540_1,24,48.763056,-122.424133,752,Alabama St at Fir St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,25,48.763073,-122.427339,753,Alabama St at Vista Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,26,48.763101,-122.432757,879,Alabama St at Vining St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,NO,NO,YES,53073000803,8.03,073,000803,Good
+540,1,540_1,27,48.763091,-122.439566,513,Alabama St at Michigan St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,NO,NO,YES,53073000700,7,073,000700,Good
+540,1,540_1,28,48.763087,-122.443223,853,Alabama St at Yew St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,NO,NO,YES,53073000700,7,073,000700,Good
+540,1,540_1,29,48.761295,-122.445435,71,Woburn St at Texas St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000700,7,073,000700,Good
+540,1,540_1,30,48.758694,-122.44543,134,Woburn St at Kentucky St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000700,7,073,000700,Good
+540,1,540_1,31,48.752148,-122.44538,135,Woburn St at Fraser St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+540,1,540_1,32,48.746886,-122.445354,136,Old Woburn St at Sweet Bay Dr,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,NO,NO,NO,YES,53073000903,9.03,073,000903,Good
+540,1,540_1,33,48.745539,-122.450046,108,Lakeway Dr at Undine St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+540,1,540_1,34,48.745212,-122.454174,476,Lakeway Dr at Queen St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+540,1,540_1,35,48.745041,-122.45879,478,Lakeway Dr at Orleans St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+540,1,540_1,36,48.74509,-122.46195,50,Lakeway Dr at Lincoln St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000903,9.03,073,000903,Good
+540,1,540_1,37,48.745094,-122.467954,288,Lakeway Dr at Humboldt St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+540,1,540_1,38,48.745089,-122.469953,289,Lakeway Dr at Franklin St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+540,1,540_1,39,48.746021,-122.473246,673,Holly St at Billy Frank Jr St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+540,1,540_1,40,48.74787,-122.475725,1055,Forest St at Holly St,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+540,1,540_1,41,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,540,Sunset&Downtown,3,5f3075,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+71X,0,71X_0,1,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+71X,0,71X_0,2,48.795078,-122.48828,21,Kellogg Rd at Meridian St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+71X,0,71X_0,3,48.801399,-122.48579,29,Meridian St at Walmart,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+71X,0,71X_0,4,48.808329,-122.485813,207,Guide Meridian at Horton Rd,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+71X,0,71X_0,5,48.815556,-122.48576,208,Guide Meridian at Kline Rd,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,YES,53073000102,1.02,073,000102,Good
+71X,1,71X_1,23,48.814651,-122.486177,220,Guide Meridian at Kline Rd,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,YES,53073000202,2.02,073,000202,Good
+71X,1,71X_1,24,48.807461,-122.48622,221,Guide Meridian at Horton Rd,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+71X,1,71X_1,25,48.799221,-122.48619,33,Meridian St at Stuart Rd,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,NO,NO,NO,YES,53073000203,2.03,073,000203,Good
+71X,1,71X_1,26,48.795278,-122.488016,174,Kellogg Rd at Meridian St,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+71X,1,71X_1,27,48.794529,-122.491839,225,Cordata Pkwy at Whatcom Community College,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+71X,1,71X_1,28,48.792916,-122.491074,796,Cordata Station,Whatcom Transportation Authority,71X,Everson/Nooksack/Sumas&Cordata,3,b47236,ffffff,YES,YES,NO,YES,53073000203,2.03,073,000203,Good
+72X,0,72X_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+72X,0,72X_0,2,48.750195,-122.472246,775,Forest St at Ellis St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,0,72X_0,3,48.753359,-122.469553,776,State St at Meador Ave,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,0,72X_0,4,48.758068,-122.46477,159,James St at Kentucky St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,0,72X_0,5,48.761377,-122.464806,160,James St at Texas St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,0,72X_0,6,48.766337,-122.464825,777,James St at Maryland St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,0,72X_0,7,48.768781,-122.464806,740,James St at Illinois St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,0,72X_0,8,48.772781,-122.45852,56,Sunset Dr at Sunset Square,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,NO,NO,NO,NO,53073000700,7,073,000700,Good
+72X,0,72X_0,9,48.774906,-122.45271,164,Sunset Dr at Racine St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000803,8.03,073,000803,Good
+72X,0,72X_0,10,48.776723,-122.444498,165,Sunset Dr at Woburn St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+72X,0,72X_0,11,48.777466,-122.440899,784,Sunset Dr at 2500 Block,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+72X,0,72X_0,12,48.779938,-122.435342,785,Sunset Dr at Idell Dr,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+72X,0,72X_0,13,48.781427,-122.432044,802,Sunset Dr at Vining St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,NO,NO,NO,YES,53073000803,8.03,073,000803,Good
+72X,1,72X_1,21,48.781856,-122.431662,814,Sunset Dr at Vining St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,NO,NO,YES,53073000102,1.02,073,000102,Good
+72X,1,72X_1,22,48.780543,-122.434591,788,Sunset Dr at Idell Dr,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,NO,NO,YES,53073000102,1.02,073,000102,Good
+72X,1,72X_1,23,48.778678,-122.438734,161,Sunset Dr at 2500 block,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,NO,NO,YES,53073000102,1.02,073,000102,Good
+72X,1,72X_1,24,48.77673,-122.44621,162,Sunset Dr at Woburn St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+72X,1,72X_1,25,48.774428,-122.454763,789,Sunset Dr at Racine,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000102,1.02,073,000102,Good
+72X,1,72X_1,26,48.77278,-122.459156,55,Sunset Dr at Sunset Square,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,NO,NO,NO,NO,53073000102,1.02,073,000102,Good
+72X,1,72X_1,27,48.768714,-122.465023,790,James St at Illinois St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,1,72X_1,28,48.765344,-122.465024,163,James St at Connecticut St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,1,72X_1,29,48.762065,-122.465053,13,James St at Alabama St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,1,72X_1,30,48.76062,-122.46506,156,James St at Carolina St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,1,72X_1,31,48.757948,-122.465038,157,James St at Kentucky St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,1,72X_1,32,48.755941,-122.466055,778,State St at Iron St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,1,72X_1,33,48.753986,-122.46905,158,State St at Kansas St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,1,72X_1,34,48.752242,-122.471568,779,State St at Ellis St,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+72X,1,72X_1,35,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,72X,Kendall&Bellingham,3,952d4f,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+75,0,75_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+75,0,75_0,2,48.750195,-122.472246,775,Forest St at Ellis St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,0,75_0,3,48.753359,-122.469553,776,State St at Meador Ave,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,0,75_0,4,48.758068,-122.46477,159,James St at Kentucky St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,0,75_0,5,48.761377,-122.464806,160,James St at Texas St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,0,75_0,6,48.766337,-122.464825,777,James St at Maryland St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,0,75_0,7,48.768781,-122.464806,740,James St at Illinois St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,14,48.768714,-122.465023,790,James St at Illinois St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,15,48.765344,-122.465024,163,James St at Connecticut St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,16,48.762065,-122.465053,13,James St at Alabama St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,17,48.76062,-122.46506,156,James St at Carolina St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,18,48.757948,-122.465038,157,James St at Kentucky St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,19,48.755941,-122.466055,778,State St at Iron St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,20,48.753986,-122.46905,158,State St at Kansas St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,21,48.752242,-122.471568,779,State St at Ellis St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+75,1,75_1,22,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+80X,0,80X_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,80X,Mt. Vernon&Bellingham,3,b86964,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+80X,0,80X_0,2,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,80X,Mt. Vernon&Bellingham,3,b86964,ffffff,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+80X,1,80X_1,4,48.734558,-122.46602,81,Lincoln Creek Park & Ride,Whatcom Transportation Authority,80X,Mt. Vernon&Bellingham,3,b86964,ffffff,YES,YES,NO,YES,53073000902,9.02,073,000902,Good
+80X,1,80X_1,5,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,80X,Mt. Vernon&Bellingham,3,b86964,ffffff,YES,YES,NO,YES,53073000600,6,073,000600,Good
+9,0,9_0,1,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good
+9,0,9_0,2,48.750195,-122.472246,775,Forest St at Ellis St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,0,9_0,3,48.753359,-122.469553,776,State St at Meador Ave,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,0,9_0,4,48.758068,-122.46477,159,James St at Kentucky St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,0,9_0,5,48.761377,-122.464806,160,James St at Texas St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,0,9_0,6,48.766337,-122.464825,777,James St at Maryland St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,0,9_0,7,48.768781,-122.464806,740,James St at Illinois St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,0,9_0,8,48.770257,-122.472083,529,Ellis St at Sunset Dr,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+9,0,9_0,9,48.772256,-122.470659,530,Squalicum Pkwy at Levin Ln,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+9,0,9_0,10,48.772846,-122.46978,531,Levin Ln at St. Francis,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+9,0,9_0,11,48.774144,-122.469531,532,The Willows,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+9,0,9_0,12,48.772375,-122.470648,1090,Squalicum Pkwy at St. Joseph Hospital,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+9,1,9_1,1,48.772375,-122.470648,1090,Squalicum Pkwy at St. Joseph Hospital,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+9,1,9_1,2,48.7707,-122.472257,536,Ellis St at Plymouth Dr,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000401,4.01,073,000401,Good
+9,1,9_1,3,48.768714,-122.465023,790,James St at Illinois St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,1,9_1,4,48.765344,-122.465024,163,James St at Connecticut St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,1,9_1,5,48.762065,-122.465053,13,James St at Alabama St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,1,9_1,6,48.76062,-122.46506,156,James St at Carolina St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,1,9_1,7,48.757948,-122.465038,157,James St at Kentucky St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,1,9_1,8,48.755941,-122.466055,778,State St at Iron St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,1,9_1,9,48.753986,-122.46905,158,State St at Kansas St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,1,9_1,10,48.752242,-122.471568,779,State St at Ellis St,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000501,5.01,073,000501,Good
+9,1,9_1,11,48.75039,-122.475612,1,Bellingham Station,Whatcom Transportation Authority,9,Hospital&Downtown,3,f69896,000000,YES,YES,NO,YES,53073000600,6,073,000600,Good

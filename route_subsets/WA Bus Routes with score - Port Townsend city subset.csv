@@ -1,0 +1,160 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+1,0,1_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+1,0,1_0,2,48.103112,-122.792003,192,Sims and Hendricks (Port Townsend QFC),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+1,0,1_0,3,48.103054,-122.802208,197,Sims and Cliff St,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+1,1,1_1,46,48.102648,-122.803636,198,Sims Way at Les Schwab,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+1,1,1_1,47,48.103111,-122.799672,199,Sims Way at Jiffy Lube,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+1,1,1_1,48,48.103029,-122.793034,196,Sims and Hendricks Opposite QFC,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+1,1,1_1,49,48.105834,-122.790201,189,Sheridan St & 8th St (Jefferson Healthcare),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+1,1,1_1,50,48.10741686,-122.7902144,187,10th and Sheridan,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+1,1,1_1,51,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+11,0,11_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+11,0,11_0,2,48.108792,-122.775671,194,Safeway Gas Station,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11,0,11_0,3,48.10991884,-122.770122,200,Gateway Park,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+11,0,11_0,4,48.113189,-122.759312,178,Port Townsend Plaza at Ferry Dock,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11,0,11_0,5,48.114845,-122.755244,217,Water and Adams,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11,0,11_0,6,48.1173654,-122.7534481,141,Skateboard Park/Point Hudson,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+11,0,11_0,7,48.11818327,-122.7567673,046,Clay and Madison / Marine Plaza Apartments,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950604,9506.04,031,950604,Good
+11,0,11_0,8,48.1177778,-122.76,135,Lawrence and Taylor,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950604,9506.04,031,950604,Good
+11,0,11_0,9,48.11736,-122.76098,249,Lawrence and Tyler,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+11,0,11_0,10,48.116255,-122.7637,138,Port Townsend Library,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+11,0,11_0,11,48.115395,-122.772601,009,Mountain View Commons (Opposite),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950604,9506.04,031,950604,Good
+11,0,11_0,12,48.1138889,-122.7744444,008,Kearney and Blaine St,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+11,0,11_0,13,48.1106731624,-122.77155694113,134,Chase Bank (Food Co-op Opposite),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11,0,11_0,14,48.108965,-122.77591,193,Safeway Gas Station - Opposite,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+11,0,11_0,15,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,2,48.108792,-122.775671,194,Safeway Gas Station,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,3,48.10991884,-122.770122,200,Gateway Park,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,4,48.113189,-122.759312,178,Port Townsend Plaza at Ferry Dock,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,5,48.114845,-122.755244,217,Water and Adams,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,6,48.1173654,-122.7534481,141,Skateboard Park/Point Hudson,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+11A,1,11A_1,7,48.11818327,-122.7567673,046,Clay and Madison / Marine Plaza Apartments,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950604,9506.04,031,950604,Good
+11A,1,11A_1,8,48.1177778,-122.76,135,Lawrence and Taylor,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950604,9506.04,031,950604,Good
+11A,1,11A_1,9,48.11736,-122.76098,249,Lawrence and Tyler,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+11A,1,11A_1,10,48.116255,-122.7637,138,Port Townsend Library,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+11A,1,11A_1,11,48.115395,-122.772601,009,Mountain View Commons (Opposite),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950604,9506.04,031,950604,Good
+11A,1,11A_1,12,48.1138889,-122.7744444,008,Kearney and Blaine St,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,13,48.1106731624,-122.77155694113,134,Chase Bank (Food Co-op Opposite),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,14,48.108965,-122.77591,193,Safeway Gas Station - Opposite,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+11A,1,11A_1,15,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,2,48.108792,-122.775671,194,Safeway Gas Station,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,3,48.110624,-122.771236,054,Kearney St (Food Co-Op),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,4,48.11535,-122.77225,142,Mountain View Commons,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,5,48.116013,-122.763838,160,Port Townsend Library,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+11B,0,11B_0,6,48.11743,-122.760374,137,Lawrence and Tyler (Community Center),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+11B,0,11B_0,7,48.11811523,-122.7566573,139,Clay and Madison / Marine Plaza,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+11B,0,11B_0,8,48.117349,-122.753727,162,Skateboard Park/Point Hudson at Memorial Field,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+11B,0,11B_0,9,48.115213,-122.75486,218,Water and Quincy,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,10,48.113076,-122.759965,055,Water and Filmore (Opposite Ferry Dock),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,11,48.1101,-122.770004,195,Sims and Kearney (Penny Saver),Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,12,48.108965,-122.77591,193,Safeway Gas Station - Opposite,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+11B,0,11B_0,13,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+14,0,14_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+14,1,14_1,4,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+2,0,2_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+2,0,2_0,2,48.108792,-122.775671,194,Safeway Gas Station,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+2,0,2_0,3,48.110624,-122.771236,054,Kearney St (Food Co-Op),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+2,0,2_0,4,48.11425,-122.775283,240,Blaine and Kearney,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+2,0,2_0,5,48.115939,-122.777875,244,San Juan Avenue at 22nd Street North,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+2,0,2_0,6,48.12424958,-122.7776751,184,San Juan Commons,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+2,0,2_0,7,48.12714819,-122.7776724,183,San Juan and Cedar,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+2,0,2_0,8,48.1330278,-122.7777222,182,San Juan and 45th,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+2,0,2_0,9,48.13310603,-122.7742606,201,Spruce and W St (Treehouse),Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+2,0,2_0,10,48.134069,-122.765534,176,Fort Worden/Peninsula College,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+2,0,2_0,11,48.127443,-122.767197,053,Fir & Q Street,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+2,0,2_0,12,48.120848,-122.769009,242,Fir Street at F Street,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+2,0,2_0,13,48.117658,-122.761022,136,Lawrence and Tyler,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+2,0,2_0,14,48.1159700030723,-122.7594602108,208,Tyler and Franklin,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+2,0,2_0,15,48.115116,-122.757291,216,Haller Fountain on Washington and Taylor,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+2,0,2_0,16,48.113289,-122.761755,215,Port Townsend Post Office,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+2,0,2_0,17,48.111291,-122.766451,209,Courthouse at Washington and Cass,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+2,0,2_0,18,48.1101,-122.770004,195,Sims and Kearney (Penny Saver),Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+2,0,2_0,19,48.108965,-122.77591,193,Safeway Gas Station - Opposite,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+2,0,2_0,20,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+3,0,3_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+3,0,3_0,2,48.105834,-122.790201,189,Sheridan St & 8th St (Jefferson Healthcare),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+3,0,3_0,3,48.10741686,-122.7902144,187,10th and Sheridan,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+3,0,3_0,4,48.110053,-122.800004,001,14th and McPherson,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+3,0,3_0,5,48.11151,-122.79899,049,Discovery Rd at Towne Pointe (opp),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+3,0,3_0,6,48.11339,-122.79264,048,Discovery Road at Grant Street (Salish School),Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+3,0,3_0,7,48.113792,-122.790316,188,Sheridan Street at 19th Street,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950602,9506.02,031,950602,Good
+3,0,3_0,8,48.11996,-122.790638,190,Sheridan and Hastings,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950602,9506.02,031,950602,Good
+3,0,3_0,9,48.1201923236913,-122.804805636405,059,Hastings at Howard,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950602,9506.02,031,950602,Good
+3,0,3_0,10,48.1201944,-122.8119167,060,Hastings and Spring,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950602,9506.02,031,950602,Good
+3,0,3_0,11,48.136621,-122.803994,047,Cook and Willamette,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950602,9506.02,031,950602,Good
+3,0,3_0,12,48.1352057890086,-122.785032391548,005,49th and Jackman (Fairgrounds),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950602,9506.02,031,950602,Good
+3,0,3_0,13,48.13275,-122.7778333,181,San Juan and 45th,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950602,9506.02,031,950602,Good
+3,0,3_0,14,48.1291336161414,-122.777940630912,243,Blue Heron Middle School,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950602,9506.02,031,950602,Good
+3,0,3_0,15,48.1263056,-122.7779167,180,San Juan and 37th,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950602,9506.02,031,950602,Good
+3,0,3_0,16,48.1242683782195,-122.777877599,161,San Juan Commons,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950602,9506.02,031,950602,Good
+3,0,3_0,17,48.11593598,-122.7781793,179,San Juan Avenue at 22nd Street South,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+3,0,3_0,18,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,2,48.103112,-122.792003,192,Sims and Hendricks (Port Townsend QFC),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,3,48.106063,-122.794586,058,Hancock St & 9th St,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,4,48.105834,-122.790201,189,Sheridan St & 8th St (Jefferson Healthcare),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,5,48.10741686,-122.7902144,187,10th and Sheridan,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,6,48.110622,-122.790298,234,Sheridan and 15th St,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+4,0,4_0,7,48.113132,-122.793863,235,Discovery and Sherman,Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950602,9506.02,031,950602,Good
+4,0,4_0,8,48.111621,-122.79945,236,Discovery and Town Pointe,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950602,9506.02,031,950602,Good
+4,0,4_0,9,48.11006,-122.80338,237,Discovery and Eddy,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950602,9506.02,031,950602,Good
+4,0,4_0,10,48.104261,-122.805384,238,Rainier and South Park Ave (Goodwill),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,11,48.102648,-122.803636,198,Sims Way at Les Schwab,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+4,0,4_0,12,48.103111,-122.799672,199,Sims Way at Jiffy Lube,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+4,0,4_0,13,48.103029,-122.793034,196,Sims and Hendricks Opposite QFC,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,14,48.105834,-122.790201,189,Sheridan St & 8th St (Jefferson Healthcare),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,15,48.10741686,-122.7902144,187,10th and Sheridan,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+4,0,4_0,16,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,2,48.108792,-122.775671,194,Safeway Gas Station,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,3,48.110624,-122.771236,054,Kearney St (Food Co-Op),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,4,48.116013,-122.763838,160,Port Townsend Library,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+6A,0,6A_0,5,48.11743,-122.760374,137,Lawrence and Tyler (Community Center),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+6A,0,6A_0,6,48.117349,-122.753727,162,Skateboard Park/Point Hudson at Memorial Field,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+6A,0,6A_0,7,48.115213,-122.75486,218,Water and Quincy,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,8,48.113076,-122.759965,055,Water and Filmore (Opposite Ferry Dock),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,9,48.108965,-122.77591,193,Safeway Gas Station - Opposite,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,10,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,11,48.103112,-122.792003,192,Sims and Hendricks (Port Townsend QFC),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,12,48.103054,-122.802208,197,Sims and Cliff St,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,47,48.102648,-122.803636,198,Sims Way at Les Schwab,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,48,48.103111,-122.799672,199,Sims Way at Jiffy Lube,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,49,48.103029,-122.793034,196,Sims and Hendricks Opposite QFC,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,50,48.105834,-122.790201,189,Sheridan St & 8th St (Jefferson Healthcare),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,51,48.10741686,-122.7902144,187,10th and Sheridan,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6A,0,6A_0,52,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,1,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,2,48.103112,-122.792003,192,Sims and Hendricks (Port Townsend QFC),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,3,48.103054,-122.802208,197,Sims and Cliff St,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,36,48.102648,-122.803636,198,Sims Way at Les Schwab,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,37,48.103111,-122.799672,199,Sims Way at Jiffy Lube,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,38,48.103029,-122.793034,196,Sims and Hendricks Opposite QFC,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,39,48.105834,-122.790201,189,Sheridan St & 8th St (Jefferson Healthcare),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,40,48.10741686,-122.7902144,187,10th and Sheridan,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+6B,0,6B_0,41,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+7,0,7_0,1,48.110624,-122.771236,054,Kearney St (Food Co-Op),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+7,0,7_0,2,48.116013,-122.763838,160,Port Townsend Library,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+7,0,7_0,3,48.11743,-122.760374,137,Lawrence and Tyler (Community Center),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950604,9506.04,031,950604,Good
+7,0,7_0,4,48.117349,-122.753727,162,Skateboard Park/Point Hudson at Memorial Field,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950604,9506.04,031,950604,Good
+7,0,7_0,5,48.115213,-122.75486,218,Water and Quincy,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+7,0,7_0,6,48.113076,-122.759965,055,Water and Filmore (Opposite Ferry Dock),Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+7,0,7_0,7,48.108965,-122.77591,193,Safeway Gas Station - Opposite,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+7,0,7_0,8,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+7,0,7_0,9,48.103112,-122.792003,192,Sims and Hendricks (Port Townsend QFC),Jefferson Transit Authority,,,,,,YES,NO,NO,YES,53031950603,9506.03,031,950603,Good
+7,0,7_0,10,48.103054,-122.802208,197,Sims and Cliff St,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+7,1,7_1,35,48.102648,-122.803636,198,Sims Way at Les Schwab,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+7,1,7_1,36,48.103111,-122.799672,199,Sims Way at Jiffy Lube,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+7,1,7_1,37,48.103029,-122.793034,196,Sims and Hendricks Opposite QFC,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+7,1,7_1,38,48.105834,-122.790201,189,Sheridan St & 8th St (Jefferson Healthcare),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+7,1,7_1,39,48.10741686,-122.7902144,187,10th and Sheridan,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+7,1,7_1,40,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+8,1,8_1,21,48.102648,-122.803636,198,Sims Way at Les Schwab,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+8,1,8_1,22,48.103111,-122.799672,199,Sims Way at Jiffy Lube,Jefferson Transit Authority,,,,,,NO,NO,NO,NO,53031950603,9506.03,031,950603,Good
+8,1,8_1,23,48.103029,-122.793034,196,Sims and Hendricks Opposite QFC,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+8,1,8_1,24,48.105834,-122.790201,189,Sheridan St & 8th St (Jefferson Healthcare),Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+8,1,8_1,25,48.10741686,-122.7902144,187,10th and Sheridan,Jefferson Transit Authority,,,,,,NO,NO,NO,YES,53031950603,9506.03,031,950603,Good
+8,1,8_1,26,48.108757,-122.78125,057,Haines Place Park and Ride,Jefferson Transit Authority,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+1117,0,1117_0,2,48.112664,-122.760505,17,Port Townsend,Washington State Ferries,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good
+1711,0,1711_0,1,48.112664,-122.760505,17,Port Townsend,Washington State Ferries,,,,,,YES,YES,NO,YES,53031950603,9506.03,031,950603,Good

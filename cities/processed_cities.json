@@ -1,0 +1,2198 @@
+{
+  "aberdeen": {
+    "name": "Aberdeen",
+    "agency": "Grays Harbor Transit",
+    "stops": 109,
+    "dataset_id": "a47f01dd-68e8-40a2-9ba9-409cb83de960",
+    "boundary": "Aberdeen_city_limits.geojson",
+    "center": [
+      -123.82,
+      46.975
+    ],
+    "zoom": 13
+  },
+  "airway-heights": {
+    "name": "Airway Heights",
+    "agency": "Spokane Transit Authority",
+    "stops": 52,
+    "dataset_id": "d0d99b52-e91f-4b24-8cec-597350bbd6b9",
+    "boundary": "Airway_Heights_city_limits.geojson",
+    "center": [
+      -117.58249,
+      47.6482
+    ],
+    "zoom": 13
+  },
+  "algona": {
+    "name": "Algona",
+    "agency": "Metro Transit",
+    "stops": 17,
+    "dataset_id": "ce8453db-46be-4f61-890c-21ff5f05c419",
+    "boundary": "Algona_city_limits.geojson",
+    "center": [
+      -122.24951,
+      47.2809
+    ],
+    "zoom": 14
+  },
+  "anacortes": {
+    "name": "Anacortes",
+    "agency": "Skagit Transit",
+    "stops": 48,
+    "dataset_id": "c7ed749c-0e8b-4801-84be-588eea8e1df6",
+    "boundary": "Anacortes_city_limits.geojson",
+    "center": [
+      -122.61539,
+      48.4853
+    ],
+    "zoom": 12
+  },
+  "arlington": {
+    "name": "Arlington",
+    "agency": "Community Transit",
+    "stops": 70,
+    "dataset_id": "f9d673d2-241f-4b14-9e6f-bf62abb9dcd1",
+    "boundary": "Arlington_city_limits.geojson",
+    "center": [
+      -122.15271,
+      48.17673
+    ],
+    "zoom": 13
+  },
+  "asotin": {
+    "name": "Asotin",
+    "agency": "Asotin County PTBA",
+    "stops": 8,
+    "dataset_id": "cc8c17be-8e7f-4e71-9f24-e61efe143fd9",
+    "boundary": "Asotin_city_limits.geojson",
+    "center": [
+      -117.04348,
+      46.33803
+    ],
+    "zoom": 14
+  },
+  "auburn": {
+    "name": "Auburn",
+    "agency": "Metro Transit",
+    "stops": 206,
+    "dataset_id": "0dcd8934-5589-43ec-a0cc-40c92fd92bf5",
+    "boundary": "Auburn_city_limits.geojson",
+    "center": [
+      -122.21204,
+      47.29746
+    ],
+    "zoom": 12
+  },
+  "bainbridge-island": {
+    "name": "Bainbridge Island",
+    "agency": "Clallam Transit System",
+    "stops": 2,
+    "dataset_id": "17a7d1ee-305b-4a32-ac2a-bdb5dc1d4e8d",
+    "boundary": "Bainbridge_Island_city_limits.geojson",
+    "center": [
+      -122.51898,
+      47.64381
+    ],
+    "zoom": 12
+  },
+  "bellevue": {
+    "name": "Bellevue",
+    "agency": "Metro Transit",
+    "stops": 396,
+    "dataset_id": "e045db84-c416-41c7-9065-aa902c7a7108",
+    "boundary": "Bellevue_city_limits.geojson",
+    "center": [
+      -122.15101,
+      47.59784
+    ],
+    "zoom": 12
+  },
+  "bellingham": {
+    "name": "Bellingham",
+    "agency": "Whatcom Transportation Authority",
+    "stops": 483,
+    "dataset_id": "628b0886-2d10-4e14-9ea9-93ca9fe0b2ea",
+    "boundary": "Bellingham_city_limits.geojson",
+    "center": [
+      -122.46487,
+      48.75282
+    ],
+    "zoom": 12
+  },
+  "benton": {
+    "name": "Benton",
+    "agency": "BFT",
+    "stops": 20,
+    "dataset_id": "8c276c75-1e2b-4bb2-b2d2-5e6a9eed6f20",
+    "boundary": "Benton_City_city_limits.geojson",
+    "center": [
+      -119.47937,
+      46.26462
+    ],
+    "zoom": 13
+  },
+  "bingen": {
+    "name": "Bingen",
+    "agency": "Mount Adams Transportation Service",
+    "stops": 6,
+    "dataset_id": "f6aba5cc-be8b-42e6-a185-07d4339c6b17",
+    "boundary": "Bingen_city_limits.geojson",
+    "center": [
+      -121.46648,
+      45.71323
+    ],
+    "zoom": 14
+  },
+  "black-diamond": {
+    "name": "Black Diamond",
+    "agency": "Metro Transit",
+    "stops": 5,
+    "dataset_id": "02f916be-af32-4ee8-b716-3e754041fca4",
+    "boundary": "Black_Diamond_city_limits.geojson",
+    "center": [
+      -122.00688,
+      47.31428
+    ],
+    "zoom": 13
+  },
+  "blaine": {
+    "name": "Blaine",
+    "agency": "Whatcom Transportation Authority",
+    "stops": 5,
+    "dataset_id": "9f0b1af4-f8af-4eee-9acf-46c21834b47d",
+    "boundary": "Blaine_city_limits.geojson",
+    "center": [
+      -122.73039,
+      48.9765
+    ],
+    "zoom": 13
+  },
+  "bonney-lake": {
+    "name": "Bonney Lake",
+    "agency": "Pierce Transit",
+    "stops": 1,
+    "dataset_id": "bada0be8-16f4-43ae-b353-bbd574e247d0",
+    "boundary": "Bonney_Lake_city_limits.geojson",
+    "center": [
+      -122.16251,
+      47.19778
+    ],
+    "zoom": 12
+  },
+  "bothell": {
+    "name": "Bothell",
+    "agency": "Community Transit",
+    "stops": 171,
+    "dataset_id": "27ff04d6-fe5b-4bef-8700-b51e2ef6ffdc",
+    "boundary": "Bothell_city_limits.geojson",
+    "center": [
+      -122.20626,
+      47.77349
+    ],
+    "zoom": 13
+  },
+  "bremerton": {
+    "name": "Bremerton",
+    "agency": "Mason Transit Authority",
+    "stops": 2,
+    "dataset_id": "b6da2239-2a6e-4d93-8eec-efb271083994",
+    "boundary": "Bremerton_city_limits.geojson",
+    "center": [
+      -122.70414,
+      47.53424
+    ],
+    "zoom": 12
+  },
+  "brewster": {
+    "name": "Brewster",
+    "agency": "TranGO",
+    "stops": 1,
+    "dataset_id": "44c6f0a7-b5da-4bfa-8fe1-fc9bebacf676",
+    "boundary": "Brewster_city_limits.geojson",
+    "center": [
+      -119.75193,
+      48.1015
+    ],
+    "zoom": 13
+  },
+  "brier": {
+    "name": "Brier",
+    "agency": "Community Transit",
+    "stops": 12,
+    "dataset_id": "7b9dcfe1-ff4b-415b-bff5-a8250f9ea725",
+    "boundary": "Brier_city_limits.geojson",
+    "center": [
+      -122.27138,
+      47.79306
+    ],
+    "zoom": 14
+  },
+  "bucoda": {
+    "name": "Bucoda",
+    "agency": "ruralTRANSIT",
+    "stops": 1,
+    "dataset_id": "4e3a5cdc-3e4d-4cf8-9403-05628e6117dd",
+    "boundary": "Bucoda_city_limits.geojson",
+    "center": [
+      -122.86778,
+      46.79733
+    ],
+    "zoom": 14
+  },
+  "burien": {
+    "name": "Burien",
+    "agency": "Metro Transit",
+    "stops": 126,
+    "dataset_id": "ebbe2804-77f8-488c-b00a-7ccfcd03d29d",
+    "boundary": "Burien_city_limits.geojson",
+    "center": [
+      -122.35011,
+      47.46892
+    ],
+    "zoom": 13
+  },
+  "burlington": {
+    "name": "Burlington",
+    "agency": "Skagit Transit",
+    "stops": 61,
+    "dataset_id": "86054a39-2164-458e-a6d0-462cf82bff8a",
+    "boundary": "Burlington_city_limits.geojson",
+    "center": [
+      -122.33162,
+      48.46901
+    ],
+    "zoom": 13
+  },
+  "camas": {
+    "name": "Camas",
+    "agency": "Skamania County Transit",
+    "stops": 1,
+    "dataset_id": "d69ab7c5-c95a-43cc-a7d8-800a0fae60ab",
+    "boundary": "Camas_city_limits.geojson",
+    "center": [
+      -122.42079,
+      45.60998
+    ],
+    "zoom": 13
+  },
+  "carnation": {
+    "name": "Carnation",
+    "agency": "Metro Transit",
+    "stops": 6,
+    "dataset_id": "f41faaae-cba1-4608-a788-8ef88862ffd2",
+    "boundary": "Carnation_city_limits.geojson",
+    "center": [
+      -121.89494,
+      47.63976
+    ],
+    "zoom": 13
+  },
+  "castle-rock": {
+    "name": "Castle Rock",
+    "agency": "Twin Transit (now called Lewis County Transit)",
+    "stops": 1,
+    "dataset_id": "9c7f6688-8148-4f1c-9efa-b8e2afcba967",
+    "boundary": "Castle_Rock_city_limits.geojson",
+    "center": [
+      -122.90464,
+      46.26897
+    ],
+    "zoom": 13
+  },
+  "cathlamet": {
+    "name": "Cathlamet",
+    "agency": "Wahkiakum on the Move",
+    "stops": 8,
+    "dataset_id": "6496ca93-3380-461d-ac5d-a8be0ff20896",
+    "boundary": "Cathlamet_city_limits.geojson",
+    "center": [
+      -123.38295,
+      46.20877
+    ],
+    "zoom": 14
+  },
+  "centralia": {
+    "name": "Centralia",
+    "agency": "Twin Transit (now called Lewis County Transit)",
+    "stops": 55,
+    "dataset_id": "c90abfc8-8258-4dd8-86eb-ed7741bf6513",
+    "boundary": "Centralia_city_limits.geojson",
+    "center": [
+      -122.97173,
+      46.72413
+    ],
+    "zoom": 13
+  },
+  "chehalis": {
+    "name": "Chehalis",
+    "agency": "Twin Transit (now called Lewis County Transit)",
+    "stops": 33,
+    "dataset_id": "a9df1614-5077-4442-aeb4-2bef327784a4",
+    "boundary": "Chehalis_city_limits.geojson",
+    "center": [
+      -122.96327,
+      46.66433
+    ],
+    "zoom": 13
+  },
+  "cheney": {
+    "name": "Cheney",
+    "agency": "Spokane Transit Authority",
+    "stops": 49,
+    "dataset_id": "a48ff67b-06d4-4d6c-a65a-01355d18b2f8",
+    "boundary": "Cheney_city_limits.geojson",
+    "center": [
+      -117.57888,
+      47.48937
+    ],
+    "zoom": 13
+  },
+  "chewelah": {
+    "name": "Chewelah",
+    "agency": "Rural Resources Community Action",
+    "stops": 1,
+    "dataset_id": "b04ec8d4-fa04-4c6f-8390-8fa08776e327",
+    "boundary": "Chewelah_city_limits.geojson",
+    "center": [
+      -117.73482,
+      48.29606
+    ],
+    "zoom": 13
+  },
+  "clarkston": {
+    "name": "Clarkston",
+    "agency": "Asotin County PTBA",
+    "stops": 31,
+    "dataset_id": "d4ffc6b1-23d6-42a3-b0a3-b9a6bf705031",
+    "boundary": "Clarkston_city_limits.geojson",
+    "center": [
+      -117.05185,
+      46.41315
+    ],
+    "zoom": 14
+  },
+  "clyde-hill": {
+    "name": "Clyde Hill",
+    "agency": "Metro Transit",
+    "stops": 5,
+    "dataset_id": "44526e53-f117-4f18-8a5b-faa3d557a0ee",
+    "boundary": "Clyde_Hill_city_limits.geojson",
+    "center": [
+      -122.2189,
+      47.63196
+    ],
+    "zoom": 14
+  },
+  "college-place": {
+    "name": "College Place",
+    "agency": "Valley Transit",
+    "stops": 36,
+    "dataset_id": "d2a50fae-1f7f-4819-9b04-9a5bf6965eef",
+    "boundary": "College_Place_city_limits.geojson",
+    "center": [
+      -118.39678,
+      46.04297
+    ],
+    "zoom": 13
+  },
+  "colville": {
+    "name": "Colville",
+    "agency": "Rural Resources Community Action",
+    "stops": 6,
+    "dataset_id": "1be45d99-0a74-4ace-9b2c-7dd773dcdf46",
+    "boundary": "Colville_city_limits.geojson",
+    "center": [
+      -117.8996,
+      48.54882
+    ],
+    "zoom": 13
+  },
+  "concrete": {
+    "name": "Concrete",
+    "agency": "Skagit Transit",
+    "stops": 16,
+    "dataset_id": "70aa6c71-1b6c-4746-9288-c47fa15de318",
+    "boundary": "Concrete_city_limits.geojson",
+    "center": [
+      -121.74976,
+      48.53833
+    ],
+    "zoom": 14
+  },
+  "connell": {
+    "name": "Connell",
+    "agency": "People for People",
+    "stops": 1,
+    "dataset_id": "1875985c-e8ed-4b60-bbbb-a8c0d7fc9a26",
+    "boundary": "Connell_city_limits.geojson",
+    "center": [
+      -118.83709,
+      46.66694
+    ],
+    "zoom": 13
+  },
+  "cosmopolis": {
+    "name": "Cosmopolis",
+    "agency": "Grays Harbor Transit",
+    "stops": 11,
+    "dataset_id": "89f26a1c-491a-406c-ad9c-41dab3e709f5",
+    "boundary": "Cosmopolis_city_limits.geojson",
+    "center": [
+      -123.77117,
+      46.95322
+    ],
+    "zoom": 14
+  },
+  "coulee-dam": {
+    "name": "Coulee Dam",
+    "agency": "People for People",
+    "stops": 2,
+    "dataset_id": "23aa53a9-dbad-4a57-bf11-2718845567fa",
+    "boundary": "Coulee_Dam_city_limits.geojson",
+    "center": [
+      -118.97861,
+      47.96835
+    ],
+    "zoom": 14
+  },
+  "coupeville": {
+    "name": "Coupeville",
+    "agency": "Island Transit",
+    "stops": 16,
+    "dataset_id": "866394bc-ed40-43a1-935b-3bf2ed6b2fd4",
+    "boundary": "Coupeville_city_limits.geojson",
+    "center": [
+      -122.67701,
+      48.21429
+    ],
+    "zoom": 14
+  },
+  "covington": {
+    "name": "Covington",
+    "agency": "Metro Transit",
+    "stops": 32,
+    "dataset_id": "fa989f36-9701-46d0-b464-666735a4d2a7",
+    "boundary": "Covington_city_limits.geojson",
+    "center": [
+      -122.1014,
+      47.36612
+    ],
+    "zoom": 13
+  },
+  "creston": {
+    "name": "Creston",
+    "agency": "People for People",
+    "stops": 1,
+    "dataset_id": "17964618-5c20-4189-8c43-0a2cb3395f96",
+    "boundary": "Creston_city_limits.geojson",
+    "center": [
+      -118.52024,
+      47.75865
+    ],
+    "zoom": 14
+  },
+  "darrington": {
+    "name": "Darrington",
+    "agency": "Community Transit",
+    "stops": 15,
+    "dataset_id": "e9ef7b0f-1ee9-4445-991a-2a662b4c1e66",
+    "boundary": "Darrington_city_limits.geojson",
+    "center": [
+      -121.60388,
+      48.25517
+    ],
+    "zoom": 14
+  },
+  "davenport": {
+    "name": "Davenport",
+    "agency": "Special Mobility Services (SMS)",
+    "stops": 5,
+    "dataset_id": "b9909fe4-854f-4dd2-aede-f7ba024d85a0",
+    "boundary": "Davenport_city_limits.geojson",
+    "center": [
+      -118.15697,
+      47.66001
+    ],
+    "zoom": 14
+  },
+  "deer-park": {
+    "name": "Deer Park",
+    "agency": "Special Mobility Services (SMS)",
+    "stops": 1,
+    "dataset_id": "a1631d11-1538-44b1-8cc1-d6ff893d68bc",
+    "boundary": "Deer_Park_city_limits.geojson",
+    "center": [
+      -117.44009,
+      47.96427
+    ],
+    "zoom": 13
+  },
+  "des-moines": {
+    "name": "Des Moines",
+    "agency": "Metro Transit",
+    "stops": 70,
+    "dataset_id": "4c25f132-8090-4c1f-84c5-fbdf4cdb06de",
+    "boundary": "Des_Moines_city_limits.geojson",
+    "center": [
+      -122.31349,
+      47.3857
+    ],
+    "zoom": 13
+  },
+  "dupont": {
+    "name": "DuPont",
+    "agency": "Pierce Transit",
+    "stops": 1,
+    "dataset_id": "c58dee49-fde7-420f-818e-58b829ff4a8f",
+    "boundary": "DuPont_city_limits.geojson",
+    "center": [
+      -122.65353,
+      47.1108
+    ],
+    "zoom": 13
+  },
+  "duvall": {
+    "name": "Duvall",
+    "agency": "Metro Transit",
+    "stops": 11,
+    "dataset_id": "461ba02d-fc9f-4508-9325-49286dd57883",
+    "boundary": "Duvall_city_limits.geojson",
+    "center": [
+      -121.97061,
+      47.73559
+    ],
+    "zoom": 14
+  },
+  "edgewood": {
+    "name": "Edgewood",
+    "agency": "Pierce Transit",
+    "stops": 17,
+    "dataset_id": "de503881-8632-4439-b17a-bdea173a2c54",
+    "boundary": "Edgewood_city_limits.geojson",
+    "center": [
+      -122.28735,
+      47.23061
+    ],
+    "zoom": 13
+  },
+  "edmonds": {
+    "name": "Edmonds",
+    "agency": "Community Transit",
+    "stops": 172,
+    "dataset_id": "ae8557e0-a3b6-4b93-86b5-f240eacf6df8",
+    "boundary": "Edmonds_city_limits.geojson",
+    "center": [
+      -122.35826,
+      47.81914
+    ],
+    "zoom": 13
+  },
+  "ellensburg": {
+    "name": "Ellensburg",
+    "agency": "Central Transit Ellensburg",
+    "stops": 93,
+    "dataset_id": "7ac8923e-9471-4478-b433-95f51f2a9f45",
+    "boundary": "Ellensburg_city_limits.geojson",
+    "center": [
+      -120.55123,
+      46.99778
+    ],
+    "zoom": 13
+  },
+  "elma": {
+    "name": "Elma",
+    "agency": "Grays Harbor Transit",
+    "stops": 18,
+    "dataset_id": "bb508be6-d43f-4a16-8e25-b71e46000c27",
+    "boundary": "Elma_city_limits.geojson",
+    "center": [
+      -123.41001,
+      47.00737
+    ],
+    "zoom": 13
+  },
+  "enumclaw": {
+    "name": "Enumclaw",
+    "agency": "Metro Transit",
+    "stops": 26,
+    "dataset_id": "f397a6d1-3000-4727-b94f-b467a269a579",
+    "boundary": "Enumclaw_city_limits.geojson",
+    "center": [
+      -121.98342,
+      47.20632
+    ],
+    "zoom": 13
+  },
+  "ephrata": {
+    "name": "Ephrata",
+    "agency": "Grant Transit Authority",
+    "stops": 37,
+    "dataset_id": "d67b1a25-a357-4c9f-9cad-d4a56165d416",
+    "boundary": "Ephrata_city_limits.geojson",
+    "center": [
+      -119.5372,
+      47.31055
+    ],
+    "zoom": 13
+  },
+  "everett": {
+    "name": "Everett",
+    "agency": "Everett Transit",
+    "stops": 534,
+    "dataset_id": "b8106236-b919-4e50-b956-99399635c0bb",
+    "boundary": "Everett_city_limits.geojson",
+    "center": [
+      -122.04361,
+      47.95702
+    ],
+    "zoom": 11
+  },
+  "everson": {
+    "name": "Everson",
+    "agency": "Whatcom Transportation Authority",
+    "stops": 12,
+    "dataset_id": "ce439811-f3bd-4fd2-b5bc-73d0a006f430",
+    "boundary": "Everson_city_limits.geojson",
+    "center": [
+      -122.34965,
+      48.91035
+    ],
+    "zoom": 14
+  },
+  "federal-way": {
+    "name": "Federal way",
+    "agency": "Metro Transit",
+    "stops": 279,
+    "dataset_id": "61526443-82dd-47e7-a0e0-9a22438a4acc",
+    "boundary": "Federal_way_city_limits.geojson",
+    "center": [
+      -122.34577,
+      47.30755
+    ],
+    "zoom": 12
+  },
+  "ferndale": {
+    "name": "Ferndale",
+    "agency": "Whatcom Transportation Authority",
+    "stops": 48,
+    "dataset_id": "fc8e3ecf-6032-4e5f-abe3-fcc0d0e52719",
+    "boundary": "Ferndale_city_limits.geojson",
+    "center": [
+      -122.58991,
+      48.8557
+    ],
+    "zoom": 13
+  },
+  "fife": {
+    "name": "Fife",
+    "agency": "Pierce Transit",
+    "stops": 35,
+    "dataset_id": "ebd9ef88-ec90-47b8-a7e8-2cfa0861a098",
+    "boundary": "Fife_city_limits.geojson",
+    "center": [
+      -122.36,
+      47.23224
+    ],
+    "zoom": 13
+  },
+  "forks": {
+    "name": "Forks",
+    "agency": "Clallam Transit System",
+    "stops": 13,
+    "dataset_id": "4551d7a8-4c01-4e5f-b8e8-04412eed2473",
+    "boundary": "Forks_city_limits.geojson",
+    "center": [
+      -124.3857,
+      47.95232
+    ],
+    "zoom": 13
+  },
+  "friday-harbor": {
+    "name": "Friday Harbor",
+    "agency": "Washington State Ferries",
+    "stops": 1,
+    "dataset_id": "5ba8cf60-e36c-4f58-ba38-68bd0dedb9d8",
+    "boundary": "Friday_Harbor_city_limits.geojson",
+    "center": [
+      -123.07202,
+      48.53924
+    ],
+    "zoom": 13
+  },
+  "gig-harbor": {
+    "name": "Gig Harbor",
+    "agency": "Pierce Transit",
+    "stops": 53,
+    "dataset_id": "426f3eba-f028-4e72-af7d-3691fb96fcb9",
+    "boundary": "Gig_Harbor_city_limits.geojson",
+    "center": [
+      -122.59764,
+      47.33239
+    ],
+    "zoom": 13
+  },
+  "goldendale": {
+    "name": "Goldendale",
+    "agency": "Mount Adams Transportation Service",
+    "stops": 20,
+    "dataset_id": "9734fdf9-ee98-4bb1-b8da-47dc386fe8ff",
+    "boundary": "Goldendale_city_limits.geojson",
+    "center": [
+      -120.82977,
+      45.87471
+    ],
+    "zoom": 12
+  },
+  "grand-coulee": {
+    "name": "Grand Coulee",
+    "agency": "People for People",
+    "stops": 1,
+    "dataset_id": "9b48ea0b-a00b-4484-ae88-017c2c5cfe5c",
+    "boundary": "Grand_Coulee_city_limits.geojson",
+    "center": [
+      -118.99953,
+      47.94009
+    ],
+    "zoom": 14
+  },
+  "grandview": {
+    "name": "Grandview",
+    "agency": "People for People",
+    "stops": 6,
+    "dataset_id": "46c669ab-3c9e-4314-a614-b44312c10fc8",
+    "boundary": "Grandview_city_limits.geojson",
+    "center": [
+      -119.90456,
+      46.2414
+    ],
+    "zoom": 13
+  },
+  "granger": {
+    "name": "Granger",
+    "agency": "People for People",
+    "stops": 4,
+    "dataset_id": "23fe826a-a7f0-463b-8da7-1a35719b892a",
+    "boundary": "Granger_city_limits.geojson",
+    "center": [
+      -120.19049,
+      46.34639
+    ],
+    "zoom": 14
+  },
+  "granite-falls": {
+    "name": "Granite Falls",
+    "agency": "Community Transit",
+    "stops": 17,
+    "dataset_id": "dbfca067-1e72-49ea-ab4f-50bcee4eb23f",
+    "boundary": "Granite_Falls_city_limits.geojson",
+    "center": [
+      -121.97389,
+      48.08766
+    ],
+    "zoom": 14
+  },
+  "hoquiam": {
+    "name": "Hoquiam",
+    "agency": "Grays Harbor Transit",
+    "stops": 37,
+    "dataset_id": "ac3a8da5-cbc4-4f6c-b52b-19dc8d0830f5",
+    "boundary": "Hoquiam_city_limits.geojson",
+    "center": [
+      -123.90339,
+      46.98646
+    ],
+    "zoom": 13
+  },
+  "ilwaco": {
+    "name": "Ilwaco",
+    "agency": "Pacific Transit",
+    "stops": 4,
+    "dataset_id": "c654aa80-4e2e-4f78-903d-e841b87e6ba9",
+    "boundary": "Ilwaco_city_limits.geojson",
+    "center": [
+      -124.0334,
+      46.31005
+    ],
+    "zoom": 13
+  },
+  "ione": {
+    "name": "Ione",
+    "agency": "Kaltran",
+    "stops": 1,
+    "dataset_id": "d7b05e3c-5cce-4448-b48b-cbf0d32bca97",
+    "boundary": "Ione_city_limits.geojson",
+    "center": [
+      -117.42174,
+      48.74032
+    ],
+    "zoom": 14
+  },
+  "issaquah": {
+    "name": "Issaquah",
+    "agency": "Metro Transit",
+    "stops": 74,
+    "dataset_id": "4e6abf41-6a26-4e7c-b492-3965b44b2955",
+    "boundary": "Issaquah_city_limits.geojson",
+    "center": [
+      -122.04309,
+      47.54304
+    ],
+    "zoom": 13
+  },
+  "kalama": {
+    "name": "Kalama",
+    "agency": "RiverCities Transit",
+    "stops": 1,
+    "dataset_id": "009a91bc-ad05-474f-bf22-a528be8e90c6",
+    "boundary": "Kalama_city_limits.geojson",
+    "center": [
+      -122.82835,
+      46.01729
+    ],
+    "zoom": 13
+  },
+  "kelso": {
+    "name": "Kelso",
+    "agency": "RiverCities Transit",
+    "stops": 58,
+    "dataset_id": "ace1969e-0328-4a72-95f9-db2ce28d8fc9",
+    "boundary": "Kelso_city_limits.geojson",
+    "center": [
+      -122.8906,
+      46.12493
+    ],
+    "zoom": 13
+  },
+  "kenmore": {
+    "name": "Kenmore",
+    "agency": "Metro Transit",
+    "stops": 42,
+    "dataset_id": "9a850b90-83a5-4b87-a13f-6291a3415499",
+    "boundary": "Kenmore_city_limits.geojson",
+    "center": [
+      -122.24449,
+      47.75135
+    ],
+    "zoom": 13
+  },
+  "kennewick": {
+    "name": "Kennewick",
+    "agency": "BFT",
+    "stops": 321,
+    "dataset_id": "1023bd29-f725-4d07-81f1-127cda7f4df2",
+    "boundary": "Kennewick_city_limits.geojson",
+    "center": [
+      -119.17691,
+      46.19732
+    ],
+    "zoom": 12
+  },
+  "kent": {
+    "name": "Kent",
+    "agency": "Metro Transit",
+    "stops": 362,
+    "dataset_id": "2cf16c35-c684-43bf-94c3-79871cfabb9d",
+    "boundary": "Kent_city_limits.geojson",
+    "center": [
+      -122.15245,
+      47.39234
+    ],
+    "zoom": 12
+  },
+  "kettle-falls": {
+    "name": "Kettle Falls",
+    "agency": "Rural Resources Community Action",
+    "stops": 4,
+    "dataset_id": "09a4defa-928f-4931-866a-6b3fb45a0277",
+    "boundary": "Kettle_Falls_city_limits.geojson",
+    "center": [
+      -118.06317,
+      48.60482
+    ],
+    "zoom": 14
+  },
+  "kirkland": {
+    "name": "Kirkland",
+    "agency": "Metro Transit",
+    "stops": 286,
+    "dataset_id": "4ef485f8-794f-423a-8c9a-054df94b4695",
+    "boundary": "Kirkland_city_limits.geojson",
+    "center": [
+      -122.21111,
+      47.6916
+    ],
+    "zoom": 13
+  },
+  "kittitas": {
+    "name": "Kittitas",
+    "agency": "HopeSource",
+    "stops": 2,
+    "dataset_id": "d1f542ce-b951-47c8-931d-34fd4fb07667",
+    "boundary": "Kittitas_city_limits.geojson",
+    "center": [
+      -120.4189,
+      46.97997
+    ],
+    "zoom": 14
+  },
+  "la-conner": {
+    "name": "La Conner",
+    "agency": "Skagit Transit",
+    "stops": 16,
+    "dataset_id": "3522fec6-120b-42d3-bac6-ce3e80af7c4c",
+    "boundary": "La_Conner_city_limits.geojson",
+    "center": [
+      -122.49665,
+      48.39364
+    ],
+    "zoom": 14
+  },
+  "lacey": {
+    "name": "Lacey",
+    "agency": "Intercity Transit",
+    "stops": 239,
+    "dataset_id": "6b6f9e81-5fa7-49c7-a47f-09fd055dd27d",
+    "boundary": "Lacey_city_limits.geojson",
+    "center": [
+      -122.78852,
+      47.04956
+    ],
+    "zoom": 12
+  },
+  "lake-forest-park": {
+    "name": "Lake Forest Park",
+    "agency": "Metro Transit",
+    "stops": 26,
+    "dataset_id": "82cce0d1-01b8-45a9-9134-d4f6ebc896e3",
+    "boundary": "Lake_Forest_Park_city_limits.geojson",
+    "center": [
+      -122.29046,
+      47.75553
+    ],
+    "zoom": 13
+  },
+  "lake-stevens": {
+    "name": "Lake Stevens",
+    "agency": "Community Transit",
+    "stops": 70,
+    "dataset_id": "63b9c666-5560-42ee-887f-5154c9cc57ae",
+    "boundary": "Lake_Stevens_city_limits.geojson",
+    "center": [
+      -122.09079,
+      48.00141
+    ],
+    "zoom": 13
+  },
+  "lakewood": {
+    "name": "Lakewood",
+    "agency": "Pierce Transit",
+    "stops": 274,
+    "dataset_id": "610941ff-0692-479b-866e-673909889adf",
+    "boundary": "Lakewood_city_limits.geojson",
+    "center": [
+      -122.52182,
+      47.15814
+    ],
+    "zoom": 13
+  },
+  "langley": {
+    "name": "Langley",
+    "agency": "Island Transit",
+    "stops": 8,
+    "dataset_id": "8a24c223-8ef5-462c-9219-4807ad23447c",
+    "boundary": "Langley_city_limits.geojson",
+    "center": [
+      -122.40689,
+      48.03427
+    ],
+    "zoom": 14
+  },
+  "liberty-lake": {
+    "name": "Liberty Lake",
+    "agency": "Spokane Transit Authority",
+    "stops": 41,
+    "dataset_id": "d2323f74-f454-424c-862b-d174db8adf9d",
+    "boundary": "Liberty_Lake_city_limits.geojson",
+    "center": [
+      -117.1035,
+      47.6697
+    ],
+    "zoom": 13
+  },
+  "long-beach": {
+    "name": "Long Beach",
+    "agency": "Pacific Transit",
+    "stops": 3,
+    "dataset_id": "7270e986-7ee1-4550-92c7-7f1de244fb8d",
+    "boundary": "Long_Beach_city_limits.geojson",
+    "center": [
+      -124.05664,
+      46.35721
+    ],
+    "zoom": 14
+  },
+  "longview": {
+    "name": "Longview",
+    "agency": "RiverCities Transit",
+    "stops": 143,
+    "dataset_id": "fbed2032-802d-495e-b934-94877e6ffcce",
+    "boundary": "Longview_city_limits.geojson",
+    "center": [
+      -122.96528,
+      46.14228
+    ],
+    "zoom": 13
+  },
+  "lyman": {
+    "name": "Lyman",
+    "agency": "Skagit Transit",
+    "stops": 1,
+    "dataset_id": "f259f1b3-732c-47d0-8102-e740b485826f",
+    "boundary": "Lyman_city_limits.geojson",
+    "center": [
+      -122.06298,
+      48.52329
+    ],
+    "zoom": 14
+  },
+  "lynden": {
+    "name": "Lynden",
+    "agency": "Whatcom Transportation Authority",
+    "stops": 48,
+    "dataset_id": "362a9744-7e92-4040-9161-33649a17ecf2",
+    "boundary": "Lynden_city_limits.geojson",
+    "center": [
+      -122.45474,
+      48.94812
+    ],
+    "zoom": 13
+  },
+  "lynnwood": {
+    "name": "Lynnwood",
+    "agency": "Community Transit",
+    "stops": 190,
+    "dataset_id": "c450aad7-5dfa-4f12-b0e8-9020403c1c8f",
+    "boundary": "Lynnwood_city_limits.geojson",
+    "center": [
+      -122.30173,
+      47.82809
+    ],
+    "zoom": 13
+  },
+  "mabton": {
+    "name": "Mabton",
+    "agency": "People for People",
+    "stops": 1,
+    "dataset_id": "932d5b3b-b635-48f0-ba03-f14c9f27faff",
+    "boundary": "Mabton_city_limits.geojson",
+    "center": [
+      -119.99559,
+      46.21648
+    ],
+    "zoom": 14
+  },
+  "maple-valley": {
+    "name": "Maple Valley",
+    "agency": "Metro Transit",
+    "stops": 25,
+    "dataset_id": "a34afa67-e86d-4456-b1c4-ace22365e82d",
+    "boundary": "Maple_Valley_city_limits.geojson",
+    "center": [
+      -122.03226,
+      47.36894
+    ],
+    "zoom": 13
+  },
+  "marysville": {
+    "name": "Marysville",
+    "agency": "Community Transit",
+    "stops": 174,
+    "dataset_id": "1a16bccb-a9ce-431d-99e1-744cd5a8653b",
+    "boundary": "Marysville_city_limits.geojson",
+    "center": [
+      -122.19808,
+      48.10384
+    ],
+    "zoom": 12
+  },
+  "mccleary": {
+    "name": "McCleary",
+    "agency": "Grays Harbor Transit",
+    "stops": 11,
+    "dataset_id": "006d5ecd-4ff1-4126-b411-6bdcdb075103",
+    "boundary": "McCleary_city_limits.geojson",
+    "center": [
+      -123.27407,
+      47.0576
+    ],
+    "zoom": 13
+  },
+  "medical-lake": {
+    "name": "Medical Lake",
+    "agency": "Spokane Transit Authority",
+    "stops": 15,
+    "dataset_id": "2be8bb21-9ee1-4d11-9521-f39e93eca2fe",
+    "boundary": "Medical_Lake_city_limits.geojson",
+    "center": [
+      -117.68279,
+      47.56807
+    ],
+    "zoom": 13
+  },
+  "medina": {
+    "name": "Medina",
+    "agency": "Metro Transit",
+    "stops": 5,
+    "dataset_id": "4c583c81-dfa2-497c-9ac2-12337acd55cc",
+    "boundary": "Medina_city_limits.geojson",
+    "center": [
+      -122.23167,
+      47.62694
+    ],
+    "zoom": 14
+  },
+  "mercer-island": {
+    "name": "Mercer Island",
+    "agency": "Metro Transit",
+    "stops": 55,
+    "dataset_id": "69650418-74b7-4e7b-a860-584067bfbdda",
+    "boundary": "Mercer_Island_city_limits.geojson",
+    "center": [
+      -122.22796,
+      47.56025
+    ],
+    "zoom": 13
+  },
+  "mill-creek": {
+    "name": "Mill Creek",
+    "agency": "Community Transit",
+    "stops": 65,
+    "dataset_id": "b5c6c828-1416-4825-b8be-026f460dd3c5",
+    "boundary": "Mill_Creek_city_limits.geojson",
+    "center": [
+      -122.19703,
+      47.85991
+    ],
+    "zoom": 13
+  },
+  "milton": {
+    "name": "Milton",
+    "agency": "Pierce Transit",
+    "stops": 24,
+    "dataset_id": "ed033f72-b2d6-4ebf-8e76-13c6fb239905",
+    "boundary": "Milton_city_limits.geojson",
+    "center": [
+      -122.31568,
+      47.25121
+    ],
+    "zoom": 14
+  },
+  "monroe": {
+    "name": "Monroe",
+    "agency": "Community Transit",
+    "stops": 50,
+    "dataset_id": "bb72ef74-56ff-4fbe-9eac-2aee7094bbd2",
+    "boundary": "Monroe_city_limits.geojson",
+    "center": [
+      -121.97328,
+      47.86223
+    ],
+    "zoom": 13
+  },
+  "montesano": {
+    "name": "Montesano",
+    "agency": "Grays Harbor Transit",
+    "stops": 13,
+    "dataset_id": "04c2448c-e457-4ce5-ac93-c3c2e1e8e69b",
+    "boundary": "Montesano_city_limits.geojson",
+    "center": [
+      -123.59065,
+      47.00413
+    ],
+    "zoom": 13
+  },
+  "morton": {
+    "name": "Morton",
+    "agency": "Twin Transit (now called Lewis County Transit)",
+    "stops": 4,
+    "dataset_id": "9bacd59f-ccd0-4c39-bc5b-5b6b736d8282",
+    "boundary": "Morton_city_limits.geojson",
+    "center": [
+      -122.28091,
+      46.55954
+    ],
+    "zoom": 14
+  },
+  "moses-lake": {
+    "name": "Moses Lake",
+    "agency": "Grant Transit Authority",
+    "stops": 93,
+    "dataset_id": "770500c1-092b-48db-83b1-c761c5d47d42",
+    "boundary": "Moses_Lake_city_limits.geojson",
+    "center": [
+      -119.2713,
+      47.13817
+    ],
+    "zoom": 12
+  },
+  "mossyrock": {
+    "name": "Mossyrock",
+    "agency": "L.E.W.I.S. Mountain Highway Transit",
+    "stops": 2,
+    "dataset_id": "b208e336-7643-428d-a9b3-592335cd23bc",
+    "boundary": "Mossyrock_city_limits.geojson",
+    "center": [
+      -122.48957,
+      46.53051
+    ],
+    "zoom": 14
+  },
+  "mount-vernon": {
+    "name": "Mount Vernon",
+    "agency": "Skagit Transit",
+    "stops": 170,
+    "dataset_id": "5d36fce2-33c3-478f-9157-83ee8385a5f3",
+    "boundary": "Mount_Vernon_city_limits.geojson",
+    "center": [
+      -122.31275,
+      48.42351
+    ],
+    "zoom": 13
+  },
+  "mountlake-terrace": {
+    "name": "MountLake Terrace",
+    "agency": "Community Transit",
+    "stops": 97,
+    "dataset_id": "48aeedd6-9073-4587-9345-af519b9873ad",
+    "boundary": "MountLake_Terrace_city_limits.geojson",
+    "center": [
+      -122.30706,
+      47.7928
+    ],
+    "zoom": 14
+  },
+  "mukilteo": {
+    "name": "Mukilteo",
+    "agency": "Community Transit",
+    "stops": 86,
+    "dataset_id": "dc2a2939-6721-494c-812d-c2a88720b631",
+    "boundary": "Mukilteo_city_limits.geojson",
+    "center": [
+      -122.30371,
+      47.91374
+    ],
+    "zoom": 13
+  },
+  "newport": {
+    "name": "Newport",
+    "agency": "Kaltran",
+    "stops": 2,
+    "dataset_id": "54050003-9e3c-429d-bd29-f2aaff1c063b",
+    "boundary": "Newport_city_limits.geojson",
+    "center": [
+      -117.05971,
+      48.18033
+    ],
+    "zoom": 14
+  },
+  "nooksack": {
+    "name": "Nooksack",
+    "agency": "Whatcom Transportation Authority",
+    "stops": 4,
+    "dataset_id": "689e4923-3035-423b-9aa8-2e67a76b81bd",
+    "boundary": "Nooksack_city_limits.geojson",
+    "center": [
+      -122.31664,
+      48.93042
+    ],
+    "zoom": 14
+  },
+  "normandy-park": {
+    "name": "Normandy Park",
+    "agency": "Metro Transit",
+    "stops": 34,
+    "dataset_id": "529e6af0-9989-4bf2-bd8b-fb1d46a8435f",
+    "boundary": "Normandy_Park_city_limits.geojson",
+    "center": [
+      -122.34432,
+      47.43109
+    ],
+    "zoom": 13
+  },
+  "north-bend": {
+    "name": "North Bend",
+    "agency": "Metro Transit",
+    "stops": 19,
+    "dataset_id": "6cfdf0b9-5058-4891-89ae-f3e5adbac0db",
+    "boundary": "North_Bend_city_limits.geojson",
+    "center": [
+      -121.76076,
+      47.48907
+    ],
+    "zoom": 13
+  },
+  "north-bonneville": {
+    "name": "North Bonneville",
+    "agency": "Skamania County Transit",
+    "stops": 1,
+    "dataset_id": "bf5731f6-5543-404c-8af4-a49e76c8c737",
+    "boundary": "North_Bonneville_city_limits.geojson",
+    "center": [
+      -121.95853,
+      45.64166
+    ],
+    "zoom": 13
+  },
+  "oak-harbor": {
+    "name": "Oak Harbor",
+    "agency": "Island Transit",
+    "stops": 67,
+    "dataset_id": "ae12718b-e0a1-465f-b4b6-e3ffc0167be3",
+    "boundary": "Oak_Harbor_city_limits.geojson",
+    "center": [
+      -122.62849,
+      48.29674
+    ],
+    "zoom": 13
+  },
+  "oakville": {
+    "name": "Oakville",
+    "agency": "Grays Harbor Transit",
+    "stops": 2,
+    "dataset_id": "44c21349-0d07-4fbc-8b9c-16fa74fa8a6a",
+    "boundary": "Oakville_city_limits.geojson",
+    "center": [
+      -123.22391,
+      46.8389
+    ],
+    "zoom": 14
+  },
+  "ocean-shores": {
+    "name": "Ocean Shores",
+    "agency": "Grays Harbor Transit",
+    "stops": 13,
+    "dataset_id": "4ef933a3-72fb-4b8c-b9a8-58568d253d24",
+    "boundary": "Ocean_Shores_city_limits.geojson",
+    "center": [
+      -124.14364,
+      46.97096
+    ],
+    "zoom": 13
+  },
+  "odessa": {
+    "name": "Odessa",
+    "agency": "People for People",
+    "stops": 1,
+    "dataset_id": "5ba03b33-be4c-4ec8-b7e1-d4111fd33131",
+    "boundary": "Odessa_city_limits.geojson",
+    "center": [
+      -118.68645,
+      47.33306
+    ],
+    "zoom": 14
+  },
+  "okanogan": {
+    "name": "Okanogan",
+    "agency": "TranGO",
+    "stops": 9,
+    "dataset_id": "f037c143-b72a-4565-86f6-f9558e5e20bf",
+    "boundary": "Okanogan_city_limits.geojson",
+    "center": [
+      -119.57816,
+      48.36932
+    ],
+    "zoom": 13
+  },
+  "olympia": {
+    "name": "Olympia",
+    "agency": "Intercity Transit",
+    "stops": 337,
+    "dataset_id": "f10d4167-ecae-47c6-900a-66ae12066729",
+    "boundary": "Olympia_city_limits.geojson",
+    "center": [
+      -122.89721,
+      47.03949
+    ],
+    "zoom": 13
+  },
+  "omak": {
+    "name": "Omak",
+    "agency": "TranGO",
+    "stops": 13,
+    "dataset_id": "c4c5d517-2735-4c93-a9bb-81ac24556e47",
+    "boundary": "Omak_city_limits.geojson",
+    "center": [
+      -119.51949,
+      48.43027
+    ],
+    "zoom": 13
+  },
+  "oroville": {
+    "name": "Oroville",
+    "agency": "TranGO",
+    "stops": 2,
+    "dataset_id": "4084b07b-e636-44e5-9605-7c3f86e36585",
+    "boundary": "Oroville_city_limits.geojson",
+    "center": [
+      -119.42802,
+      48.94527
+    ],
+    "zoom": 13
+  },
+  "othello": {
+    "name": "Othello",
+    "agency": "People for People",
+    "stops": 7,
+    "dataset_id": "cfa82b18-fd46-4034-afba-9618c0fba2b3",
+    "boundary": "Othello_city_limits.geojson",
+    "center": [
+      -119.16371,
+      46.82145
+    ],
+    "zoom": 13
+  },
+  "pacific": {
+    "name": "Pacific",
+    "agency": "Metro Transit",
+    "stops": 7,
+    "dataset_id": "400ad8d6-d562-41df-80f8-4ce333bf4593",
+    "boundary": "Pacific_city_limits.geojson",
+    "center": [
+      -122.25033,
+      47.25868
+    ],
+    "zoom": 14
+  },
+  "pasco": {
+    "name": "Pasco",
+    "agency": "BFT",
+    "stops": 247,
+    "dataset_id": "6335c64f-9b93-46b9-8477-089ed1ca1229",
+    "boundary": "Pasco_city_limits.geojson",
+    "center": [
+      -119.14488,
+      46.25092
+    ],
+    "zoom": 12
+  },
+  "pateros": {
+    "name": "Pateros",
+    "agency": "TranGO",
+    "stops": 1,
+    "dataset_id": "fce18197-fe78-4f3c-9543-43cec0086f67",
+    "boundary": "Pateros_city_limits.geojson",
+    "center": [
+      -119.89802,
+      48.04512
+    ],
+    "zoom": 14
+  },
+  "pomeroy": {
+    "name": "Pomeroy",
+    "agency": "Garfield County Transportation Authority",
+    "stops": 3,
+    "dataset_id": "0189501f-fdcc-4ecf-adbe-8e96e7c592b3",
+    "boundary": "Pomeroy_city_limits.geojson",
+    "center": [
+      -117.59649,
+      46.47398
+    ],
+    "zoom": 13
+  },
+  "port-angeles": {
+    "name": "Port Angeles",
+    "agency": "Clallam Transit System",
+    "stops": 98,
+    "dataset_id": "4f88820a-9967-46d4-b88a-8e208cd47017",
+    "boundary": "Port_Angeles_city_limits.geojson",
+    "center": [
+      -123.4585,
+      48.11281
+    ],
+    "zoom": 13
+  },
+  "port-townsend": {
+    "name": "Port Townsend",
+    "agency": "Jefferson Transit Authority",
+    "stops": 65,
+    "dataset_id": "fd8e4826-6337-4ad0-90fe-68fd5c016d57",
+    "boundary": "Port_Townsend_city_limits.geojson",
+    "center": [
+      -122.78265,
+      48.12051
+    ],
+    "zoom": 13
+  },
+  "poulsbo": {
+    "name": "Poulsbo",
+    "agency": "Clallam Transit System",
+    "stops": 2,
+    "dataset_id": "82166eda-231d-4cfc-90c8-fd7cd0fde5f4",
+    "boundary": "Poulsbo_city_limits.geojson",
+    "center": [
+      -122.64249,
+      47.74618
+    ],
+    "zoom": 13
+  },
+  "prosser": {
+    "name": "Prosser",
+    "agency": "BFT",
+    "stops": 18,
+    "dataset_id": "d4fe6631-fd01-4d45-9721-271091f9d28e",
+    "boundary": "Prosser_city_limits.geojson",
+    "center": [
+      -119.75954,
+      46.20748
+    ],
+    "zoom": 13
+  },
+  "pullman": {
+    "name": "Pullman",
+    "agency": "Pullman Transit",
+    "stops": 134,
+    "dataset_id": "10cf7956-fb15-4c77-bd2d-25d81aab8187",
+    "boundary": "Pullman_city_limits.geojson",
+    "center": [
+      -117.15811,
+      46.73333
+    ],
+    "zoom": 13
+  },
+  "puyallup": {
+    "name": "Puyallup",
+    "agency": "Pierce Transit",
+    "stops": 100,
+    "dataset_id": "92180072-2229-494a-b82d-e5897e0e4e78",
+    "boundary": "Puyallup_city_limits.geojson",
+    "center": [
+      -122.2862,
+      47.18388
+    ],
+    "zoom": 13
+  },
+  "quincy": {
+    "name": "Quincy",
+    "agency": "Grant Transit Authority",
+    "stops": 11,
+    "dataset_id": "836f5ce3-f64a-4320-89e5-162a37add5b2",
+    "boundary": "Quincy_city_limits.geojson",
+    "center": [
+      -119.83249,
+      47.23242
+    ],
+    "zoom": 13
+  },
+  "rainier": {
+    "name": "Rainier",
+    "agency": "ruralTRANSIT",
+    "stops": 2,
+    "dataset_id": "f50279b9-2326-4a33-8a1f-b92d38b342c6",
+    "boundary": "Rainier_city_limits.geojson",
+    "center": [
+      -122.68696,
+      46.89248
+    ],
+    "zoom": 14
+  },
+  "raymond": {
+    "name": "Raymond",
+    "agency": "Pacific Transit",
+    "stops": 6,
+    "dataset_id": "705ef70c-8cdb-4341-988e-ad6b20eff02f",
+    "boundary": "Raymond_city_limits.geojson",
+    "center": [
+      -123.73971,
+      46.69179
+    ],
+    "zoom": 13
+  },
+  "reardan": {
+    "name": "Reardan",
+    "agency": "Special Mobility Services (SMS)",
+    "stops": 2,
+    "dataset_id": "6b3099b8-94bb-40d3-aac9-4fadc6dacf36",
+    "boundary": "Reardan_city_limits.geojson",
+    "center": [
+      -117.87773,
+      47.67072
+    ],
+    "zoom": 14
+  },
+  "redmond": {
+    "name": "Redmond",
+    "agency": "Metro Transit",
+    "stops": 271,
+    "dataset_id": "c0e2da2d-945d-4fb7-a742-bccef08f4b06",
+    "boundary": "Redmond_city_limits.geojson",
+    "center": [
+      -122.09975,
+      47.6722
+    ],
+    "zoom": 13
+  },
+  "renton": {
+    "name": "Renton",
+    "agency": "Metro Transit",
+    "stops": 332,
+    "dataset_id": "a28320de-5f3a-48cd-b373-1aa88feff7e9",
+    "boundary": "Renton_city_limits.geojson",
+    "center": [
+      -122.18739,
+      47.48146
+    ],
+    "zoom": 12
+  },
+  "richland": {
+    "name": "Richland",
+    "agency": "BFT",
+    "stops": 223,
+    "dataset_id": "e851a012-eb62-43fc-ac80-69eb161517b9",
+    "boundary": "Richland_city_limits.geojson",
+    "center": [
+      -119.30628,
+      46.29605
+    ],
+    "zoom": 12
+  },
+  "ritzville": {
+    "name": "Ritzville",
+    "agency": "People for People",
+    "stops": 6,
+    "dataset_id": "cfa70e18-4bfc-4bbf-a812-0834eb085640",
+    "boundary": "Ritzville_city_limits.geojson",
+    "center": [
+      -118.37637,
+      47.12373
+    ],
+    "zoom": 13
+  },
+  "riverside": {
+    "name": "Riverside",
+    "agency": "TranGO",
+    "stops": 2,
+    "dataset_id": "54c03a01-170f-4cfa-9020-ad09db68730c",
+    "boundary": "Riverside_city_limits.geojson",
+    "center": [
+      -119.50877,
+      48.50555
+    ],
+    "zoom": 14
+  },
+  "sammamish": {
+    "name": "Sammamish",
+    "agency": "Metro Transit",
+    "stops": 47,
+    "dataset_id": "f041bdf7-c9bb-4a77-a019-54fe7e0e2c32",
+    "boundary": "Sammamish_city_limits.geojson",
+    "center": [
+      -122.03571,
+      47.60553
+    ],
+    "zoom": 12
+  },
+  "seatac": {
+    "name": "Seatac",
+    "agency": "Metro Transit",
+    "stops": 121,
+    "dataset_id": "5a07f201-db80-4367-9e07-d4a2d3907f9f",
+    "boundary": "Seatac_city_limits.geojson",
+    "center": [
+      -122.29549,
+      47.44246
+    ],
+    "zoom": 13
+  },
+  "seattle": {
+    "name": "Seattle",
+    "agency": "Metro Transit",
+    "stops": 2652,
+    "dataset_id": "05776f25-f0f3-461c-ac34-4fa88a00936c",
+    "boundary": "Seattle_city_limits.geojson",
+    "center": [
+      -122.33,
+      47.61
+    ],
+    "zoom": 12
+  },
+  "selah": {
+    "name": "Selah",
+    "agency": "Selah Transit",
+    "stops": 25,
+    "dataset_id": "b03afa29-80ec-45a1-8b6e-8570aca324e9",
+    "boundary": "Selah_city_limits.geojson",
+    "center": [
+      -120.5366,
+      46.64847
+    ],
+    "zoom": 13
+  },
+  "sequim": {
+    "name": "Sequim",
+    "agency": "Clallam Transit System",
+    "stops": 26,
+    "dataset_id": "5102e449-967c-4c13-8a2e-737b7389eacb",
+    "boundary": "Sequim_city_limits.geojson",
+    "center": [
+      -123.09012,
+      48.07789
+    ],
+    "zoom": 13
+  },
+  "shelton": {
+    "name": "Shelton",
+    "agency": "Mason Transit Authority",
+    "stops": 25,
+    "dataset_id": "35f3c9de-37da-4792-8872-37d00f32285c",
+    "boundary": "Shelton_city_limits.geojson",
+    "center": [
+      -123.11252,
+      47.22096
+    ],
+    "zoom": 13
+  },
+  "shoreline": {
+    "name": "Shoreline",
+    "agency": "Metro Transit",
+    "stops": 234,
+    "dataset_id": "516a4040-d3df-472b-ace6-4f22b4c16022",
+    "boundary": "Shoreline_city_limits.geojson",
+    "center": [
+      -122.34348,
+      47.75597
+    ],
+    "zoom": 13
+  },
+  "snohomish": {
+    "name": "Snohomish",
+    "agency": "Community Transit",
+    "stops": 32,
+    "dataset_id": "4151071b-0803-43be-9116-6683319c6a64",
+    "boundary": "Snohomish_city_limits.geojson",
+    "center": [
+      -122.01652,
+      47.96319
+    ],
+    "zoom": 12
+  },
+  "snoqualmie": {
+    "name": "Snoqualmie",
+    "agency": "Metro Transit",
+    "stops": 35,
+    "dataset_id": "91e3d218-b3c9-4c07-bb54-de66d35adaf0",
+    "boundary": "Snoqualmie_city_limits.geojson",
+    "center": [
+      -121.83832,
+      47.52775
+    ],
+    "zoom": 13
+  },
+  "soap-lake": {
+    "name": "Soap Lake",
+    "agency": "Grant Transit Authority",
+    "stops": 9,
+    "dataset_id": "0ae62dd8-3660-4859-a5e9-82635209f9da",
+    "boundary": "Soap_Lake_city_limits.geojson",
+    "center": [
+      -119.4879,
+      47.39429
+    ],
+    "zoom": 14
+  },
+  "south-bend": {
+    "name": "South Bend",
+    "agency": "Pacific Transit",
+    "stops": 3,
+    "dataset_id": "a6ad46d9-023c-435f-ac5f-27e696eb93f8",
+    "boundary": "South_Bend_city_limits.geojson",
+    "center": [
+      -123.79739,
+      46.6743
+    ],
+    "zoom": 13
+  },
+  "spokane": {
+    "name": "Spokane",
+    "agency": "Spokane Transit Authority",
+    "stops": 1595,
+    "dataset_id": "cbb2ed42-c77f-4218-96de-1b13eafa939f",
+    "boundary": "Spokane_city_limits.geojson",
+    "center": [
+      -117.43,
+      47.66
+    ],
+    "zoom": 12
+  },
+  "spokane-valley": {
+    "name": "Spokane Valley",
+    "agency": "Spokane Transit Authority",
+    "stops": 376,
+    "dataset_id": "22fa3e02-3090-4055-b065-ede769c08243",
+    "boundary": "Spokane_Valley_city_limits.geojson",
+    "center": [
+      -117.24483,
+      47.65504
+    ],
+    "zoom": 12
+  },
+  "springdale": {
+    "name": "Springdale",
+    "agency": "The Moccasin Express",
+    "stops": 1,
+    "dataset_id": "72dbd744-dded-47be-a624-7c5e15ca002b",
+    "boundary": "Springdale_city_limits.geojson",
+    "center": [
+      -117.74687,
+      48.05957
+    ],
+    "zoom": 14
+  },
+  "stanwood": {
+    "name": "Stanwood",
+    "agency": "Community Transit",
+    "stops": 55,
+    "dataset_id": "b7c32ccd-bb0b-4f5c-96bc-cdf38efce315",
+    "boundary": "Stanwood_city_limits.geojson",
+    "center": [
+      -122.35078,
+      48.24496
+    ],
+    "zoom": 13
+  },
+  "stevenson": {
+    "name": "Stevenson",
+    "agency": "Skamania County Transit",
+    "stops": 2,
+    "dataset_id": "fe6036e3-891a-43f7-b682-4475b003d40c",
+    "boundary": "Stevenson_city_limits.geojson",
+    "center": [
+      -121.89361,
+      45.6943
+    ],
+    "zoom": 14
+  },
+  "sultan": {
+    "name": "Sultan",
+    "agency": "Community Transit",
+    "stops": 9,
+    "dataset_id": "f5868afc-138d-4e5b-bbd8-81bf274332be",
+    "boundary": "Sultan_city_limits.geojson",
+    "center": [
+      -121.80084,
+      47.87314
+    ],
+    "zoom": 13
+  },
+  "sumas": {
+    "name": "Sumas",
+    "agency": "Whatcom Transportation Authority",
+    "stops": 4,
+    "dataset_id": "c09c0c18-1aef-4bf6-b61f-ccefdee94924",
+    "boundary": "Sumas_city_limits.geojson",
+    "center": [
+      -122.27131,
+      48.99351
+    ],
+    "zoom": 14
+  },
+  "sumner": {
+    "name": "Sumner",
+    "agency": "Pierce Transit",
+    "stops": 4,
+    "dataset_id": "6f721207-e63e-4eca-a526-c78676eed948",
+    "boundary": "Sumner_city_limits.geojson",
+    "center": [
+      -122.2322,
+      47.22067
+    ],
+    "zoom": 13
+  },
+  "sunnyside": {
+    "name": "Sunnyside",
+    "agency": "People for People",
+    "stops": 8,
+    "dataset_id": "458d7fd1-eff8-4925-8a9d-1b60d6a7d809",
+    "boundary": "Sunnyside_city_limits.geojson",
+    "center": [
+      -120.0147,
+      46.31087
+    ],
+    "zoom": 13
+  },
+  "tacoma": {
+    "name": "Tacoma",
+    "agency": "Pierce Transit",
+    "stops": 983,
+    "dataset_id": "416dd768-a11f-4ecb-9a60-1f87f5caac39",
+    "boundary": "Tacoma_city_limits.geojson",
+    "center": [
+      -122.45464,
+      47.24294
+    ],
+    "zoom": 12
+  },
+  "tenino": {
+    "name": "Tenino",
+    "agency": "ruralTRANSIT",
+    "stops": 2,
+    "dataset_id": "0006a9d9-3a64-4b7e-9932-db9a67db6384",
+    "boundary": "Tenino_city_limits.geojson",
+    "center": [
+      -122.8605,
+      46.85332
+    ],
+    "zoom": 13
+  },
+  "tonasket": {
+    "name": "Tonasket",
+    "agency": "TranGO",
+    "stops": 1,
+    "dataset_id": "99adc314-6ea4-4a85-917e-d0b6da2ab614",
+    "boundary": "Tonasket_city_limits.geojson",
+    "center": [
+      -119.44751,
+      48.71333
+    ],
+    "zoom": 14
+  },
+  "toppenish": {
+    "name": "Toppenish",
+    "agency": "Confederated Tribes and Bands of The Yakama Nation (Pahto Transit)",
+    "stops": 8,
+    "dataset_id": "3b381de0-83e3-4841-896a-c854b53092a1",
+    "boundary": "Toppenish_city_limits.geojson",
+    "center": [
+      -120.30878,
+      46.38227
+    ],
+    "zoom": 14
+  },
+  "tukwila": {
+    "name": "Tukwila",
+    "agency": "Metro Transit",
+    "stops": 120,
+    "dataset_id": "2778d16f-f3c8-47f0-a446-e10bb1e5bda4",
+    "boundary": "Tukwila_city_limits.geojson",
+    "center": [
+      -122.27926,
+      47.47562
+    ],
+    "zoom": 12
+  },
+  "tumwater": {
+    "name": "Tumwater",
+    "agency": "Intercity Transit",
+    "stops": 112,
+    "dataset_id": "bfb74ca8-bf62-43e1-b782-9d569514860d",
+    "boundary": "Tumwater_city_limits.geojson",
+    "center": [
+      -122.91652,
+      46.98433
+    ],
+    "zoom": 13
+  },
+  "twisp": {
+    "name": "Twisp",
+    "agency": "TranGO",
+    "stops": 2,
+    "dataset_id": "72d4b6de-cff8-4ae6-9a1a-28cce0524a0a",
+    "boundary": "Twisp_city_limits.geojson",
+    "center": [
+      -120.11034,
+      48.36158
+    ],
+    "zoom": 14
+  },
+  "union-gap": {
+    "name": "Union Gap",
+    "agency": "Union Gap Transit",
+    "stops": 21,
+    "dataset_id": "e73acd09-abf4-42b6-a597-058ee5247e46",
+    "boundary": "Union_Gap_city_limits.geojson",
+    "center": [
+      -120.50826,
+      46.55465
+    ],
+    "zoom": 13
+  },
+  "university-place": {
+    "name": "University Place",
+    "agency": "Pierce Transit",
+    "stops": 71,
+    "dataset_id": "414f3ff4-cbc9-4222-bbae-9aa848ed784a",
+    "boundary": "University_Place_city_limits.geojson",
+    "center": [
+      -122.54489,
+      47.21484
+    ],
+    "zoom": 13
+  },
+  "vancouver": {
+    "name": "Vancouver",
+    "agency": "Amtrak",
+    "stops": 2,
+    "dataset_id": "c92c5072-3d92-462b-8515-fd1e78e66d8f",
+    "boundary": "Vancouver_city_limits.geojson",
+    "center": [
+      -122.61957,
+      45.63797
+    ],
+    "zoom": 12
+  },
+  "walla-walla": {
+    "name": "Walla Walla",
+    "agency": "Valley Transit",
+    "stops": 131,
+    "dataset_id": "672b9d11-9993-40be-85fb-5511c45b3bce",
+    "boundary": "Walla_Walla_city_limits.geojson",
+    "center": [
+      -118.32829,
+      46.06622
+    ],
+    "zoom": 12
+  },
+  "wapato": {
+    "name": "Wapato",
+    "agency": "Confederated Tribes and Bands of The Yakama Nation (Pahto Transit)",
+    "stops": 2,
+    "dataset_id": "ad0e831d-1aa2-48e5-9ea0-de4d48927636",
+    "boundary": "Wapato_city_limits.geojson",
+    "center": [
+      -120.41991,
+      46.44407
+    ],
+    "zoom": 14
+  },
+  "warden": {
+    "name": "Warden",
+    "agency": "Grant Transit Authority",
+    "stops": 8,
+    "dataset_id": "2ced00cf-39c6-4b9c-84ba-be26ca1f6a61",
+    "boundary": "Warden_city_limits.geojson",
+    "center": [
+      -119.04835,
+      46.96548
+    ],
+    "zoom": 13
+  },
+  "wenatchee": {
+    "name": "Wenatchee",
+    "agency": "People for People",
+    "stops": 3,
+    "dataset_id": "32f4666a-3903-46da-9e81-32a7257d71b7",
+    "boundary": "Wenatchee_city_limits.geojson",
+    "center": [
+      -120.33168,
+      47.4479
+    ],
+    "zoom": 12
+  },
+  "west-richland": {
+    "name": "West Richland",
+    "agency": "BFT",
+    "stops": 44,
+    "dataset_id": "b0a29499-3bcb-4d8d-8201-e2ebfc8c9795",
+    "boundary": "West_Richland_city_limits.geojson",
+    "center": [
+      -119.40861,
+      46.31125
+    ],
+    "zoom": 12
+  },
+  "westport": {
+    "name": "Westport",
+    "agency": "Grays Harbor Transit",
+    "stops": 9,
+    "dataset_id": "0e921287-2efc-486c-914b-7032b1600175",
+    "boundary": "Westport_city_limits.geojson",
+    "center": [
+      -124.12241,
+      46.89313
+    ],
+    "zoom": 13
+  },
+  "white-salmon": {
+    "name": "White Salmon",
+    "agency": "Mount Adams Transportation Service",
+    "stops": 6,
+    "dataset_id": "8d926e67-e987-45a5-b5f1-4ffe16aa5b2c",
+    "boundary": "White_Salmon_city_limits.geojson",
+    "center": [
+      -121.48424,
+      45.72758
+    ],
+    "zoom": 14
+  },
+  "wilbur": {
+    "name": "Wilbur",
+    "agency": "People for People",
+    "stops": 2,
+    "dataset_id": "216362cc-4a02-48a1-9d8b-d7e6b7d2bb3b",
+    "boundary": "Wilbur_city_limits.geojson",
+    "center": [
+      -118.72103,
+      47.75749
+    ],
+    "zoom": 13
+  },
+  "woodinville": {
+    "name": "Woodinville",
+    "agency": "Metro Transit",
+    "stops": 47,
+    "dataset_id": "e1ae573b-3d15-4c6c-8a49-53e84ef1c34a",
+    "boundary": "Woodinville_city_limits.geojson",
+    "center": [
+      -122.14379,
+      47.75012
+    ],
+    "zoom": 13
+  },
+  "woodland": {
+    "name": "Woodland",
+    "agency": "RiverCities Transit",
+    "stops": 1,
+    "dataset_id": "b4c2d986-f8be-4ea7-b867-fcd7b01668c7",
+    "boundary": "Woodland_city_limits.geojson",
+    "center": [
+      -122.74639,
+      45.91363
+    ],
+    "zoom": 13
+  },
+  "yakima": {
+    "name": "Yakima",
+    "agency": "Yakima Transit",
+    "stops": 612,
+    "dataset_id": "95b532a7-cd6f-451b-8c5f-f78577427480",
+    "boundary": "Yakima_city_limits.geojson",
+    "center": [
+      -120.51,
+      46.6
+    ],
+    "zoom": 12
+  },
+  "yelm": {
+    "name": "Yelm",
+    "agency": "Intercity Transit",
+    "stops": 27,
+    "dataset_id": "c2a3ca67-5ac8-491b-9d4f-13890a5d0d02",
+    "boundary": "Yelm_city_limits.geojson",
+    "center": [
+      -122.62565,
+      46.9425
+    ],
+    "zoom": 13
+  },
+  "zillah": {
+    "name": "Zillah",
+    "agency": "Confederated Tribes and Bands of The Yakama Nation (Pahto Transit)",
+    "stops": 3,
+    "dataset_id": "2e41989e-f3c2-4ce8-84bb-ffd412fc971d",
+    "boundary": "Zillah_city_limits.geojson",
+    "center": [
+      -120.27848,
+      46.41
+    ],
+    "zoom": 13
+  }
+}

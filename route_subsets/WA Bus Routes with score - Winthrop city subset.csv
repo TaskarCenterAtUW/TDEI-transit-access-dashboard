@@ -1,0 +1,6 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+OKAN_2,0,OKAN_2_0,3,48.466703,-120.175384,OKAN_107,Evergreen IGA,TranGO,,,,,,NO,NO,NO,NO,53047970900,9709,047,970900,Poor
+OKAN_2,0,OKAN_2_0,4,48.477966,-120.18133,OKAN_108,Corral St & Lufkin Ln,TranGO,,,,,,NO,NO,NO,NO,53047970900,9709,047,970900,Poor
+OKAN_2,0,OKAN_2_0,5,48.476917,-120.18895,OKAN_105,Red Barn,TranGO,,,,,,NO,NO,NO,NO,53047970900,9709,047,970900,Poor
+OKAN_2,1,OKAN_2_1,1,48.476917,-120.18895,OKAN_105,Red Barn,TranGO,,,,,,NO,NO,NO,NO,53047970900,9709,047,970900,Poor
+OKAN_2,1,OKAN_2_1,2,48.466703,-120.175384,OKAN_107,Evergreen IGA,TranGO,,,,,,NO,NO,NO,NO,53047970900,9709,047,970900,Poor

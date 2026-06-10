@@ -17,6 +17,7 @@ import os
 import shutil
 import requests
 import geopandas as gpd
+import argparse
 import csv
 import time
 
@@ -89,17 +90,21 @@ def build_overpass_query(bounds):
 # Default mirrors — rotate on 502/503/504. Override with OVERPASS_URL (single URL).
 DEFAULT_OVERPASS_URLS = [
     # Often less overloaded than the public mirrors.
-    "https://overpass.private.coffee/api/interpreter",
     "https://overpass-api.de/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
 ]
 
 def _bbox_area_km2(bounds):
+    """Compute bbox area in km² using a simple geographic approximation.
+    Avoids EPSG:3857 which inflates areas ~2.2x at Washington's ~47-49°N latitude."""
     minx, miny, maxx, maxy = bounds
-    from shapely.geometry import box
-
-    poly = gpd.GeoSeries([box(minx, miny, maxx, maxy)], crs="EPSG:4326").to_crs(3857)
-    return float(poly.area.iloc[0] / 1e6)
+    lat_mid = (miny + maxy) / 2.0
+    km_per_deg_lat = 111.0
+    km_per_deg_lon = 111.32 * math.cos(math.radians(lat_mid))
+    w = (maxx - minx) * km_per_deg_lon
+    h = (maxy - miny) * km_per_deg_lat
+    return abs(w * h)
 
 def _pick_grid(bounds):
     """
@@ -150,6 +155,18 @@ def query_overpass_api(query, tries_per_url=4):
                     url,
                     data={"data": query},
                     timeout=(30, 600),
+                    headers={
+                        # A descriptive UA is required by Overpass operators
+                        # and avoids 406s from WAFs that block default
+                        # `python-requests/x.x.x` strings as suspected bots.
+                        "User-Agent": (
+                            "TDEI-transit-access-dashboard/1.0 "
+                            "(WA bus stop walkshed amenity analysis; "
+                            "https://github.com/TaskarCenterAtUW/TDEI-transit-access-dashboard)"
+                        ),
+                        "Accept": "application/json, */*;q=0.5",
+                        "Accept-Encoding": "gzip, deflate",
+                    },
                 )
             except requests.RequestException as e:
                 print(f"  Request error: {e}")
@@ -504,19 +521,41 @@ def process_geojson_files_in_folder(folder_path):
 
     print(f"Amenities saved to {csv_file_name}")
 
-processed_folders = load_processed_folders()
+def main():
+    parser = argparse.ArgumentParser(description="Query OSM Overpass for amenities near transit stops.")
+    parser.add_argument("--dataset", metavar="DATASET_ID",
+                        help="Process only this specific dataset folder (UUID). "
+                             "If omitted, processes all unprocessed folders.")
+    args = parser.parse_args()
 
-for folder_name in os.listdir(f"{BASE_PATH}"):
-    if folder_name in processed_folders:
-        print(f"Skipping already processed folder: {folder_name}")
-        continue
+    processed_folders = load_processed_folders()
 
-    folder_path = os.path.join(BASE_PATH, folder_name)
-    if not os.path.isdir(folder_path):
-        continue
+    if args.dataset:
+        # Targeted mode: only process the specified dataset folder
+        folder_path = os.path.join(BASE_PATH, args.dataset)
+        if not os.path.isdir(folder_path):
+            print(f"ERROR: Dataset folder not found: {folder_path}")
+            exit(1)
+        if args.dataset in processed_folders:
+            print(f"Skipping already processed folder: {args.dataset}")
+        else:
+            process_geojson_files_in_folder(f"{folder_path}/data")
+            save_processed_folder(args.dataset)
+    else:
+        # Legacy mode: iterate all unprocessed folders
+        for folder_name in os.listdir(BASE_PATH):
+            if folder_name in processed_folders:
+                print(f"Skipping already processed folder: {folder_name}")
+                continue
+            folder_path = os.path.join(BASE_PATH, folder_name)
+            if not os.path.isdir(folder_path):
+                continue
+            process_geojson_files_in_folder(f"{folder_path}/data")
+            save_processed_folder(folder_name)
 
-    process_geojson_files_in_folder(f"{folder_path}/data")
-    save_processed_folder(folder_name)
+    print("Done")
+    exit(0)
 
-print("Done")
-exit(0)
+
+if __name__ == "__main__":
+    main()

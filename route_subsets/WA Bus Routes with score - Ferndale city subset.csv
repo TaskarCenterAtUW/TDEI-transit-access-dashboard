@@ -1,0 +1,59 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+74512,0,74512_0,21,48.8481842098685,-122.596266694545,4230513,Ferndale Library,Lummi Nation,,,,,,NO,NO,NO,NO,53073010506,105.06,073,010506,Ok
+74512,0,74512_0,22,48.84648369056899,-122.59342895087396,4149540,Alder Street and 3rd Avenue (Rite Aid),Lummi Nation,,,,,,NO,NO,NO,NO,53073010506,105.06,073,010506,Ok
+74512,0,74512_0,23,48.844347511565076,-122.58404956587492,4230514,Walgreens (1901 Main St),Lummi Nation,,,,,,NO,NO,NO,NO,53073010600,106,073,010600,Ok
+74512,0,74512_0,24,48.843604534557585,-122.58194587350638,4149542,Dollar Tree (1859 East Main Street),Lummi Nation,,,,,,NO,NO,NO,NO,53073010600,106,073,010600,Ok
+74512,0,74512_0,25,48.845246911814655,-122.57703913630404,4149543,Grocery Outlet (1750 La Bounty Drive),Lummi Nation,,,,,,NO,YES,NO,NO,53073010600,106,073,010600,Ok
+74512,0,74512_0,26,48.84696076559635,-122.57178616840736,4149544,Ferndale Station,Lummi Nation,,,,,,NO,NO,NO,NO,53073010600,106,073,010600,Ok
+74512,0,74512_0,27,48.845246911814655,-122.57703913630404,4149543,Grocery Outlet (1750 La Bounty Drive),Lummi Nation,,,,,,NO,YES,NO,NO,53073010600,106,073,010600,Ok
+74512,0,74512_0,28,48.843604534557585,-122.58194587350638,4149542,Dollar Tree (1859 East Main Street),Lummi Nation,,,,,,NO,NO,NO,NO,53073010600,106,073,010600,Ok
+74512,0,74512_0,29,48.844347511565076,-122.58404956587492,4230514,Walgreens (1901 Main St),Lummi Nation,,,,,,NO,NO,NO,NO,53073010600,106,073,010600,Ok
+74512,0,74512_0,30,48.84648369056899,-122.59342895087396,4149540,Alder Street and 3rd Avenue (Rite Aid),Lummi Nation,,,,,,NO,NO,NO,NO,53073010506,105.06,073,010506,Ok
+74512,0,74512_0,31,48.8481842098685,-122.596266694545,4230513,Ferndale Library,Lummi Nation,,,,,,NO,NO,NO,NO,53073010506,105.06,073,010506,Ok
+27,0,27_0,22,48.848177,-122.567961,390,Axton Rd at Axton Ct,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010600,106,073,010600,Good
+27,0,27_0,23,48.848221,-122.57282,243,Axton Rd at Barrett Rd,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073010600,106,073,010600,Good
+27,0,27_0,24,48.847126,-122.57169,35,Ferndale Station Gate 1,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,NO,NO,YES,53073010600,106,073,010600,Good
+27,0,27_0,25,48.848221,-122.57282,243,Axton Rd at Barrett Rd,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073010600,106,073,010600,Good
+27,0,27_0,26,48.844838,-122.581923,797,Main St at 1800 Block,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010600,106,073,010600,Good
+27,0,27_0,27,48.845355,-122.590787,822,1st Ave at Alder St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,0,27_0,28,48.844046,-122.591925,823,1st Ave at Cherry St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,0,27_0,29,48.846557,-122.592741,824,3rd Ave at Alder St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,0,27_0,30,48.848745,-122.593216,429,Vista Dr at 4th Ave,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,0,27_0,31,48.850234,-122.594769,428,Vista Dr at Washington St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,0,27_0,32,48.849618,-122.599766,415,Washington St at Fallbrook Ln,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,0,27_0,33,48.848476,-122.60239,414,Main St at Washington St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,34,48.8485,-122.607106,426,Main St at Hendrickson Ave,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,35,48.848473,-122.610589,425,Main St at Shannon Ave,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,36,48.848515,-122.615835,36,Mountain View Rd at Meadowview Ct,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,37,48.853957,-122.616537,424,Church Rd at Crestline St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,38,48.857471,-122.616551,423,Church Rd S Bakerview Park Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,39,48.861358,-122.616619,422,Church Rd N Bakerview Park Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,40,48.86267,-122.614628,421,Thornton St at Evergreen Way,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,41,48.862727,-122.608828,420,Thornton St at Shannon Ave,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,0,27_0,42,48.862773,-122.603886,37,Thornton Rd at Vista Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073010503,105.03,073,010503,Good
+27,1,27_1,1,48.862773,-122.603886,37,Thornton Rd at Vista Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,YES,NO,YES,53073010503,105.03,073,010503,Good
+27,1,27_1,2,48.860626,-122.60063,419,Vista Dr at Vista Middle School,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010503,105.03,073,010503,Good
+27,1,27_1,3,48.855396,-122.59805,417,Vista Dr at Seamount Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,1,27_1,4,48.850025,-122.59483,427,Vista Dr at Washington St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,1,27_1,5,48.84893,-122.594298,430,4th Ave at Vista Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,1,27_1,6,48.847378,-122.595112,865,4th Ave at Main St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,1,27_1,7,48.846148,-122.593454,825,3rd Ave at Alder St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,1,27_1,8,48.84418,-122.59301,826,Cherry St at 2nd Ave,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,1,27_1,9,48.845752,-122.590092,827,1st Ave at Main St,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010506,105.06,073,010506,Good
+27,1,27_1,10,48.84457,-122.58306,798,Main St at 1800 Block,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010600,106,073,010600,Good
+27,1,27_1,11,48.8451,-122.58005,917,Main St at LaBounty Dr,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010600,106,073,010600,Good
+27,1,27_1,12,48.847126,-122.57169,35,Ferndale Station Gate 1,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,YES,NO,NO,YES,53073010600,106,073,010600,Good
+27,1,27_1,13,48.848034,-122.56852,389,Axton Rd at Axton Ct,Whatcom Transportation Authority,27,Ferndale&Cordata/WCC,3,94b0be,ffffff,NO,NO,NO,YES,53073010600,106,073,010600,Good
+75,0,75_0,8,48.847416,-122.57137,40,Ferndale Station Gate 3,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010600,106,073,010600,Good
+75,0,75_0,9,48.848221,-122.57282,243,Axton Rd at Barrett Rd,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073010600,106,073,010600,Good
+75,0,75_0,10,48.861218,-122.584588,238,Portal Way at 6000 Block,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,0,75_0,11,48.868385,-122.58436,791,Portal Way at 6200 Block,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,0,75_0,12,48.872209,-122.584267,237,Portal Way at 6300 Block,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,0,75_0,13,48.877369,-122.584056,792,Portal Way at Trigg Rd,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,1,75_1,7,48.877205,-122.584279,794,Portal Way at Trigg Rd,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,1,75_1,8,48.873727,-122.584401,241,Portal Way at 6300 Block,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,1,75_1,9,48.870619,-122.584507,977,Portal Way at Kaas Rd,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,1,75_1,10,48.868206,-122.58459,242,Portal Way at 6200 Block,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,1,75_1,11,48.861266,-122.58475,795,Portal Way at 6000 Block,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010505,105.05,073,010505,Good
+75,1,75_1,12,48.847279,-122.57155,39,Ferndale Station Gate 2,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010600,106,073,010600,Good
+75,1,75_1,13,48.848221,-122.57282,243,Axton Rd at Barrett Rd,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,YES,NO,YES,53073010600,106,073,010600,Good

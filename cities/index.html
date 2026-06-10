@@ -12,7 +12,15 @@
       display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
     }
     header h1 { margin: 0; font-size: 20px; }
-    header .stats { font-size: 13px; opacity: 0.85; }
+    header .stats { font-size: 13px; opacity: 0.9; }
+    header .stats .pulse {
+      display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+      background: #4ade80; margin-right: 6px; vertical-align: 1px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; } 50% { opacity: 1; }
+    }
     .search-bar {
       padding: 14px 28px; background: #fff; border-bottom: 1px solid #e2e8f0;
       display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
@@ -50,21 +58,14 @@
     .badge-fail    { background: #fee2e2; color: #991b1b; }
     .badge-pending { background: #f1f5f9; color: #64748b; }
     .card-pending, .card-fail { opacity: 0.6; }
-    .back-link { padding: 0 28px 20px; }
-    .back-link a { color: #1d4ed8; font-size: 13px; }
+    .loading { text-align: center; padding: 40px; color: #64748b; }
   </style>
 </head>
 <body>
   <header>
     <h1>WA Transit Accessibility Maps — All Cities</h1>
     <a href="../statewide.html" style="color:#93c5fd; font-size:13px; text-decoration:none; white-space:nowrap;">← Statewide map</a>
-    <div class="stats">
-      4 complete &nbsp;·&nbsp;
-      0 no data &nbsp;·&nbsp;
-      316 pending &nbsp;·&nbsp;
-      0 failed &nbsp;·&nbsp;
-      320 total
-    </div>
+    <div class="stats" id="stats"><span class="pulse"></span>Loading…</div>
   </header>
 
   <div class="search-bar">
@@ -77,333 +78,13 @@
     </div>
   </div>
 
-
-
   <div class="grid" id="grid">
-<a class="card card-done" href="/cities/aberdeen.html"><div class="card-name">Aberdeen</div><div class="card-meta">City · v1.5</div><span class="badge badge-done">Done</span></a>
-<div class="card card-pending" ><div class="card-name">Aberdeen Cosmopolis</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Adams</div><div class="card-meta">UI · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Airway Heights</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Albion</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Algona</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Algona Pacific</div><div class="card-meta">City · v1.3</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Anacortes</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Arlington</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Asotin</div><div class="card-meta">City · v1.4</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Asotin</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Auburn</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bainbridge Island</div><div class="card-meta">City · v2.1</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Battle Ground</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Beaux Arts Village</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bellevue</div><div class="card-meta">City · v2.3</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bellingham</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Benton</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Benton</div><div class="card-meta">UI · v2.1</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bingen</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Black Diamond</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Blaine</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bonney Lake</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bothell</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bremerton</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Brewster</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bridgeport</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Brier</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Buckley</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Bucoda</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Burien</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Burlington</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Camas</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Carbonado</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Carnation</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Cashmere</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Castle Rock</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Cathlamet</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Centralia Chehalis</div><div class="card-meta">City · v1.3</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Centralia</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Chehalis</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Chelan</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Chelan</div><div class="card-meta">UI · v2.1</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Cheney</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Chewelah</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Clallam</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Clark</div><div class="card-meta">UI · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Clarkston</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Clyde Hill</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Colfax</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">College Place</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Colton</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Columbia</div><div class="card-meta">UI · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Colville</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Conconully</div><div class="card-meta">City · v1.4</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Concrete</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Connell</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Cosmopolis</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Coulee</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Coulee Dam</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Coupeville</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Covington</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Cowlitz</div><div class="card-meta">UI · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Creston</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Cusick</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Darrington</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Davenport</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Dayton</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Deer Park</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Des Moines</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Douglas</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">DuPont</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Duvall</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">East Wenatchee</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Eatonville</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Edgewood</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Edmonds</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Electric</div><div class="card-meta">City · v1.4</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ellensburg</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Elma</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Elmer</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Endicott</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Entiat</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Enumclaw</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ephrata</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Everett</div><div class="card-meta">City · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Everson</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Fairfield</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Farmington</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Federal way</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ferndale</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ferry</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Fife</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Firecrest</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Forks</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Franklin county</div><div class="card-meta">UI · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Friday Harbor</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Garfield</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Garfield</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">George</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Gig Harbor</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">GoldBar</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Goldendale</div><div class="card-meta">City · v1.4</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Grand Coulee</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Grandview</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Granger</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Granite Falls</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Grant</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Grays Harbor</div><div class="card-meta">UI · v2.2</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Hamilton</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Harrah</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Harrington</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Hartline</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Hatton</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Hoquiam</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Hunts Point</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Hurrah</div><div class="card-meta">City · v1.2</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ilwaco</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Index</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ione</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Island</div><div class="card-meta">UI · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Issaquah</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Jefferson</div><div class="card-meta">UI · v2.2</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kahlotus</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kalama</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kelso</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kenmore</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kennewick</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kent</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kettle Falls</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">King</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kirkland</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kitittas</div><div class="card-meta">UI · v1.2</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kitsap</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kittitas</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Kittitas</div><div class="card-meta">UI · v2.1</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Klickitat</div><div class="card-meta">UI · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Krupp</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">LaCrosse</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">La Center</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">La Conner</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lacey</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lake Forest Park</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lake Stevens</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lakewood</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lamont</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Langley</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Latah</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Leavenworth</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lewis</div><div class="card-meta">UI · v2.1</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Liberty Lake</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lincoln</div><div class="card-meta">UI · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lind</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Long Beach</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Longview</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lyman</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lynden</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Lynnwood</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mabton</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Malden</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mansfield</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Maple Valley</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Marysville</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mason</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mattawa</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">McCleary</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Medical Lake</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Medina</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mercer Island</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mesa</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Metaline</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Metaline Falls</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mill Creek</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Milton</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Monroe</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Montesano</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Morton</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Moses Lake</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mossyrock</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">MountLake Terrace</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mount Vernon</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Moxee</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Mukilteo</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Naches</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Napavine</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Nespelem</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Newport</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Nooksack</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Normandy Park</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">North Bend</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">North Bonneville</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Northport</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Oak Harbor</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Oakesdale</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Oakville</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ocean Shores</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Odessa</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Okanogan</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Okanogan</div><div class="card-meta">UI · v2.1</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Olympia</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Omak</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Oroville</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Orting</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Othello</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pacific</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pacific</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Palouse</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pasco</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pateros</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pe Ell</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pend Orielle</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pierce</div><div class="card-meta">UI · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pomeroy</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Port Angeles</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Port Orchard</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Port Townsend</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Poulsbo</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Prescott</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Prosser</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Pullman</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Puyallup</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Quincy</div><div class="card-meta">City · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Rainier</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Raymond</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Raymond Southbend</div><div class="card-meta">City · v1.3</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Reardan</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Redmond</div><div class="card-meta">City · v1.4</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name"></div><div class="card-meta">Renton Health Through Housing · v1.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Renton</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Republic</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Richland</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ridgefield</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Ritzville</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Riverside</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Rock Island</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Rockford</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Rosalia</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Roy</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Royal</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Sammamish</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">San Juan</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Seatac</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<a class="card card-done" href="/cities/seattle.html"><div class="card-name">Seattle</div><div class="card-meta">City · v1.7</div><span class="badge badge-done">Done</span></a>
-<div class="card card-pending" ><div class="card-name">Sedro Woolley</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Selah</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Sequim</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Shelton</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Shoreline</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Skagit</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Skamania</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Skykomish</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Snohomish</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Snohomish</div><div class="card-meta">UI · v2.2</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Snoqualmie</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Soap Lake</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">South Bend</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">South Prairie</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Spangle</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<a class="card card-done" href="/cities/spokane.html"><div class="card-name">Spokane</div><div class="card-meta">City · v2.2</div><span class="badge badge-done">Done</span></a>
-<div class="card card-pending" ><div class="card-name">Spokane</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Spokane Valley</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Spokane Valley</div><div class="card-meta">city · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Sprague</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Springdale</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">St . John</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Stanwood</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Starbuck</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Steilacoom</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Stevens</div><div class="card-meta">County · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Stevens</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Stevenson</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Sultan</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Sumas</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Sumner</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Sunnyside</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Tacoma</div><div class="card-meta">City · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Tekoa</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Tenino</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Thurston</div><div class="card-meta">UI · v1.9</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Tieton</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Toledo</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Tonasket</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Toppenish</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Tukwila</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Tumwater</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Twisp</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Union Gap</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Uniontown</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">University Place</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Vader</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Vancouver</div><div class="card-meta">City · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Wahkiakum</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Waitsburg</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Walla Walla</div><div class="card-meta">City · v1.4</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Walla Walla</div><div class="card-meta">UI · v2.1</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Wapato</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Warden</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Washougal</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Washtucna</div><div class="card-meta">City · v1.4</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Waterville</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Waverly</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Wenatchee</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">West Richland</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Westport</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Whatcom</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">White Salmon</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Wilbur</div><div class="card-meta">City · v1.5</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Wilkeson</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Wilson Creek</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Winlock</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Winthrop</div><div class="card-meta">City · v1.8</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Woodinville</div><div class="card-meta">City · v1.7</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Woodland</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Woodway</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Yacolt</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<a class="card card-done" href="/cities/yakima.html"><div class="card-name">Yakima</div><div class="card-meta">City · v1.8</div><span class="badge badge-done">Done</span></a>
-<div class="card card-pending" ><div class="card-name">Yakima</div><div class="card-meta">UI · v2.0</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Yelm</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Yelm City</div><div class="card-meta">Plus · v1.6</div><span class="badge badge-pending">Pending</span></div>
-<div class="card card-pending" ><div class="card-name">Zillah</div><div class="card-meta">City · v1.6</div><span class="badge badge-pending">Pending</span></div>
+    <div class="loading">Loading jurisdictions…</div>
   </div>
 
   <script>
     let activeFilter = 'all';
+    let jurisdictions = null;
 
     function setFilter(filter, btn) {
       activeFilter = filter;
@@ -426,6 +107,94 @@
         card.style.display = matchesSearch && matchesFilter ? '' : 'none';
       });
     }
+
+    function statusInfo(status) {
+      switch (status) {
+        case 'completed': return { badge: 'Done',    cls: 'card-done',    badgeCls: 'badge-done',    isLink: true };
+        case 'no_stops': return { badge: 'No data', cls: 'card-empty',   badgeCls: 'badge-empty',   isLink: true };
+        case 'no_osw_data': return { badge: 'No OSW data', cls: 'card-empty', badgeCls: 'badge-empty', isLink: false };
+        case 'no_boundary': return { badge: 'No boundary', cls: 'card-empty', badgeCls: 'badge-empty', isLink: false };
+        case 'failed':    return { badge: 'Failed',  cls: 'card-fail',    badgeCls: 'badge-fail',    isLink: false };
+        default:          return { badge: 'Pending', cls: 'card-pending', badgeCls: 'badge-pending', isLink: false };
+      }
+    }
+
+    function renderCards(progress) {
+      const counts = { total: 0, done: 0, empty: 0, pending: 0, failed: 0 };
+      const grid = document.getElementById('grid');
+      const parts = [];
+      const sortedNames = Object.keys(jurisdictions).sort((a, b) => {
+        return jurisdictions[a].display.localeCompare(jurisdictions[b].display);
+      });
+      for (const wsp of sortedNames) {
+        const j = jurisdictions[wsp];
+        const status = (progress[wsp] || {}).status || 'pending';
+        const info = statusInfo(status);
+        counts.total++;
+        if (status === 'completed') counts.done++;
+        else if (status === 'no_stops' || status === 'no_osw_data' || status === 'no_boundary') counts.empty++;
+        else if (status === 'failed') counts.failed++;
+        else counts.pending++;
+
+        const tag = info.isLink ? 'a' : 'div';
+        const href = info.isLink ? ` href="/cities/${j.slug}.html"` : '';
+        parts.push(
+          `<${tag} class="card ${info.cls}"${href}>` +
+            `<div class="card-name">${escapeHtml(j.display)}</div>` +
+            `<div class="card-meta">${escapeHtml(j.type)} · v${j.version}</div>` +
+            `<span class="badge ${info.badgeCls}">${info.badge}</span>` +
+          `</${tag}>`
+        );
+      }
+      grid.innerHTML = parts.join('\n');
+
+      document.getElementById('stats').innerHTML =
+        `<span class="pulse"></span>` +
+        `${counts.done} complete &nbsp;·&nbsp; ` +
+        `${counts.empty} no data &nbsp;·&nbsp; ` +
+        `${counts.pending} pending &nbsp;·&nbsp; ` +
+        `${counts.failed} failed &nbsp;·&nbsp; ` +
+        `${counts.total} total`;
+
+      filterCards();
+    }
+
+    function escapeHtml(s) {
+      const d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
+    async function loadProgress() {
+      try {
+        const resp = await fetch('/pipeline_progress.json?t=' + Date.now());
+        if (!resp.ok) return {};
+        return await resp.json();
+      } catch (err) {
+        console.warn('progress fetch failed', err);
+        return {};
+      }
+    }
+
+    async function init() {
+      try {
+        const j = await fetch('/cities/jurisdictions.json').then(r => r.json());
+        jurisdictions = j;
+      } catch (err) {
+        document.getElementById('grid').innerHTML =
+          '<div class="loading">Failed to load jurisdictions.json — run <code>python3 build_index.py</code></div>';
+        return;
+      }
+      const progress = await loadProgress();
+      renderCards(progress);
+      // Auto-refresh status every 15 seconds (pipeline_progress.json updates as cities finish)
+      setInterval(async () => {
+        const p = await loadProgress();
+        renderCards(p);
+      }, 15000);
+    }
+
+    init();
   </script>
 </body>
 </html>

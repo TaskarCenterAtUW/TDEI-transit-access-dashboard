@@ -1,0 +1,86 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+36924,0,36924_0,3,46.71747,-122.953062,CTL,Centralia Amtrak Station,Amtrak,,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Ok
+36924,1,36924_1,4,46.71747,-122.953062,CTL,Centralia Amtrak Station,Amtrak,,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Ok
+60,0,60_0,3,46.71747,-122.953062,CTL,Centralia Amtrak Station,Amtrak,,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Acceptable
+60,1,60_1,5,46.71747,-122.953062,CTL,Centralia Amtrak Station,Amtrak,,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Ok
+45,0,45_0,11,46.71725765,-122.95315325,45145,Centralia - Amtrak,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53041970400,9704,041,970400,Poor
+45,1,45_1,1,46.71725765,-122.95315325,45145,Centralia - Amtrak,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53041970400,9704,041,970400,Poor
+19721,0,19721_0,12,46.7111666641017,-122.97363993097,2754956,Centralia Greyhound Station,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970600,9706,041,970600,Poor
+19721,0,19721_0,13,46.7161066181229,-122.959171950413,2754957,Centralia Community College,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970700,9707,041,970700,Poor
+19721,0,19721_0,14,46.7171997017871,-122.953190604643,2754958,Centralia Amtrak,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970400,9704,041,970400,Poor
+32876,0,32876_0,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32876,0,32876_0,2,46.709888743,-122.97137475,4251924,Alder St & Yew St Winco EB,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,3,46.712034,-122.955861,3460575,S Tower Ave. & W Cherry St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,4,46.718765,-122.952691,3460628,Amtrak - 327 Railroad Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Good
+32876,0,32876_0,5,46.71770637808234,-122.95510912679852,4223966,Centralia Bible Study - 209 N Pearl St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970600,9706,041,970600,Good
+32876,0,32876_0,6,46.71512949535716,-122.95615713237706,3460626,Berry Fields,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,7,46.71292185479943,-122.9572681146362,3460609,S Pearl St & W Plum St. (Fullers),Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,8,46.70489168229149,-122.95592857799308,4223961,Grants Towing - 1039 S Gold St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,9,46.701849,-122.957135,3460580,S Gold St. & E Union St. - 1321 S Gold St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,10,46.698839029071145,-122.95758151203765,4223967,Fairway Lanes - 1511 S Gold St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,11,46.694086,-122.957345,3460565,Valley View- 1810 S Gold St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,25,46.704997,-122.95391,3460592,NE Kresky Ave. & E Summa St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,26,46.712034,-122.955861,3460575,S Tower Ave. & W Cherry St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,27,46.718765,-122.952691,3460628,Amtrak - 327 Railroad Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Good
+32876,0,32876_0,28,46.71512949535716,-122.95615713237706,3460626,Berry Fields,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,29,46.714603,-122.961621,3460621,Centralia College - 615 W Pear St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,30,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32877,0,32877_0,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32877,0,32877_0,21,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32878,0,32878_0,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32878,0,32878_0,2,46.7309,-122.977616,3460558,West Outlets South Entrance - 1301 Lum Road,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,3,46.73224937548057,-122.97723936451345,4211496,West Outlets North Entrance – 1332 Lum Rd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,4,46.734486867,-122.981784822,3460623,1510 W Reynolds Ave & Johnson - Cascade Mental Health,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,5,46.73021404069016,-122.98194396609125,4220366,Rite Aid - 1221 Johnson Rd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,6,46.73195283442382,-122.98586796177045,4220368,Harrison Village - 1402 Harrison Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,14,46.734025,-122.999732,3460622,Cascade Treatment,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,16,46.727135,-122.992755,3460574,Scheuber Rd. North & Borst Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,17,46.726977,-122.983205,3460619,Centralia Middle School - 2473 Borst Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,18,46.72888510999558,-122.98117292431657,4230411,Centralia Safeway - 1167 Harrison Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32878,0,32878_0,19,46.724555,-122.972646,3460564,Valley View Dental - 711 Harrison Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970500,9705,041,970500,Good
+32878,0,32878_0,20,46.720216,-122.960508,3460610,Edison Elementary - 312 N Washington Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970600,9706,041,970600,Good
+32878,0,32878_0,21,46.716850140842354,-122.9621648358822,4220373,Centralia College - 709 Centralia College Blvd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970600,9706,041,970600,Good
+32878,0,32878_0,22,46.71258,-122.969469,3460557,Yew St. & Chestnut St. - 703 Yew St,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970600,9706,041,970600,Good
+32878,0,32878_0,23,46.709973281,-122.971375983,4253114,Alder St & Yew St Winco WB,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970600,9706,041,970600,Good
+32878,0,32878_0,24,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32879,0,32879_0,7,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32879,1,32879_1,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32880,0,32880_0,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+32880,0,32880_0,2,46.713828,-122.985145,3460572,Social Security Office- 1821 Cooks Hill Rd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970200,9702,041,970200,Good
+32880,0,32880_0,3,46.71190056417936,-122.99512154808573,3460614,Colonial Dr. & Scammon Creek Rd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970200,9702,041,970200,Good
+32880,0,32880_0,4,46.71264362594139,-122.9868779454024,4251929,Providence Hospital West Enterance - 910 Scheuber Rd,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970200,9702,041,970200,Good
+32880,0,32880_0,5,46.713721,-122.985381,3460582,Providence Hospital North Entrance - 1820 Cooks Hill Rd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970200,9702,041,970200,Good
+32880,0,32880_0,6,46.709888743,-122.97137475,4251924,Alder St & Yew St Winco EB,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32880,0,32880_0,7,46.715599,-122.967995,3460556,Yew St. & W Pear St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32880,0,32880_0,8,46.71671989075648,-122.96199366906316,4223960,Centralia College Blvd & S Washington Ave,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32880,0,32880_0,9,46.71512949535716,-122.95615713237706,3460626,Berry Fields,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32880,0,32880_0,10,46.71292185479943,-122.9572681146362,3460609,S Pearl St & W Plum St. (Fullers),Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32880,0,32880_0,11,46.705975,-122.954827,3460630,400 E Summa St. - General Dollar Store,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32880,0,32880_0,12,46.708548,-122.955245,3460559,Washington Elementary- 123 E Hickory St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32880,0,32880_0,13,46.718879,-122.950674,3460611,E Maple St. & N Gold St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Good
+32880,0,32880_0,14,46.729064,-122.944761,3460599,Marion St. & Oxford Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Good
+32880,0,32880_0,15,46.729039,-122.950508,3460612,E 6th St. & B St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Good
+32880,0,32880_0,16,46.744927,-122.953663,3460596,N Pearl St. & E Carson St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Good
+32880,0,32880_0,18,46.742586652,-122.953915732,4251925,2198 North Pearl & Oakview (Hunters Walk),Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Good
+32880,0,32880_0,19,46.736896,-122.953765,3460595,N Pearl St. & Fremont Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970400,9704,041,970400,Good
+32880,0,32880_0,20,46.72278760419631,-122.95618148848638,4251926,210 W. 1st St & F St,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970500,9705,041,970500,Good
+32880,0,32880_0,21,46.722593947,-122.967549346,4220364,Nazarene Church – 1208 W 1st St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970500,9705,041,970500,Good
+32880,0,32880_0,22,46.723588,-122.970751,3460608,Harrison Ave. & E Bridge St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970500,9705,041,970500,Good
+32880,0,32880_0,23,46.725387,-122.973482,3460606,Harrison Ave. & W High St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970500,9705,041,970500,Good
+32880,0,32880_0,24,46.734486867,-122.981784822,3460623,1510 W Reynolds Ave & Johnson - Cascade Mental Health,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32880,0,32880_0,25,46.735582532489104,-122.98815420897645,4251927,2806 W Reynolds Ave Fords Prairie Elementary,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32880,0,32880_0,26,46.73310569269034,-122.98723691250294,4251928,1475 Harrison Ave Dollar General,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32880,0,32880_0,27,46.73025248276393,-122.98428631798802,4256774,1263 Harrison Ave - Bill and Beas,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32880,0,32880_0,28,46.72888510999558,-122.98117292431657,4230411,Centralia Safeway - 1167 Harrison Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970300,9703,041,970300,Good
+32880,0,32880_0,29,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+74425,0,74425_0,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+74425,1,74425_1,5,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+76388,0,76388_0,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+76388,1,76388_1,8,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+77349,0,77349_0,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+77349,0,77349_0,21,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+77350,0,77350_0,7,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+77350,1,77350_1,1,46.710771,-122.976389,3460598,Mellen Street e-Transit Station - 1401 Mellen St.,Twin Transit (now called Lewis County Transit),,,,,,YES,YES,NO,YES,53041970200,9702,041,970200,Good
+19714,0,19714_0,1,46.7107682272312,-122.976387223697,4212747,Mellen Transit Station,ruralTRANSIT,,,,,,NO,NO,NO,YES,53041970200,9702,041,970200,Ok
+19714,0,19714_0,5,46.721500801310526,-122.9536801760983,4212748,Pearl St & Hansen St,ruralTRANSIT,,,,,,NO,NO,NO,YES,53041970500,9705,041,970500,Ok
+19714,0,19714_0,6,46.7107682272312,-122.976387223697,4212747,Mellen Transit Station,ruralTRANSIT,,,,,,NO,NO,NO,YES,53041970200,9702,041,970200,Ok

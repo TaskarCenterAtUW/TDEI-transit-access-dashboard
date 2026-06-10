@@ -1,0 +1,7 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+75,0,75_0,17,48.976394,-122.728313,1072,Bell Rd at Peace Portal Dr,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010409,104.09,073,010409,Good
+75,0,75_0,18,48.979148,-122.726539,1067,Hughes Ave at Odell St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010410,104.10,073,010410,Good
+75,0,75_0,19,48.993426,-122.729328,803,Blaine Cost Cutter,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,NO,NO,NO,53073010410,104.10,073,010410,Good
+75,1,75_1,1,48.993426,-122.729328,803,Blaine Cost Cutter,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,YES,NO,NO,NO,53073010410,104.10,073,010410,Good
+75,1,75_1,2,48.979247,-122.726593,1068,Hughes Ave at Odell St,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010410,104.10,073,010410,Good
+75,1,75_1,3,48.975991,-122.728516,1073,Bell Rd at Peace Portal Dr,Whatcom Transportation Authority,75,Blaine/Birch Bay&Bellingham,3,f05b7d,ffffff,NO,NO,NO,NO,53073010409,104.09,073,010409,Good

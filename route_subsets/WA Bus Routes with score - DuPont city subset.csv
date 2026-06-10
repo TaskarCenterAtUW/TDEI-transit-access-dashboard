@@ -1,0 +1,4 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+592,0,592_0,10,47.090011,-122.640023,27540,Dupont Station - Bay 6,Pierce Transit,,,,,,NO,NO,YES,NO,53053072802,728.02,053,072802,Great
+592,1,592_1,1,47.090011,-122.640023,27540,Dupont Station - Bay 6,Pierce Transit,,,,,,NO,NO,YES,NO,53053072802,728.02,053,072802,Great
+594,0,594_0,19,47.090011,-122.640023,27540,Dupont Station - Bay 6,Pierce Transit,,,,,,NO,NO,YES,NO,53053072802,728.02,053,072802,Great

@@ -80,11 +80,7 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-    // TODO: after running upload_to_r2.sh, replace the DATA_BASE value with your
-    // R2 public bucket URL (e.g. 'https://pub-<hash>.r2.dev').
-    // For local development with `npx serve`, keep it as an empty string ('').
-    const DATA_BASE = '';
-    const _SPOKANE_DATA = DATA_BASE ? `${DATA_BASE}/spokane/data` : 'data/cbb2ed42-c77f-4218-96de-1b13eafa939f/data';
+    const _SPOKANE_DATA = 'data/cbb2ed42-c77f-4218-96de-1b13eafa939f/data';
 
     /** Per-stop counts from count_amenities_in_walksheds.py (agency + stop_id must match map). */
     const AMENITY_COUNTS_URL =
@@ -750,7 +746,7 @@
     map.on('load', async () => {
       try {
         const [routesResp, amenityResp, amenityLocResp, boundaryResp] = await Promise.all([
-          fetch('WA Bus Routes with score - Spokane city subset.csv'),
+          fetch('route_subsets/WA Bus Routes with score - Spokane city subset.csv'),
           fetch(AMENITY_COUNTS_URL),
           fetch(AMENITY_LOCATIONS_URL),
           fetch(SPOKANE_CITY_BOUNDARY_URL)

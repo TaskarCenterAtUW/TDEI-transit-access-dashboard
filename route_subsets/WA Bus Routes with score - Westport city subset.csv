@@ -1,0 +1,15 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+171,0,171_0,1,46.90874918,-124.11233425,70030,Dock & Westhaven,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Acceptable
+171,0,171_0,2,46.90894341,-124.11457658,70035,Nyhus at Harbor St,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Acceptable
+171,0,171_0,3,46.89356389,-124.10436809,70021,Montesano at Washington SouthBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Acceptable
+171,0,171_0,4,46.891802,-124.104419,70040,Montesano St. between Sprague at Oregon,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Acceptable
+171,0,171_0,5,46.886948,-124.104826,70045,Ocean & Montesano,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Acceptable
+70,0,70_0,14,46.87837908,-124.10407584,23266301,Montesano St at Maple,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good
+70,0,70_0,15,46.885548,-124.104037,70015,Westport Library,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good
+70,0,70_0,16,46.89349424,-124.10418034,70020,Montesano at Washington NorthBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good
+70,0,70_0,17,46.9039023,-124.10639584,70025,Wilson at Nyhus,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good
+70,0,70_0,18,46.90874918,-124.11233425,70030,Dock & Westhaven,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good
+70,0,70_0,19,46.90894341,-124.11457658,70035,Nyhus at Harbor St,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good
+70,0,70_0,20,46.89356389,-124.10436809,70021,Montesano at Washington SouthBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good
+70,0,70_0,21,46.891802,-124.104419,70040,Montesano St. between Sprague at Oregon,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good
+70,0,70_0,22,46.886948,-124.104826,70045,Ocean & Montesano,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027001601,16.01,027,001601,Good

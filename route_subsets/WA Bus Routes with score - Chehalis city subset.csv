@@ -1,0 +1,53 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19721,0,19721_0,15,46.6943954290554,-122.95710577015,2754959,Chehalis Valley View Center,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970700,9707,041,970700,Poor
+19721,0,19721_0,16,46.687518805404,-122.958793516471,2754960,Chehalis Lewis County Mall,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970800,9708,041,970800,Poor
+19721,0,19721_0,17,46.6831074321956,-122.960812076759,2754961,Chehalis Yardbirds,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970800,9708,041,970800,Poor
+19721,0,19721_0,18,46.6778334303547,-122.979824299701,2754962,Chehalis Wal-Mart,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970800,9708,041,970800,Poor
+19721,1,19721_1,1,46.6778334303547,-122.979824299701,2754962,Chehalis Wal-Mart,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970800,9708,041,970800,Poor
+19721,1,19721_1,2,46.6614596669914,-122.968489941139,2754963,Chehalis Court House,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970800,9708,041,970800,Poor
+19721,1,19721_1,3,46.6487262968036,-122.956824721968,2754964,Chehalis Juvenile Justice Center,L.E.W.I.S. Mountain Highway Transit,,,,,,NO,NO,NO,NO,53041970900,9709,041,970900,Poor
+32876,0,32876_0,12,46.690711,-122.959043,3460600,Lewis County Senior Center- 2544 N National Rd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970700,9707,041,970700,Good
+32876,0,32876_0,13,46.68801795407345,-122.95767671089517,3460602,Lewis County Mall - 121 NE Hampe Way,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32876,0,32876_0,14,46.68037401216898,-122.96326975150039,4223963,Walker Development - 1951 N National Ave,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32876,0,32876_0,15,46.664006,-122.967708,3460631,Westminster Presbyterian Church - 349 N Market Blvd,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32876,0,32876_0,16,46.661308,-122.963721,3460578,S Market Blvd. & SW 1st St. - 21 S Market Blvd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32876,0,32876_0,17,46.657778,-122.958725,3460577,S Market Blvd. & SW 6th St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970900,9709,041,970900,Good
+32876,0,32876_0,18,46.655692,-122.95595,3460581,Providence Medical - 931 S Market Blvd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+32876,0,32876_0,19,46.65827775993892,-122.9650918172516,4223965,SW Cascade Ave & 2nd Street - 250 SW Cascade Ave,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970900,9709,041,970900,Good
+32876,0,32876_0,20,46.664571802863634,-122.96807817825668,3460617,Chehalis Library - 75 NE Cascade Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32876,0,32876_0,21,46.667343,-122.971302,3460590,NE Washington Ave. & NE Division St. - 602 NE Washington Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32876,0,32876_0,22,46.675519,-122.967975,3460597,N National Ave. & Coal Creek Rd. - 1590 N National Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32876,0,32876_0,23,46.681421,-122.956495,3460601,Lewis County Public Works - 2025 NE Kresky Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32876,0,32876_0,24,46.689025,-122.955295,3460587,Pacific Cataract - 2517 NE Kresky Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32877,0,32877_0,2,46.679691482823564,-122.97786166700499,3460560,Walmart North Side - NW Arkansas Way,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32877,0,32877_0,3,46.666472,-122.977803,3460629,800 NW West St. Westside Park,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32877,0,32877_0,4,46.661436,-122.968461,3460603,Lewis County Courthouse - 275 W Main St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32877,0,32877_0,5,46.65598708882735,-122.96214419309811,4223951,St. Joseph Church - 583 SW Cascade Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970900,9709,041,970900,Good
+32877,0,32877_0,6,46.65251150349451,-122.9571881951547,4223952,Penny Playground - 1181 SW Cascade Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+32877,0,32877_0,7,46.647243,-122.956678,3460627,Arco Station - 104 SW Interstate Ave,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+32877,0,32877_0,10,46.642144,-122.941656,3460573,Shaw Learning Campus - 1225 Bishop Rd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+32877,0,32877_0,13,46.64774169012551,-122.93857490863101,4223955,Dayspring Church - 2088 Jackson Hwy,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32877,0,32877_0,14,46.64886340304962,-122.9420742004979,4223956,Market St Food Mart - 1986 S Market Blvd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32877,0,32877_0,15,46.652567,-122.950401,3460632,16th St. & Market Blvd. (WF West)) - 1612 S Market Blvd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+32877,0,32877_0,16,46.657896623406735,-122.95872084525654,4230464,634 S Market (Corner of Market & 6th),Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970900,9709,041,970900,Good
+32877,0,32877_0,17,46.659674,-122.961199,3460579,S Market Blvd. & 3rd St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970900,9709,041,970900,Good
+32877,0,32877_0,18,46.664571802863634,-122.96807817825668,3460617,Chehalis Library - 75 NE Cascade Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32877,0,32877_0,19,46.667343,-122.971302,3460590,NE Washington Ave. & NE Division St. - 602 NE Washington Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+32877,0,32877_0,20,46.679691482823564,-122.97786166700499,3460560,Walmart North Side - NW Arkansas Way,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+77349,0,77349_0,2,46.679691482823564,-122.97786166700499,3460560,Walmart North Side - NW Arkansas Way,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+77349,0,77349_0,3,46.666472,-122.977803,3460629,800 NW West St. Westside Park,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+77349,0,77349_0,4,46.661436,-122.968461,3460603,Lewis County Courthouse - 275 W Main St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+77349,0,77349_0,5,46.65598708882735,-122.96214419309811,4223951,St. Joseph Church - 583 SW Cascade Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970900,9709,041,970900,Good
+77349,0,77349_0,6,46.65251150349451,-122.9571881951547,4223952,Penny Playground - 1181 SW Cascade Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+77349,0,77349_0,7,46.650126,-122.955503,3460616,Chehalis Recreation Park - 222 SW 13th St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+77349,0,77349_0,8,46.642675148,-122.961581491,4251932,Batting Cage (Green Building) - 1501 Rice Rd,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+77349,0,77349_0,9,46.647243,-122.956678,3460627,Arco Station - 104 SW Interstate Ave,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+77349,0,77349_0,10,46.642144,-122.941656,3460573,Shaw Learning Campus - 1225 Bishop Rd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+77349,0,77349_0,13,46.64774169012551,-122.93857490863101,4223955,Dayspring Church - 2088 Jackson Hwy,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+77349,0,77349_0,14,46.64886340304962,-122.9420742004979,4223956,Market St Food Mart - 1986 S Market Blvd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+77349,0,77349_0,15,46.652567,-122.950401,3460632,16th St. & Market Blvd. (WF West)) - 1612 S Market Blvd.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041971000,9710,041,971000,Good
+77349,0,77349_0,16,46.657896623406735,-122.95872084525654,4230464,634 S Market (Corner of Market & 6th),Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970900,9709,041,970900,Good
+77349,0,77349_0,17,46.659674,-122.961199,3460579,S Market Blvd. & 3rd St.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970900,9709,041,970900,Good
+77349,0,77349_0,18,46.664571802863634,-122.96807817825668,3460617,Chehalis Library - 75 NE Cascade Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+77349,0,77349_0,19,46.667343,-122.971302,3460590,NE Washington Ave. & NE Division St. - 602 NE Washington Ave.,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good
+77349,0,77349_0,20,46.679691482823564,-122.97786166700499,3460560,Walmart North Side - NW Arkansas Way,Twin Transit (now called Lewis County Transit),,,,,,NO,NO,NO,YES,53041970800,9708,041,970800,Good

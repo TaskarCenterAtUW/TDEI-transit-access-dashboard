@@ -1,0 +1,133 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+coho,0,coho_0,1,48.1208906384423,-123.431745171546,pa,Port Angeles (arrive 20 min ahead for customs clearance),Black Ball Ferry Line,,,,,,YES,NO,NO,YES,53009000900,9,009,000900,Acceptable
+coho,1,coho_1,2,48.1208906384423,-123.431745171546,pa,Port Angeles (arrive 20 min ahead for customs clearance),Black Ball Ferry Line,,,,,,YES,NO,NO,YES,53009000900,9,009,000900,Acceptable
+123,0,123_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+123,1,123_1,7,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt10,0,Rt10_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt10,0,Rt10_0,2,48.1060726,-123.4715121,10_1,Hwy 101 and Fairmont,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt10,0,Rt10_0,3,48.1045919,-123.4863826,10_2,Hwy 101 and Airport,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt10,0,Rt10_0,4,48.102886,-123.503694,10_3,Hwy 101 and Reddick,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt10,1,Rt10_1,32,48.102627,-123.50395,10_57,Hwy 101 and Camerson,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001500,15,009,001500,Good
+Rt10,1,Rt10_1,33,48.1041952,-123.4874722,10_58,Hwy 101 and Eclipse Industrial Pkwy,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001500,15,009,001500,Good
+Rt10,1,Rt10_1,34,48.1061212,-123.4685683,10_59,Hwy 101 and Fairmont (Inbound),Clallam Transit System,,,,,,NO,NO,NO,NO,53009001500,15,009,001500,Good
+Rt10,1,Rt10_1,35,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt14,0,Rt14_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt14,0,Rt14_0,2,48.1060726,-123.4715121,10_1,Hwy 101 and Fairmont,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt14,0,Rt14_0,3,48.1045919,-123.4863826,10_2,Hwy 101 and Airport,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt14,0,Rt14_0,4,48.102886,-123.503694,10_3,Hwy 101 and Reddick,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt14,1,Rt14_1,26,48.102627,-123.50395,10_57,Hwy 101 and Camerson,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001500,15,009,001500,Good
+Rt14,1,Rt14_1,27,48.1041952,-123.4874722,10_58,Hwy 101 and Eclipse Industrial Pkwy,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001500,15,009,001500,Good
+Rt14,1,Rt14_1,28,48.1061212,-123.4685683,10_59,Hwy 101 and Fairmont (Inbound),Clallam Transit System,,,,,,NO,NO,NO,NO,53009001500,15,009,001500,Good
+Rt14,1,Rt14_1,29,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt20,0,Rt20_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt20,0,Rt20_0,2,48.1180334,-123.4313616,30E_2,1st and Lincoln,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt20,0,Rt20_0,3,48.116019,-123.42645,30E_3,1st and Vine,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt20,0,Rt20_0,4,48.114631,-123.423113,30E_4,1st and Eunice,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt20,0,Rt20_0,5,48.111786,-123.422761,20_1,Francis Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt20,0,Rt20_0,6,48.109422,-123.422427,20_2,5th & Race,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt20,0,Rt20_0,7,48.106289,-123.425255,20_3,9th and Race,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt20,0,Rt20_0,8,48.104373,-123.425284,20_4,Lauridsen near Race,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt20,0,Rt20_0,9,48.103498,-123.419948,20_5,Lauridsen Boulevard,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt20,0,Rt20_0,10,48.102362,-123.412837,20_6,Peninsula College,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt20,0,Rt20_0,11,48.109087,-123.409559,30E_7,1st and Ennis,Clallam Transit System,,,,,,NO,NO,NO,YES,53009001200,12,009,001200,Good
+Rt20,0,Rt20_0,12,48.107145,-123.404797,30E_8,1st and Penn St,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt20,0,Rt20_0,13,48.111833,-123.412847,30W_76,Front and Jones,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt20,0,Rt20_0,14,48.114622,-123.413899,20_10,Medical Center,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt20,0,Rt20_0,15,48.116367,-123.423859,30W_78,Front and Albert,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt20,0,Rt20_0,16,48.117299,-123.426125,30W_79,Front and Peabody,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt20,0,Rt20_0,17,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt22,0,Rt22_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt22,0,Rt22_0,2,48.116016,-123.433953,22_1,4th and Lincoln,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt22,0,Rt22_0,3,48.111198,-123.438271,22_3,9th & Lincoln,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt22,0,Rt22_0,4,48.1074371,-123.443735,22_5,Laurel & Hwy 101,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt22,0,Rt22_0,5,48.107153,-123.445327,22_6,Laurel and Motor,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,6,48.101424,-123.445655,22_7,Laurel and Park,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,7,48.099411,-123.445753,22_8,Laurel and Oakcrest,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,8,48.094427,-123.445536,22_9,Laurel and Ahlvers,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,9,48.095015,-123.437621,22_10,Peabody and Ahlvers,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,10,48.098167,-123.437631,22_11,Peabody and Viewcrest,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,11,48.101892,-123.438233,22_12,Peabody and Park,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,12,48.103654,-123.436457,22_13,East Whidby and Vine,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,13,48.1042018,-123.4309088,22_14,Eunice at Whidby near E Lopez,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001100,11,009,001100,Good
+Rt22,0,Rt22_0,14,48.105718,-123.43286,22_15,E Lauridsen Blvd and Albert,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt22,0,Rt22_0,15,48.1064501,-123.4373115,22_22,Lauridsen at S Peabody,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt22,0,Rt22_0,16,48.107112,-123.436766,22_17,Peabody and 12th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt22,0,Rt22_0,17,48.111758,-123.432544,22_18,7th and Peabody,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt22,0,Rt22_0,18,48.114574,-123.431164,22_19,4th and Peabody,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt22,0,Rt22_0,19,48.115347,-123.432969,22_20,Courthouse,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt22,0,Rt22_0,20,48.115791,-123.433833,10_64,Lincoln and 4th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt22,0,Rt22_0,21,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,2,48.116016,-123.433953,22_1,4th and Lincoln,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,3,48.115715,-123.436921,24_1,5th and Laurel,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,4,48.114942,-123.442808,24_2,8th & Cherry,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,5,48.116731,-123.448107,24_3,8th between South Cedar and South Pine,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,6,48.117223,-123.449351,24_4,Cedar and 8th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,7,48.119474,-123.457779,24_5,9th and C Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,8,48.116119,-123.460982,24_6,C @ 13th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,9,48.113546,-123.463278,24_7,C @ 16th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,10,48.115133,-123.467541,24_21,16th and E Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,11,48.117739,-123.474166,24_22,16th and H Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,12,48.118085,-123.475238,24_10,I Street and 16th Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,13,48.120636,-123.472965,24_11,I Street and 13th Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,14,48.123478,-123.470369,24_12,I Street and 10th Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,15,48.124987,-123.468614,24_13,8th and I Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,16,48.123938,-123.466206,24_14,8th and G Street,Clallam Transit System,,,,,,NO,NO,NO,YES,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,17,48.121759,-123.460866,24_15,8th and E Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,18,48.119635,-123.455678,24_16,8th and B Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt24,0,Rt24_0,19,48.116832,-123.448761,24_17,8th and S. Cedar,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,20,48.114657,-123.44274,24_18,Cherry Street and 8th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,21,48.11655,-123.439325,24_19,5th and Oak,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,22,48.11562,-123.43705,24_20,5th & Laurel,Clallam Transit System,,,,,,NO,NO,NO,YES,53009000900,9,009,000900,Good
+Rt24,0,Rt24_0,23,48.115791,-123.433833,10_64,Lincoln and 4th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt24,0,Rt24_0,24,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt26,0,Rt26_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt26,0,Rt26_0,2,48.12148,-123.436333,25_22,Front St at Oak,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt26,0,Rt26_0,3,48.121649,-123.442012,25_1,Marine and Pine,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,4,48.123619,-123.448598,25_2,Marine and Boathaven Dr,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,5,48.124531,-123.45286,25_3,Marine Drive and Harbour,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,6,48.126498,-123.457817,25_4,Marine Drive,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,7,48.13044,-123.470208,26_1,Hill and 4th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,8,48.129472,-123.473361,26_2,M Street @ 6th,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,9,48.128225,-123.474569,26_3,7th and M Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,10,48.126899,-123.478925,26_4,10th and Hamilton Way,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,11,48.1266992,-123.4842256,26_5,12th & N St,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,12,48.123121,-123.487378,26_6,16th & N St,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,13,48.122177,-123.490546,26_7,18th Street at Fairchild Heights,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,14,48.12272,-123.49204,26_8,18th Street at Serenity House,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,15,48.124643,-123.496692,26_9,18th & Butler,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,16,48.126203,-123.495002,26_10,16th & Butler,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,17,48.122508,-123.491813,26_11,18th at Serenity house,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,18,48.121312,-123.488889,26_12,18th near N Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,19,48.118973,-123.483061,26_13,18th at Family Services,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,20,48.116985,-123.48116,26_14,L Street by Fairgrounds Upper Lot,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,21,48.115137,-123.482977,26_15,L Street south of Fairgrounds,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,22,48.113588,-123.488651,26_16,Airport Road and Lauridsen,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,36,48.113549,-123.4884,26_29,Airport Road and Lauridsen,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,37,48.113421,-123.479115,26_30,Lincoln Park,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000700,7,009,000700,Good
+Rt26,0,Rt26_0,38,48.112442,-123.473566,26_31,Lauridsen and Bean,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt26,0,Rt26_0,39,48.111909,-123.470432,26_32,Lauridsen and Fairmont,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt26,0,Rt26_0,40,48.111025,-123.465595,26_33,Lauridsen and C Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt26,0,Rt26_0,41,48.110443,-123.462322,26_34,Clallam Transit System Admin. Facility,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000800,8,009,000800,Good
+Rt26,0,Rt26_0,42,48.121463,-123.440291,24_8,Marine and South Valley Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt26,0,Rt26_0,43,48.120695,-123.437839,24_9,West 1st and North Cherry Street,Clallam Transit System,,,,,,NO,NO,NO,NO,53009000900,9,009,000900,Good
+Rt26,0,Rt26_0,44,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt30,0,Rt30_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+Rt30,0,Rt30_0,2,48.1180334,-123.4313616,30E_2,1st and Lincoln,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt30,0,Rt30_0,3,48.116019,-123.42645,30E_3,1st and Vine,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt30,0,Rt30_0,4,48.114631,-123.423113,30E_4,1st and Eunice,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt30,0,Rt30_0,5,48.111823,-123.4162,30E_5,1st and Washington,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt30,0,Rt30_0,6,48.110527,-123.41305,30E_6,1st and Jones,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt30,0,Rt30_0,7,48.109087,-123.409559,30E_7,1st and Ennis,Clallam Transit System,,,,,,NO,NO,NO,YES,53009001200,12,009,001200,Good
+Rt30,0,Rt30_0,8,48.107145,-123.404797,30E_8,1st and Penn St,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt30,0,Rt30_0,9,48.106091,-123.398163,30E_9,Del Guzzi,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt30,1,Rt30_1,25,48.106364,-123.39847,30W_73,Hwy 101 across from DelGuzzi,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt30,1,Rt30_1,26,48.109039,-123.405992,30W_74,Front Street at Ford dealership,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt30,1,Rt30_1,27,48.110559,-123.409777,30W_75,Ennis Street,Clallam Transit System,,,,,,NO,NO,NO,YES,53009001200,12,009,001200,Good
+Rt30,1,Rt30_1,28,48.111833,-123.412847,30W_76,Front and Jones,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt30,1,Rt30_1,29,48.11385,-123.417709,30W_77,Front and Race,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001200,12,009,001200,Good
+Rt30,1,Rt30_1,30,48.116367,-123.423859,30W_78,Front and Albert,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt30,1,Rt30_1,31,48.117299,-123.426125,30W_79,Front and Peabody,Clallam Transit System,,,,,,NO,NO,NO,NO,53009001000,10,009,001000,Good
+Rt30,1,Rt30_1,32,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+hurridge,0,hurridge_0,1,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good
+hurridge,1,hurridge_1,3,48.119749,-123.43143,111,Port Angeles Gateway Transit Center,Clallam Transit System,,,,,,YES,YES,NO,YES,53009000900,9,009,000900,Good

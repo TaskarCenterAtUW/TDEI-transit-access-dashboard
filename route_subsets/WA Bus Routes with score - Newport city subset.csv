@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+74324,0,74324_0,1,48.1772744605404,-117.060830956315,4146976,Pend Oreille Skill Center,Kaltran,,,,,,NO,NO,NO,NO,53051970300,9703,051,970300,Poor
+74324,1,74324_1,2,48.1772744605404,-117.060830956315,4146976,Pend Oreille Skill Center,Kaltran,,,,,,NO,NO,NO,NO,53051970300,9703,051,970300,Poor
+74371,0,74371_0,2,48.18393927924939,-117.04049349867657,4147537,Newport Safeway,Special Mobility Services (SMS),,Newport - Spokane,3,9e2795,ffffff,NO,NO,NO,NO,53051970300,9703,051,970300,Poor
+74371,1,74371_1,1,48.18393927924939,-117.04049349867657,4147537,Newport Safeway,Special Mobility Services (SMS),,Newport - Spokane,3,9e2795,ffffff,NO,NO,NO,NO,53051970300,9703,051,970300,Poor

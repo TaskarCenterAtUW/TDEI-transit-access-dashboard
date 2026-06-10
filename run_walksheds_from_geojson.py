@@ -151,16 +151,37 @@ def build_router(auth_token, dataset_id):
         )
         time.sleep(30)
 
+# Walkshed profiles and their routing parameters (single source of truth).
+PROFILE_PARAMS = {
+    "Unconstrained Pedestrian (Sidewalks Only)": {"uphill": 0.15, "downhill": 0.15, "avoidCurbs": 0, "streetAvoidance": 1, "max_cost": 600, "reverse": 0},
+    "Manual Wheelchair": {"uphill": 0.083, "downhill": 0.083, "avoidCurbs": 1, "streetAvoidance": 1, "max_cost": 600, "reverse": 0},
+}
+
+# CLI --profile choice -> subset of PROFILE_PARAMS to generate.
+PROFILE_CHOICES = {
+    "pedestrian": ["Unconstrained Pedestrian (Sidewalks Only)"],
+    "wheelchair": ["Manual Wheelchair"],
+    "both": ["Unconstrained Pedestrian (Sidewalks Only)", "Manual Wheelchair"],
+}
+
+
+def resolve_profiles(choice):
+    """Return {profile_name: params} for a --profile choice (pedestrian/wheelchair/both)."""
+    names = PROFILE_CHOICES.get(choice, PROFILE_CHOICES["both"])
+    return {name: PROFILE_PARAMS[name] for name in names}
+
+
 # Step 2: Reachable Tree Class
 class AccessMapTreeProcessingAlgorithmFromGeoJSON:
-    def __init__(self, geojson_file_path, output_dir, csv_output_dir):
+    def __init__(self, geojson_file_path, output_dir, csv_output_dir, profiles=None):
         self.geojson_file_path = geojson_file_path
         self.output_dir = output_dir
         self.csv_output_dir = csv_output_dir
-        # TEMPORARY: pedestrian only — restore Manual Wheelchair entry when you want both profiles again.
+        # Profiles to generate this run (default: all). Only these get fetched + written.
+        self.active_profiles = dict(profiles) if profiles else dict(PROFILE_PARAMS)
         self.combined_edges_profiles = {
-            "Unconstrained Pedestrian (Sidewalks Only)": {"type": "FeatureCollection", "features": []},
-            "Manual Wheelchair": {"type": "FeatureCollection", "features": []},
+            name: {"type": "FeatureCollection", "features": []}
+            for name in self.active_profiles
         }
         self.metrics_by_profile = {}
 
@@ -269,11 +290,7 @@ class AccessMapTreeProcessingAlgorithmFromGeoJSON:
         Writes batch-named GeoJSON when the slice does not cover all features.
         Metrics CSV is written only for a full-file run (entire FeatureCollection in one invocation).
         """
-        # TEMPORARY: pedestrian only — add Manual Wheelchair back to match __init__.combined_edges_profiles.
-        profiles = {
-            "Unconstrained Pedestrian (Sidewalks Only)": {"uphill": 0.15, "downhill": 0.15, "avoidCurbs": 0, "streetAvoidance": 1, "max_cost": 600, "reverse": 0},
-            "Manual Wheelchair": {"uphill": 0.083, "downhill": 0.083, "avoidCurbs": 1, "streetAvoidance": 1, "max_cost": 600, "reverse": 0}
-        }
+        profiles = self.active_profiles
 
         jurisdiction_name = os.path.basename(self.geojson_file_path).split("_bus_stops.geojson")[0]
 
@@ -369,10 +386,10 @@ def merge_walkshed_batches_for_city(
     Concatenate all *_combined_edges_batchXXXX_YYYY.geojson per profile prefix into
     canonical *_combined_edges.geojson and write metrics CSV (full-area behavior).
     """
-    profiles = {
-        "Unconstrained Pedestrian (Sidewalks Only)": {"uphill": 0.15, "downhill": 0.15, "avoidCurbs": 0, "streetAvoidance": 1, "max_cost": 600, "reverse": 0},
-        "Manual Wheelchair": {"uphill": 0.083, "downhill": 0.083, "avoidCurbs": 1, "streetAvoidance": 1, "max_cost": 600, "reverse": 0},
-    }
+    # Metrics are written for every profile whose merged combined-edges file exists
+    # on disk (not just the ones merged this run), so a wheelchair-only merge keeps
+    # the existing pedestrian metrics row intact.
+    profiles = PROFILE_PARAMS
     jurisdiction_name = os.path.basename(geojson_file_path).split("_bus_stops.geojson")[0]
 
     by_prefix = {}
@@ -458,7 +475,7 @@ def merge_walkshed_batches_for_city(
 
 
 # Step 3: Master Runner Function
-def process_single_city(base_path, dataset_id, auth_token, slice_start=0, slice_stop=None):
+def process_single_city(base_path, dataset_id, auth_token, slice_start=0, slice_stop=None, profiles=None):
     city_folder = os.path.join(base_path, dataset_id)
     poi_path = os.path.join(city_folder, "data", "stops")
     output_dir = os.path.join(city_folder, "data", "walkshed_geojson")
@@ -471,7 +488,7 @@ def process_single_city(base_path, dataset_id, auth_token, slice_start=0, slice_
         if filename.endswith("_bus_stops.geojson"):
             geojson_file_path = os.path.join(poi_path, filename)
             algorithm = AccessMapTreeProcessingAlgorithmFromGeoJSON(
-                geojson_file_path, output_dir, csv_output_dir
+                geojson_file_path, output_dir, csv_output_dir, profiles=profiles
             )
             algorithm.processAlgorithm(slice_start=slice_start, slice_stop=slice_stop)
 
@@ -569,6 +586,14 @@ def main():
         action="store_true",
         help="With --merge-batches, delete shard files after a successful merge.",
     )
+    parser.add_argument(
+        "--profile",
+        choices=["pedestrian", "wheelchair", "both"],
+        default="both",
+        help="Which walkshed profile(s) to generate (default: both). Use 'wheelchair' "
+             "to add wheelchair walksheds to a city that already has pedestrian ones "
+             "without re-running pedestrian API calls.",
+    )
     args = parser.parse_args()
 
     if args.merge_batches:
@@ -613,10 +638,11 @@ def main():
                     f"Valid index range: 0..{n_batches - 1}."
                 )
 
-        print(f"Starting processing for dataset: {args.dataset}")
+        profiles = resolve_profiles(args.profile)
+        print(f"Starting processing for dataset: {args.dataset} (profiles: {', '.join(profiles)})")
         build_router(tdei_auth_token, args.dataset)
         time.sleep(2)
-        process_single_city(BASE_PATH, args.dataset, tdei_auth_token, slice_start, slice_stop)
+        process_single_city(BASE_PATH, args.dataset, tdei_auth_token, slice_start, slice_stop, profiles=profiles)
         print(f"Finished processing for dataset: {args.dataset}\n")
         return
 

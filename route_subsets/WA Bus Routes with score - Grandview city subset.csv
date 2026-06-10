@@ -1,0 +1,11 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19698,0,19698_0,2,46.25558,-119.891229,2754744,Grandview Dollar Tree,People for People,,,,,,NO,NO,NO,NO,53077001901,19.01,077,001901,Poor
+19698,0,19698_0,3,46.256176,-119.904387,2754802,Lucky 7 Mini Mart (Westbound) - Grandview,People for People,,,,,,NO,NO,NO,NO,53077001901,19.01,077,001901,Poor
+19698,0,19698_0,4,46.264369,-119.921908,2754743,Grandview Community Center,People for People,,,,,,NO,NO,NO,NO,53077001801,18.01,077,001801,Poor
+19698,1,19698_1,4,46.264369,-119.921908,2754743,Grandview Community Center,People for People,,,,,,NO,NO,NO,NO,53077001801,18.01,077,001801,Poor
+19698,1,19698_1,5,46.255969,-119.904304,2754803,Lucky 7 Mini Mart (Eastbound) - Grandview,People for People,,,,,,NO,NO,NO,NO,53077001901,19.01,077,001901,Poor
+19698,1,19698_1,6,46.25558,-119.891229,2754744,Grandview Dollar Tree,People for People,,,,,,NO,NO,NO,NO,53077001901,19.01,077,001901,Poor
+19700,0,19700_0,2,46.2535105,-119.8802204,2754731,Grandview Bleyhls,People for People,,,,,,NO,NO,NO,NO,53077001801,18.01,077,001801,Poor
+19700,1,19700_1,5,46.2535105,-119.8802204,2754731,Grandview Bleyhls,People for People,,,,,,NO,NO,NO,NO,53077001801,18.01,077,001801,Poor
+19704,1,19704_1,7,46.255969,-119.904304,2754803,Lucky 7 Mini Mart (Eastbound) - Grandview,People for People,,,,,,NO,NO,NO,NO,53077001901,19.01,077,001901,Poor
+19704,1,19704_1,8,46.25601002,-119.8927313,2754806,Grandview Safeway,People for People,,,,,,NO,NO,NO,NO,53077001901,19.01,077,001901,Poor

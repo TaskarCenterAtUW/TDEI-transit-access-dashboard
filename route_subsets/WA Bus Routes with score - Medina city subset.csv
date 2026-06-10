@@ -1,0 +1,18 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+424,0,424_0,23,47.637083,-122.236877,1859,Evergreen Point Fwy Station,Community Transit,,,,,,NO,NO,NO,NO,53033024200,242,033,024200,Great
+424,1,424_1,8,47.636879,-122.23675,497,Evergreen Point Fwy Station,Community Transit,,,,,,NO,NO,NO,NO,53033024200,242,033,024200,Good
+100146,0,100146_0,6,47.6368103,-122.236595,71348,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Good
+100146,1,100146_1,36,47.6371346,-122.237007,71355,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,YES,YES,53033024200,242,033,024200,Great
+100162,0,100162_0,9,47.6209679,-122.227158,73030,NE 12th St & 84th Ave NE,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Great
+100236,0,100236_0,8,47.6368103,-122.236595,71348,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Good
+100236,1,100236_1,11,47.6371346,-122.237007,71355,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,YES,YES,53033024200,242,033,024200,Great
+100341,0,100341_0,5,47.6368103,-122.236595,71348,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Good
+100341,1,100341_1,4,47.6371346,-122.237007,71355,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,YES,YES,53033024200,242,033,024200,Great
+100344,0,100344_0,5,47.6371346,-122.237007,71355,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,YES,YES,53033024200,242,033,024200,Great
+100344,1,100344_1,5,47.6368103,-122.236595,71348,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Good
+100451,0,100451_0,13,47.6371346,-122.237007,71355,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,YES,YES,53033024200,242,033,024200,Great
+100451,1,100451_1,7,47.6368103,-122.236595,71348,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Great
+100511,0,100511_0,7,47.6368103,-122.236595,71348,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Great
+100511,1,100511_1,8,47.6371346,-122.237007,71355,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,YES,YES,53033024200,242,033,024200,Great
+102754,0,102754_0,11,47.6368103,-122.236595,71348,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,NO,YES,53033024200,242,033,024200,Great
+102754,1,102754_1,12,47.6371346,-122.237007,71355,Sr 520 & Evergreen Point Rd,Metro Transit,,,,,,YES,YES,YES,YES,53033024200,242,033,024200,Great

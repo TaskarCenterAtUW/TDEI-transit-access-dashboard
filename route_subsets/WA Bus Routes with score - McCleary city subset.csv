@@ -1,0 +1,14 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+40,0,40_0,48,47.055527,-123.277389,40186,McCleary Apts EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,0,40_0,49,47.05555976,-123.27078581,40190,Simpson & S 7th EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,0,40_0,50,47.05553418,-123.26920331,40108,Simpson & S 6th EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,0,40_0,51,47.055524,-123.267288,40194,Simpson & S 5th EastBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,0,40_0,52,47.05355694,-123.26530874,40072,McCleary Transit Center,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,1,40_1,1,47.05355694,-123.26530874,40072,McCleary Transit Center,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,1,40_1,2,47.05566209,-123.26892436,40322,Simpson & N 6th WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,1,40_1,3,47.05565,-123.270953,40109,Simpson & N 7th WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,1,40_1,4,47.05565844,-123.275249,40326,Simpson & N 10th WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+40,1,40_1,5,47.05562006,-123.27773273,40107,McCleary Apts WestBound,Grays Harbor Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Good
+76995,0,76995_0,5,47.05356987952455,-123.2654221233932,4245735,McCleary Transit Center,Mason Transit Authority,,,,,,NO,YES,NO,NO,53027000600,6,027,000600,Good
+76995,1,76995_1,1,47.05356987952455,-123.2654221233932,4245735,McCleary Transit Center,Mason Transit Authority,,,,,,NO,YES,NO,NO,53027000600,6,027,000600,Good
+76900,0,76900_0,1,47.05358512590482,-123.26537736592428,4244464,McCleary Transit Center,Squaxin Island Transit,,,,,,NO,NO,NO,NO,53027000600,6,027,000600,Poor

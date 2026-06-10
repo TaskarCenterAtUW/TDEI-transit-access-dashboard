@@ -1,0 +1,7 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19705,0,19705_0,5,47.407221,-120.321569,2754762,Central Washington Hospital - Wenatchee,People for People,,,,,,NO,NO,NO,NO,53007961102,9611.02,007,961102,Poor
+19705,0,19705_0,6,47.420439,-120.307463,2754761,Link Transit Columbia Station - Wenatchee,People for People,,,,,,NO,NO,NO,NO,53007961002,9610.02,007,961002,Poor
+19705,0,19705_0,7,47.433469,-120.322467,2754760,Confluence Health - Wenatchee Valley Medical Center,People for People,,,,,,NO,NO,NO,NO,53007960803,9608.03,007,960803,Poor
+19705,1,19705_1,1,47.433469,-120.322467,2754760,Confluence Health - Wenatchee Valley Medical Center,People for People,,,,,,NO,NO,NO,NO,53007960803,9608.03,007,960803,Poor
+19705,1,19705_1,2,47.407221,-120.321569,2754762,Central Washington Hospital - Wenatchee,People for People,,,,,,NO,NO,NO,NO,53007961102,9611.02,007,961102,Poor
+19705,1,19705_1,3,47.420439,-120.307463,2754761,Link Transit Columbia Station - Wenatchee,People for People,,,,,,NO,NO,NO,NO,53007961002,9610.02,007,961002,Poor

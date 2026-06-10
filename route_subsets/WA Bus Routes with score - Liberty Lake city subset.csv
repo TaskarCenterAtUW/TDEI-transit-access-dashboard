@@ -1,0 +1,58 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+7,0,7_0,16,47.671396,-117.137176,MISHOLEN,Mission @ Holl,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013101,131.01,063,013101,Good
+7,0,7_0,17,47.671352,-117.131864,MISHARVE,Mission @ Harvest,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013101,131.01,063,013101,Good
+7,0,7_0,18,47.671382,-117.12302,MISKRAEN,Mission @ Kramer,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013101,131.01,063,013101,Good
+7,0,7_0,19,47.673859,-117.114768,MISBITEN,Mission @ Bitterroot,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013101,131.01,063,013101,Good
+7,0,7_0,20,47.669827,-117.10593,LIBAPPSM,Liberty Lake Rd @ Appleway (Pita Pit),Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good
+7,0,7_0,21,47.670124,-117.102708,LIBPKR2,Liberty Lake Park & Ride Bay 2,Spokane Transit Authority,,,,,,YES,YES,NO,YES,53063013203,132.03,063,013203,Good
+722,0,722_0,7,47.669827,-117.10593,LIBAPPSM,Liberty Lake Rd @ Appleway (Pita Pit),Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good
+722,0,722_0,8,47.67033,-117.102254,LIBPKR,Liberty Lake Park & Ride Bay 1,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+722,0,722_0,9,47.671017,-117.100373,MISSIGEN,Mission @ Signal,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+722,0,722_0,10,47.671159,-117.09667,MISHOMEN,Mission @ Homestead Dr,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+722,0,722_0,11,47.671212,-117.093959,MI23102E,Mission @ E 23102,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+722,0,722_0,12,47.671238,-117.090228,MISMOLEN,Mission @ Molter,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+722,0,722_0,13,47.671229,-117.076343,MISCOUEN,Mission @ Country Vista,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013204,132.04,063,013204,Good
+722,0,722_0,14,47.680231,-117.078842,COUHAWNF,Country Vista @ Hawkstone,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013204,132.04,063,013204,Good
+722,1,722_1,1,47.680263,-117.079122,COUHAWSN,Country Vista @ Hawkstone,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+722,1,722_1,2,47.671383,-117.07599,MISCOUWF,Mission @ Country Vista,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013204,132.04,063,013204,Good
+722,1,722_1,3,47.67136,-117.082901,MISMALWN,Mission @ Malvern,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+722,1,722_1,4,47.671432,-117.089105,MISMOLWN,Mission @ Molter,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+722,1,722_1,5,47.671363,-117.095656,MISMADWF,Mission @ Madson,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+722,1,722_1,6,47.67033,-117.102254,LIBPKR,Liberty Lake Park & Ride Bay 1,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+722,1,722_1,7,47.668265,-117.104751,COULIBWN,Country Vista @ Lib Lk Rd,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+722,1,722_1,8,47.670007,-117.105672,LIBCOUNM,Lib Lk Rd @ Country Vista (McDonalds),Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+724,0,724_0,3,47.671709,-117.104794,APPMEAEN,Appleway @ Meadowood Ln,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+724,0,724_0,4,47.672798,-117.101748,APPSIGEN,Appleway @ Signal,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+724,0,724_0,5,47.675058,-117.09534,APPMADEF,Appleway @ Madson,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+724,0,724_0,6,47.676623,-117.090844,APPMOLEN,Appleway @ Molter,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+724,0,724_0,7,47.677703,-117.087723,APPSWIEF,Appleway @ Swing (Huntwood),Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+724,0,724_0,8,47.680263,-117.079122,COUHAWSN,Country Vista @ Hawkstone,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+724,1,724_1,1,47.680231,-117.078842,COUHAWNF,Country Vista @ Hawkstone,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013204,132.04,063,013204,Good
+724,1,724_1,2,47.676812,-117.091152,APPMOLWF,Appleway @ Molter,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+724,1,724_1,3,47.675793,-117.094028,APPMADWN,Appleway @ Madson,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+724,1,724_1,4,47.674134,-117.09877,AP22910W,Appleway @ E 22910,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+724,1,724_1,5,47.672458,-117.103601,APPMEAWN,Appleway @ Meadowwood Ln,Spokane Transit Authority,,,,,,NO,NO,NO,NO,53063013203,132.03,063,013203,Good
+93,0,93_0,1,47.670124,-117.102708,LIBPKR2,Liberty Lake Park & Ride Bay 2,Spokane Transit Authority,,,,,,YES,YES,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,2,47.671017,-117.100373,MISSIGEN,Mission @ Signal,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,3,47.671159,-117.09667,MISHOMEN,Mission @ Homestead Dr,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,4,47.671212,-117.093959,MI23102E,Mission @ E 23102,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,5,47.671238,-117.090228,MISMOLEN,Mission @ Molter,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,6,47.672173,-117.089528,MOLMISNF,Molter @ Mission,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,7,47.674968,-117.089507,MOLTECH,Molter @ Meadowwood Tech Park,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,8,47.676812,-117.091152,APPMOLWF,Appleway @ Molter,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,9,47.675793,-117.094028,APPMADWN,Appleway @ Madson,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,10,47.674134,-117.09877,AP22910W,Appleway @ E 22910,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+93,0,93_0,11,47.670124,-117.102708,LIBPKR2,Liberty Lake Park & Ride Bay 2,Spokane Transit Authority,,,,,,YES,YES,NO,YES,53063013203,132.03,063,013203,Good
+98,0,98_0,24,47.663806,-117.133971,COUHENEF,Country Vista @ Ridgeline HS,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good
+98,0,98_0,25,47.664076,-117.12143,COUKRAEF,Country Vista @ Kramer,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good
+98,0,98_0,26,47.665788,-117.117245,COULEGEN,Country Vista @ Legacy Ridge,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013205,132.05,063,013205,Good
+98,0,98_0,27,47.666623,-117.112378,COUWHIEN,Country Vista @ Whitman,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013205,132.05,063,013205,Good
+98,0,98_0,28,47.667351,-117.107958,COUSTAEM,Country Vista @ Stanford,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013205,132.05,063,013205,Good
+98,0,98_0,29,47.670124,-117.102708,LIBPKR2,Liberty Lake Park & Ride Bay 2,Spokane Transit Authority,,,,,,YES,YES,NO,YES,53063013203,132.03,063,013203,Good
+98,1,98_1,1,47.670124,-117.102708,LIBPKR2,Liberty Lake Park & Ride Bay 2,Spokane Transit Authority,,,,,,YES,YES,NO,YES,53063013203,132.03,063,013203,Good
+98,1,98_1,2,47.668265,-117.104751,COULIBWN,Country Vista @ Lib Lk Rd,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013203,132.03,063,013203,Good
+98,1,98_1,3,47.66753,-117.108298,COUSTAWN,Country Vista @ Stanford,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good
+98,1,98_1,4,47.666785,-117.112806,COUWHIWF,Country Vista @ Whitman,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good
+98,1,98_1,5,47.665994,-117.117381,COULEGWF,Country Vista @ Legacy Ridge,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good
+98,1,98_1,6,47.664259,-117.12248,COUKRAWF,Country Vista @ Kramer,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good
+98,1,98_1,7,47.663977,-117.13487,COUHENWF,Country Vista @ Ridgeline HS,Spokane Transit Authority,,,,,,NO,NO,NO,YES,53063013102,131.02,063,013102,Good

@@ -1,0 +1,3 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19706,0,19706_0,2,47.758138,-118.519926,2754791,Town Hall - Creston,People for People,,,,,,NO,NO,NO,NO,53043960300,9603,043,960300,Poor
+19706,1,19706_1,4,47.758138,-118.519926,2754791,Town Hall - Creston,People for People,,,,,,NO,NO,NO,NO,53043960300,9603,043,960300,Poor

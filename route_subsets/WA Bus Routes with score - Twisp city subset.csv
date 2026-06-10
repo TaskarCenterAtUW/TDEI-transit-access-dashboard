@@ -1,0 +1,8 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+OKAN_1,0,OKAN_1_0,1,48.359783,-120.11765,OKAN_101,Hank's,TranGO,,,,,,NO,NO,NO,NO,53047971000,9710,047,971000,Ok
+OKAN_1,1,OKAN_1_1,4,48.359783,-120.11765,OKAN_101,Hank's,TranGO,,,,,,NO,NO,NO,NO,53047971000,9710,047,971000,Ok
+OKAN_2,0,OKAN_2_0,1,48.359783,-120.11765,OKAN_101,Hank's,TranGO,,,,,,NO,NO,NO,NO,53047971000,9710,047,971000,Poor
+OKAN_2,0,OKAN_2_0,2,48.365148,-120.119088,OKAN_106,Methow St & 2nd Ave,TranGO,,,,,,NO,NO,NO,NO,53047971000,9710,047,971000,Poor
+OKAN_2,1,OKAN_2_1,4,48.359783,-120.11765,OKAN_101,Hank's,TranGO,,,,,,NO,NO,NO,NO,53047971000,9710,047,971000,Poor
+OKAN_3,0,OKAN_3_0,1,48.359783,-120.11765,OKAN_101,Hank's,TranGO,,,,,,NO,NO,NO,NO,53047971000,9710,047,971000,Poor
+OKAN_3,1,OKAN_3_1,4,48.359783,-120.11765,OKAN_101,Hank's,TranGO,,,,,,NO,NO,NO,NO,53047971000,9710,047,971000,Poor

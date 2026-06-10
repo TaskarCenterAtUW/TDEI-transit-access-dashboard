@@ -1,0 +1,30 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+94,0,94_0,25,46.9532089233,-122.627388,736,Yelm Ave at Burnett Rd [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012421,124.21,067,012421,Poor
+94,0,94_0,26,46.9519958496,-122.625198,737,Yelm Ave at 93rd Ave [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012421,124.21,067,012421,Poor
+94,0,94_0,27,46.950176239,-122.621857,738,Yelm High School [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012421,124.21,067,012421,Poor
+94,0,94_0,28,46.9476623535,-122.617165,475,Yelm Ave at Tahoma Blvd [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012421,124.21,067,012421,Poor
+94,0,94_0,29,46.9460906982,-122.614243,739,Yelm Ave at Cullens St [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012421,124.21,067,012421,Poor
+94,0,94_0,30,46.9446144104,-122.611504,859,Yelm Ave at Solberg St [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012421,124.21,067,012421,Poor
+94,0,94_0,31,46.9429901,-122.608593,740,Yelm Ave at Edwards St [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012421,124.21,067,012421,Poor
+94,0,94_0,32,46.9408073425,-122.604584,741,Yelm Ave at 3rd St [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,0,94_0,33,46.9390907288,-122.601501,920,Yelm Ave at Clark Rd [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,0,94_0,34,46.9365081787,-122.59671,913,Nisqually Plaza [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,0,94_0,35,46.93304,-122.58955,914,Yelm Ave at Bald Hill Rd [eb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,0,94_0,36,46.9336280823,-122.579292,999,Yelm Walmart,Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,1,46.9336280823,-122.579292,999,Yelm Walmart,Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,2,46.9381828308,-122.584053,915,103rd Ave at Grove Rd [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,3,46.9383544922,-122.589211,916,103rd Ave at Creek St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,4,46.9355735779,-122.590088,744,Creek St at Algiers Rd [sb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,5,46.9337730408,-122.590164,627,Creek St at Yelm Ave [sb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,6,46.9362564087,-122.595825,899,Nisqually Plaza [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,7,46.9381484985,-122.599365,912,Yelm Ave at 103rd Ave [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,8,46.9390792847,-122.601128,812,Yelm Ave at Clark Rd [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,9,46.9407730103,-122.60421,788,Yelm Ave at 3rd St [nb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012412,124.12,067,012412,Poor
+94,1,94_1,10,46.94348526,-122.609177,745,Yelm Ave at Edwards St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012422,124.22,067,012422,Poor
+94,1,94_1,11,46.9458427429,-122.613426,714,Yelm Ave at Longmire St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012422,124.22,067,012422,Poor
+94,1,94_1,12,46.9468688965,-122.615379,746,Yelm Ave at Cullens St [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012422,124.22,067,012422,Poor
+94,1,94_1,13,46.9481697083,-122.617851,476,Yelm Ave at Killion Rd [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012422,124.22,067,012422,Poor
+94,1,94_1,14,46.9503097534,-122.621864,747,Yelm High School [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012422,124.22,067,012422,Poor
+94,1,94_1,15,46.9523658752,-122.62561,748,Yelm Ave at 93rd Ave [wb],Intercity Transit,94,Yelm via Boulevard Rd,3,126844,ffffff,NO,NO,NO,NO,53067012422,124.22,067,012422,Poor
+19716,0,19716_0,1,46.9407483515918,-122.604546277302,4212933,Yelm Ave & 3rd St,ruralTRANSIT,,,,,,NO,NO,NO,NO,53067012412,124.12,067,012412,Acceptable
+19716,1,19716_1,7,46.9407483515918,-122.604546277302,4212933,Yelm Ave & 3rd St,ruralTRANSIT,,,,,,NO,NO,NO,NO,53067012412,124.12,067,012412,Acceptable

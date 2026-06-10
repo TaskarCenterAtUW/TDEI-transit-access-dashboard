@@ -1,0 +1,17 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+67976,0,67976_0,3,47.2275048,-119.8531875,3880700,L&R Café on Central Ave S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+67976,0,67976_0,4,47.2303924,-119.8532063,3880701,Fred Lischka Properties on Central Ave S,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+67976,0,67976_0,5,47.2333671,-119.8522517,3880702,F St SE / 1st Ave SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+67976,0,67976_0,6,47.2338909,-119.8471089,3880703,Jackpot Food Mart on F St SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+67976,0,67976_0,7,47.2334905,-119.869444,4147925,Lamb Weston on E St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+67976,0,67976_0,8,47.2334852,-119.842971,3879652,Quincy Senior Center on F St SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+67976,1,67976_1,11,47.2334852,-119.842971,3879652,Quincy Senior Center on F St SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+77622,0,77622_0,36,47.2336612,-119.8511212,3879653,Flower Basket on F St SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+77622,0,77622_0,37,47.233512,-119.855705,3879654,Quincy Community Center on F St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+77622,0,77622_0,38,47.2334905,-119.869444,4147925,Lamb Weston on E St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+77622,1,77622_1,1,47.2334905,-119.869444,4147925,Lamb Weston on E St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+77622,1,77622_1,2,47.233032,-119.8675688,3880693,Knights Inn on F St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+77622,1,77622_1,3,47.233167,-119.861694,3880694,Quincy Inn & Suites on F St SW,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+77622,1,77622_1,4,47.2334852,-119.842971,3879652,Quincy Senior Center on F St SE,Grant Transit Authority,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Acceptable
+19705,0,19705_0,4,47.230719,-119.867774,2754763,Quincy Valley Hospital - Quincy,People for People,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Poor
+19705,1,19705_1,4,47.230719,-119.867774,2754763,Quincy Valley Hospital - Quincy,People for People,,,,,,NO,NO,NO,NO,53025010500,105,025,010500,Poor

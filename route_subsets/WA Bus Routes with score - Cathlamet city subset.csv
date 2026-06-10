@@ -1,0 +1,12 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+13343,0,13343_0,2,46.203299727496585,-123.38588883932756,2527589,Strong Park (Cathlamet),Wahkiakum on the Move,,,,,,NO,NO,NO,NO,53069950100,9501,069,950100,Ok
+13343,0,13343_0,3,46.20244589,-123.38439345,2527598,Cathlamet Hotel,Wahkiakum on the Move,,,,,,NO,NO,NO,YES,53069950100,9501,069,950100,Ok
+13383,0,13383_0,3,46.20489249409505,-123.38463624072918,2528798,2nd & Una,Wahkiakum on the Move,,,,,,NO,NO,NO,NO,53069950100,9501,069,950100,Ok
+13383,0,13383_0,4,46.204963276994846,-123.38745610649656,2528799,Marina,Wahkiakum on the Move,,,,,,NO,NO,NO,NO,53069950100,9501,069,950100,Ok
+13383,0,13383_0,5,46.203299727496585,-123.38588883932756,2527589,Strong Park (Cathlamet),Wahkiakum on the Move,,,,,,NO,NO,NO,NO,53069950100,9501,069,950100,Ok
+13383,0,13383_0,16,46.20244589,-123.38439345,2527598,Cathlamet Hotel,Wahkiakum on the Move,,,,,,NO,NO,NO,YES,53069950100,9501,069,950100,Ok
+13383,0,13383_0,19,46.19850640121473,-123.37843753557982,2527597,Eagle Point Apartments,Wahkiakum on the Move,,,,,,NO,NO,NO,NO,53069950100,9501,069,950100,Ok
+13383,0,13383_0,20,46.19735410972592,-123.37818784179055,2528812,Erickson Park,Wahkiakum on the Move,,,,,,NO,NO,NO,NO,53069950100,9501,069,950100,Ok
+13383,0,13383_0,28,46.200598351167116,-123.38105271413127,2528824,Hope Center,Wahkiakum on the Move,,,,,,NO,NO,NO,NO,53069950100,9501,069,950100,Ok
+13383,0,13383_0,29,46.19916442341929,-123.38162297119581,2528825,St. Catherine's Church,Wahkiakum on the Move,,,,,,NO,NO,NO,NO,53069950100,9501,069,950100,Ok
+13383,0,13383_0,30,46.20244589,-123.38439345,2527598,Cathlamet Hotel,Wahkiakum on the Move,,,,,,NO,NO,NO,YES,53069950100,9501,069,950100,Ok

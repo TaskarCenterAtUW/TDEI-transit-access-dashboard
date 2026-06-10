@@ -1,0 +1,3 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19716,0,19716_0,2,46.88773235080735,-122.69152264451502,3463433,Minnesota St & Rochester St,ruralTRANSIT,,,,,,NO,NO,NO,NO,53067012530,125.30,067,012530,Acceptable
+19716,1,19716_1,6,46.8877,-122.68971,2754875,Dakota Ave & Binghamton St,ruralTRANSIT,,,,,,NO,NO,NO,NO,53067012530,125.30,067,012530,Acceptable

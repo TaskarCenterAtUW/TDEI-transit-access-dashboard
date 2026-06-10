@@ -1,0 +1,12 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+14,0,14_0,3,46.6855242,-123.73147396,5th,5th & Commercial - Raymond,Pacific Transit,,,,,,YES,YES,NO,YES,53049950200,9502,049,950200,Good
+14,0,14_0,4,46.69368858,-123.7384021,park,Park & Water - RD,Pacific Transit,,,,,,NO,NO,NO,NO,53049950200,9502,049,950200,Good
+14,1,14_1,2,46.6855242,-123.73147396,5th,5th & Commercial - Raymond,Pacific Transit,,,,,,YES,YES,NO,YES,53049950200,9502,049,950200,Good
+32,0,32_0,1,46.6855242,-123.73147396,5th,5th & Commercial - Raymond,Pacific Transit,,,,,,YES,YES,NO,YES,53049950200,9502,049,950200,Good
+32,0,32_0,2,46.69264637,-123.74653997,Howard,Howard & Garfield - Raymond SB,Pacific Transit,,,,,,NO,NO,NO,YES,53049950200,9502,049,950200,Good
+32,0,32_0,3,46.6855242,-123.73147396,5th,5th & Commercial - Raymond,Pacific Transit,,,,,,YES,YES,NO,YES,53049950200,9502,049,950200,Good
+32,0,32_0,4,46.6805394,-123.73935427,mcd,McDonalds - RV,Pacific Transit,,,,,,NO,NO,NO,YES,53049950200,9502,049,950200,Good
+32,0,32_0,5,46.67601331,-123.74174817,barn_jack,Barnhart & Jackson - RV,Pacific Transit,,,,,,NO,NO,NO,YES,53049950200,9502,049,950200,Good
+32,1,32_1,4,46.68019621,-123.74020995,101Fowler,Fowler & Hwy 101 - RV,Pacific Transit,,,,,,NO,NO,NO,NO,53049950200,9502,049,950200,Good
+32,1,32_1,5,46.67601331,-123.74174817,barn_jack,Barnhart & Jackson - RV,Pacific Transit,,,,,,NO,NO,NO,YES,53049950200,9502,049,950200,Good
+32,1,32_1,6,46.6855242,-123.73147396,5th,5th & Commercial - Raymond,Pacific Transit,,,,,,YES,YES,NO,YES,53049950200,9502,049,950200,Good

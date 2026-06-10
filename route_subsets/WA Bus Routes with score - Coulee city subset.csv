@@ -1,0 +1,5 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+19706,0,19706_0,5,47.966069,-118.976094,2754759,Coulee Dam City Park - Coulee Dam,People for People,,,,,,NO,NO,NO,NO,53047940100,9401,047,940100,Poor
+19706,1,19706_1,1,47.966069,-118.976094,2754759,Coulee Dam City Park - Coulee Dam,People for People,,,,,,NO,NO,NO,NO,53047940100,9401,047,940100,Poor
+OCTN_east,0,OCTN_east_0,8,47.9601460939749,-118.986674274329,OCTN_8,coulee_dam_info_center,TranGO,,,,,,NO,NO,NO,NO,53025010100,101,025,010100,Poor
+OCTN_west,0,OCTN_west_0,1,47.9601460939749,-118.986674274329,OCTN_8,coulee_dam_info_center,TranGO,,,,,,NO,NO,NO,NO,53025010100,101,025,010100,Poor

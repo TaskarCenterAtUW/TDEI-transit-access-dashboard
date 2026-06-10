@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Seattle city — bus routes & stops</title>
+  <title>Yakima city — bus routes & stops</title>
   <link href="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.css" rel="stylesheet" />
   <script src="https://unpkg.com/maplibre-gl@4/dist/maplibre-gl.js"></script>
   <style>
@@ -51,6 +51,31 @@
     .profile-toggle button:not(:last-child) { border-right: 1px solid #cbd5e1; }
     .profile-toggle button.active { background: #1d4ed8; color: #fff; }
     .profile-toggle button:not(.active):hover { background: #e2e8f0; }
+    .period-hint { font-size: 11px; color: #64748b; margin: 0 0 8px; }
+    .svc-period-filters { display: flex; flex-direction: column; gap: 6px; margin: 0 0 8px; }
+    .svc-period-filter { display: flex; align-items: center; gap: 8px; font-size: 13px; cursor: pointer; }
+    .svc-period-filter input { width: 15px; height: 15px; accent-color: #1a9850; cursor: pointer; margin: 0; flex-shrink: 0; }
+    .svc-period-filter:hover span { color: #1a9850; }
+    /* 4-cell per-stop service-profile glyph */
+    .svc-profile { display: flex; gap: 5px; margin: 8px 0 4px; }
+    .svc-cell { flex: 1; text-align: center; font-size: 10px; color: #64748b; }
+    .svc-box {
+      display: flex; align-items: center; justify-content: center;
+      height: 22px; margin-bottom: 3px; border: 1px solid #cbd5e1; border-radius: 4px;
+      background: #f1f5f9; color: #fff; font-size: 13px; font-weight: 700;
+    }
+    .svc-cell.on .svc-box { background: #1a9850; border-color: #1a9850; }
+    .svc-cell.on { color: #0f172a; font-weight: 600; }
+    .svc-cell.active .svc-box { box-shadow: 0 0 0 2px #1d4ed8; }
+    .svc-lbl { display: block; line-height: 1.2; }
+    /* Per-route per-period summary bars */
+    .svc-bars { margin: 8px 0 4px; }
+    .svc-bar-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; font-size: 12px; }
+    .svc-bar-row.active .svc-bar-lbl { font-weight: 700; color: #1d4ed8; }
+    .svc-bar-lbl { flex: 0 0 96px; color: #475569; }
+    .svc-bar { flex: 1; height: 9px; background: #e2e8f0; border-radius: 5px; overflow: hidden; }
+    .svc-bar-fill { display: block; height: 100%; background: #1a9850; }
+    .svc-bar-val { flex: 0 0 40px; text-align: right; color: #334155; font-variant-numeric: tabular-nums; }
   </style>
 </head>
 <body>
@@ -69,13 +94,18 @@
           <button class="active" data-profile="pedestrian">🚶 Pedestrian</button>
           <button data-profile="wheelchair">♿ Wheelchair</button>
         </div>
-        <h3>Route line color (score)</h3>
-        <div class="legend-row"><span class="legend-swatch" style="background:#1F77B4"></span><span>Great</span></div>
-        <div class="legend-row"><span class="legend-swatch" style="background:#AEC7E8"></span><span>Good</span></div>
-        <div class="legend-row"><span class="legend-swatch" style="background:#D6D6D6"></span><span>Acceptable</span></div>
-        <div class="legend-row"><span class="legend-swatch" style="background:#7F7F7F"></span><span>Ok</span></div>
-        <div class="legend-row"><span class="legend-swatch" style="background:#525252"></span><span>Poor</span></div>
-        <p class="muted" style="margin-top:12px">Routes: <code>WA Bus Routes with score - Yakima city subset.csv</code></p>
+        <h3>Frequent service</h3>
+        <p class="period-hint">Check any combination — stops are <strong style="color:#1a9850">green</strong> where service meets <em>all</em> checked standards.</p>
+        <div class="svc-period-filters" id="period-filters">
+          <label class="svc-period-filter"><input type="checkbox" value="svc_peak"><span>Weekday peak · 15 min</span></label>
+          <label class="svc-period-filter"><input type="checkbox" value="svc_day"><span>Weekday midday · 15 min</span></label>
+          <label class="svc-period-filter"><input type="checkbox" value="svc_night"><span>Weeknight · 60 min</span></label>
+          <label class="svc-period-filter"><input type="checkbox" value="svc_weekend"><span>Weekend · 60 min</span></label>
+        </div>
+        <div class="legend-row"><span class="legend-swatch" style="background:#1a9850"></span><span>Stop meets all checked standards</span></div>
+        <div class="legend-row"><span class="legend-swatch" style="background:#c2cad6"></span><span>Stop does not</span></div>
+        <p class="muted" style="margin-top:6px;font-size:11px">Lines use each route's own color. Click a stop for its full service profile.</p>
+        <p class="muted" style="margin-top:12px">Routes: <code>route_subsets/WA Bus Routes with score - Yakima city subset.csv</code></p>
         <p class="muted">Walkshed lines: <code>walkshed_edges_by_stop/*.geojson</code> from <code>export_walkshed_edges_per_stop.py</code></p>
         <p class="muted">Stop amenities: counts CSV + <code>…_amenity_locations.csv</code></p>
         <p class="muted" style="margin-top:8px">Blue tint: Yakima city limits (<code>jurisdiction_bounds/Yakima_city_limits.geojson</code>).</p>
@@ -84,7 +114,7 @@
   </div>
 
   <script>
-    const CENTER = [-120.55241, 46.59383];
+    const CENTER = [-120.51, 46.6];
     const ZOOM = 12;
 
     const map = new maplibregl.Map({
@@ -96,11 +126,7 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-    // TODO: after running upload_to_r2.sh, replace the DATA_BASE value with your
-    // R2 public bucket URL (e.g. 'https://pub-<hash>.r2.dev').
-    // For local development with `npx serve`, keep it as an empty string ('').
-    const DATA_BASE = '';
-    const DATASET = DATA_BASE ? `${DATA_BASE}/yakima/data` : '../data/95b532a7-cd6f-451b-8c5f-f78577427480/data';
+    const DATASET = '../data/95b532a7-cd6f-451b-8c5f-f78577427480/data';
 
     /** Pedestrian profile data URLs */
     const PROFILES = {
@@ -136,6 +162,108 @@
     /** @type {Map<string, Array<{ lat: number, lon: number, name: string, amenity: string }>>|null} */
     let amenityLocationsByStop = null;
 
+    /**
+     * Service-frequency periods. Each maps a CSV column (YES/NO per stop) to a
+     * stop-feature property + UI label. These replace the old subjective
+     * route_score (Great/Good/…) coloring: a stop is "served" (green) when it
+     * meets the frequency standard for the selected period, otherwise grey.
+     */
+    const PERIODS = [
+      { key: 'svc_peak',    col: 'peak_15min_weekday',  label: 'Weekday peak',   short: 'Peak',  desc: 'Every 15 min · weekday rush' },
+      { key: 'svc_day',     col: 'day_15min_weekday',   label: 'Weekday midday', short: 'Day',   desc: 'Every 15 min · weekday midday' },
+      { key: 'svc_night',   col: 'night_60min_weekday', label: 'Weeknight',      short: 'Night', desc: 'At least hourly · weeknights' },
+      { key: 'svc_weekend', col: 'allday_60min_weekend',label: 'Weekend',        short: 'Wknd',  desc: 'At least hourly · weekends' },
+    ];
+    /** Active period keys for multi-select stop coloring (AND logic). */
+    let activePeriods = new Set();
+    const SERVED_COLOR = '#1a9850';      // green: meets all checked standards
+    const NOT_SERVED_COLOR = '#c2cad6';  // grey: does not
+    /** Normalize a raw cell to 'YES' | 'NO'. */
+    function yesNo(v) { return String(v == null ? '' : v).trim().toUpperCase() === 'YES' ? 'YES' : 'NO'; }
+
+    /**
+     * MapLibre boolean condition: true when a stop meets ALL active periods.
+     * Returns null when nothing is checked ("no filter" state).
+     */
+    function svcCondExpr() {
+      const active = [...activePeriods];
+      if (!active.length) return null;
+      return active.length === 1
+        ? ['==', ['get', active[0]], 'YES']
+        : ['all', ...active.map((k) => ['==', ['get', k], 'YES'])];
+    }
+
+    // When at least one period is checked, served stops pop (large, outlined, opaque) and
+    // non-served stops recede (small, faded). When nothing is checked, all stops look the
+    // same — no fading or visual distinction.
+    function serviceColorExpr() {
+      const c = svcCondExpr();
+      if (!c) return NOT_SERVED_COLOR;
+      return ['case', c, SERVED_COLOR, NOT_SERVED_COLOR];
+    }
+    function serviceRadiusExpr() {
+      const c = svcCondExpr();
+      if (!c) return 3;
+      return ['case', c, 4, 2];
+    }
+    function serviceOpacityExpr() {
+      const c = svcCondExpr();
+      if (!c) return 0.9;
+      return ['case', c, 1, 0.3];
+    }
+    function serviceStrokeExpr() {
+      const c = svcCondExpr();
+      if (!c) return 0;
+      return ['case', c, 1.5, 0];
+    }
+
+    /** Re-apply all service-driven paint properties. */
+    function applyServiceColors() {
+      if (map.getLayer('stops-circle')) {
+        map.setPaintProperty('stops-circle', 'circle-color',        serviceColorExpr());
+        map.setPaintProperty('stops-circle', 'circle-radius',       serviceRadiusExpr());
+        map.setPaintProperty('stops-circle', 'circle-opacity',      serviceOpacityExpr());
+        map.setPaintProperty('stops-circle', 'circle-stroke-width', serviceStrokeExpr());
+      }
+      ['stops-selected-dot', 'route-stops-dot'].forEach((id) => {
+        if (map.getLayer(id)) map.setPaintProperty(id, 'circle-color', serviceColorExpr());
+      });
+    }
+
+    /**
+     * 4-cell "service profile" glyph for one stop: shows the exact YES/NO
+     * combination across all four periods (one of 16). Filled green = served.
+     */
+    function serviceGlyph(props) {
+      const cells = PERIODS.map((p) => {
+        const on = yesNo(props[p.key]) === 'YES';
+        const checked = activePeriods.has(p.key) ? ' active' : '';
+        return `<div class="svc-cell${on ? ' on' : ''}${checked}" title="${escapeHtml(p.col)} — ${p.desc}: ${on ? 'YES' : 'NO'}">` +
+               `<span class="svc-box">${on ? '✓' : ''}</span><span class="svc-lbl">${p.short}</span></div>`;
+      }).join('');
+      return `<div class="svc-profile">${cells}</div>`;
+    }
+
+    /**
+     * Per-period summary for a whole route path: how many of its stops meet
+     * each frequency standard (service varies stop-to-stop along a route).
+     */
+    function routeServiceSummary(r) {
+      const stops = (r && r.stops) || [];
+      const n = stops.length;
+      if (!n) return '<p class="muted">No stops on path.</p>';
+      const rows = PERIODS.map((p) => {
+        const served = stops.reduce((acc, s) => acc + (yesNo(s[p.key]) === 'YES' ? 1 : 0), 0);
+        const pct = Math.round((served / n) * 100);
+        const active = activePeriods.has(p.key) ? ' active' : '';
+        return `<div class="svc-bar-row${active}" title="${escapeHtml(p.desc)}">` +
+               `<span class="svc-bar-lbl">${p.label}</span>` +
+               `<span class="svc-bar"><span class="svc-bar-fill" style="width:${pct}%"></span></span>` +
+               `<span class="svc-bar-val">${served}/${n}</span></div>`;
+      }).join('');
+      return `<div class="svc-bars">${rows}</div>`;
+    }
+
     /** Return currently active profile's walkshed base URL. */
     function walkshedBase() { return PROFILES[currentProfile].walkshedBase; }
     /** Return currently active amenity index. */
@@ -167,8 +295,9 @@
         <h3>Route</h3>
         <p><strong>Agency:</strong> ${escapeHtml(r.agency || '—')}</p>
         <p><strong>Route path ID:</strong> ${escapeHtml(routeId)}</p>
-        <p><strong>Score:</strong> ${escapeHtml(r.route_score || '—')}</p>
         <p><strong>Stops on path:</strong> ${r.stops ? r.stops.length : '—'}</p>
+        <p style="margin-top:10px;margin-bottom:0"><strong>Stops with frequent service</strong></p>
+        ${routeServiceSummary(r)}
         <p class="muted">Lines connect stops in <code>path_sequence</code> order.</p>
       `;
     }
@@ -485,6 +614,8 @@
           ${routeCumulativeUi}
         </div>
         <p><span class="muted">Agency</span> ${escapeHtml(agency || '—')}</p>
+        <p style="margin-top:10px;margin-bottom:0"><strong>Frequent service</strong> <span class="muted" style="font-weight:400">(✓ = meets standard)</span></p>
+        ${serviceGlyph(props)}
         <p style="margin-top:12px"><strong>Total amenities in walkshed:</strong> ${row ? row.total : '—'}</p>
         <p class="muted" style="font-size:11px;margin-top:4px">Pedestrian combined walkshed (buffered edges), same as <code>count_amenities_in_walksheds.py</code>.</p>
         <h4 style="margin:14px 0 6px;font-size:13px">By type</h4>
@@ -507,18 +638,20 @@
 
       const routeHlSrc = map.getSource('route-stops-highlight');
       if (routeHlSrc) {
-        const rs = String(r.route_score || '');
         const hlFeats = r.stops
           .filter((st) => Number.isFinite(st.lon) && Number.isFinite(st.lat))
-          .map((st) => ({
-            type: 'Feature',
-            properties: {
+          .map((st) => {
+            const props = {
               stop_id: String(st.stop_id || ''),
-              stop_name: String(st.stop_name || ''),
-              route_score: rs
-            },
-            geometry: { type: 'Point', coordinates: [st.lon, st.lat] }
-          }));
+              stop_name: String(st.stop_name || '')
+            };
+            PERIODS.forEach((p) => { props[p.key] = yesNo(st[p.key]); });
+            return {
+              type: 'Feature',
+              properties: props,
+              geometry: { type: 'Point', coordinates: [st.lon, st.lat] }
+            };
+          });
         routeHlSrc.setData({ type: 'FeatureCollection', features: hlFeats });
       }
 
@@ -644,6 +777,7 @@
       const seqIdx = i('path_sequence');
       const colorIdx = i('route_color');
       const scoreIdx = i('route_score');
+      const periodIdx = PERIODS.map((p) => i(p.col));
       const popIdx = i('population_served');
       const popLowIdx = i('population_served_low_wheelchair_essentials');
       const pctIdx = i('pct_served_low_essentials');
@@ -684,12 +818,15 @@
 
         const sid = stopIdIdx >= 0 ? String(row[stopIdIdx] || '').trim() : '';
         const sname = stopNameIdx >= 0 ? String(row[stopNameIdx] || '').trim() : '';
+        const svc = {};
+        PERIODS.forEach((p, k) => { svc[p.key] = periodIdx[k] >= 0 ? yesNo(row[periodIdx[k]]) : 'NO'; });
         byPath[pathKey].stops.push({
           path_sequence: seq,
           lon,
           lat,
           stop_id: sid,
-          stop_name: sname
+          stop_name: sname,
+          ...svc
         });
 
         const stopRouteKey = sid ? `${agency}|${sid}` : `${agency}|${lon.toFixed(5)}|${lat.toFixed(5)}`;
@@ -698,14 +835,13 @@
 
         const stopKey = sid ? `${agency}|${sid}` : `${agency}|${lon.toFixed(5)}|${lat.toFixed(5)}`;
         if (!stopsMap.has(stopKey)) {
-          const rs = scoreIdx >= 0 ? String(row[scoreIdx] || '').trim() : '';
           stopsMap.set(stopKey, {
             type: 'Feature',
             properties: {
               stop_id: sid,
               stop_name: sname,
               agency: agency,
-              route_score: rs
+              ...svc
             },
             geometry: { type: 'Point', coordinates: [lon, lat] }
           });
@@ -741,7 +877,7 @@
         .filter(r => r.coordinates.length >= 2)
         .map(r => ({
           type: 'Feature',
-          properties: { pathId: r.pathKey, agency: r.agency, route_score: r.route_score || '' },
+          properties: { pathId: r.pathKey, agency: r.agency, route_color: r.route_color || '#94a3b8' },
           geometry: { type: 'LineString', coordinates: r.coordinates }
         }));
       return { type: 'FeatureCollection', features };
@@ -784,7 +920,7 @@
     map.on('load', async () => {
       try {
         const [routesResp, pedCountsResp, pedLocsResp, wcCountsResp, wcLocsResp, boundaryResp] = await Promise.all([
-          fetch('../WA Bus Routes with score - Yakima city subset.csv'),
+          fetch('../route_subsets/WA Bus Routes with score - Yakima city subset.csv'),
           fetch(PROFILES.pedestrian.amenityCountsUrl),
           fetch(PROFILES.pedestrian.amenityLocationsUrl),
           fetch(PROFILES.wheelchair.amenityCountsUrl),
@@ -840,16 +976,8 @@
 
         renderRouteDetails(null);
 
-        const scoreColorExpr = [
-          'match',
-          ['get', 'route_score'],
-          'Great', '#1F77B4',
-          'Good', '#AEC7E8',
-          'Acceptable', '#D6D6D6',
-          'Ok', '#7F7F7F',
-          'Poor', '#525252',
-          '#888888'
-        ];
+        /* Lines: each route's own identity color (no longer a quality score). */
+        const routeLineColorExpr = ['coalesce', ['get', 'route_color'], '#94a3b8'];
 
         if (cityBoundaryGeoJSON && cityBoundaryGeoJSON.features && cityBoundaryGeoJSON.features.length) {
           map.addSource('city-boundary', { type: 'geojson', data: cityBoundaryGeoJSON });
@@ -886,9 +1014,9 @@
           source: 'routes',
           layout: { 'line-join': 'round', 'line-cap': 'round' },
           paint: {
-            'line-color': scoreColorExpr,
+            'line-color': routeLineColorExpr,
             'line-width': 3,
-            'line-opacity': 0.88
+            'line-opacity': 0.7
           }
         });
 
@@ -911,10 +1039,11 @@
           type: 'circle',
           source: 'stops',
           paint: {
-            'circle-radius': 4,
-            'circle-color': scoreColorExpr,
-            'circle-opacity': 0.9,
-            'circle-stroke-width': 0
+            'circle-radius':       serviceRadiusExpr(),
+            'circle-color':        serviceColorExpr(),
+            'circle-opacity':      serviceOpacityExpr(),
+            'circle-stroke-width': serviceStrokeExpr(),
+            'circle-stroke-color': '#ffffff'
           }
         });
 
@@ -939,7 +1068,7 @@
           source: 'selected-stop-highlight',
           paint: {
             'circle-radius': 9,
-            'circle-color': scoreColorExpr,
+            'circle-color': serviceColorExpr(),
             'circle-opacity': 1,
             'circle-stroke-width': 2.5,
             'circle-stroke-color': '#ffffff'
@@ -967,7 +1096,7 @@
           source: 'route-stops-highlight',
           paint: {
             'circle-radius': 7,
-            'circle-color': scoreColorExpr,
+            'circle-color': serviceColorExpr(),
             'circle-opacity': 1,
             'circle-stroke-width': 2,
             'circle-stroke-color': '#ffffff'
@@ -1059,6 +1188,21 @@
             renderStopWalkshedPanel(_lastSelectedStop, _lastSelectedStopCoords[0], _lastSelectedStopCoords[1]);
             showWalkshedForStop(_lastSelectedStop);
             showAmenityMarkersForStop(_lastSelectedStop);
+          } else if (selectedPathId) {
+            renderRouteDetails(selectedPathId);
+          }
+        });
+
+        // Multi-select period filter: recolor stop dots when any checkbox changes.
+        document.getElementById('period-filters').addEventListener('change', (e) => {
+          const cb = e.target.closest('input[type="checkbox"]');
+          if (!cb) return;
+          if (cb.checked) activePeriods.add(cb.value);
+          else activePeriods.delete(cb.value);
+          applyServiceColors();
+          // Refresh open detail panel so glyph/bar highlights stay in sync.
+          if (_lastSelectedStop) {
+            renderStopWalkshedPanel(_lastSelectedStop, _lastSelectedStopCoords[0], _lastSelectedStopCoords[1]);
           } else if (selectedPathId) {
             renderRouteDetails(selectedPathId);
           }

@@ -1,0 +1,9 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+36924,0,36924_0,1,45.628901,-122.686544,VAN,Vancouver,Amtrak,,,,,,NO,NO,NO,YES,53011042400,424,011,042400,Ok
+36924,1,36924_1,6,45.628901,-122.686544,VAN,Vancouver,Amtrak,,,,,,NO,NO,NO,YES,53011042400,424,011,042400,Ok
+60,0,60_0,1,45.628901,-122.686544,VAN,Vancouver,Amtrak,,,,,,NO,NO,NO,YES,53011042400,424,011,042400,Acceptable
+60,1,60_1,7,45.628901,-122.686544,VAN,Vancouver,Amtrak,,,,,,NO,NO,NO,YES,53011042400,424,011,042400,Ok
+75,0,75_0,5,45.628901,-122.686544,VAN,Vancouver,Amtrak,,,,,,NO,NO,NO,YES,53011042400,424,011,042400,Ok
+75,1,75_1,1,45.628901,-122.686544,VAN,Vancouver,Amtrak,,,,,,NO,NO,NO,YES,53011042400,424,011,042400,Ok
+19662,0,19662_0,1,45.59468,-122.505654,2753572,Fisher's Landing Transit Center,Skamania County Transit,,,,,,NO,NO,NO,NO,53011041310,413.10,011,041310,Poor
+19662,1,19662_1,10,45.59468,-122.505654,2753572,Fisher's Landing Transit Center,Skamania County Transit,,,,,,NO,NO,NO,NO,53011041310,413.10,011,041310,Poor

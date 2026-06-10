@@ -73,11 +73,7 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-    // TODO: after running upload_to_r2.sh, replace the DATA_BASE value with your
-    // R2 public bucket URL (e.g. 'https://pub-<hash>.r2.dev').
-    // For local development with `npx serve`, keep it as an empty string ('').
-    const DATA_BASE = '';
-    const _YAKIMA_DATA = DATA_BASE ? `${DATA_BASE}/yakima/data` : 'data/95b532a7-cd6f-451b-8c5f-f78577427480/data';
+    const _YAKIMA_DATA = 'data/95b532a7-cd6f-451b-8c5f-f78577427480/data';
 
     /** Per-stop counts from count_amenities_in_walksheds.py (agency + stop_id must match map). */
     const AMENITY_COUNTS_URL =
@@ -521,7 +517,7 @@
     map.on('load', async () => {
       try {
         const [routesResp, amenityResp, amenityLocResp, boundaryResp] = await Promise.all([
-          fetch('WA Bus Routes with score - Yakima city subset.csv'),
+          fetch('route_subsets/WA Bus Routes with score - Yakima city subset.csv'),
           fetch(AMENITY_COUNTS_URL),
           fetch(AMENITY_LOCATIONS_URL),
           fetch(YAKIMA_CITY_BOUNDARY_URL)

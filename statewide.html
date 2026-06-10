@@ -59,6 +59,11 @@
     .city-card-link:hover { text-decoration: underline; }
 
     .detail-section { margin-top: 12px; border-top: 1px solid #eee; padding-top: 10px; }
+
+    .svc-filters { display: flex; flex-direction: column; gap: 7px; margin: 4px 0 2px; }
+    .svc-filter { display: flex; align-items: center; gap: 8px; font-size: 13px; cursor: pointer; }
+    .svc-filter input { width: 16px; height: 16px; accent-color: #16a34a; cursor: pointer; margin: 0; }
+    .svc-filter:hover span { color: #16a34a; }
   </style>
 </head>
 <body>
@@ -80,12 +85,16 @@
 
     <!-- Legend + city cards (bottom, scrollable) -->
     <div class="sidebar-panel" id="side-legend">
-      <h3>Route Score</h3>
-      <div class="legend-row"><span class="legend-swatch" style="background:#1F77B4"></span><span>Great</span></div>
-      <div class="legend-row"><span class="legend-swatch" style="background:#AEC7E8"></span><span>Good</span></div>
-      <div class="legend-row"><span class="legend-swatch" style="background:#D6D6D6"></span><span>Acceptable</span></div>
-      <div class="legend-row"><span class="legend-swatch" style="background:#7F7F7F"></span><span>Ok</span></div>
-      <div class="legend-row"><span class="legend-swatch" style="background:#525252"></span><span>Poor</span></div>
+      <h3>Frequent service</h3>
+      <p class="muted" style="margin:-4px 0 8px;font-size:11px">Routes turn <strong style="color:#16a34a">green</strong> where they meet <em>all</em> checked standards. Check several to combine.</p>
+      <div class="svc-filters" id="svc-filters">
+        <label class="svc-filter"><input type="checkbox" value="svc_peak"><span>Weekday peak · 15 min</span></label>
+        <label class="svc-filter"><input type="checkbox" value="svc_day"><span>Weekday midday · 15 min</span></label>
+        <label class="svc-filter"><input type="checkbox" value="svc_night"><span>Weeknight · 60 min</span></label>
+        <label class="svc-filter"><input type="checkbox" value="svc_weekend"><span>Weekend · 60 min</span></label>
+      </div>
+      <div class="legend-row" style="margin-top:9px"><span class="legend-swatch" style="background:#16a34a"></span><span>Meets all checked standards</span></div>
+      <div class="legend-row"><span class="legend-swatch" style="background:#cbd5e1"></span><span>Other routes</span></div>
 
       <div class="detail-section">
         <h3>Cities with Walkshed Data</h3>
@@ -104,52 +113,40 @@
 
 <script>
   // ── Processed cities config ───────────────────────────────────────────────
-  const PROCESSED_CITIES = [
-    {
-      id: 'seattle',
-      name: 'Seattle',
-      agency: 'Metro Transit',
-      stops: 2652,
-      mapUrl: '/cities/seattle.html',
-      boundaryUrl: 'jurisdiction_bounds/Seattle_city_limits.geojson',
-      stopsUrl:    'data/05776f25-f0f3-461c-ac34-4fa88a00936c/data/stops/seattle_bus_stops.geojson',
-      center: [-122.33, 47.61], zoom: 12,
-      color: '#f97316',
-    },
-    {
-      id: 'spokane',
-      name: 'Spokane',
-      agency: 'Spokane Transit Authority',
-      stops: 1595,
-      mapUrl: '/cities/spokane.html',
-      boundaryUrl: 'jurisdiction_bounds/Spokane_city_limits.geojson',
-      stopsUrl:    'data/cbb2ed42-c77f-4218-96de-1b13eafa939f/data/stops/spokane_bus_stops.geojson',
-      center: [-117.43, 47.66], zoom: 12,
-      color: '#0ea5e9',
-    },
-    {
-      id: 'yakima',
-      name: 'Yakima',
-      agency: 'Yakima Transit',
-      stops: 612,
-      mapUrl: '/cities/yakima.html',
-      boundaryUrl: 'jurisdiction_bounds/Yakima_city_limits.geojson',
-      stopsUrl:    'data/95b532a7-cd6f-451b-8c5f-f78577427480/data/stops/yakima_bus_stops.geojson',
-      center: [-120.51, 46.60], zoom: 12,
-      color: '#10b981',
-    },
-    {
-      id: 'aberdeen',
-      name: 'Aberdeen',
-      agency: 'Grays Harbor Transit',
-      stops: 109,
-      mapUrl: '/cities/aberdeen.html',
-      boundaryUrl: 'jurisdiction_bounds/Aberdeen_city_limits.geojson',
-      stopsUrl:    'data/a47f01dd-68e8-40a2-9ba9-409cb83de960/data/stops/aberdeen_bus_stops.geojson',
-      center: [-123.82, 46.975], zoom: 13,
-      color: '#ec4899',
-    },
+  // Loaded at runtime from cities/processed_cities.json (written by the pipeline
+  // after each city completes). Each entry is augmented with derived URLs and
+  // an auto-assigned color from the palette below.
+  let PROCESSED_CITIES = [];
+
+  const COLOR_PALETTE = [
+    '#f97316', '#0ea5e9', '#10b981', '#ec4899', '#a855f7',
+    '#eab308', '#ef4444', '#06b6d4', '#84cc16', '#f59e0b',
+    '#d946ef', '#14b8a6', '#dc2626', '#3b82f6', '#22c55e',
+    '#e11d48', '#7c3aed', '#0891b2', '#65a30d', '#ea580c',
   ];
+
+  async function loadProcessedCities() {
+    const resp = await fetch('cities/processed_cities.json');
+    if (!resp.ok) throw new Error(`Failed to load processed_cities.json: ${resp.status}`);
+    const manifest = await resp.json();
+    // Stable order by slug so colors don't shift between page loads
+    const slugs = Object.keys(manifest).sort();
+    return slugs.map((slug, i) => {
+      const m = manifest[slug];
+      return {
+        id: slug,
+        name: m.name,
+        agency: m.agency || '',
+        stops: m.stops || 0,
+        mapUrl: `/cities/${slug}.html`,
+        boundaryUrl: `jurisdiction_bounds/${m.boundary}`,
+        stopsUrl:    `data/${m.dataset_id}/data/stops/${slug}_bus_stops.geojson`,
+        center: m.center,
+        zoom: m.zoom,
+        color: COLOR_PALETTE[i % COLOR_PALETTE.length],
+      };
+    });
+  }
 
   // ── Map init ─────────────────────────────────────────────────────────────
   const map = new maplibregl.Map({
@@ -164,6 +161,43 @@
   let selectedPathId = null;
   let routeDetailsByPathId = {};
   let selectedCityId = null;
+
+  // ── Service-period filters (replaces the old route_score coloring) ──────────
+  // Each period is YES/NO per stop in the CSV; a route is flagged for a period
+  // if ANY of its stops meets that standard along its corridor.
+  const SVC_PERIODS = [
+    { key: 'svc_peak',    col: 'peak_15min_weekday',   label: 'Weekday peak' },
+    { key: 'svc_day',     col: 'day_15min_weekday',    label: 'Weekday midday' },
+    { key: 'svc_night',   col: 'night_60min_weekday',  label: 'Weeknight' },
+    { key: 'svc_weekend', col: 'allday_60min_weekend', label: 'Weekend' },
+  ];
+  // Multiple may be active at once; a route is highlighted only if it meets them ALL.
+  let activePeriods = new Set();
+  const SVC_GREEN = '#16a34a';   // vivid green for matching routes
+  const SVC_OTHER = '#cbd5e1';   // faint grey for the rest
+
+  /** MapLibre condition: route meets every currently-checked period. */
+  function svcQualifyExpr() {
+    const active = [...activePeriods];
+    if (!active.length) return null;
+    return ['all', ...active.map(k => ['==', ['get', k], 'YES'])];
+  }
+
+  /** Recolor the routes layer so matching routes pop green and others fade back. */
+  function applyRouteServiceStyle() {
+    if (!map.getLayer('routes-line')) return;
+    const q = svcQualifyExpr();
+    if (!q) {
+      // Nothing checked → show every route in a neutral tone.
+      map.setPaintProperty('routes-line', 'line-color', '#94a3b8');
+      map.setPaintProperty('routes-line', 'line-width', 2);
+      map.setPaintProperty('routes-line', 'line-opacity', 0.8);
+      return;
+    }
+    map.setPaintProperty('routes-line', 'line-color', ['case', q, SVC_GREEN, SVC_OTHER]);
+    map.setPaintProperty('routes-line', 'line-width', ['case', q, 2, 0.9]);
+    map.setPaintProperty('routes-line', 'line-opacity', ['case', q, 0.92, 0.25]);
+  }
 
   // ── CSV helpers ───────────────────────────────────────────────────────────
   function parseCSV(text) {
@@ -197,10 +231,10 @@
     const i = (name) => header.indexOf(name);
     const pathIdIdx = i('route_path_id'), agencyIdx = i('agency');
     const latIdx = i('stop_lat'), lonIdx = i('stop_lon'), seqIdx = i('path_sequence');
-    const scoreIdx = i('route_score');
     const popIdx = i('population_served');
     const popLowIdx = i('population_served_low_wheelchair_essentials');
     const pctIdx = i('pct_served_low_essentials');
+    const periodIdx = SVC_PERIODS.map(p => i(p.col));
 
     const byPath = {};
     rows.forEach(row => {
@@ -213,12 +247,18 @@
           pathKey, agency,
           route_path_id: pathId,
           stops: [],
-          route_score: scoreIdx >= 0 ? (row[scoreIdx] || '').trim() : '',
+          svc_peak: 'NO', svc_day: 'NO', svc_night: 'NO', svc_weekend: 'NO',
           population_served: popIdx >= 0 && row[popIdx] !== '' ? row[popIdx] : null,
           population_served_low_essentials: popLowIdx >= 0 && row[popLowIdx] !== '' ? row[popLowIdx] : null,
           pct_served_low_essentials: pctIdx >= 0 && row[pctIdx] !== '' ? row[pctIdx] : null,
         };
       }
+      // Route offers a service level if ANY of its stops meets it.
+      SVC_PERIODS.forEach((p, k) => {
+        if (periodIdx[k] >= 0 && String(row[periodIdx[k]] || '').trim().toUpperCase() === 'YES') {
+          byPath[pathKey][p.key] = 'YES';
+        }
+      });
       const lat = parseFloat(row[latIdx]);
       const lon = parseFloat(row[lonIdx]);
       const seq = parseInt(row[seqIdx], 10);
@@ -251,7 +291,10 @@
         .filter(r => r.coordinates.length >= 2)
         .map(r => ({
           type: 'Feature',
-          properties: { pathId: r.pathKey, agency: r.agency, route_score: r.route_score || '' },
+          properties: {
+            pathId: r.pathKey, agency: r.agency,
+            svc_peak: r.svc_peak, svc_day: r.svc_day, svc_night: r.svc_night, svc_weekend: r.svc_weekend,
+          },
           geometry: { type: 'LineString', coordinates: r.coordinates },
         })),
     };
@@ -266,11 +309,12 @@
     }
     const r = routeDetailsByPathId[pathId];
     if (!r) { panel.innerHTML = '<h3>Route Details</h3><p class="muted">No details.</p>'; return; }
+    const offered = SVC_PERIODS.filter(p => (r[p.key] || '') === 'YES').map(p => p.label);
     panel.innerHTML = `
       <h3>Route Details</h3>
       <p><strong>Agency:</strong> ${r.agency || '—'}</p>
       <p><strong>Route ID:</strong> ${r.route_path_id || pathId}</p>
-      <p><strong>Score:</strong> ${r.route_score || '—'}</p>
+      <p><strong>Frequent service:</strong> ${offered.length ? offered.join(', ') : 'none of the 4 standards'}</p>
       ${r.population_served != null ? `<p><strong>Population served:</strong> ${Number(r.population_served).toLocaleString()}</p>` : ''}
       ${r.pct_served_low_essentials != null ? `<p><strong>% served w/ low essentials:</strong> ${r.pct_served_low_essentials}%</p>` : ''}
     `;
@@ -313,8 +357,23 @@
 
   // ── Map load ──────────────────────────────────────────────────────────────
   map.on('load', async () => {
+    try {
+      PROCESSED_CITIES = await loadProcessedCities();
+    } catch (err) {
+      console.error(err);
+      PROCESSED_CITIES = [];
+    }
     renderCityCards();
     renderRouteDetails(null);
+
+    // Multi-select service filters: toggle a period and recolor routes.
+    document.getElementById('svc-filters').addEventListener('change', (e) => {
+      const cb = e.target.closest('input[type="checkbox"]');
+      if (!cb) return;
+      if (cb.checked) activePeriods.add(cb.value);
+      else activePeriods.delete(cb.value);
+      applyRouteServiceStyle();
+    });
 
     // ── 1. WA bus routes ────────────────────────────────────────────────────
     try {
@@ -330,19 +389,12 @@
         source: 'routes',
         layout: { 'line-join': 'round', 'line-cap': 'round' },
         paint: {
-          'line-color': [
-            'match', ['get', 'route_score'],
-            'Great',      '#1F77B4',
-            'Good',       '#AEC7E8',
-            'Acceptable', '#D6D6D6',
-            'Ok',         '#7F7F7F',
-            'Poor',       '#525252',
-            '#7F7F7F',
-          ],
+          'line-color': '#94a3b8',
           'line-width': 2,
           'line-opacity': 0.8,
         },
       });
+      applyRouteServiceStyle();
 
       const bounds = new maplibregl.LngLatBounds();
       geojson.features.forEach(f => f.geometry.coordinates.forEach(([lng, lat]) => bounds.extend([lng, lat])));

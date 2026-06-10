@@ -1,0 +1,9 @@
+route_id,direction_id,route_path_id,path_sequence,stop_lat,stop_lon,stop_id,stop_name,agency,route_short_name,route_long_name,route_type,route_color,route_text_color,peak_15min_weekday,day_15min_weekday,night_60min_weekday,allday_60min_weekend,census_tract_geoid,census_tract_name,county_fips,tract_code,route_score
+32516,0,32516_0,5,46.34111,-117.05439,3450041,Asotin Court House,Asotin County PTBA,,,,,,NO,NO,NO,YES,53003960100,9601,003,960100,Good
+32516,0,32516_0,6,46.34094762053456,-117.05142755978349,3450364,Asotin Grade School,Asotin County PTBA,,,,,,NO,NO,NO,NO,53003960100,9601,003,960100,Good
+32516,0,32516_0,7,46.340307469000685,-117.04566623074672,3450365,1st St. and Adams,Asotin County PTBA,,,,,,NO,NO,NO,NO,53003960100,9601,003,960100,Good
+32516,0,32516_0,8,46.33640049552297,-117.03732056577532,3450366,4th St Trailer Park,Asotin County PTBA,,,,,,NO,NO,NO,NO,53003960100,9601,003,960100,Good
+32516,0,32516_0,9,46.33793258431913,-117.03832101394983,3450367,3rd and Harding,Asotin County PTBA,,,,,,NO,NO,NO,NO,53003960100,9601,003,960100,Good
+32516,0,32516_0,10,46.33863901768501,-117.0472203154049,3450368,3rd and Lincoln,Asotin County PTBA,,,,,,NO,NO,NO,NO,53003960100,9601,003,960100,Good
+32516,0,32516_0,11,46.33998306909448,-117.05183182205093,3450369,2nd and Monroe,Asotin County PTBA,,,,,,NO,NO,NO,NO,53003960100,9601,003,960100,Good
+32516,0,32516_0,12,46.340191430673,-117.054809331894,3450050,Asotin County Health Dept,Asotin County PTBA,,,,,,NO,NO,NO,YES,53003960100,9601,003,960100,Good
