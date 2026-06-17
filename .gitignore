@@ -1,3 +1,6 @@
+# Environment variables / secrets — never commit
+.env
+
 # Large local data — not committed to GitHub
 data/
 jurisdiction_bounds/

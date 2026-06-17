@@ -6,6 +6,11 @@ pedestrian/wheelchair walkshed accessibility for every city in Washington state.
 Built with [MapLibre GL JS](https://maplibre.org/). All pages are fully static —
 no backend server is required for end users.
 
+The large data files (~13 GB of walkshed GeoJSONs, metrics, and boundaries) are
+hosted on **Azure Blob Storage**, not in this repo. The HTML pages fetch them at
+runtime, so a fresh clone produces a fully working dashboard with no data download
+required. See **[HOSTING.md](HOSTING.md)** for the architecture.
+
 ---
 
 ## What's in this repo
@@ -27,11 +32,20 @@ no backend server is required for end users.
 |---|---|
 | `WA Bus Routes with score.csv` | All WA bus routes with stop sequences and service-frequency columns |
 | `route_subsets/` | Per-city subsets of the routes CSV (one file per processed city) |
-| `jurisdiction_bounds/` | City and county boundary GeoJSON files (322 jurisdictions) |
 | `Jurisdiction Codes.csv` | TDEI dataset IDs and versions for all WA jurisdictions |
 | `cities/jurisdictions.json` | Metadata for all jurisdictions (display name, slug, type, version) |
 | `cities/processed_cities.json` | Metadata for cities with completed walkshed data; used by the statewide map |
 | `pipeline_progress.json` | Per-jurisdiction pipeline status tracking |
+
+### Data files (on Azure Blob Storage, not in repo)
+
+| File / folder | Description |
+|---|---|
+| `data/<dataset_id>/data/` | Per-city walkshed GeoJSONs, stops, and metrics CSVs (~13 GB) |
+| `jurisdiction_bounds/` | City and county boundary GeoJSON files (322 jurisdictions, ~18 MB) |
+
+These are fetched by the HTML at runtime from the `walksheds` container. See
+**[HOSTING.md](HOSTING.md)** for upload/download and configuration details.
 
 ### Pipeline scripts
 
@@ -45,6 +59,8 @@ no backend server is required for end users.
 | `export_walkshed_edges_per_stop.py` | Splits city-wide combined walkshed into one file per stop |
 | `query_osm_pois.py` | Downloads OSM amenity data within the city's walkshed bounding box |
 | `count_amenities_in_walksheds.py` | Counts reachable amenities per stop via spatial join |
+| `upload_to_azure.py` | Uploads `data/` and `jurisdiction_bounds/` to Azure Blob Storage |
+| `download_from_azure.py` | Downloads data from Azure to local `data/` (optional, for offline work) |
 
 ### Utility / one-time scripts
 
@@ -69,9 +85,27 @@ npx serve .
 Then open **http://localhost:3000/cities** for the dashboard,
 or **http://localhost:3000/statewide.html** for the statewide map.
 
-> City map pages load routes and stop dots immediately. The walkshed edges
-> (shown when you click a stop) and amenity counts require the `data/` folder,
-> which is not in the repo — see **QUICKSTART.md** for how to generate it.
+> Everything works out of the box — walkshed edges (shown when you click a stop),
+> amenity counts, and city boundaries are all fetched from Azure Blob Storage. You
+> do **not** need the `data/` folder locally just to view the dashboard.
+
+---
+
+## Hosting & data storage
+
+The static site (this repo) and the large data (Azure Blob Storage) are
+deployed separately. See **[HOSTING.md](HOSTING.md)** for the full architecture,
+the upload/download scripts, CORS configuration, and deployment options.
+
+Quick reference:
+
+```bash
+cp .env.example .env            # then paste your Azure connection string
+pip install -r requirements.txt
+
+python3 upload_to_azure.py      # push local data/ + bounds to Azure
+python3 download_from_azure.py --city seattle   # pull one city back down
+```
 
 ---
 

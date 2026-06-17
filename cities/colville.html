@@ -126,7 +126,9 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-    const DATASET = '../data/1be45d99-0a74-4ace-9b2c-7dd773dcdf46/data';
+    /** Base URL for large data files hosted on Azure Blob Storage (publicly readable). */
+    const DATA_BASE = 'https://transitamenities.blob.core.windows.net/walksheds';
+    const DATASET = `${DATA_BASE}/data/1be45d99-0a74-4ace-9b2c-7dd773dcdf46/data`;
 
     /** Pedestrian profile data URLs */
     const PROFILES = {
@@ -145,7 +147,7 @@
     };
 
     /** City limits backdrop (low-opacity fill under routes). */
-    const CITY_BOUNDARY_URL = '../jurisdiction_bounds/Colville_city_limits.geojson';
+    const CITY_BOUNDARY_URL = `${DATA_BASE}/jurisdiction_bounds/Colville_city_limits.geojson`;
 
     /** Active profile key: 'pedestrian' | 'wheelchair' */
     let currentProfile = 'pedestrian';

@@ -126,7 +126,9 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-    const DATASET = '../data/9bacd59f-ccd0-4c39-bc5b-5b6b736d8282/data';
+    /** Base URL for large data files hosted on Azure Blob Storage (publicly readable). */
+    const DATA_BASE = 'https://transitamenities.blob.core.windows.net/walksheds';
+    const DATASET = `${DATA_BASE}/data/9bacd59f-ccd0-4c39-bc5b-5b6b736d8282/data`;
 
     /** Pedestrian profile data URLs */
     const PROFILES = {
@@ -145,7 +147,7 @@
     };
 
     /** City limits backdrop (low-opacity fill under routes). */
-    const CITY_BOUNDARY_URL = '../jurisdiction_bounds/Morton_city_limits.geojson';
+    const CITY_BOUNDARY_URL = `${DATA_BASE}/jurisdiction_bounds/Morton_city_limits.geojson`;
 
     /** Active profile key: 'pedestrian' | 'wheelchair' */
     let currentProfile = 'pedestrian';

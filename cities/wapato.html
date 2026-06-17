@@ -126,7 +126,9 @@
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-    const DATASET = '../data/ad0e831d-1aa2-48e5-9ea0-de4d48927636/data';
+    /** Base URL for large data files hosted on Azure Blob Storage (publicly readable). */
+    const DATA_BASE = 'https://transitamenities.blob.core.windows.net/walksheds';
+    const DATASET = `${DATA_BASE}/data/ad0e831d-1aa2-48e5-9ea0-de4d48927636/data`;
 
     /** Pedestrian profile data URLs */
     const PROFILES = {
@@ -145,7 +147,7 @@
     };
 
     /** City limits backdrop (low-opacity fill under routes). */
-    const CITY_BOUNDARY_URL = '../jurisdiction_bounds/Wapato_city_limits.geojson';
+    const CITY_BOUNDARY_URL = `${DATA_BASE}/jurisdiction_bounds/Wapato_city_limits.geojson`;
 
     /** Active profile key: 'pedestrian' | 'wheelchair' */
     let currentProfile = 'pedestrian';

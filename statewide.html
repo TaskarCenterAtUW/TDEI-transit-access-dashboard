@@ -118,6 +118,9 @@
   // an auto-assigned color from the palette below.
   let PROCESSED_CITIES = [];
 
+  // Base URL for large data files hosted on Azure Blob Storage (publicly readable).
+  const DATA_BASE = 'https://transitamenities.blob.core.windows.net/walksheds';
+
   const COLOR_PALETTE = [
     '#f97316', '#0ea5e9', '#10b981', '#ec4899', '#a855f7',
     '#eab308', '#ef4444', '#06b6d4', '#84cc16', '#f59e0b',
@@ -139,8 +142,8 @@
         agency: m.agency || '',
         stops: m.stops || 0,
         mapUrl: `/cities/${slug}.html`,
-        boundaryUrl: `jurisdiction_bounds/${m.boundary}`,
-        stopsUrl:    `data/${m.dataset_id}/data/stops/${slug}_bus_stops.geojson`,
+        boundaryUrl: `${DATA_BASE}/jurisdiction_bounds/${m.boundary}`,
+        stopsUrl:    `${DATA_BASE}/data/${m.dataset_id}/data/stops/${slug}_bus_stops.geojson`,
         center: m.center,
         zoom: m.zoom,
         color: COLOR_PALETTE[i % COLOR_PALETTE.length],

@@ -1,0 +1,19 @@
+# Python dependencies for the WA Transit Accessibility pipeline.
+# Install with:  pip install -r requirements.txt
+#
+# Note: none of these are needed just to VIEW the dashboard (it is fully static
+# and reads data from Azure). They are required only to run the pipeline or to
+# upload/download data to/from Azure Blob Storage.
+
+# Data processing
+pandas
+geopandas
+shapely
+
+# HTTP / API access (TDEI Walkshed API, OSM Overpass)
+requests
+aiohttp
+
+# Azure Blob Storage upload/download
+azure-storage-blob
+python-dotenv

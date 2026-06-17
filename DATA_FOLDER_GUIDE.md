@@ -1,6 +1,13 @@
 # Dataset Folder Guide
 
 > For instructions on how to generate these folders, see **[QUICKSTART.md](QUICKSTART.md)**.
+> For how this data is hosted and served to the dashboard, see **[HOSTING.md](HOSTING.md)**.
+
+> **Where this data lives:** the pipeline writes these folders to your local
+> `data/` directory, then `upload_to_azure.py` pushes them to the `walksheds`
+> Azure Blob Storage container. The HTML dashboard reads them from Azure at
+> runtime (via the `DATA_BASE` URL), mirroring the exact folder layout described
+> below. `data/` is not committed to Git.
 
 Each city processed by this pipeline generates a folder under `data/` named after its **TDEI OSW dataset ID**.  
 Example for Seattle: `data/05776f25-f0f3-461c-ac34-4fa88a00936c/`

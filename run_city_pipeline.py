@@ -296,10 +296,10 @@ def generate_city_html(
     html = html.replace("center: SEATTLE_CENTER,", "center: CENTER,")
     html = html.replace("zoom: SEATTLE_ZOOM", "zoom: ZOOM")
 
-    # DATASET path: city pages are served from cities/ so paths go up one level
+    # DATASET path: large data lives on Azure Blob Storage (via DATA_BASE)
     html = html.replace(
-        "const DATASET = 'data/05776f25-f0f3-461c-ac34-4fa88a00936c/data';",
-        f"const DATASET = '../data/{dataset_id}/data';",
+        "const DATASET = `${DATA_BASE}/data/05776f25-f0f3-461c-ac34-4fa88a00936c/data`;",
+        f"const DATASET = `${{DATA_BASE}}/data/{dataset_id}/data`;",
     )
 
     # Amenity CSV filenames
@@ -312,10 +312,10 @@ def generate_city_html(
     html = html.replace("metrics/seattle_wc_amenity_counts_amenity_locations.csv",
                          f"metrics/{city_slug}_wc_amenity_counts_amenity_locations.csv")
 
-    # Boundary URL (relative from cities/)
+    # Boundary URL (on Azure Blob Storage via DATA_BASE)
     html = html.replace(
-        "const SEATTLE_CITY_BOUNDARY_URL = 'jurisdiction_bounds/Seattle_city_limits.geojson';",
-        f"const CITY_BOUNDARY_URL = '../jurisdiction_bounds/{boundary_filename}';",
+        "const SEATTLE_CITY_BOUNDARY_URL = `${DATA_BASE}/jurisdiction_bounds/Seattle_city_limits.geojson`;",
+        f"const CITY_BOUNDARY_URL = `${{DATA_BASE}}/jurisdiction_bounds/{boundary_filename}`;",
     )
 
     # Routes CSV fetch (relative from cities/)
